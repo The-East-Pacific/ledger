@@ -77,6 +77,13 @@ jobs:
           # Combined index across every branch and term (this is what the site loads).
           jq -s 'add // []' archives/*/*/index.json > all-search-index.json
 
+      - name: Sync to search backend
+        env:
+          SEARCH_API: ${{ secrets.SEARCH_API }}
+          SEARCH_ADMIN_KEY: ${{ secrets.SEARCH_ADMIN_KEY }}
+          SOURCE: ledger
+        run: node scripts/import.mjs
+
       - name: Commit and push
         env:
           TERM: ${{ inputs.term }}
