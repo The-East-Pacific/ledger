@@ -57,8 +57,10 @@ jobs:
 
           rm -rf "archives/$BRANCH/$TERM"
           mkdir -p "archives/$BRANCH/$TERM"
+          # --include-threads all pulls threads (and forum posts) as their own
+          # files; %c expands to each channel/thread id, so output stays <id>.json.
           for c in $CHANNELS; do
-            DiscordChatExporter.Cli export -t "$BOT_TOKEN" -c "$c" -f Json -o "archives/$BRANCH/$TERM/$c.json"
+            DiscordChatExporter.Cli export -t "$BOT_TOKEN" -c "$c" -f Json --include-threads all -o "archives/$BRANCH/$TERM/%c.json"
           done
 
       - name: Build search indexes
