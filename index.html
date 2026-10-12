@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Ledger</title>
+<script src="https://cdn.jsdelivr.net/npm/fuse.js@7.0.0"></script>
+<style>
+  body{font-family:system-ui,-apple-system,Segoe UI,Roboto,sans-serif;max-width:900px;margin:40px auto;padding:20px;line-height:1.6}
+  input,select{padding:12px;font-size:16px;margin:5px;border:1px solid #ccc;border-radius:8px}
+  input{width:100%;box-sizing:border-box}
+  .hit{border-bottom:1px solid #eee;padding:18px 0}
+  .hit b{color:#111}
+  .meta{color:#666;font-size:13px}
+  header{margin-bottom:30px}
+</style>
+</head>
+<body>
+<header>
+<h1>Ledger</h1>
+<p>Search 8 years of public gov history. Public channels only. Private Vault is Security-only in Discord via /search-private</p>
+<input id="q" placeholder="Search... e.g. budget, election, press release">
+<select id="branch"><option value="">All Branches</option></select>
+<select id="term"><option value="">All Terms</option></select>
+<select id="channel"><option value="">All Channels</option></select>
+</header>
+<div id="count"></div>
+<div id="results">Loading archive...</div>
+<script>
+function esc(s){
+  return String(s==null?'':s).replace(/[&<>"']/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
+}
+let data=[], fuse;
+fetch('./all-search-index.json').then(r=>{
+  if(!r.ok) throw new Error('HTTP '+r.status);
+  return r.json();
+}).then(d=>{
+  data=Array.isArray(d)?d:[];
+  fuse=new Fuse(data, {keys:['content','author','channel'], threshold:0.35, ignoreLocation:true});
+  const branches=[...new Set(data.map(x=>x.branch).filter(Boolean))].sort();
+  const terms=[...new Set(data.map(x=>x.term))].sort();
+  const chans=[...new Set(data.map(x=>x.channel))].sort();
+  document.getElementById('branch').innerHTML += branches.map(b=>`<option>${esc(b)}</option>`).join('');
+  document.getElementById('term').innerHTML += terms.map(t=>`<option>${esc(t)}</option>`).join('');
+  document.getElementById('channel').innerHTML += chans.map(c=>`<option>${esc(c)}</option>`).join('');
+  document.getElementById('results').innerHTML = `Loaded ${data.length} public messages. Start typing to search.`;
+}).catch(e=>{
+  document.getElementById('results').innerHTML = 'Could not load the archive index.';
+});
+function render(){
+  const q=document.getElementById('q').value.trim();
+  const branch=document.getElementById('branch').value;
+  const term=document.getElementById('term').value;
+  const chan=document.getElementById('channel').value;
+  let hits = q ? fuse.search(q).map(x=>x.item) : data;
+  if(branch) hits = hits.filter(x=>x.branch===branch);
+  if(term) hits = hits.filter(x=>x.term===term);
+  if(chan) hits = hits.filter(x=>x.channel===chan);
+  document.getElementById('count').innerHTML = `<b>${hits.length}</b> results${q?` for &quot;${esc(q)}&quot;`:''}`;
+  document.getElementById('results').innerHTML = hits.slice(0,100).map(h=>`
+    <div class="hit">
+      <b>#${esc(h.channel)} | ${esc(h.author)} | ${esc(h.branch)} | ${esc(h.term)}</b><div class="meta">${esc(h.timestamp || '')}</div>
+      <div>${esc((h.content||'').slice(0,600))}</div>
+    </div>
+  `).join('') || 'No results';
+}
+document.getElementById('q').addEventListener('input', render);
+document.getElementById('branch').addEventListener('change', render);
+document.getElementById('term').addEventListener('change', render);
+document.getElementById('channel').addEventListener('change', render);
+</script>
+</body>
+</html>

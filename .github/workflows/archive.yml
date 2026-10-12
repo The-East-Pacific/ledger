@@ -1,0 +1,94 @@
+name: Archive Ledger
+on:
+  workflow_dispatch:
+    inputs:
+      term:
+        description: 'Term slug, e.g. smith-may26'
+        required: true
+        type: string
+      branch:
+        description: 'Branch/group to archive'
+        required: true
+        type: choice
+        options:
+          - executive
+          - legislative
+          - judicial
+          - foreign-affairs
+          - community
+
+permissions:
+  contents: write
+
+jobs:
+  export:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Install DiscordChatExporter CLI
+        run: |
+          dotnet tool install --global DiscordChatExporter.Cli
+          echo "$HOME/.dotnet/tools" >> "$GITHUB_PATH"
+
+      - name: Export public channels for branch
+        env:
+          BOT_TOKEN: ${{ secrets.BOT_TOKEN }}
+          TERM: ${{ inputs.term }}
+          BRANCH: ${{ inputs.branch }}
+        run: |
+          set -euo pipefail
+          export PATH="$PATH:$HOME/.dotnet/tools"
+
+          # Channel IDs per branch (space-separated). Add more as needed.
+          case "$BRANCH" in
+            executive)      CHANNELS="" ;;   # add public executive channel IDs
+            legislative)    CHANNELS="" ;;   # add public legislative channel IDs
+            judicial)       CHANNELS="" ;;   # add public judicial channel IDs
+            foreign-affairs) CHANNELS="1196697003883778129" ;;
+            community)      CHANNELS="683451144860860466" ;;
+            *) echo "Unknown branch: $BRANCH"; exit 1 ;;
+          esac
+
+          if [ -z "$CHANNELS" ]; then
+            echo "No channels mapped for branch '$BRANCH' - nothing to do."
+            exit 0
+          fi
+
+          rm -rf "archives/$BRANCH/$TERM"
+          mkdir -p "archives/$BRANCH/$TERM"
+          for c in $CHANNELS; do
+            DiscordChatExporter.Cli export -t "$BOT_TOKEN" -c "$c" -f Json -o "archives/$BRANCH/$TERM/$c.json"
+          done
+
+      - name: Build search indexes
+        env:
+          TERM: ${{ inputs.term }}
+          BRANCH: ${{ inputs.branch }}
+        run: |
+          set -euo pipefail
+          # DCE JSON is {guild, channel, messages:[...]} per file. Tag every
+          # message with its branch, then flatten.
+          jq -s --arg t "$TERM" --arg b "$BRANCH" \
+            'map(.channel.name as $c | .messages[]? | {content, author:(.author.name // "unknown"), channel:$c, branch:$b, term:$t, timestamp, id})' \
+            "archives/$BRANCH/$TERM"/*.json > "archives/$BRANCH/$TERM/index.json"
+          # Per-branch aggregate (every term in this branch).
+          jq -s 'add // []' archives/$BRANCH/*/index.json > "archives/$BRANCH/index.json"
+          # Combined index across every branch and term (this is what the site loads).
+          jq -s 'add // []' archives/*/*/index.json > all-search-index.json
+
+      - name: Commit and push
+        env:
+          TERM: ${{ inputs.term }}
+          BRANCH: ${{ inputs.branch }}
+        run: |
+          set -euo pipefail
+          git config user.name "Archive Bot"
+          git config user.email "archive-bot@users.noreply.github.com"
+          git add .
+          if git diff --cached --quiet; then
+            echo "No changes to commit"
+            exit 0
+          fi
+          git commit -m "archive(ledger): $BRANCH/$TERM"
+          git push
