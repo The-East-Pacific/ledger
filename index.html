@@ -1,73 +1,203 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Ledger</title>
-<script src="https://cdn.jsdelivr.net/npm/fuse.js@7.0.0"></script>
+<meta name="color-scheme" content="light dark">
+<title>Ledger — Public Archive Search</title>
 <style>
-  body{font-family:system-ui,-apple-system,Segoe UI,Roboto,sans-serif;max-width:900px;margin:40px auto;padding:20px;line-height:1.6}
-  input,select{padding:12px;font-size:16px;margin:5px;border:1px solid #ccc;border-radius:8px}
-  input{width:100%;box-sizing:border-box}
-  .hit{border-bottom:1px solid #eee;padding:18px 0}
-  .hit b{color:#111}
-  .meta{color:#666;font-size:13px}
-  header{margin-bottom:30px}
+  :root{
+    --bg:#f6f7f9; --panel:#ffffff; --text:#1a1c22; --muted:#6b7280; --line:#e5e7eb;
+    --accent:#2563eb; --accent-soft:#eff4ff; --mark:#fde68a;
+  }
+  @media (prefers-color-scheme: dark){
+    :root{ --bg:#0f1115; --panel:#171a21; --text:#e6e8ee; --muted:#9aa3b2; --line:#262b36;
+           --accent:#5b8def; --accent-soft:#1b2233; --mark:#7a5d00; }
+  }
+  *{box-sizing:border-box}
+  body{margin:0;background:var(--bg);color:var(--text);
+    font:16px/1.55 system-ui,-apple-system,"Segoe UI",Roboto,Helvetica,Arial,sans-serif}
+  a{color:var(--accent)}
+  header{padding:34px 20px 10px;max-width:900px;margin:0 auto}
+  header h1{margin:0;font-size:1.7rem;letter-spacing:-.02em}
+  header p{margin:6px 0 0;color:var(--muted)}
+  main{max-width:900px;margin:0 auto;padding:0 20px 60px}
+  .searchcard{background:var(--panel);border:1px solid var(--line);border-radius:14px;
+    padding:14px;display:flex;gap:10px;flex-wrap:wrap;margin:18px 0;box-shadow:0 1px 2px rgba(0,0,0,.04)}
+  .searchcard input{flex:1 1 340px;min-width:0;padding:13px 15px;font-size:16px;
+    border:1px solid var(--line);border-radius:10px;background:var(--bg);color:var(--text)}
+  .searchcard input:focus{outline:2px solid var(--accent);outline-offset:0;border-color:transparent}
+  .searchcard select{padding:13px 12px;font-size:15px;border:1px solid var(--line);
+    border-radius:10px;background:var(--bg);color:var(--text)}
+  .searchcard button{padding:13px 20px;font-size:15px;font-weight:600;border:0;border-radius:10px;
+    background:var(--accent);color:#fff;cursor:pointer}
+  .searchcard button:hover{filter:brightness(1.06)}
+  #status{color:var(--muted);margin:6px 2px 14px;min-height:1.2em}
+  #status strong{color:var(--text)}
+  .hit{background:var(--panel);border:1px solid var(--line);border-radius:12px;padding:16px 18px;margin:12px 0}
+  .hit-top{display:flex;align-items:center;gap:10px;flex-wrap:wrap;font-size:13px;color:var(--muted)}
+  .badge{--c:#64748b;background:color-mix(in srgb,var(--c) 14%,transparent);color:var(--c);
+    border:1px solid color-mix(in srgb,var(--c) 35%,transparent);padding:2px 9px;border-radius:999px;font-weight:600}
+  .chan{font-weight:600;color:var(--text)}
+  .date{margin-left:auto}
+  .content{margin:10px 0 8px;white-space:pre-wrap;word-break:break-word}
+  mark{background:var(--mark);color:inherit;padding:0 2px;border-radius:3px}
+  .byline{font-size:13px;color:var(--muted)}
+  #pager{display:flex;align-items:center;justify-content:center;gap:14px;margin-top:22px;color:var(--muted)}
+  #pager button{padding:9px 16px;border:1px solid var(--line);border-radius:9px;background:var(--panel);
+    color:var(--text);cursor:pointer;font-size:14px}
+  #pager button:disabled{opacity:.45;cursor:default}
+  footer{max-width:900px;margin:0 auto;padding:0 20px 40px;color:var(--muted);font-size:13px}
+  .empty{color:var(--muted);padding:20px 2px}
 </style>
 </head>
 <body>
 <header>
-<h1>Ledger</h1>
-<p>Search 8 years of public gov history. Public channels only. Private Vault is Security-only in Discord via /search-private</p>
-<input id="q" placeholder="Search... e.g. budget, election, press release">
-<select id="branch"><option value="">All Branches</option></select>
-<select id="term"><option value="">All Terms</option></select>
-<select id="channel"><option value="">All Channels</option></select>
+  <h1>Ledger</h1>
+  <p>Search the public archive. (Private records live in the Vault — Security only, via <code>/search-private</code> in Discord.)</p>
 </header>
-<div id="count"></div>
-<div id="results">Loading archive...</div>
+<main>
+  <form class="searchcard" id="searchForm">
+    <input id="q" type="search" placeholder="Search… e.g. treaty, election, budget" aria-label="Search the archive" autocomplete="off">
+    <select id="branch" aria-label="Filter by branch">
+      <option value="">All branches</option>
+      <option value="executive">Executive</option>
+      <option value="legislative">Legislative</option>
+      <option value="judicial">Judicial</option>
+      <option value="foreign-affairs">Foreign Affairs</option>
+      <option value="community">Community</option>
+    </select>
+    <button type="submit">Search</button>
+  </form>
+  <div id="status" aria-live="polite">Type something to search the public archive.</div>
+  <div id="results"></div>
+  <nav id="pager"></nav>
+</main>
+<footer>
+  Powered by the TEP archive search API. Records are exported from Discord; some channels may not be indexed yet.
+</footer>
 <script>
-function esc(s){
-  return String(s==null?'':s).replace(/[&<>"']/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
-}
-let data=[], fuse;
-fetch('./all-search-index.json').then(r=>{
-  if(!r.ok) throw new Error('HTTP '+r.status);
-  return r.json();
-}).then(d=>{
-  data=Array.isArray(d)?d:[];
-  fuse=new Fuse(data, {keys:['content','author','channel'], threshold:0.35, ignoreLocation:true});
-  const branches=[...new Set(data.map(x=>x.branch).filter(Boolean))].sort();
-  const terms=[...new Set(data.map(x=>x.term))].sort();
-  const chans=[...new Set(data.map(x=>x.channel))].sort();
-  document.getElementById('branch').innerHTML += branches.map(b=>`<option>${esc(b)}</option>`).join('');
-  document.getElementById('term').innerHTML += terms.map(t=>`<option>${esc(t)}</option>`).join('');
-  document.getElementById('channel').innerHTML += chans.map(c=>`<option>${esc(c)}</option>`).join('');
-  document.getElementById('results').innerHTML = `Loaded ${data.length} public messages. Start typing to search.`;
-}).catch(e=>{
-  document.getElementById('results').innerHTML = 'Could not load the archive index.';
-});
-function render(){
-  const q=document.getElementById('q').value.trim();
-  const branch=document.getElementById('branch').value;
-  const term=document.getElementById('term').value;
-  const chan=document.getElementById('channel').value;
-  let hits = q ? fuse.search(q).map(x=>x.item) : data;
-  if(branch) hits = hits.filter(x=>x.branch===branch);
-  if(term) hits = hits.filter(x=>x.term===term);
-  if(chan) hits = hits.filter(x=>x.channel===chan);
-  document.getElementById('count').innerHTML = `<b>${hits.length}</b> results${q?` for &quot;${esc(q)}&quot;`:''}`;
-  document.getElementById('results').innerHTML = hits.slice(0,100).map(h=>`
-    <div class="hit">
-      <b>#${esc(h.channel)} | ${esc(h.author)} | ${esc(h.branch)} | ${esc(h.term)}</b><div class="meta">${esc(h.timestamp || '')}</div>
-      <div>${esc((h.content||'').slice(0,600))}</div>
-    </div>
-  `).join('') || 'No results';
-}
-document.getElementById('q').addEventListener('input', render);
-document.getElementById('branch').addEventListener('change', render);
-document.getElementById('term').addEventListener('change', render);
-document.getElementById('channel').addEventListener('change', render);
+(function(){
+  const API = "https://tep-archive-search.webmaster-748.workers.dev";
+  const PER_PAGE = 10;
+  const COLORS = {
+    executive:"#4f46e5", legislative:"#0d9488", judicial:"#7c3aed",
+    "foreign-affairs":"#d97706", community:"#16a34a"
+  };
+  const LABELS = {
+    executive:"Executive", legislative:"Legislative", judicial:"Judicial",
+    "foreign-affairs":"Foreign Affairs", community:"Community"
+  };
+  const $ = (id) => document.getElementById(id);
+  let state = { q:"", branch:"", page:1 };
+
+  function esc(s){
+    return String(s==null?"":s).replace(/[&<>"']/g, c => ({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"}[c]));
+  }
+  function highlight(text, q){
+    const safe = esc(text);
+    if(!q) return safe;
+    const rx = new RegExp("(" + q.replace(/[.*+?^${}()|[\]\\]/g,"\\$&") + ")", "ig");
+    return safe.replace(rx, "<mark>$1</mark>");
+  }
+  function snippet(text, q, max){
+    text = text || "";
+    if(text.length <= max) return text;
+    const idx = q ? text.toLowerCase().indexOf(q.toLowerCase()) : -1;
+    if(idx < 0) return text.slice(0, max) + "…";
+    let start = Math.max(0, idx - Math.floor(max/3));
+    let end = Math.min(text.length, start + max);
+    return (start>0?"…":"") + text.slice(start, end) + (end<text.length?"…":"");
+  }
+  function card(h){
+    const b = h.branch || "unknown";
+    const color = COLORS[b] || "#64748b";
+    const label = LABELS[b] || b;
+    return `<article class="hit">
+      <div class="hit-top">
+        <span class="badge" style="--c:${color}">${esc(label)}</span>
+        <span class="chan">#${esc(h.channel)}</span>
+        <span class="date">${esc((h.timestamp||"").slice(0,10))}</span>
+      </div>
+      <p class="content">${highlight(snippet(h.content, state.q, 340), state.q)}</p>
+      <div class="byline">by ${esc(h.author || "unknown")}</div>
+    </article>`;
+  }
+  function readUrl(){
+    const u = new URL(location.href);
+    state.q = u.searchParams.get("q") || "";
+    state.branch = u.searchParams.get("branch") || "";
+    state.page = parseInt(u.searchParams.get("page") || "1", 10) || 1;
+    $("q").value = state.q;
+    $("branch").value = state.branch;
+  }
+  function writeUrl(){
+    const u = new URL(location.href);
+    if(state.q) u.searchParams.set("q", state.q); else u.searchParams.delete("q");
+    if(state.branch) u.searchParams.set("branch", state.branch); else u.searchParams.delete("branch");
+    if(state.page > 1) u.searchParams.set("page", String(state.page)); else u.searchParams.delete("page");
+    history.replaceState(null, "", u);
+  }
+  async function run(){
+    state.q = $("q").value.trim();
+    state.branch = $("branch").value;
+    writeUrl();
+    if(!state.q){
+      $("status").textContent = "Type something to search the public archive.";
+      $("results").innerHTML = "";
+      $("pager").innerHTML = "";
+      return;
+    }
+    $("status").textContent = "Searching…";
+    $("results").innerHTML = "";
+    try {
+      const params = new URLSearchParams({ q: state.q, page: String(state.page), perPage: String(PER_PAGE) });
+      if(state.branch) params.set("branch", state.branch);
+      const res = await fetch(API + "/public/search?" + params.toString());
+      if(!res.ok) throw new Error("HTTP " + res.status);
+      render(await res.json());
+    } catch (e) {
+      $("status").textContent = "Search is unavailable right now. Please try again shortly.";
+    }
+  }
+  function render(data){
+    const hits = data.hits || [];
+    const total = data.total || 0;
+    if(!total){
+      $("status").innerHTML = `No results for &ldquo;${esc(state.q)}&rdquo;.`;
+      $("results").innerHTML = "";
+      $("pager").innerHTML = "";
+      return;
+    }
+    const from = (data.page - 1) * data.perPage + 1;
+    const to = from + hits.length - 1;
+    $("status").innerHTML = `<strong>${total.toLocaleString()}</strong> result(s) for &ldquo;${esc(state.q)}&rdquo; — showing ${from}–${to}`;
+    $("results").innerHTML = hits.map(card).join("");
+    renderPager(data);
+  }
+  function renderPager(data){
+    if(data.totalPages <= 1){ $("pager").innerHTML = ""; return; }
+    $("pager").innerHTML =
+      `<button id="prev" ${data.page<=1?"disabled":""}>← Prev</button>` +
+      `<span>Page ${data.page} of ${data.totalPages}</span>` +
+      `<button id="next" ${data.page>=data.totalPages?"disabled":""}>Next →</button>`;
+    const prev = $("prev"), next = $("next");
+    if(prev) prev.onclick = () => { state.page = data.page - 1; run(); scrollTop(); };
+    if(next) next.onclick = () => { state.page = data.page + 1; run(); scrollTop(); };
+  }
+  function scrollTop(){ window.scrollTo({ top: 0, behavior: "smooth" }); }
+
+  let timer = null;
+  $("searchForm").addEventListener("submit", (e) => { e.preventDefault(); state.page = 1; run(); });
+  $("q").addEventListener("input", () => {
+    clearTimeout(timer);
+    timer = setTimeout(() => { state.page = 1; run(); }, 350);
+  });
+  $("branch").addEventListener("change", () => { state.page = 1; run(); });
+
+  readUrl();
+  if(state.q) run();
+})();
 </script>
 </body>
 </html>
