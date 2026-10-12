@@ -4,41 +4,51 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <meta name="color-scheme" content="light dark">
-<title>Ledger — Public Archive Search</title>
+<title>Ledger — The East Pacific Public Archive</title>
 <style>
   :root{
-    --bg:#f6f7f9; --panel:#ffffff; --text:#1a1c22; --muted:#6b7280; --line:#e5e7eb;
-    --accent:#2563eb; --accent-soft:#eff4ff; --mark:#fde68a;
+    --bg:#f2f5fb; --panel:#ffffff; --text:#12203a; --muted:#5b6b85; --line:#dbe3f1;
+    --primary:#0d2c54; --primary-2:#123a6b; --ink:#ffffff; --accent:#e3b23c;
+    --accent-soft:#fdf3d7; --mark:#ffe9a8;
   }
   @media (prefers-color-scheme: dark){
-    :root{ --bg:#0f1115; --panel:#171a21; --text:#e6e8ee; --muted:#9aa3b2; --line:#262b36;
-           --accent:#5b8def; --accent-soft:#1b2233; --mark:#7a5d00; }
+    :root{ --bg:#0b1220; --panel:#111a2b; --text:#e7ecf6; --muted:#93a1bb; --line:#22304a;
+           --primary:#0d2c54; --primary-2:#123a6b; --ink:#ffffff; --accent:#e3b23c;
+           --accent-soft:#2a2410; --mark:#6b5600; }
   }
   *{box-sizing:border-box}
   body{margin:0;background:var(--bg);color:var(--text);
     font:16px/1.55 system-ui,-apple-system,"Segoe UI",Roboto,Helvetica,Arial,sans-serif}
-  a{color:var(--accent)}
-  header{padding:34px 20px 10px;max-width:900px;margin:0 auto}
-  header h1{margin:0;font-size:1.7rem;letter-spacing:-.02em}
-  header p{margin:6px 0 0;color:var(--muted)}
+  a{color:var(--primary-2)}
+  header{background:linear-gradient(180deg,var(--primary),var(--primary-2));color:var(--ink)}
+  .bar{max-width:900px;margin:0 auto;padding:20px;display:flex;align-items:center;gap:16px;flex-wrap:wrap}
+  .brand{display:flex;align-items:baseline;gap:10px}
+  .brand h1{margin:0;font-size:1.6rem;letter-spacing:-.02em;color:var(--ink)}
+  .brand .accent{width:44px;height:4px;border-radius:3px;background:var(--accent);display:inline-block;transform:translateY(-4px)}
+  .links{margin-left:auto;display:flex;gap:8px;flex-wrap:wrap}
+  .links a{color:var(--ink);text-decoration:none;font-size:14px;font-weight:600;
+    padding:8px 13px;border:1px solid rgba(255,255,255,.35);border-radius:999px;opacity:.95}
+  .links a:hover{background:rgba(255,255,255,.12);border-color:var(--accent)}
   main{max-width:900px;margin:0 auto;padding:0 20px 60px}
   .searchcard{background:var(--panel);border:1px solid var(--line);border-radius:14px;
-    padding:14px;display:flex;gap:10px;flex-wrap:wrap;margin:18px 0;box-shadow:0 1px 2px rgba(0,0,0,.04)}
-  .searchcard input{flex:1 1 340px;min-width:0;padding:13px 15px;font-size:16px;
+    padding:14px;display:flex;gap:10px;flex-wrap:wrap;margin:22px 0 14px;
+    box-shadow:0 6px 20px rgba(13,44,84,.06)}
+  .searchcard input{flex:1 1 340px;min-width:0;padding:14px 16px;font-size:16px;
     border:1px solid var(--line);border-radius:10px;background:var(--bg);color:var(--text)}
   .searchcard input:focus{outline:2px solid var(--accent);outline-offset:0;border-color:transparent}
-  .searchcard select{padding:13px 12px;font-size:15px;border:1px solid var(--line);
+  .searchcard select{padding:14px 12px;font-size:15px;border:1px solid var(--line);
     border-radius:10px;background:var(--bg);color:var(--text)}
-  .searchcard button{padding:13px 20px;font-size:15px;font-weight:600;border:0;border-radius:10px;
-    background:var(--accent);color:#fff;cursor:pointer}
-  .searchcard button:hover{filter:brightness(1.06)}
-  #status{color:var(--muted);margin:6px 2px 14px;min-height:1.2em}
+  .searchcard button{padding:14px 22px;font-size:15px;font-weight:700;border:0;border-radius:10px;
+    background:var(--accent);color:#3a2b00;cursor:pointer}
+  .searchcard button:hover{filter:brightness(1.05)}
+  #status{color:var(--muted);margin:2px 2px 14px;min-height:1.3em;font-size:14px}
   #status strong{color:var(--text)}
+  #status .dot{opacity:.5;padding:0 6px}
   .hit{background:var(--panel);border:1px solid var(--line);border-radius:12px;padding:16px 18px;margin:12px 0}
   .hit-top{display:flex;align-items:center;gap:10px;flex-wrap:wrap;font-size:13px;color:var(--muted)}
-  .badge{--c:#64748b;background:color-mix(in srgb,var(--c) 14%,transparent);color:var(--c);
-    border:1px solid color-mix(in srgb,var(--c) 35%,transparent);padding:2px 9px;border-radius:999px;font-weight:600}
-  .chan{font-weight:600;color:var(--text)}
+  .badge{--c:#5b6b85;background:color-mix(in srgb,var(--c) 14%,transparent);color:var(--c);
+    border:1px solid color-mix(in srgb,var(--c) 38%,transparent);padding:2px 9px;border-radius:999px;font-weight:700}
+  .chan{font-weight:700;color:var(--text)}
   .date{margin-left:auto}
   .content{margin:10px 0 8px;white-space:pre-wrap;word-break:break-word}
   mark{background:var(--mark);color:inherit;padding:0 2px;border-radius:3px}
@@ -47,18 +57,23 @@
   #pager button{padding:9px 16px;border:1px solid var(--line);border-radius:9px;background:var(--panel);
     color:var(--text);cursor:pointer;font-size:14px}
   #pager button:disabled{opacity:.45;cursor:default}
-  footer{max-width:900px;margin:0 auto;padding:0 20px 40px;color:var(--muted);font-size:13px}
-  .empty{color:var(--muted);padding:20px 2px}
+  footer{max-width:900px;margin:0 auto;padding:0 20px 44px;color:var(--muted);font-size:13px;text-align:center}
 </style>
 </head>
 <body>
 <header>
-  <h1>Ledger</h1>
-  <p>Search the public archive. (Private records live in the Vault — Security only, via <code>/search-private</code> in Discord.)</p>
+  <div class="bar">
+    <div class="brand"><h1>Ledger</h1><span class="accent"></span></div>
+    <nav class="links">
+      <a href="https://discord.com/invite/the-east-pacific-633351482128728064" target="_blank" rel="noopener">Discord</a>
+      <a href="https://forum.theeastpacific.com/" target="_blank" rel="noopener">Forum</a>
+      <a href="https://www.theeastpacific.com/" target="_blank" rel="noopener">Website</a>
+    </nav>
+  </div>
 </header>
 <main>
   <form class="searchcard" id="searchForm">
-    <input id="q" type="search" placeholder="Search… e.g. treaty, election, budget" aria-label="Search the archive" autocomplete="off">
+    <input id="q" type="search" placeholder="Type something to search the public archive" aria-label="Search the archive" autocomplete="off">
     <select id="branch" aria-label="Filter by branch">
       <option value="">All branches</option>
       <option value="executive">Executive</option>
@@ -69,20 +84,20 @@
     </select>
     <button type="submit">Search</button>
   </form>
-  <div id="status" aria-live="polite">Type something to search the public archive.</div>
+  <div id="status" aria-live="polite"></div>
   <div id="results"></div>
   <nav id="pager"></nav>
 </main>
 <footer>
-  Powered by the TEP archive search API. Records are exported from Discord; some channels may not be indexed yet.
+  The Ledger indexes public The East Pacific Discord history. Private records stay in the Vault (Security only, via /search-private).
 </footer>
 <script>
 (function(){
   const API = "https://tep-archive-search.webmaster-748.workers.dev";
   const PER_PAGE = 10;
   const COLORS = {
-    executive:"#4f46e5", legislative:"#0d9488", judicial:"#7c3aed",
-    "foreign-affairs":"#d97706", community:"#16a34a"
+    executive:"#3b5bdb", legislative:"#0b7285", judicial:"#6741d9",
+    "foreign-affairs":"#b8860b", community:"#2b8a3e"
   };
   const LABELS = {
     executive:"Executive", legislative:"Legislative", judicial:"Judicial",
@@ -90,6 +105,7 @@
   };
   const $ = (id) => document.getElementById(id);
   let state = { q:"", branch:"", page:1 };
+  let statsLoaded = false;
 
   function esc(s){
     return String(s==null?"":s).replace(/[&<>"']/g, c => ({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"}[c]));
@@ -105,13 +121,14 @@
     if(text.length <= max) return text;
     const idx = q ? text.toLowerCase().indexOf(q.toLowerCase()) : -1;
     if(idx < 0) return text.slice(0, max) + "…";
-    let start = Math.max(0, idx - Math.floor(max/3));
-    let end = Math.min(text.length, start + max);
+    const start = Math.max(0, idx - Math.floor(max/3));
+    const end = Math.min(text.length, start + max);
     return (start>0?"…":"") + text.slice(start, end) + (end<text.length?"…":"");
   }
+  function year(s){ return s ? String(s).slice(0,4) : ""; }
   function card(h){
     const b = h.branch || "unknown";
-    const color = COLORS[b] || "#64748b";
+    const color = COLORS[b] || "#5b6b85";
     const label = LABELS[b] || b;
     return `<article class="hit">
       <div class="hit-top">
@@ -138,16 +155,24 @@
     if(state.page > 1) u.searchParams.set("page", String(state.page)); else u.searchParams.delete("page");
     history.replaceState(null, "", u);
   }
+  async function loadStats(){
+    if(statsLoaded) return;
+    statsLoaded = true;
+    try {
+      const s = await (await fetch(API + "/public/stats")).json();
+      if(state.q) return; // a search already took over the status line
+      const dot = '<span class="dot">·</span>';
+      const parts = [`<strong>${(s.messages||0).toLocaleString()}</strong> public messages`];
+      if(s.channels) parts.push(`<strong>${s.channels}</strong> channels`);
+      if(s.earliest && s.latest) parts.push(`${year(s.earliest)}–${year(s.latest)}`);
+      $("status").innerHTML = parts.join(dot);
+    } catch(e){ /* ignore */ }
+  }
   async function run(){
     state.q = $("q").value.trim();
     state.branch = $("branch").value;
     writeUrl();
-    if(!state.q){
-      $("status").textContent = "Type something to search the public archive.";
-      $("results").innerHTML = "";
-      $("pager").innerHTML = "";
-      return;
-    }
+    if(!state.q){ $("results").innerHTML = ""; $("pager").innerHTML = ""; loadStats(); return; }
     $("status").textContent = "Searching…";
     $("results").innerHTML = "";
     try {
@@ -165,13 +190,12 @@
     const total = data.total || 0;
     if(!total){
       $("status").innerHTML = `No results for &ldquo;${esc(state.q)}&rdquo;.`;
-      $("results").innerHTML = "";
-      $("pager").innerHTML = "";
+      $("results").innerHTML = ""; $("pager").innerHTML = "";
       return;
     }
     const from = (data.page - 1) * data.perPage + 1;
     const to = from + hits.length - 1;
-    $("status").innerHTML = `<strong>${total.toLocaleString()}</strong> result(s) for &ldquo;${esc(state.q)}&rdquo; — showing ${from}–${to}`;
+    $("status").innerHTML = `<strong>${total.toLocaleString()}</strong> result(s) for &ldquo;${esc(state.q)}&rdquo;<span class="dot">·</span>showing ${from}–${to}`;
     $("results").innerHTML = hits.map(card).join("");
     renderPager(data);
   }
@@ -196,7 +220,7 @@
   $("branch").addEventListener("change", () => { state.page = 1; run(); });
 
   readUrl();
-  if(state.q) run();
+  if(state.q) run(); else loadStats();
 })();
 </script>
 </body>
