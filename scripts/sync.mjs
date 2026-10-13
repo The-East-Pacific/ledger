@@ -92,8 +92,26 @@ for (const file of walk(ROOT)) {
   const channelId = j.channel && j.channel.id ? String(j.channel.id) : "";
   const info = map[channelId] || { branch, sub: "main" };
   for (const m of j.messages) {
+    const attachments = (m.attachments || []).map((a) => ({ name: a.fileName, size: a.fileSizeBytes, url: a.url }));
+    const embeds = (m.embeds || []).map((e) => ({
+      title: e.title || "",
+      description: e.description || "",
+      url: e.url || "",
+      image: (e.image && e.image.url) || (e.thumbnail && e.thumbnail.url) || "",
+      video: (e.video && e.video.url) || "",
+      provider: (e.provider && e.provider.name) || "",
+    }));
+    const searchtext = [
+      m.content || "",
+      ...attachments.map((a) => a.name || ""),
+      ...embeds.map((e) => e.title),
+      ...embeds.map((e) => e.description),
+    ].join(" ").trim();
     const row = {
       content: m.content,
+      searchtext,
+      attachments,
+      embeds,
       author: m.author ? m.author.name : "unknown",
       channel: j.channel ? j.channel.name : "",
       branch: info.branch,

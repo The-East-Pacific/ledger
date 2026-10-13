@@ -54,6 +54,19 @@
   .content{margin:10px 0 8px;white-space:pre-wrap;word-break:break-word}
   mark{background:var(--mark);color:inherit;padding:0 2px;border-radius:3px}
   .byline{font-size:13px;color:var(--muted)}
+  .atts{display:flex;flex-wrap:wrap;gap:8px;margin:10px 0}
+  .att{font-size:13px;color:var(--primary-2);text-decoration:none;border:1px solid var(--line);
+    border-radius:8px;padding:6px 10px}
+  .att.img{padding:0;border:0}
+  .att.img img{max-height:150px;max-width:100%;border-radius:8px;border:1px solid var(--line);display:block}
+  .embeds{display:flex;flex-direction:column;gap:8px;margin:10px 0}
+  .embed{display:flex;gap:10px;text-decoration:none;color:inherit;border-left:3px solid var(--primary);
+    background:color-mix(in srgb,var(--primary) 7%,transparent);border-radius:6px;padding:8px 10px;font-size:13px}
+  .embed img{max-height:80px;border-radius:6px}
+  .embed-body{display:flex;flex-direction:column;gap:2px;min-width:0}
+  .embed-body strong{color:var(--text)}
+  .embed-body span{color:var(--muted);overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+  .embed .prov{font-size:11px;text-transform:uppercase;letter-spacing:.04em}
   #pager{display:flex;align-items:center;justify-content:center;gap:14px;margin-top:22px;color:var(--muted)}
   #pager button{padding:9px 16px;border:1px solid var(--line);border-radius:9px;background:var(--panel);
     color:var(--text);cursor:pointer;font-size:14px}
@@ -118,6 +131,24 @@
   function year(s){ return s ? String(s).slice(0,4) : ""; }
   function card(h){
     const src = h.sub && h.sub !== "main" ? `<span class="badge src">${esc(pretty(h.sub))}</span>` : "";
+    const atts = (h.attachments || []).map((a) => {
+      const name = a.name || "file";
+      const isImg = /\.(png|jpe?g|gif|webp|avif|bmp)$/i.test(name);
+      const kb = a.size ? ` (${Math.round(a.size / 1024)} KB)` : "";
+      return isImg
+        ? `<a class="att img" href="${esc(a.url)}" target="_blank" rel="noopener"><img src="${esc(a.url)}" alt="${esc(name)}" loading="lazy"></a>`
+        : `<a class="att" href="${esc(a.url)}" target="_blank" rel="noopener">📎 ${esc(name)}${kb}</a>`;
+    }).join("");
+    const embs = (h.embeds || [])
+      .filter((e) => e.title || e.description || e.image)
+      .map((e) => `<a class="embed" href="${esc(e.url || "#")}" target="_blank" rel="noopener">
+        ${e.image ? `<img src="${esc(e.image)}" alt="" loading="lazy">` : ""}
+        <span class="embed-body">
+          ${e.title ? `<strong>${esc(e.title)}</strong>` : ""}
+          ${e.description ? `<span>${esc(e.description.slice(0, 160))}</span>` : ""}
+          ${e.provider ? `<span class="prov">${esc(e.provider)}</span>` : ""}
+        </span>
+      </a>`).join("");
     return `<article class="hit">
       <div class="hit-top">
         <span class="badge">${esc(pretty(h.branch) || "unknown")}</span>
@@ -125,7 +156,9 @@
         <span class="chan">#${esc(h.channel)}</span>
         <span class="date">${esc((h.timestamp||"").slice(0,10))}</span>
       </div>
-      <p class="content">${highlight(snippet(h.content, state.q, 340), state.q)}</p>
+      ${h.content ? `<p class="content">${highlight(snippet(h.content, state.q, 340), state.q)}</p>` : ""}
+      ${atts ? `<div class="atts">${atts}</div>` : ""}
+      ${embs ? `<div class="embeds">${embs}</div>` : ""}
       <div class="byline">by ${esc(h.author || "unknown")}</div>
     </article>`;
   }
