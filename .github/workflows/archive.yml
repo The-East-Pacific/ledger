@@ -27,8 +27,8 @@ jobs:
       - name: Install DiscordChatExporter CLI
         run: |
           set -euo pipefail
-          curl -sSL -o dce.zip "https://github.com/Tyrrrz/DiscordChatExporter/releases/download/2.48/DiscordChatExporter.Cli.linux-x64.zip"
-          unzip -q dce.zip -d "$RUNNER_TEMP/dce"
+          curl -sSL -o "$RUNNER_TEMP/dce.zip" "https://github.com/Tyrrrz/DiscordChatExporter/releases/download/2.48/DiscordChatExporter.Cli.linux-x64.zip"
+          unzip -q "$RUNNER_TEMP/dce.zip" -d "$RUNNER_TEMP/dce"
           chmod +x "$RUNNER_TEMP/dce/DiscordChatExporter.Cli"
           echo "$RUNNER_TEMP/dce" >> "$GITHUB_PATH"
 
@@ -56,4 +56,5 @@ jobs:
             exit 0
           fi
           git commit -m "archive(ledger): $TERM"
+          git pull --rebase origin "$GITHUB_REF_NAME"
           git push
