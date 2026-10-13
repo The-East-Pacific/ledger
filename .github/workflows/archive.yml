@@ -26,8 +26,11 @@ jobs:
 
       - name: Install DiscordChatExporter CLI
         run: |
-          dotnet tool install --global DiscordChatExporter.Cli
-          echo "$HOME/.dotnet/tools" >> "$GITHUB_PATH"
+          set -euo pipefail
+          curl -sSL -o dce.zip "https://github.com/Tyrrrz/DiscordChatExporter/releases/download/2.48/DiscordChatExporter.Cli.linux-x64.zip"
+          unzip -q dce.zip -d "$RUNNER_TEMP/dce"
+          chmod +x "$RUNNER_TEMP/dce/DiscordChatExporter.Cli"
+          echo "$RUNNER_TEMP/dce" >> "$GITHUB_PATH"
 
       - name: Export, index and sync
         env:
@@ -38,10 +41,7 @@ jobs:
           BOT_TOKEN: ${{ secrets.BOT_TOKEN }}
           SEARCH_API: ${{ secrets.SEARCH_API }}
           SEARCH_ADMIN_KEY: ${{ secrets.SEARCH_ADMIN_KEY }}
-        run: |
-          set -euo pipefail
-          export PATH="$PATH:$HOME/.dotnet/tools"
-          node scripts/sync.mjs
+        run: node scripts/sync.mjs
 
       - name: Commit and push
         env:
