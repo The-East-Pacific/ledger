@@ -7,21 +7,19 @@ on:
         required: true
         type: string
       branch:
-        description: 'Branch/group to archive'
-        required: true
-        type: choice
-        options:
-          - executive
-          - legislative
-          - judicial
-          - foreign-affairs
-          - community
+        description: 'Only this branch (blank = all in channels.csv)'
+        required: false
+        type: string
+      server:
+        description: 'Only this server (blank = all)'
+        required: false
+        type: string
 
 permissions:
   contents: write
 
 jobs:
-  export:
+  sync:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
@@ -31,65 +29,23 @@ jobs:
           dotnet tool install --global DiscordChatExporter.Cli
           echo "$HOME/.dotnet/tools" >> "$GITHUB_PATH"
 
-      - name: Export public channels for branch
+      - name: Export, index and sync
         env:
-          BOT_TOKEN: ${{ secrets.BOT_TOKEN }}
+          SOURCE: ledger
           TERM: ${{ inputs.term }}
           BRANCH: ${{ inputs.branch }}
+          SERVER: ${{ inputs.server }}
+          BOT_TOKEN: ${{ secrets.BOT_TOKEN }}
+          SEARCH_API: ${{ secrets.SEARCH_API }}
+          SEARCH_ADMIN_KEY: ${{ secrets.SEARCH_ADMIN_KEY }}
         run: |
           set -euo pipefail
           export PATH="$PATH:$HOME/.dotnet/tools"
-
-          # Channel IDs per branch (space-separated). Add more as needed.
-          case "$BRANCH" in
-            executive)      CHANNELS="" ;;   # add public executive channel IDs
-            legislative)    CHANNELS="" ;;   # add public legislative channel IDs
-            judicial)       CHANNELS="" ;;   # add public judicial channel IDs
-            foreign-affairs) CHANNELS="1196697003883778129" ;;
-            community)      CHANNELS="683451144860860466" ;;
-            *) echo "Unknown branch: $BRANCH"; exit 1 ;;
-          esac
-
-          if [ -z "$CHANNELS" ]; then
-            echo "No channels mapped for branch '$BRANCH' - nothing to do."
-            exit 0
-          fi
-
-          rm -rf "archives/$BRANCH/$TERM"
-          mkdir -p "archives/$BRANCH/$TERM"
-          # --include-threads all pulls threads (and forum posts) as their own
-          # files; %c expands to each channel/thread id, so output stays <id>.json.
-          for c in $CHANNELS; do
-            DiscordChatExporter.Cli export -t "$BOT_TOKEN" -c "$c" -f Json --include-threads all -o "archives/$BRANCH/$TERM/%c.json"
-          done
-
-      - name: Build search indexes
-        env:
-          TERM: ${{ inputs.term }}
-          BRANCH: ${{ inputs.branch }}
-        run: |
-          set -euo pipefail
-          # DCE JSON is {guild, channel, messages:[...]} per file. Tag every
-          # message with its branch, then flatten.
-          jq -s --arg t "$TERM" --arg b "$BRANCH" \
-            'map(.channel.name as $c | .messages[]? | {content, author:(.author.name // "unknown"), channel:$c, branch:$b, term:$t, timestamp, id})' \
-            "archives/$BRANCH/$TERM"/*.json > "archives/$BRANCH/$TERM/index.json"
-          # Per-branch aggregate (every term in this branch).
-          jq -s 'add // []' archives/$BRANCH/*/index.json > "archives/$BRANCH/index.json"
-          # Combined index across every branch and term (this is what the site loads).
-          jq -s 'add // []' archives/*/*/index.json > all-search-index.json
-
-      - name: Sync to search backend
-        env:
-          SEARCH_API: ${{ secrets.SEARCH_API }}
-          SEARCH_ADMIN_KEY: ${{ secrets.SEARCH_ADMIN_KEY }}
-          SOURCE: ledger
-        run: node scripts/import.mjs
+          node scripts/sync.mjs
 
       - name: Commit and push
         env:
           TERM: ${{ inputs.term }}
-          BRANCH: ${{ inputs.branch }}
         run: |
           set -euo pipefail
           git config user.name "Archive Bot"
@@ -99,5 +55,5 @@ jobs:
             echo "No changes to commit"
             exit 0
           fi
-          git commit -m "archive(ledger): $BRANCH/$TERM"
+          git commit -m "archive(ledger): $TERM"
           git push
