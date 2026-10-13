@@ -105,7 +105,7 @@
   };
   const $ = (id) => document.getElementById(id);
   let state = { q:"", branch:"", page:1 };
-  let statsLoaded = false;
+  let statsData = null;
 
   function esc(s){
     return String(s==null?"":s).replace(/[&<>"']/g, c => ({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"}[c]));
@@ -156,17 +156,21 @@
     history.replaceState(null, "", u);
   }
   async function loadStats(){
-    if(statsLoaded) return;
-    statsLoaded = true;
-    try {
-      const s = await (await fetch(API + "/public/stats")).json();
-      if(state.q) return; // a search already took over the status line
-      const dot = '<span class="dot">·</span>';
-      const parts = [`<strong>${(s.messages||0).toLocaleString()}</strong> public messages`];
-      if(s.channels) parts.push(`<strong>${s.channels}</strong> channels`);
-      if(s.earliest && s.latest) parts.push(`${year(s.earliest)}–${year(s.latest)}`);
-      $("status").innerHTML = parts.join(dot);
-    } catch(e){ /* ignore */ }
+    if(statsData){ renderStats(); return; }
+    try { statsData = await (await fetch(API + "/public/stats")).json(); } catch(e){ return; }
+    if(!state.q) renderStats();
+  }
+  function renderStats(){
+    if(!statsData) return;
+    const b = state.branch;
+    const s = b ? (statsData.byBranch && statsData.byBranch[b]) || { messages:0, channels:0 } : statsData;
+    const dot = '<span class="dot">·</span>';
+    const parts = [];
+    parts.push(`<strong>${(s.messages||0).toLocaleString()}</strong> message${s.messages===1?"":"s"}`);
+    if(s.channels) parts.push(`<strong>${s.channels}</strong> channel${s.channels===1?"":"s"}`);
+    if(s.earliest && s.latest) parts.push(`${year(s.earliest)}–${year(s.latest)}`);
+    const prefix = b ? `<strong>${esc(LABELS[b]||b)}</strong>${dot}` : "";
+    $("status").innerHTML = prefix + parts.join(dot);
   }
   async function run(){
     state.q = $("q").value.trim();
