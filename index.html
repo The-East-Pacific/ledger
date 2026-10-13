@@ -9,12 +9,12 @@
   :root{
     --bg:#f2f5fb; --panel:#ffffff; --text:#12203a; --muted:#5b6b85; --line:#dbe3f1;
     --primary:#1A6F34; --primary-2:#155a2b; --ink:#F2F2F0; --accent:#F5E423;
-    --accent-soft:#fdf3d7; --mark:#fdf3a0;
+    --mark:#fdf3a0;
   }
   @media (prefers-color-scheme: dark){
     :root{ --bg:#0b1220; --panel:#111a2b; --text:#e7ecf6; --muted:#93a1bb; --line:#22304a;
            --primary:#1A6F34; --primary-2:#155a2b; --ink:#F2F2F0; --accent:#F5E423;
-           --accent-soft:#2a2410; --mark:#6b5600; }
+           --mark:#6b5600; }
   }
   *{box-sizing:border-box}
   body{margin:0;background:var(--bg);color:var(--text);
@@ -32,8 +32,8 @@
   main{max-width:900px;margin:0 auto;padding:0 20px 60px}
   .searchcard{background:var(--panel);border:1px solid var(--line);border-radius:14px;
     padding:14px;display:flex;gap:10px;flex-wrap:wrap;margin:22px 0 14px;
-    box-shadow:0 6px 20px rgba(13,44,84,.06)}
-  .searchcard input{flex:1 1 340px;min-width:0;padding:14px 16px;font-size:16px;
+    box-shadow:0 6px 20px rgba(26,111,52,.08)}
+  .searchcard input{flex:1 1 320px;min-width:0;padding:14px 16px;font-size:16px;
     border:1px solid var(--line);border-radius:10px;background:var(--bg);color:var(--text)}
   .searchcard input:focus{outline:2px solid var(--accent);outline-offset:0;border-color:transparent}
   .searchcard select{padding:14px 12px;font-size:15px;border:1px solid var(--line);
@@ -48,6 +48,7 @@
   .hit-top{display:flex;align-items:center;gap:10px;flex-wrap:wrap;font-size:13px;color:var(--muted)}
   .badge{--c:#5b6b85;background:color-mix(in srgb,var(--c) 14%,transparent);color:var(--c);
     border:1px solid color-mix(in srgb,var(--c) 38%,transparent);padding:2px 9px;border-radius:999px;font-weight:700}
+  .badge.src{--c:#6b7280}
   .chan{font-weight:700;color:var(--text)}
   .date{margin-left:auto}
   .content{margin:10px 0 8px;white-space:pre-wrap;word-break:break-word}
@@ -74,14 +75,8 @@
 <main>
   <form class="searchcard" id="searchForm">
     <input id="q" type="search" placeholder="Type something to search the public archive" aria-label="Search the archive" autocomplete="off">
-    <select id="branch" aria-label="Filter by branch">
-      <option value="">All branches</option>
-      <option value="executive">Executive</option>
-      <option value="legislative">Legislative</option>
-      <option value="judicial">Judicial</option>
-      <option value="foreign-affairs">Foreign Affairs</option>
-      <option value="community">Community</option>
-    </select>
+    <select id="branch" aria-label="Filter by branch"><option value="">All branches</option></select>
+    <select id="sub" aria-label="Filter by source"><option value="">All sources</option></select>
     <button type="submit">Search</button>
   </form>
   <div id="status" aria-live="polite"></div>
@@ -95,20 +90,15 @@
 (function(){
   const API = "https://tep-archive-search.webmaster-748.workers.dev";
   const PER_PAGE = 10;
-  const COLORS = {
-    executive:"#3b5bdb", legislative:"#0b7285", judicial:"#6741d9",
-    "foreign-affairs":"#b8860b", community:"#2b8a3e"
-  };
-  const LABELS = {
-    executive:"Executive", legislative:"Legislative", judicial:"Judicial",
-    "foreign-affairs":"Foreign Affairs", community:"Community"
-  };
   const $ = (id) => document.getElementById(id);
-  let state = { q:"", branch:"", page:1 };
+  let state = { q:"", branch:"", sub:"", page:1 };
   let statsData = null;
 
   function esc(s){
     return String(s==null?"":s).replace(/[&<>"']/g, c => ({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"}[c]));
+  }
+  function pretty(s){
+    return String(s||"").replace(/[-_]/g," ").replace(/\b\w/g, c => c.toUpperCase());
   }
   function highlight(text, q){
     const safe = esc(text);
@@ -127,12 +117,11 @@
   }
   function year(s){ return s ? String(s).slice(0,4) : ""; }
   function card(h){
-    const b = h.branch || "unknown";
-    const color = COLORS[b] || "#5b6b85";
-    const label = LABELS[b] || b;
+    const src = h.sub && h.sub !== "main" ? `<span class="badge src">${esc(pretty(h.sub))}</span>` : "";
     return `<article class="hit">
       <div class="hit-top">
-        <span class="badge" style="--c:${color}">${esc(label)}</span>
+        <span class="badge">${esc(pretty(h.branch) || "unknown")}</span>
+        ${src}
         <span class="chan">#${esc(h.channel)}</span>
         <span class="date">${esc((h.timestamp||"").slice(0,10))}</span>
       </div>
@@ -144,37 +133,62 @@
     const u = new URL(location.href);
     state.q = u.searchParams.get("q") || "";
     state.branch = u.searchParams.get("branch") || "";
+    state.sub = u.searchParams.get("sub") || "";
     state.page = parseInt(u.searchParams.get("page") || "1", 10) || 1;
     $("q").value = state.q;
-    $("branch").value = state.branch;
   }
   function writeUrl(){
     const u = new URL(location.href);
     if(state.q) u.searchParams.set("q", state.q); else u.searchParams.delete("q");
     if(state.branch) u.searchParams.set("branch", state.branch); else u.searchParams.delete("branch");
+    if(state.sub) u.searchParams.set("sub", state.sub); else u.searchParams.delete("sub");
     if(state.page > 1) u.searchParams.set("page", String(state.page)); else u.searchParams.delete("page");
     history.replaceState(null, "", u);
   }
+  function fillSelect(id, values, allLabel){
+    const sel = $(id);
+    const cur = state[id] || "";
+    sel.innerHTML = `<option value="">${allLabel}</option>` +
+      values.map(v => `<option value="${esc(v)}">${esc(pretty(v))}</option>`).join("");
+    sel.value = cur;
+  }
+  function populateFilters(){
+    if(!statsData) return;
+    fillSelect("branch", Object.keys(statsData.byBranch || {}).sort(), "All branches");
+    fillSelect("sub", Object.keys(statsData.bySub || {}).sort(), "All sources");
+  }
   async function loadStats(){
-    if(statsData){ renderStats(); return; }
-    try { statsData = await (await fetch(API + "/public/stats")).json(); } catch(e){ return; }
+    if(!statsData){
+      try { statsData = await (await fetch(API + "/public/stats")).json(); } catch(e){ return; }
+      populateFilters();
+    }
     if(!state.q) renderStats();
+  }
+  function scoped(){
+    const { branch, sub } = state;
+    if(branch && sub) return (statsData.byBranchSub || {})[branch + "|" + sub] || { messages:0, channels:0 };
+    if(branch) return (statsData.byBranch || {})[branch] || { messages:0, channels:0 };
+    if(sub) return (statsData.bySub || {})[sub] || { messages:0, channels:0 };
+    return statsData;
   }
   function renderStats(){
     if(!statsData) return;
-    const b = state.branch;
-    const s = b ? (statsData.byBranch && statsData.byBranch[b]) || { messages:0, channels:0 } : statsData;
+    const s = scoped();
     const dot = '<span class="dot">·</span>';
     const parts = [];
     parts.push(`<strong>${(s.messages||0).toLocaleString()}</strong> message${s.messages===1?"":"s"}`);
     if(s.channels) parts.push(`<strong>${s.channels}</strong> channel${s.channels===1?"":"s"}`);
     if(s.earliest && s.latest) parts.push(`${year(s.earliest)}–${year(s.latest)}`);
-    const prefix = b ? `<strong>${esc(LABELS[b]||b)}</strong>${dot}` : "";
+    const labels = [];
+    if(state.branch) labels.push(esc(pretty(state.branch)));
+    if(state.sub) labels.push(esc(pretty(state.sub)));
+    const prefix = labels.length ? `<strong>${labels.join(" / ")}</strong>${dot}` : "";
     $("status").innerHTML = prefix + parts.join(dot);
   }
   async function run(){
     state.q = $("q").value.trim();
     state.branch = $("branch").value;
+    state.sub = $("sub").value;
     writeUrl();
     if(!state.q){ $("results").innerHTML = ""; $("pager").innerHTML = ""; loadStats(); return; }
     $("status").textContent = "Searching…";
@@ -182,6 +196,7 @@
     try {
       const params = new URLSearchParams({ q: state.q, page: String(state.page), perPage: String(PER_PAGE) });
       if(state.branch) params.set("branch", state.branch);
+      if(state.sub) params.set("sub", state.sub);
       const res = await fetch(API + "/public/search?" + params.toString());
       if(!res.ok) throw new Error("HTTP " + res.status);
       render(await res.json());
@@ -222,9 +237,10 @@
     timer = setTimeout(() => { state.page = 1; run(); }, 350);
   });
   $("branch").addEventListener("change", () => { state.page = 1; run(); });
+  $("sub").addEventListener("change", () => { state.page = 1; run(); });
 
   readUrl();
-  if(state.q) run(); else loadStats();
+  loadStats().then(() => { if(state.q) run(); });
 })();
 </script>
 </body>
