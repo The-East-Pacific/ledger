@@ -41,6 +41,14 @@
   .searchcard button{padding:14px 22px;font-size:15px;font-weight:700;border:0;border-radius:10px;
     background:var(--accent);color:#3a2b00;cursor:pointer}
   .searchcard button:hover{filter:brightness(1.05)}
+  .adv{margin:0 0 14px}
+  .adv summary{cursor:pointer;color:var(--muted);font-size:14px;padding:4px 2px;user-select:none}
+  .adv-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(150px,1fr));gap:10px;margin-top:8px}
+  .adv-grid label{display:flex;flex-direction:column;gap:4px;font-size:12px;color:var(--muted)}
+  .adv-grid input,.adv-grid select{padding:10px 12px;font-size:14px;border:1px solid var(--line);
+    border-radius:9px;background:var(--panel);color:var(--text)}
+  .hint{color:var(--muted);font-size:12px;margin:0 2px 10px}
+  .hint code{background:var(--accent-soft);padding:1px 5px;border-radius:4px}
   #status{color:var(--muted);margin:2px 2px 14px;min-height:1.3em;font-size:14px}
   #status strong{color:var(--text)}
   #status .dot{opacity:.5;padding:0 6px}
@@ -92,6 +100,25 @@
     <select id="sub" aria-label="Filter by source"><option value="">All sources</option></select>
     <button type="submit">Search</button>
   </form>
+  <details class="adv" id="adv">
+    <summary>Advanced filters</summary>
+    <div class="adv-grid">
+      <label>Author<input id="fFrom" type="text" placeholder="e.g. alice" autocomplete="off"></label>
+      <label>Channel<input id="fIn" type="text" placeholder="e.g. cabinet" autocomplete="off"></label>
+      <label>After<input id="fAfter" type="date"></label>
+      <label>Before<input id="fBefore" type="date"></label>
+      <label>Has
+        <select id="fHas">
+          <option value="">anything</option>
+          <option value="image">image</option>
+          <option value="file">file</option>
+          <option value="link">link</option>
+          <option value="embed">embed</option>
+        </select>
+      </label>
+    </div>
+  </details>
+  <p class="hint">You can also type operators: <code>from:</code> <code>in:</code> <code>before:</code> <code>after:</code> <code>during:</code> <code>has:image</code> <code>has:file</code> <code>has:link</code> <code>has:embed</code></p>
   <div id="status" aria-live="polite"></div>
   <div id="results"></div>
   <nav id="pager"></nav>
@@ -156,7 +183,7 @@
         <span class="chan">#${esc(h.channel)}</span>
         <span class="date">${esc((h.timestamp||"").slice(0,10))}</span>
       </div>
-      ${h.content ? `<p class="content">${highlight(snippet(h.content, state.q, 340), state.q)}</p>` : ""}
+      ${h.content ? `      <p class="content">${highlight(snippet(h.content, state.hl, 340), state.hl)}</p>` : ""}
       ${atts ? `<div class="atts">${atts}</div>` : ""}
       ${embs ? `<div class="embeds">${embs}</div>` : ""}
       <div class="byline">by ${esc(h.author || "unknown")}</div>
@@ -167,16 +194,39 @@
     state.q = u.searchParams.get("q") || "";
     state.branch = u.searchParams.get("branch") || "";
     state.sub = u.searchParams.get("sub") || "";
+    state.from = u.searchParams.get("from") || "";
+    state.in = u.searchParams.get("in") || "";
+    state.after = u.searchParams.get("after") || "";
+    state.before = u.searchParams.get("before") || "";
+    state.has = u.searchParams.get("has") || "";
     state.page = parseInt(u.searchParams.get("page") || "1", 10) || 1;
     $("q").value = state.q;
+    $("fFrom").value = state.from; $("fIn").value = state.in;
+    $("fAfter").value = state.after; $("fBefore").value = state.before; $("fHas").value = state.has;
+    if(state.from || state.in || state.after || state.before || state.has) $("adv").open = true;
   }
   function writeUrl(){
     const u = new URL(location.href);
-    if(state.q) u.searchParams.set("q", state.q); else u.searchParams.delete("q");
-    if(state.branch) u.searchParams.set("branch", state.branch); else u.searchParams.delete("branch");
-    if(state.sub) u.searchParams.set("sub", state.sub); else u.searchParams.delete("sub");
+    const set = (k, v) => { if(v) u.searchParams.set(k, v); else u.searchParams.delete(k); };
+    set("q", state.q); set("branch", state.branch); set("sub", state.sub);
+    set("from", state.from); set("in", state.in); set("after", state.after);
+    set("before", state.before); set("has", state.has);
     if(state.page > 1) u.searchParams.set("page", String(state.page)); else u.searchParams.delete("page");
     history.replaceState(null, "", u);
+  }
+  function composeQuery(){
+    const parts = [];
+    const qf = (s) => /\s/.test(s) ? '"' + s + '"' : s;
+    if(state.q) parts.push(state.q);
+    if(state.from) parts.push("from:" + qf(state.from));
+    if(state.in) parts.push("in:" + qf(state.in));
+    if(state.after) parts.push("after:" + state.after);
+    if(state.before) parts.push("before:" + state.before);
+    if(state.has) parts.push("has:" + state.has);
+    return parts.join(" ").trim();
+  }
+  function plainTerms(q){
+    return (q || "").replace(/\b(from|in|before|after|during|has):("[^"]*"|\S+)/gi, " ").replace(/\s+/g, " ").trim();
   }
   function fillSelect(id, values, allLabel){
     const sel = $(id);
@@ -222,12 +272,19 @@
     state.q = $("q").value.trim();
     state.branch = $("branch").value;
     state.sub = $("sub").value;
+    state.from = $("fFrom").value.trim();
+    state.in = $("fIn").value.trim();
+    state.after = $("fAfter").value;
+    state.before = $("fBefore").value;
+    state.has = $("fHas").value;
     writeUrl();
-    if(!state.q){ $("results").innerHTML = ""; $("pager").innerHTML = ""; loadStats(); return; }
+    const q = composeQuery();
+    state.hl = plainTerms(q);
+    if(!q){ $("results").innerHTML = ""; $("pager").innerHTML = ""; loadStats(); return; }
     $("status").textContent = "Searching…";
     $("results").innerHTML = "";
     try {
-      const params = new URLSearchParams({ q: state.q, page: String(state.page), perPage: String(PER_PAGE) });
+      const params = new URLSearchParams({ q, page: String(state.page), perPage: String(PER_PAGE) });
       if(state.branch) params.set("branch", state.branch);
       if(state.sub) params.set("sub", state.sub);
       const res = await fetch(API + "/public/search?" + params.toString());
@@ -271,6 +328,11 @@
   });
   $("branch").addEventListener("change", () => { state.page = 1; run(); });
   $("sub").addEventListener("change", () => { state.page = 1; run(); });
+  ["fFrom", "fIn"].forEach((id) => $(id).addEventListener("input", () => {
+    clearTimeout(timer);
+    timer = setTimeout(() => { state.page = 1; run(); }, 350);
+  }));
+  ["fAfter", "fBefore", "fHas"].forEach((id) => $(id).addEventListener("change", () => { state.page = 1; run(); }));
 
   readUrl();
   loadStats().then(() => { if(state.q) run(); });
