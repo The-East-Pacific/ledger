@@ -56,14 +56,22 @@ if (!rows.length) { console.log("No channels match the filter - nothing to expor
 
 // 1) Export
 for (const r of rows) {
+  if (/^(yes|true|1)$/i.test(r.Frozen || "")) {
+    console.log(`skip frozen ${r.Label || r.ChannelID} (${r.ChannelID})`);
+    continue;
+  }
   const branch = r.Branch || "misc";
   const outDir = path.join(ROOT, branch, TERM);
   fs.mkdirSync(outDir, { recursive: true });
   console.log(`export ${SOURCE}/${branch}/${r.Subbranch || "main"}/${r.Label || r.ChannelID} (${r.ChannelID})`);
-  execFileSync(DCE, [
-    "export", "-t", TOKEN, "-c", r.ChannelID, "-f", "Json",
-    "--include-threads", "all", "-o", path.join(outDir, "%c.json"),
-  ], { stdio: "inherit" });
+  try {
+    execFileSync(DCE, [
+      "export", "-t", TOKEN, "-c", r.ChannelID, "-f", "Json",
+      "--include-threads", "all", "-o", path.join(outDir, "%c.json"),
+    ], { stdio: "inherit" });
+  } catch {
+    console.warn(`  export failed for ${r.ChannelID} (${r.Label || ""}) - channel deleted or inaccessible; keeping existing archive.`);
+  }
 }
 
 // 2) Mirror user-upload attachments to R2 (skip if already stored)
