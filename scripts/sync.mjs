@@ -2,6 +2,10 @@
 // mirrors user-uploaded attachments to R2, builds branch+sub-tagged indexes, and
 // pushes to the search backend.
 //
+// Incremental: tracks the last-seen message id per channel in state.json and
+// pushes only new messages to D1 (upsert, no full reset), so runs write far fewer
+// rows. Full history is still kept in the repo's JSON files.
+//
 // Env:
 //   SOURCE            "vault" | "ledger" (required)
 //   TERM              term slug for this run (required)
@@ -11,8 +15,9 @@
 //   SEARCH_API        backend base URL (required for media + sync)
 //   SEARCH_ADMIN_KEY  backend admin key
 //
-// Map file (channels.csv), columns: Server,Branch,Subbranch,ChannelID,Label
-// Blank Subbranch is treated as "main". Provider/embed images are left as-is.
+// Map file (channels.csv): Server,Branch,Subbranch,ChannelID,Label,Frozen
+// Blank Subbranch = "main"; Frozen=yes skips re-export. Provider/embed images
+// are left as-is (served from their own addresses).
 
 import fs from "node:fs";
 import path from "node:path";
@@ -26,6 +31,7 @@ const API = (process.env.SEARCH_API || "").replace(/\/+$/, "");
 const ADMIN_KEY = process.env.SEARCH_ADMIN_KEY;
 const ROOT = "archives";
 const MAP_FILE = "channels.csv";
+const STATE_FILE = "state.json";
 
 if (!SOURCE || !TERM || !TOKEN) {
   console.error("SOURCE, TERM and BOT_TOKEN are required.");
@@ -48,6 +54,9 @@ if (!all.length) { console.error("channels.csv has no valid rows."); process.exi
 
 const map = {};
 for (const r of all) map[r.ChannelID] = { branch: r.Branch || "misc", sub: r.Subbranch || "main" };
+
+const state = (() => { try { return JSON.parse(fs.readFileSync(STATE_FILE, "utf8")); } catch { return {}; } })();
+const gt = (id, ref) => !ref || BigInt(id) > BigInt(ref);
 
 let rows = all;
 if (process.env.BRANCH) rows = rows.filter((r) => (r.Branch || "misc") === process.env.BRANCH);
@@ -96,7 +105,7 @@ async function mirror(cdnUrl, key) {
   return (await up.json()).url;
 }
 
-// 3) Build indexes (tag each message; rewrite attachment URLs to R2)
+// 3) Build indexes; collect only new messages for D1
 function walk(dir) {
   const out = [];
   for (const entry of fs.readdirSync(dir, { withFileTypes: true })) {
@@ -110,6 +119,7 @@ function walk(dir) {
 const termRows = new Map();
 const branchRows = new Map();
 const allRows = [];
+const changed = [];
 let mirrored = 0, mirrorFailed = 0;
 
 for (const file of walk(ROOT)) {
@@ -121,6 +131,8 @@ for (const file of walk(ROOT)) {
   if (!j || !Array.isArray(j.messages)) continue;
   const channelId = j.channel && j.channel.id ? String(j.channel.id) : "";
   const info = map[channelId] || { branch, sub: "main" };
+  const lastId = state[channelId] || "";
+  let maxId = lastId;
 
   for (const m of j.messages) {
     const attachments = [];
@@ -148,6 +160,10 @@ for (const file of walk(ROOT)) {
     ].join(" ").trim();
     const row = {
       content: m.content, searchtext, attachments, embeds,
+      has_file: attachments.length ? 1 : 0,
+      has_image: (attachments.some((a) => /\.(png|jpe?g|gif|webp|avif|bmp)$/i.test(a.name || "")) || embeds.some((e) => e.image)) ? 1 : 0,
+      has_link: (embeds.some((e) => e.url) || /https?:\/\//i.test(m.content || "")) ? 1 : 0,
+      has_embed: embeds.length ? 1 : 0,
       author: m.author ? m.author.name : "unknown",
       channel: j.channel ? j.channel.name : "",
       branch: info.branch, sub: info.sub, term,
@@ -159,7 +175,10 @@ for (const file of walk(ROOT)) {
     if (!branchRows.has(info.branch)) branchRows.set(info.branch, []);
     branchRows.get(info.branch).push(row);
     allRows.push(row);
+    if (gt(m.id, lastId)) changed.push(row);
+    if (gt(m.id, maxId)) maxId = m.id;
   }
+  if (maxId) state[channelId] = maxId;
 }
 
 for (const [key, r] of termRows) {
@@ -170,20 +189,20 @@ for (const [branch, r] of branchRows) {
   fs.writeFileSync(path.join(ROOT, branch, "index.json"), JSON.stringify(r), "utf8");
 }
 fs.writeFileSync("all-search-index.json", JSON.stringify(allRows), "utf8");
-console.log(`index: ${allRows.length} messages; media mirrored ${mirrored}, failed ${mirrorFailed}`);
+fs.writeFileSync(STATE_FILE, JSON.stringify(state), "utf8");
+console.log(`index: ${allRows.length} messages; new for D1: ${changed.length}; media mirrored ${mirrored}, failed ${mirrorFailed}`);
 
-// 4) Push to the search backend
+// 4) Push only new messages to the search backend (upsert, no reset)
 if (!API) { console.log("SEARCH_API not set - skipping backend sync."); process.exit(0); }
 if (!ADMIN_KEY) { console.error("SEARCH_ADMIN_KEY required when SEARCH_API is set."); process.exit(1); }
+if (!changed.length) { console.log("No new messages - backend already up to date."); process.exit(0); }
 
 const headers = { "content-type": "application/json", "x-admin-key": ADMIN_KEY };
-let res = await fetch(`${API}/admin/reset`, { method: "POST", headers, body: JSON.stringify({ source: SOURCE }) });
-if (!res.ok) { console.error("reset failed:", res.status, await res.text()); process.exit(1); }
 const CHUNK = 500;
-for (let i = 0; i < allRows.length; i += CHUNK) {
-  const body = JSON.stringify({ source: SOURCE, rows: allRows.slice(i, i + CHUNK) });
-  res = await fetch(`${API}/admin/import`, { method: "POST", headers, body });
+for (let i = 0; i < changed.length; i += CHUNK) {
+  const body = JSON.stringify({ source: SOURCE, rows: changed.slice(i, i + CHUNK) });
+  const res = await fetch(`${API}/admin/import`, { method: "POST", headers, body });
   if (!res.ok) { console.error("import failed:", res.status, await res.text()); process.exit(1); }
-  console.log(`imported ${Math.min(i + CHUNK, allRows.length)}/${allRows.length}`);
+  console.log(`imported ${Math.min(i + CHUNK, changed.length)}/${changed.length}`);
 }
 console.log("done.");
