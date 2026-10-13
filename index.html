@@ -104,6 +104,7 @@
     <summary>Advanced filters</summary>
     <div class="adv-grid">
       <label>Author<input id="fFrom" type="text" placeholder="e.g. alice" autocomplete="off"></label>
+      <label>Mentions<input id="fMentions" type="text" placeholder="e.g. bob" autocomplete="off"></label>
       <label>Channel<input id="fIn" type="text" placeholder="e.g. cabinet" autocomplete="off"></label>
       <label>After<input id="fAfter" type="date"></label>
       <label>Before<input id="fBefore" type="date"></label>
@@ -114,11 +115,21 @@
           <option value="file">file</option>
           <option value="link">link</option>
           <option value="embed">embed</option>
+          <option value="video">video</option>
+          <option value="sound">sound</option>
+          <option value="sticker">sticker</option>
+        </select>
+      </label>
+      <label>Pinned
+        <select id="fPinned">
+          <option value="">any</option>
+          <option value="true">pinned</option>
+          <option value="false">not pinned</option>
         </select>
       </label>
     </div>
   </details>
-  <p class="hint">You can also type operators: <code>from:</code> <code>in:</code> <code>before:</code> <code>after:</code> <code>during:</code> <code>has:image</code> <code>has:file</code> <code>has:link</code> <code>has:embed</code></p>
+  <p class="hint">Operators also work in the box: <code>from:</code> <code>mentions:</code> <code>in:</code> <code>before:</code> <code>after:</code> <code>during:</code> <code>has:image</code> <code>has:video</code> <code>has:sound</code> <code>has:sticker</code> <code>has:file</code> <code>has:link</code> <code>has:embed</code> <code>pinned:true</code> — and negate with <code>-</code> (e.g. <code>-has:image</code>)</p>
   <div id="status" aria-live="polite"></div>
   <div id="results"></div>
   <nav id="pager"></nav>
@@ -195,22 +206,25 @@
     state.branch = u.searchParams.get("branch") || "";
     state.sub = u.searchParams.get("sub") || "";
     state.from = u.searchParams.get("from") || "";
+    state.mentions = u.searchParams.get("mentions") || "";
     state.in = u.searchParams.get("in") || "";
     state.after = u.searchParams.get("after") || "";
     state.before = u.searchParams.get("before") || "";
     state.has = u.searchParams.get("has") || "";
+    state.pinned = u.searchParams.get("pinned") || "";
     state.page = parseInt(u.searchParams.get("page") || "1", 10) || 1;
     $("q").value = state.q;
-    $("fFrom").value = state.from; $("fIn").value = state.in;
-    $("fAfter").value = state.after; $("fBefore").value = state.before; $("fHas").value = state.has;
-    if(state.from || state.in || state.after || state.before || state.has) $("adv").open = true;
+    $("fFrom").value = state.from; $("fMentions").value = state.mentions; $("fIn").value = state.in;
+    $("fAfter").value = state.after; $("fBefore").value = state.before;
+    $("fHas").value = state.has; $("fPinned").value = state.pinned;
+    if(state.from || state.mentions || state.in || state.after || state.before || state.has || state.pinned) $("adv").open = true;
   }
   function writeUrl(){
     const u = new URL(location.href);
     const set = (k, v) => { if(v) u.searchParams.set(k, v); else u.searchParams.delete(k); };
     set("q", state.q); set("branch", state.branch); set("sub", state.sub);
-    set("from", state.from); set("in", state.in); set("after", state.after);
-    set("before", state.before); set("has", state.has);
+    set("from", state.from); set("mentions", state.mentions); set("in", state.in);
+    set("after", state.after); set("before", state.before); set("has", state.has); set("pinned", state.pinned);
     if(state.page > 1) u.searchParams.set("page", String(state.page)); else u.searchParams.delete("page");
     history.replaceState(null, "", u);
   }
@@ -219,10 +233,12 @@
     const qf = (s) => /\s/.test(s) ? '"' + s + '"' : s;
     if(state.q) parts.push(state.q);
     if(state.from) parts.push("from:" + qf(state.from));
+    if(state.mentions) parts.push("mentions:" + qf(state.mentions));
     if(state.in) parts.push("in:" + qf(state.in));
     if(state.after) parts.push("after:" + state.after);
     if(state.before) parts.push("before:" + state.before);
     if(state.has) parts.push("has:" + state.has);
+    if(state.pinned) parts.push("pinned:" + state.pinned);
     return parts.join(" ").trim();
   }
   function plainTerms(q){
@@ -273,10 +289,12 @@
     state.branch = $("branch").value;
     state.sub = $("sub").value;
     state.from = $("fFrom").value.trim();
+    state.mentions = $("fMentions").value.trim();
     state.in = $("fIn").value.trim();
     state.after = $("fAfter").value;
     state.before = $("fBefore").value;
     state.has = $("fHas").value;
+    state.pinned = $("fPinned").value;
     writeUrl();
     const q = composeQuery();
     state.hl = plainTerms(q);
@@ -328,11 +346,11 @@
   });
   $("branch").addEventListener("change", () => { state.page = 1; run(); });
   $("sub").addEventListener("change", () => { state.page = 1; run(); });
-  ["fFrom", "fIn"].forEach((id) => $(id).addEventListener("input", () => {
+  ["fFrom", "fMentions", "fIn"].forEach((id) => $(id).addEventListener("input", () => {
     clearTimeout(timer);
     timer = setTimeout(() => { state.page = 1; run(); }, 350);
   }));
-  ["fAfter", "fBefore", "fHas"].forEach((id) => $(id).addEventListener("change", () => { state.page = 1; run(); }));
+  ["fAfter", "fBefore", "fHas", "fPinned"].forEach((id) => $(id).addEventListener("change", () => { state.page = 1; run(); }));
 
   readUrl();
   loadStats().then(() => { if(state.q) run(); });
