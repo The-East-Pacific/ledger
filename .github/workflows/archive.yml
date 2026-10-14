@@ -3,9 +3,10 @@ on:
   workflow_dispatch:
     inputs:
       term:
-        description: 'Term slug, e.g. smith-may26'
-        required: true
+        description: 'Term/grouping folder (default: archive)'
+        required: false
         type: string
+        default: 'archive'
       branch:
         description: 'Only this branch (blank = all in channels.csv)'
         required: false

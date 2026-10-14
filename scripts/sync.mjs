@@ -24,7 +24,7 @@ import path from "node:path";
 import { execFileSync } from "node:child_process";
 
 const SOURCE = process.env.SOURCE;
-const TERM = process.env.TERM;
+const TERM = process.env.TERM || "archive";
 const TOKEN = process.env.BOT_TOKEN;
 const DCE = process.env.DCE || "DiscordChatExporter.Cli";
 const API = (process.env.SEARCH_API || "").replace(/\/+$/, "");
@@ -33,23 +33,32 @@ const ROOT = "archives";
 const MAP_FILE = "channels.csv";
 const STATE_FILE = "state.json";
 
-if (!SOURCE || !TERM || !TOKEN) {
-  console.error("SOURCE, TERM and BOT_TOKEN are required.");
+if (!SOURCE || !TOKEN) {
+  console.error("SOURCE and BOT_TOKEN are required.");
   process.exit(1);
 }
 
 function readCsv(file) {
   const lines = fs.readFileSync(file, "utf8").split(/\r?\n/).filter((l) => l.trim());
   const header = lines.shift().split(",").map((s) => s.trim());
-  return lines.map((line) => {
+  if (!header.includes("Frozen")) header.push("Frozen");
+  const rows = lines.map((line) => {
     const cells = line.split(",");
     const row = {};
     header.forEach((h, i) => (row[h] = (cells[i] || "").trim()));
     return row;
   });
+  return { header, rows };
 }
 
-const all = readCsv(MAP_FILE).filter((r) => /^\d+$/.test(r.ChannelID || ""));
+function writeCsv(file, header, rows) {
+  const out = [header.join(",")];
+  for (const r of rows) out.push(header.map((h) => r[h] ?? "").join(","));
+  fs.writeFileSync(file, out.join("\n") + "\n", "utf8");
+}
+
+const { header, rows: allRaw } = readCsv(MAP_FILE);
+const all = allRaw.filter((r) => /^\d+$/.test(r.ChannelID || ""));
 if (!all.length) { console.error("channels.csv has no valid rows."); process.exit(1); }
 
 const map = {};
@@ -63,7 +72,8 @@ if (process.env.BRANCH) rows = rows.filter((r) => (r.Branch || "misc") === proce
 if (process.env.SERVER) rows = rows.filter((r) => r.Server === process.env.SERVER);
 if (!rows.length) { console.log("No channels match the filter - nothing to export."); process.exit(0); }
 
-// 1) Export
+// 1) Export (channels are perma-archived, so once exported they're marked Frozen)
+const exportedIds = new Set();
 for (const r of rows) {
   if (/^(yes|true|1)$/i.test(r.Frozen || "")) {
     console.log(`skip frozen ${r.Label || r.ChannelID} (${r.ChannelID})`);
@@ -78,9 +88,19 @@ for (const r of rows) {
       "export", "-t", TOKEN, "-c", r.ChannelID, "-f", "Json",
       "--include-threads", "all", "-o", path.join(outDir, "%c.json"),
     ], { stdio: "inherit" });
+    exportedIds.add(r.ChannelID);
   } catch {
     console.warn(`  export failed for ${r.ChannelID} (${r.Label || ""}) - channel deleted or inaccessible; keeping existing archive.`);
   }
+}
+
+// Freeze the channels that exported cleanly so future runs skip them.
+if (exportedIds.size) {
+  let changed = false;
+  for (const r of allRaw) {
+    if (exportedIds.has(r.ChannelID) && !/^(yes|true|1)$/i.test(r.Frozen || "")) { r.Frozen = "yes"; changed = true; }
+  }
+  if (changed) { writeCsv(MAP_FILE, header, allRaw); console.log(`marked ${exportedIds.size} channel(s) Frozen=yes in channels.csv`); }
 }
 
 // 2) Mirror user-upload attachments to R2 (skip if already stored)
@@ -164,6 +184,11 @@ for (const file of walk(ROOT)) {
       has_image: (attachments.some((a) => /\.(png|jpe?g|gif|webp|avif|bmp)$/i.test(a.name || "")) || embeds.some((e) => e.image)) ? 1 : 0,
       has_link: (embeds.some((e) => e.url) || /https?:\/\//i.test(m.content || "")) ? 1 : 0,
       has_embed: embeds.length ? 1 : 0,
+      has_video: (embeds.some((e) => e.video) || attachments.some((a) => /\.(mp4|mov|webm|mkv|avi)$/i.test(a.name || ""))) ? 1 : 0,
+      has_sound: attachments.some((a) => /\.(mp3|ogg|wav|m4a|flac|aac|opus)$/i.test(a.name || "")) ? 1 : 0,
+      has_sticker: (m.stickers || []).length ? 1 : 0,
+      pinned: m.isPinned ? 1 : 0,
+      mentions: (m.mentions || []).map((u) => u.name).filter(Boolean).join(" "),
       author: m.author ? m.author.name : "unknown",
       channel: j.channel ? j.channel.name : "",
       branch: info.branch, sub: info.sub, term,
