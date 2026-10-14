@@ -27,7 +27,7 @@ No coding needed.
    | `Label` | A short name for you. |
    | `Frozen` | Leave **blank** — the workflow sets it to `yes` after a successful export. |
 3. **Run the workflow.** **Actions → Archive Ledger → Run workflow → Run.**
-   - `term` defaults to `archive` — leave it.
+   - **`term`** = the source server/group this batch came from (e.g. `main`). **Required.**
    - Optionally set `branch` or `server` to process only a slice.
 4. **Done.** It exports the channel (including threads and forum posts), updates the
    index, and marks the row `Frozen=yes`. It appears on the website within a minute.
@@ -46,3 +46,8 @@ first try failed), clear its `Frozen` value and run the workflow again.
 The website and `/search-public` support `from:`, `mentions:`, `in:`, `before:`,
 `after:`, `during:`, `has:image|file|link|embed|video|sound|sticker`, `pinned:true`,
 and `-` negation.
+
+## Working with this repo (for editors)
+- **Let the workflow do the committing** — it pushes the exports and index for you.
+- If you edit files locally, **`git pull` first**, then edit. Both you and the
+  workflow push here, so pulling avoids a rejected push.
