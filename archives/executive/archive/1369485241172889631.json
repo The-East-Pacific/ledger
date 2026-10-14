@@ -1,0 +1,1872 @@
+{
+  "guild": {
+    "id": "633351482128728064",
+    "name": "The East Pacific",
+    "iconUrl": "https://cdn.discordapp.com/icons/633351482128728064/3b9183b0816dd4a4296cc384f5f6caf7.png?size=512"
+  },
+  "channel": {
+    "id": "1369485241172889631",
+    "type": "GuildPublicThread",
+    "categoryId": "1214417681894084628",
+    "category": "world-assembly-β",
+    "name": "[Concluded] GA - Repeal \"Read The Resolution Act\"",
+    "topic": null
+  },
+  "dateRange": {
+    "after": null,
+    "before": null
+  },
+  "exportedAt": "2026-10-14T06:37:35.5372183+00:00",
+  "messages": [
+    {
+      "id": "1369485241172889631",
+      "type": "Default",
+      "timestamp": "2025-05-07T01:25:25.301+00:00",
+      "timestampEdited": null,
+      "callEndedTimestamp": null,
+      "isPinned": false,
+      "content": "Author - Rhaza/Quebecshire\nForum Thread - https://forum.nationstates.net/viewtopic.php?f=9&t=566388&sid=00b86789d07fa1c70b48eb3ac3170183\nProposal Link - https://www.nationstates.net/page=UN_view_proposal/id=rhaza_1746542006",
+      "author": {
+        "id": "123916056392761345",
+        "name": "aurorayukihime",
+        "discriminator": "0000",
+        "nickname": "Aurora, Desuwa of Umapyoi",
+        "color": "#5E9CE9",
+        "isBot": false,
+        "roles": [
+          {
+            "id": "993531517806592121",
+            "name": "Technical Dev Team",
+            "color": null,
+            "position": 144
+          },
+          {
+            "id": "1196698562445193267",
+            "name": "FA Councillor",
+            "color": null,
+            "position": 100
+          },
+          {
+            "id": "1196697343504957450",
+            "name": "FA Lower Council",
+            "color": null,
+            "position": 99
+          },
+          {
+            "id": "633363319864033282",
+            "name": "Magister",
+            "color": "#5E9CE9",
+            "position": 84
+          },
+          {
+            "id": "901515827340263444",
+            "name": "Former Delegates",
+            "color": null,
+            "position": 80
+          },
+          {
+            "id": "773652878203945020",
+            "name": "Hussar of The East",
+            "color": "#447643",
+            "position": 63
+          },
+          {
+            "id": "1430367546984370347",
+            "name": "Citizens",
+            "color": "#CD125D",
+            "position": 60
+          },
+          {
+            "id": "633352531690520596",
+            "name": "Residents [WA]",
+            "color": "#DB4453",
+            "position": 59
+          },
+          {
+            "id": "633352654579302451",
+            "name": "Residents",
+            "color": "#ED5564",
+            "position": 58
+          },
+          {
+            "id": "633357236416151572",
+            "name": "Allied Government",
+            "color": "#3BAEDA",
+            "position": 57
+          },
+          {
+            "id": "633688402352406550",
+            "name": "Foreign Dignitaries",
+            "color": "#4FC0E8",
+            "position": 55
+          },
+          {
+            "id": "704038370405384313",
+            "name": "Friends of the East",
+            "color": "#93D8F1",
+            "position": 53
+          },
+          {
+            "id": "727880101995479090",
+            "name": "Notifications",
+            "color": null,
+            "position": 44
+          },
+          {
+            "id": "851124231377780796",
+            "name": "Daily Question",
+            "color": null,
+            "position": 31
+          },
+          {
+            "id": "1127999715389222922",
+            "name": "Game Night",
+            "color": null,
+            "position": 25
+          },
+          {
+            "id": "1145421147261898803",
+            "name": "Hunger Games",
+            "color": null,
+            "position": 22
+          },
+          {
+            "id": "855597652984070244",
+            "name": "she/her",
+            "color": null,
+            "position": 17
+          }
+        ],
+        "avatarUrl": "https://cdn.discordapp.com/guilds/633351482128728064/users/123916056392761345/avatars/a7f001d7f76f580c3c05379a71b0fe67.png?size=512"
+      },
+      "attachments": [],
+      "embeds": [],
+      "stickers": [],
+      "reactions": [],
+      "mentions": [],
+      "inlineEmojis": []
+    },
+    {
+      "id": "1369485499810713721",
+      "type": "Default",
+      "timestamp": "2025-05-07T01:26:26.965+00:00",
+      "timestampEdited": null,
+      "callEndedTimestamp": null,
+      "isPinned": false,
+      "content": "Cast your vote by reacting to this message. You can also discuss below. Information here may be used to construct an IFV.\n\n:for:  = YEAH SURE I'LL READ IT LATER\n:against:  = AGAINST FOR UH I'LL READ IT LATER AND FIND OUT\n:abstain:  = TEP AIN'T READING THAT\n⏭️  = I AIN'T READING THAT",
+      "author": {
+        "id": "123916056392761345",
+        "name": "aurorayukihime",
+        "discriminator": "0000",
+        "nickname": "Aurora, Desuwa of Umapyoi",
+        "color": "#5E9CE9",
+        "isBot": false,
+        "roles": [
+          {
+            "id": "993531517806592121",
+            "name": "Technical Dev Team",
+            "color": null,
+            "position": 144
+          },
+          {
+            "id": "1196698562445193267",
+            "name": "FA Councillor",
+            "color": null,
+            "position": 100
+          },
+          {
+            "id": "1196697343504957450",
+            "name": "FA Lower Council",
+            "color": null,
+            "position": 99
+          },
+          {
+            "id": "633363319864033282",
+            "name": "Magister",
+            "color": "#5E9CE9",
+            "position": 84
+          },
+          {
+            "id": "901515827340263444",
+            "name": "Former Delegates",
+            "color": null,
+            "position": 80
+          },
+          {
+            "id": "773652878203945020",
+            "name": "Hussar of The East",
+            "color": "#447643",
+            "position": 63
+          },
+          {
+            "id": "1430367546984370347",
+            "name": "Citizens",
+            "color": "#CD125D",
+            "position": 60
+          },
+          {
+            "id": "633352531690520596",
+            "name": "Residents [WA]",
+            "color": "#DB4453",
+            "position": 59
+          },
+          {
+            "id": "633352654579302451",
+            "name": "Residents",
+            "color": "#ED5564",
+            "position": 58
+          },
+          {
+            "id": "633357236416151572",
+            "name": "Allied Government",
+            "color": "#3BAEDA",
+            "position": 57
+          },
+          {
+            "id": "633688402352406550",
+            "name": "Foreign Dignitaries",
+            "color": "#4FC0E8",
+            "position": 55
+          },
+          {
+            "id": "704038370405384313",
+            "name": "Friends of the East",
+            "color": "#93D8F1",
+            "position": 53
+          },
+          {
+            "id": "727880101995479090",
+            "name": "Notifications",
+            "color": null,
+            "position": 44
+          },
+          {
+            "id": "851124231377780796",
+            "name": "Daily Question",
+            "color": null,
+            "position": 31
+          },
+          {
+            "id": "1127999715389222922",
+            "name": "Game Night",
+            "color": null,
+            "position": 25
+          },
+          {
+            "id": "1145421147261898803",
+            "name": "Hunger Games",
+            "color": null,
+            "position": 22
+          },
+          {
+            "id": "855597652984070244",
+            "name": "she/her",
+            "color": null,
+            "position": 17
+          }
+        ],
+        "avatarUrl": "https://cdn.discordapp.com/guilds/633351482128728064/users/123916056392761345/avatars/a7f001d7f76f580c3c05379a71b0fe67.png?size=512"
+      },
+      "attachments": [],
+      "embeds": [],
+      "stickers": [],
+      "reactions": [
+        {
+          "emoji": {
+            "id": "1353047728195637430",
+            "name": "for",
+            "code": "for",
+            "isAnimated": false,
+            "imageUrl": "https://cdn.discordapp.com/emojis/1353047728195637430.png"
+          },
+          "count": 7,
+          "users": [
+            {
+              "id": "123916056392761345",
+              "name": "aurorayukihime",
+              "discriminator": "0000",
+              "nickname": "Aurora, Desuwa of Umapyoi",
+              "color": "#5E9CE9",
+              "isBot": false,
+              "avatarUrl": "https://cdn.discordapp.com/guilds/633351482128728064/users/123916056392761345/avatars/a7f001d7f76f580c3c05379a71b0fe67.png?size=512"
+            },
+            {
+              "id": "332250477901119498",
+              "name": "im.dead.",
+              "discriminator": "0000",
+              "nickname": "I'm Dead",
+              "color": null,
+              "isBot": false,
+              "avatarUrl": "https://cdn.discordapp.com/avatars/332250477901119498/c3fe4a4bdac8e0d2ec1be8e99fc7f286.png?size=512"
+            },
+            {
+              "id": "395560652330237954",
+              "name": "crittermunch",
+              "discriminator": "0000",
+              "nickname": "AMOM",
+              "color": null,
+              "isBot": false,
+              "avatarUrl": "https://cdn.discordapp.com/avatars/395560652330237954/1f4c6a1898edfd0b39ee6e1647d6e8af.png?size=512"
+            },
+            {
+              "id": "493159326693982228",
+              "name": ".domais",
+              "discriminator": "0000",
+              "nickname": "Domais",
+              "color": null,
+              "isBot": false,
+              "avatarUrl": "https://cdn.discordapp.com/avatars/493159326693982228/41f89e6efcb240afa457a6a703a759dc.png?size=512"
+            },
+            {
+              "id": "661940553201745930",
+              "name": "visorax",
+              "discriminator": "0000",
+              "nickname": "Visoraxus Holoratus Starkiller",
+              "color": null,
+              "isBot": false,
+              "avatarUrl": "https://cdn.discordapp.com/avatars/661940553201745930/883cb3710a64a3e6ce7805e76b3c0fad.png?size=512"
+            },
+            {
+              "id": "858500223473811466",
+              "name": "goforaperfect",
+              "discriminator": "0000",
+              "nickname": "milly",
+              "color": null,
+              "isBot": false,
+              "avatarUrl": "https://cdn.discordapp.com/avatars/858500223473811466/78c08ff49a158bbd697b9334af0f3a55.png?size=512"
+            },
+            {
+              "id": "1151254584547880960",
+              "name": "coregia",
+              "discriminator": "0000",
+              "nickname": "Coregia",
+              "color": null,
+              "isBot": false,
+              "avatarUrl": "https://cdn.discordapp.com/avatars/1151254584547880960/ff07374c452700dbea7edd652c339732.png?size=512"
+            }
+          ]
+        },
+        {
+          "emoji": {
+            "id": "1353047710877614100",
+            "name": "against",
+            "code": "against",
+            "isAnimated": false,
+            "imageUrl": "https://cdn.discordapp.com/emojis/1353047710877614100.png"
+          },
+          "count": 5,
+          "users": [
+            {
+              "id": "123916056392761345",
+              "name": "aurorayukihime",
+              "discriminator": "0000",
+              "nickname": "Aurora, Desuwa of Umapyoi",
+              "color": "#5E9CE9",
+              "isBot": false,
+              "avatarUrl": "https://cdn.discordapp.com/guilds/633351482128728064/users/123916056392761345/avatars/a7f001d7f76f580c3c05379a71b0fe67.png?size=512"
+            },
+            {
+              "id": "234490940583051264",
+              "name": "nuclear_gandhi",
+              "discriminator": "0000",
+              "nickname": "NuclearGandhi",
+              "color": null,
+              "isBot": false,
+              "avatarUrl": "https://cdn.discordapp.com/avatars/234490940583051264/cc6eb22750e020d7bc3aeff841f0923c.png?size=512"
+            },
+            {
+              "id": "298753122807840776",
+              "name": "achronidas",
+              "discriminator": "0000",
+              "nickname": "Achronidas",
+              "color": null,
+              "isBot": false,
+              "avatarUrl": "https://cdn.discordapp.com/embed/avatars/0.png"
+            },
+            {
+              "id": "329655289966231552",
+              "name": "lucklife",
+              "discriminator": "0000",
+              "nickname": "Lucklife",
+              "color": null,
+              "isBot": false,
+              "avatarUrl": "https://cdn.discordapp.com/avatars/329655289966231552/f407290898cfb057ce10963f6a3e755d.png?size=512"
+            },
+            {
+              "id": "956753698342699028",
+              "name": "augusta5201",
+              "discriminator": "0000",
+              "nickname": "Path",
+              "color": null,
+              "isBot": false,
+              "avatarUrl": "https://cdn.discordapp.com/avatars/956753698342699028/f7d9437138617eb9bce4d7ccfcea2830.png?size=512"
+            }
+          ]
+        },
+        {
+          "emoji": {
+            "id": "1336134402991722598",
+            "name": "abstain",
+            "code": "abstain",
+            "isAnimated": false,
+            "imageUrl": "https://cdn.discordapp.com/emojis/1336134402991722598.png"
+          },
+          "count": 1,
+          "users": [
+            {
+              "id": "123916056392761345",
+              "name": "aurorayukihime",
+              "discriminator": "0000",
+              "nickname": "Aurora, Desuwa of Umapyoi",
+              "color": "#5E9CE9",
+              "isBot": false,
+              "avatarUrl": "https://cdn.discordapp.com/guilds/633351482128728064/users/123916056392761345/avatars/a7f001d7f76f580c3c05379a71b0fe67.png?size=512"
+            }
+          ]
+        },
+        {
+          "emoji": {
+            "id": "",
+            "name": "⏭️",
+            "code": "track_next",
+            "isAnimated": false,
+            "imageUrl": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/23ed.svg"
+          },
+          "count": 1,
+          "users": [
+            {
+              "id": "123916056392761345",
+              "name": "aurorayukihime",
+              "discriminator": "0000",
+              "nickname": "Aurora, Desuwa of Umapyoi",
+              "color": "#5E9CE9",
+              "isBot": false,
+              "avatarUrl": "https://cdn.discordapp.com/guilds/633351482128728064/users/123916056392761345/avatars/a7f001d7f76f580c3c05379a71b0fe67.png?size=512"
+            }
+          ]
+        }
+      ],
+      "mentions": [],
+      "inlineEmojis": [
+        {
+          "id": "1353047728195637430",
+          "name": "for",
+          "code": "for",
+          "isAnimated": false,
+          "imageUrl": "https://cdn.discordapp.com/emojis/1353047728195637430.png"
+        },
+        {
+          "id": "1353047710877614100",
+          "name": "against",
+          "code": "against",
+          "isAnimated": false,
+          "imageUrl": "https://cdn.discordapp.com/emojis/1353047710877614100.png"
+        },
+        {
+          "id": "1336134402991722598",
+          "name": "abstain",
+          "code": "abstain",
+          "isAnimated": false,
+          "imageUrl": "https://cdn.discordapp.com/emojis/1336134402991722598.png"
+        },
+        {
+          "id": "",
+          "name": "⏭️",
+          "code": "track_next",
+          "isAnimated": false,
+          "imageUrl": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/23ed.svg"
+        }
+      ]
+    },
+    {
+      "id": "1369898171026640998",
+      "type": "Default",
+      "timestamp": "2025-05-08T04:46:15.45+00:00",
+      "timestampEdited": null,
+      "callEndedTimestamp": null,
+      "isPinned": false,
+      "content": "MILLIONS MUST READ",
+      "author": {
+        "id": "329655289966231552",
+        "name": "lucklife",
+        "discriminator": "0000",
+        "nickname": "Lucklife",
+        "color": "#6EA7A1",
+        "isBot": false,
+        "roles": [
+          {
+            "id": "1077071443935887360",
+            "name": "Cabinet",
+            "color": "#6EA7A1",
+            "position": 118
+          },
+          {
+            "id": "1077068812777685105",
+            "name": "FA Minister",
+            "color": null,
+            "position": 117
+          },
+          {
+            "id": "1076716058209161216",
+            "name": "Minister",
+            "color": null,
+            "position": 111
+          },
+          {
+            "id": "633394832491937794",
+            "name": "Soldier, EPSA",
+            "color": "#FFCE55",
+            "position": 108
+          },
+          {
+            "id": "1077068118108672114",
+            "name": "Culture",
+            "color": null,
+            "position": 107
+          },
+          {
+            "id": "1252620768789921832",
+            "name": "Recruitment",
+            "color": null,
+            "position": 104
+          },
+          {
+            "id": "1196698562445193267",
+            "name": "FA Councillor",
+            "color": null,
+            "position": 100
+          },
+          {
+            "id": "1196697343504957450",
+            "name": "FA Lower Council",
+            "color": null,
+            "position": 99
+          },
+          {
+            "id": "1201510757553164390",
+            "name": "FA Ambassador",
+            "color": null,
+            "position": 98
+          },
+          {
+            "id": "633749119755747338",
+            "name": "Deputy Provost",
+            "color": "#5593E3",
+            "position": 85
+          },
+          {
+            "id": "633363319864033282",
+            "name": "Magister",
+            "color": "#5E9CE9",
+            "position": 84
+          },
+          {
+            "id": "651114349347471371",
+            "name": "Regional Officer",
+            "color": null,
+            "position": 79
+          },
+          {
+            "id": "1430367546984370347",
+            "name": "Citizens",
+            "color": "#CD125D",
+            "position": 60
+          },
+          {
+            "id": "633352531690520596",
+            "name": "Residents [WA]",
+            "color": "#DB4453",
+            "position": 59
+          },
+          {
+            "id": "633352654579302451",
+            "name": "Residents",
+            "color": "#ED5564",
+            "position": 58
+          },
+          {
+            "id": "727880101995479090",
+            "name": "Notifications",
+            "color": null,
+            "position": 44
+          },
+          {
+            "id": "1077673652344061992",
+            "name": "NationStates",
+            "color": null,
+            "position": 33
+          },
+          {
+            "id": "1145421147261898803",
+            "name": "Hunger Games",
+            "color": null,
+            "position": 22
+          },
+          {
+            "id": "1011692169716838520",
+            "name": "TEP Plays NS",
+            "color": null,
+            "position": 21
+          }
+        ],
+        "avatarUrl": "https://cdn.discordapp.com/avatars/329655289966231552/f407290898cfb057ce10963f6a3e755d.png?size=512"
+      },
+      "attachments": [],
+      "embeds": [],
+      "stickers": [],
+      "reactions": [],
+      "mentions": [],
+      "inlineEmojis": []
+    },
+    {
+      "id": "1371312898462187600",
+      "type": "Default",
+      "timestamp": "2025-05-12T02:27:52.755+00:00",
+      "timestampEdited": null,
+      "callEndedTimestamp": null,
+      "isPinned": false,
+      "content": "Reading is overrated. Let's all just no-life on NS all day.",
+      "author": {
+        "id": "858500223473811466",
+        "name": "goforaperfect",
+        "discriminator": "0000",
+        "nickname": "millenhaal",
+        "color": "#ED5564",
+        "isBot": false,
+        "roles": [
+          {
+            "id": "1072578688631193651",
+            "name": "RA Exe Onboarding",
+            "color": null,
+            "position": 97
+          },
+          {
+            "id": "633352654579302451",
+            "name": "Residents",
+            "color": "#ED5564",
+            "position": 58
+          },
+          {
+            "id": "633688402352406550",
+            "name": "Foreign Dignitaries",
+            "color": "#4FC0E8",
+            "position": 55
+          },
+          {
+            "id": "704038370405384313",
+            "name": "Friends of the East",
+            "color": "#93D8F1",
+            "position": 53
+          },
+          {
+            "id": "727880101995479090",
+            "name": "Notifications",
+            "color": null,
+            "position": 44
+          },
+          {
+            "id": "1078031481336766637",
+            "name": "Forum/Bot Status",
+            "color": null,
+            "position": 43
+          },
+          {
+            "id": "739246330106478684",
+            "name": "Voice Chat",
+            "color": null,
+            "position": 41
+          },
+          {
+            "id": "815019492748165172",
+            "name": "WA Notification",
+            "color": null,
+            "position": 40
+          },
+          {
+            "id": "754595572853243975",
+            "name": "Upvote",
+            "color": null,
+            "position": 39
+          },
+          {
+            "id": "761550447088500757",
+            "name": "Gamer",
+            "color": null,
+            "position": 38
+          },
+          {
+            "id": "1091197551799173170",
+            "name": "Radio On-Air",
+            "color": null,
+            "position": 26
+          },
+          {
+            "id": "1180938941885587548",
+            "name": "Debates & Politics",
+            "color": null,
+            "position": 20
+          }
+        ],
+        "avatarUrl": "https://cdn.discordapp.com/avatars/858500223473811466/78c08ff49a158bbd697b9334af0f3a55.png?size=512"
+      },
+      "attachments": [],
+      "embeds": [],
+      "stickers": [],
+      "reactions": [],
+      "mentions": [],
+      "inlineEmojis": []
+    },
+    {
+      "id": "1371313049792938068",
+      "type": "Default",
+      "timestamp": "2025-05-12T02:28:28.835+00:00",
+      "timestampEdited": null,
+      "callEndedTimestamp": null,
+      "isPinned": false,
+      "content": "where are my fellow anti-readers at",
+      "author": {
+        "id": "858500223473811466",
+        "name": "goforaperfect",
+        "discriminator": "0000",
+        "nickname": "millenhaal",
+        "color": "#ED5564",
+        "isBot": false,
+        "roles": [
+          {
+            "id": "1072578688631193651",
+            "name": "RA Exe Onboarding",
+            "color": null,
+            "position": 97
+          },
+          {
+            "id": "633352654579302451",
+            "name": "Residents",
+            "color": "#ED5564",
+            "position": 58
+          },
+          {
+            "id": "633688402352406550",
+            "name": "Foreign Dignitaries",
+            "color": "#4FC0E8",
+            "position": 55
+          },
+          {
+            "id": "704038370405384313",
+            "name": "Friends of the East",
+            "color": "#93D8F1",
+            "position": 53
+          },
+          {
+            "id": "727880101995479090",
+            "name": "Notifications",
+            "color": null,
+            "position": 44
+          },
+          {
+            "id": "1078031481336766637",
+            "name": "Forum/Bot Status",
+            "color": null,
+            "position": 43
+          },
+          {
+            "id": "739246330106478684",
+            "name": "Voice Chat",
+            "color": null,
+            "position": 41
+          },
+          {
+            "id": "815019492748165172",
+            "name": "WA Notification",
+            "color": null,
+            "position": 40
+          },
+          {
+            "id": "754595572853243975",
+            "name": "Upvote",
+            "color": null,
+            "position": 39
+          },
+          {
+            "id": "761550447088500757",
+            "name": "Gamer",
+            "color": null,
+            "position": 38
+          },
+          {
+            "id": "1091197551799173170",
+            "name": "Radio On-Air",
+            "color": null,
+            "position": 26
+          },
+          {
+            "id": "1180938941885587548",
+            "name": "Debates & Politics",
+            "color": null,
+            "position": 20
+          }
+        ],
+        "avatarUrl": "https://cdn.discordapp.com/avatars/858500223473811466/78c08ff49a158bbd697b9334af0f3a55.png?size=512"
+      },
+      "attachments": [],
+      "embeds": [],
+      "stickers": [],
+      "reactions": [],
+      "mentions": [],
+      "inlineEmojis": []
+    },
+    {
+      "id": "1371321820967600249",
+      "type": "Reply",
+      "timestamp": "2025-05-12T03:03:20.046+00:00",
+      "timestampEdited": null,
+      "callEndedTimestamp": null,
+      "isPinned": false,
+      "content": "YOU JUST DID IT!",
+      "author": {
+        "id": "1151254584547880960",
+        "name": "coregia",
+        "discriminator": "0000",
+        "nickname": "Coregia",
+        "color": null,
+        "isBot": false,
+        "roles": [],
+        "avatarUrl": "https://cdn.discordapp.com/avatars/1151254584547880960/ff07374c452700dbea7edd652c339732.png?size=512"
+      },
+      "attachments": [],
+      "embeds": [],
+      "stickers": [],
+      "reactions": [],
+      "mentions": [
+        {
+          "id": "858500223473811466",
+          "name": "goforaperfect",
+          "discriminator": "0000",
+          "nickname": "millenhaal",
+          "color": "#ED5564",
+          "isBot": false,
+          "roles": [
+            {
+              "id": "1072578688631193651",
+              "name": "RA Exe Onboarding",
+              "color": null,
+              "position": 97
+            },
+            {
+              "id": "633352654579302451",
+              "name": "Residents",
+              "color": "#ED5564",
+              "position": 58
+            },
+            {
+              "id": "633688402352406550",
+              "name": "Foreign Dignitaries",
+              "color": "#4FC0E8",
+              "position": 55
+            },
+            {
+              "id": "704038370405384313",
+              "name": "Friends of the East",
+              "color": "#93D8F1",
+              "position": 53
+            },
+            {
+              "id": "727880101995479090",
+              "name": "Notifications",
+              "color": null,
+              "position": 44
+            },
+            {
+              "id": "1078031481336766637",
+              "name": "Forum/Bot Status",
+              "color": null,
+              "position": 43
+            },
+            {
+              "id": "739246330106478684",
+              "name": "Voice Chat",
+              "color": null,
+              "position": 41
+            },
+            {
+              "id": "815019492748165172",
+              "name": "WA Notification",
+              "color": null,
+              "position": 40
+            },
+            {
+              "id": "754595572853243975",
+              "name": "Upvote",
+              "color": null,
+              "position": 39
+            },
+            {
+              "id": "761550447088500757",
+              "name": "Gamer",
+              "color": null,
+              "position": 38
+            },
+            {
+              "id": "1091197551799173170",
+              "name": "Radio On-Air",
+              "color": null,
+              "position": 26
+            },
+            {
+              "id": "1180938941885587548",
+              "name": "Debates & Politics",
+              "color": null,
+              "position": 20
+            }
+          ],
+          "avatarUrl": "https://cdn.discordapp.com/avatars/858500223473811466/78c08ff49a158bbd697b9334af0f3a55.png?size=512"
+        }
+      ],
+      "reference": {
+        "type": "Default",
+        "messageId": "1371312898462187600",
+        "channelId": "1369485241172889631",
+        "guildId": "633351482128728064"
+      },
+      "inlineEmojis": []
+    },
+    {
+      "id": "1371321976374951986",
+      "type": "Reply",
+      "timestamp": "2025-05-12T03:03:57.098+00:00",
+      "timestampEdited": null,
+      "callEndedTimestamp": null,
+      "isPinned": false,
+      "content": "I blindfolded myself and used text to speech",
+      "author": {
+        "id": "858500223473811466",
+        "name": "goforaperfect",
+        "discriminator": "0000",
+        "nickname": "millenhaal",
+        "color": "#ED5564",
+        "isBot": false,
+        "roles": [
+          {
+            "id": "1072578688631193651",
+            "name": "RA Exe Onboarding",
+            "color": null,
+            "position": 97
+          },
+          {
+            "id": "633352654579302451",
+            "name": "Residents",
+            "color": "#ED5564",
+            "position": 58
+          },
+          {
+            "id": "633688402352406550",
+            "name": "Foreign Dignitaries",
+            "color": "#4FC0E8",
+            "position": 55
+          },
+          {
+            "id": "704038370405384313",
+            "name": "Friends of the East",
+            "color": "#93D8F1",
+            "position": 53
+          },
+          {
+            "id": "727880101995479090",
+            "name": "Notifications",
+            "color": null,
+            "position": 44
+          },
+          {
+            "id": "1078031481336766637",
+            "name": "Forum/Bot Status",
+            "color": null,
+            "position": 43
+          },
+          {
+            "id": "739246330106478684",
+            "name": "Voice Chat",
+            "color": null,
+            "position": 41
+          },
+          {
+            "id": "815019492748165172",
+            "name": "WA Notification",
+            "color": null,
+            "position": 40
+          },
+          {
+            "id": "754595572853243975",
+            "name": "Upvote",
+            "color": null,
+            "position": 39
+          },
+          {
+            "id": "761550447088500757",
+            "name": "Gamer",
+            "color": null,
+            "position": 38
+          },
+          {
+            "id": "1091197551799173170",
+            "name": "Radio On-Air",
+            "color": null,
+            "position": 26
+          },
+          {
+            "id": "1180938941885587548",
+            "name": "Debates & Politics",
+            "color": null,
+            "position": 20
+          }
+        ],
+        "avatarUrl": "https://cdn.discordapp.com/avatars/858500223473811466/78c08ff49a158bbd697b9334af0f3a55.png?size=512"
+      },
+      "attachments": [],
+      "embeds": [],
+      "stickers": [],
+      "reactions": [],
+      "mentions": [
+        {
+          "id": "1151254584547880960",
+          "name": "coregia",
+          "discriminator": "0000",
+          "nickname": "Coregia",
+          "color": null,
+          "isBot": false,
+          "roles": [],
+          "avatarUrl": "https://cdn.discordapp.com/avatars/1151254584547880960/ff07374c452700dbea7edd652c339732.png?size=512"
+        }
+      ],
+      "reference": {
+        "type": "Default",
+        "messageId": "1371321820967600249",
+        "channelId": "1369485241172889631",
+        "guildId": "633351482128728064"
+      },
+      "inlineEmojis": []
+    },
+    {
+      "id": "1371322061443694612",
+      "type": "Default",
+      "timestamp": "2025-05-12T03:04:17.38+00:00",
+      "timestampEdited": null,
+      "callEndedTimestamp": null,
+      "isPinned": false,
+      "content": "alright then",
+      "author": {
+        "id": "1151254584547880960",
+        "name": "coregia",
+        "discriminator": "0000",
+        "nickname": "Coregia",
+        "color": null,
+        "isBot": false,
+        "roles": [],
+        "avatarUrl": "https://cdn.discordapp.com/avatars/1151254584547880960/ff07374c452700dbea7edd652c339732.png?size=512"
+      },
+      "attachments": [],
+      "embeds": [],
+      "stickers": [],
+      "reactions": [],
+      "mentions": [],
+      "inlineEmojis": []
+    },
+    {
+      "id": "1371322062970294274",
+      "type": "Default",
+      "timestamp": "2025-05-12T03:04:17.744+00:00",
+      "timestampEdited": null,
+      "callEndedTimestamp": null,
+      "isPinned": false,
+      "content": "usually i prefer to be entirely illiterate but the net reading loss will benefit us all",
+      "author": {
+        "id": "858500223473811466",
+        "name": "goforaperfect",
+        "discriminator": "0000",
+        "nickname": "millenhaal",
+        "color": "#ED5564",
+        "isBot": false,
+        "roles": [
+          {
+            "id": "1072578688631193651",
+            "name": "RA Exe Onboarding",
+            "color": null,
+            "position": 97
+          },
+          {
+            "id": "633352654579302451",
+            "name": "Residents",
+            "color": "#ED5564",
+            "position": 58
+          },
+          {
+            "id": "633688402352406550",
+            "name": "Foreign Dignitaries",
+            "color": "#4FC0E8",
+            "position": 55
+          },
+          {
+            "id": "704038370405384313",
+            "name": "Friends of the East",
+            "color": "#93D8F1",
+            "position": 53
+          },
+          {
+            "id": "727880101995479090",
+            "name": "Notifications",
+            "color": null,
+            "position": 44
+          },
+          {
+            "id": "1078031481336766637",
+            "name": "Forum/Bot Status",
+            "color": null,
+            "position": 43
+          },
+          {
+            "id": "739246330106478684",
+            "name": "Voice Chat",
+            "color": null,
+            "position": 41
+          },
+          {
+            "id": "815019492748165172",
+            "name": "WA Notification",
+            "color": null,
+            "position": 40
+          },
+          {
+            "id": "754595572853243975",
+            "name": "Upvote",
+            "color": null,
+            "position": 39
+          },
+          {
+            "id": "761550447088500757",
+            "name": "Gamer",
+            "color": null,
+            "position": 38
+          },
+          {
+            "id": "1091197551799173170",
+            "name": "Radio On-Air",
+            "color": null,
+            "position": 26
+          },
+          {
+            "id": "1180938941885587548",
+            "name": "Debates & Politics",
+            "color": null,
+            "position": 20
+          }
+        ],
+        "avatarUrl": "https://cdn.discordapp.com/avatars/858500223473811466/78c08ff49a158bbd697b9334af0f3a55.png?size=512"
+      },
+      "attachments": [],
+      "embeds": [],
+      "stickers": [],
+      "reactions": [],
+      "mentions": [],
+      "inlineEmojis": []
+    },
+    {
+      "id": "1371322122307371141",
+      "type": "Default",
+      "timestamp": "2025-05-12T03:04:31.891+00:00",
+      "timestampEdited": null,
+      "callEndedTimestamp": null,
+      "isPinned": false,
+      "content": "taking into account how many people will now not read",
+      "author": {
+        "id": "858500223473811466",
+        "name": "goforaperfect",
+        "discriminator": "0000",
+        "nickname": "millenhaal",
+        "color": "#ED5564",
+        "isBot": false,
+        "roles": [
+          {
+            "id": "1072578688631193651",
+            "name": "RA Exe Onboarding",
+            "color": null,
+            "position": 97
+          },
+          {
+            "id": "633352654579302451",
+            "name": "Residents",
+            "color": "#ED5564",
+            "position": 58
+          },
+          {
+            "id": "633688402352406550",
+            "name": "Foreign Dignitaries",
+            "color": "#4FC0E8",
+            "position": 55
+          },
+          {
+            "id": "704038370405384313",
+            "name": "Friends of the East",
+            "color": "#93D8F1",
+            "position": 53
+          },
+          {
+            "id": "727880101995479090",
+            "name": "Notifications",
+            "color": null,
+            "position": 44
+          },
+          {
+            "id": "1078031481336766637",
+            "name": "Forum/Bot Status",
+            "color": null,
+            "position": 43
+          },
+          {
+            "id": "739246330106478684",
+            "name": "Voice Chat",
+            "color": null,
+            "position": 41
+          },
+          {
+            "id": "815019492748165172",
+            "name": "WA Notification",
+            "color": null,
+            "position": 40
+          },
+          {
+            "id": "754595572853243975",
+            "name": "Upvote",
+            "color": null,
+            "position": 39
+          },
+          {
+            "id": "761550447088500757",
+            "name": "Gamer",
+            "color": null,
+            "position": 38
+          },
+          {
+            "id": "1091197551799173170",
+            "name": "Radio On-Air",
+            "color": null,
+            "position": 26
+          },
+          {
+            "id": "1180938941885587548",
+            "name": "Debates & Politics",
+            "color": null,
+            "position": 20
+          }
+        ],
+        "avatarUrl": "https://cdn.discordapp.com/avatars/858500223473811466/78c08ff49a158bbd697b9334af0f3a55.png?size=512"
+      },
+      "attachments": [],
+      "embeds": [],
+      "stickers": [],
+      "reactions": [],
+      "mentions": [],
+      "inlineEmojis": []
+    },
+    {
+      "id": "1371322231543828510",
+      "type": "Default",
+      "timestamp": "2025-05-12T03:04:57.935+00:00",
+      "timestampEdited": null,
+      "callEndedTimestamp": null,
+      "isPinned": false,
+      "content": "here text to speech this ||a||||A||||B||||B||||B||||B||||B||||B||||B||||B||||B||||B||||B||||B||||B||||B||||B||||B||||B||||B||||B||||B||||B||||B||||B||||B||||B||||B||||B||",
+      "author": {
+        "id": "1151254584547880960",
+        "name": "coregia",
+        "discriminator": "0000",
+        "nickname": "Coregia",
+        "color": null,
+        "isBot": false,
+        "roles": [],
+        "avatarUrl": "https://cdn.discordapp.com/avatars/1151254584547880960/ff07374c452700dbea7edd652c339732.png?size=512"
+      },
+      "attachments": [],
+      "embeds": [],
+      "stickers": [],
+      "reactions": [],
+      "mentions": [],
+      "inlineEmojis": []
+    },
+    {
+      "id": "1371322295473279046",
+      "type": "Default",
+      "timestamp": "2025-05-12T03:05:13.177+00:00",
+      "timestampEdited": null,
+      "callEndedTimestamp": null,
+      "isPinned": false,
+      "content": "||B||||B||||B||||B||||B||||B||||B||||B||||B||||B||||B||||B||||B||||B||||B||||B||||B||||B||||B||||B||||B||||B||||B||||B||||B||||B||||B||||B||||B||||B||||B||||B||||B||||B||||B||||B||||B||||B||||B||||B||||B||||B||||B||||B||||B||||B||||B||||B||||B||||B||||B||||B||||B||||B||||B||||B||||B||||B||||B||||B||||B||||B||||B||||B||||B||||B||||B||||B||||B||||B||||B||||B||||B||||B||||B||||B||||B||||B||||B||||B||||B||||B||||B||||B||||B||||B||||B||||B||||B||",
+      "author": {
+        "id": "1151254584547880960",
+        "name": "coregia",
+        "discriminator": "0000",
+        "nickname": "Coregia",
+        "color": null,
+        "isBot": false,
+        "roles": [],
+        "avatarUrl": "https://cdn.discordapp.com/avatars/1151254584547880960/ff07374c452700dbea7edd652c339732.png?size=512"
+      },
+      "attachments": [],
+      "embeds": [],
+      "stickers": [],
+      "reactions": [],
+      "mentions": [],
+      "inlineEmojis": []
+    },
+    {
+      "id": "1371322328750882816",
+      "type": "Default",
+      "timestamp": "2025-05-12T03:05:21.111+00:00",
+      "timestampEdited": null,
+      "callEndedTimestamp": null,
+      "isPinned": false,
+      "content": "you made it so much easier not to read",
+      "author": {
+        "id": "858500223473811466",
+        "name": "goforaperfect",
+        "discriminator": "0000",
+        "nickname": "millenhaal",
+        "color": "#ED5564",
+        "isBot": false,
+        "roles": [
+          {
+            "id": "1072578688631193651",
+            "name": "RA Exe Onboarding",
+            "color": null,
+            "position": 97
+          },
+          {
+            "id": "633352654579302451",
+            "name": "Residents",
+            "color": "#ED5564",
+            "position": 58
+          },
+          {
+            "id": "633688402352406550",
+            "name": "Foreign Dignitaries",
+            "color": "#4FC0E8",
+            "position": 55
+          },
+          {
+            "id": "704038370405384313",
+            "name": "Friends of the East",
+            "color": "#93D8F1",
+            "position": 53
+          },
+          {
+            "id": "727880101995479090",
+            "name": "Notifications",
+            "color": null,
+            "position": 44
+          },
+          {
+            "id": "1078031481336766637",
+            "name": "Forum/Bot Status",
+            "color": null,
+            "position": 43
+          },
+          {
+            "id": "739246330106478684",
+            "name": "Voice Chat",
+            "color": null,
+            "position": 41
+          },
+          {
+            "id": "815019492748165172",
+            "name": "WA Notification",
+            "color": null,
+            "position": 40
+          },
+          {
+            "id": "754595572853243975",
+            "name": "Upvote",
+            "color": null,
+            "position": 39
+          },
+          {
+            "id": "761550447088500757",
+            "name": "Gamer",
+            "color": null,
+            "position": 38
+          },
+          {
+            "id": "1091197551799173170",
+            "name": "Radio On-Air",
+            "color": null,
+            "position": 26
+          },
+          {
+            "id": "1180938941885587548",
+            "name": "Debates & Politics",
+            "color": null,
+            "position": 20
+          }
+        ],
+        "avatarUrl": "https://cdn.discordapp.com/avatars/858500223473811466/78c08ff49a158bbd697b9334af0f3a55.png?size=512"
+      },
+      "attachments": [],
+      "embeds": [],
+      "stickers": [],
+      "reactions": [],
+      "mentions": [],
+      "inlineEmojis": []
+    },
+    {
+      "id": "1371322357280669737",
+      "type": "Default",
+      "timestamp": "2025-05-12T03:05:27.913+00:00",
+      "timestampEdited": null,
+      "callEndedTimestamp": null,
+      "isPinned": false,
+      "content": "tldr: your tts is now yeeted",
+      "author": {
+        "id": "1151254584547880960",
+        "name": "coregia",
+        "discriminator": "0000",
+        "nickname": "Coregia",
+        "color": null,
+        "isBot": false,
+        "roles": [],
+        "avatarUrl": "https://cdn.discordapp.com/avatars/1151254584547880960/ff07374c452700dbea7edd652c339732.png?size=512"
+      },
+      "attachments": [],
+      "embeds": [],
+      "stickers": [],
+      "reactions": [],
+      "mentions": [],
+      "inlineEmojis": []
+    },
+    {
+      "id": "1371322417481383987",
+      "type": "Default",
+      "timestamp": "2025-05-12T03:05:42.266+00:00",
+      "timestampEdited": null,
+      "callEndedTimestamp": null,
+      "isPinned": false,
+      "content": "are you an anti-reading crusader",
+      "author": {
+        "id": "858500223473811466",
+        "name": "goforaperfect",
+        "discriminator": "0000",
+        "nickname": "millenhaal",
+        "color": "#ED5564",
+        "isBot": false,
+        "roles": [
+          {
+            "id": "1072578688631193651",
+            "name": "RA Exe Onboarding",
+            "color": null,
+            "position": 97
+          },
+          {
+            "id": "633352654579302451",
+            "name": "Residents",
+            "color": "#ED5564",
+            "position": 58
+          },
+          {
+            "id": "633688402352406550",
+            "name": "Foreign Dignitaries",
+            "color": "#4FC0E8",
+            "position": 55
+          },
+          {
+            "id": "704038370405384313",
+            "name": "Friends of the East",
+            "color": "#93D8F1",
+            "position": 53
+          },
+          {
+            "id": "727880101995479090",
+            "name": "Notifications",
+            "color": null,
+            "position": 44
+          },
+          {
+            "id": "1078031481336766637",
+            "name": "Forum/Bot Status",
+            "color": null,
+            "position": 43
+          },
+          {
+            "id": "739246330106478684",
+            "name": "Voice Chat",
+            "color": null,
+            "position": 41
+          },
+          {
+            "id": "815019492748165172",
+            "name": "WA Notification",
+            "color": null,
+            "position": 40
+          },
+          {
+            "id": "754595572853243975",
+            "name": "Upvote",
+            "color": null,
+            "position": 39
+          },
+          {
+            "id": "761550447088500757",
+            "name": "Gamer",
+            "color": null,
+            "position": 38
+          },
+          {
+            "id": "1091197551799173170",
+            "name": "Radio On-Air",
+            "color": null,
+            "position": 26
+          },
+          {
+            "id": "1180938941885587548",
+            "name": "Debates & Politics",
+            "color": null,
+            "position": 20
+          }
+        ],
+        "avatarUrl": "https://cdn.discordapp.com/avatars/858500223473811466/78c08ff49a158bbd697b9334af0f3a55.png?size=512"
+      },
+      "attachments": [],
+      "embeds": [],
+      "stickers": [],
+      "reactions": [],
+      "mentions": [],
+      "inlineEmojis": []
+    },
+    {
+      "id": "1371322473827532891",
+      "type": "Default",
+      "timestamp": "2025-05-12T03:05:55.7+00:00",
+      "timestampEdited": null,
+      "callEndedTimestamp": null,
+      "isPinned": false,
+      "content": "nah",
+      "author": {
+        "id": "1151254584547880960",
+        "name": "coregia",
+        "discriminator": "0000",
+        "nickname": "Coregia",
+        "color": null,
+        "isBot": false,
+        "roles": [],
+        "avatarUrl": "https://cdn.discordapp.com/avatars/1151254584547880960/ff07374c452700dbea7edd652c339732.png?size=512"
+      },
+      "attachments": [],
+      "embeds": [],
+      "stickers": [],
+      "reactions": [],
+      "mentions": [],
+      "inlineEmojis": []
+    },
+    {
+      "id": "1371322549320814783",
+      "type": "Default",
+      "timestamp": "2025-05-12T03:06:13.699+00:00",
+      "timestampEdited": null,
+      "callEndedTimestamp": null,
+      "isPinned": false,
+      "content": "anyway have fun as your TTS says \"Spoilers Spoilers Spoiler Spoilers\" a ton",
+      "author": {
+        "id": "1151254584547880960",
+        "name": "coregia",
+        "discriminator": "0000",
+        "nickname": "Coregia",
+        "color": null,
+        "isBot": false,
+        "roles": [],
+        "avatarUrl": "https://cdn.discordapp.com/avatars/1151254584547880960/ff07374c452700dbea7edd652c339732.png?size=512"
+      },
+      "attachments": [],
+      "embeds": [],
+      "stickers": [],
+      "reactions": [],
+      "mentions": [],
+      "inlineEmojis": []
+    },
+    {
+      "id": "1371322610398527548",
+      "type": "Default",
+      "timestamp": "2025-05-12T03:06:28.261+00:00",
+      "timestampEdited": null,
+      "callEndedTimestamp": null,
+      "isPinned": false,
+      "content": "||B||||B||||B||||B||||B||||B||||B||||B||||B||||B||||B||||B||||B||||B||||B||||B||||B||||B||||B||||B||||B||||B||||B||||B||||B||||B||||B||||B||||B||||B||||B||||B||||B||||B||||B||||B||||B||||B||||B||||B||||B||||B||||B||||B||||B||||B||||B||||B||||B||||B||||B||||B||||B||||B||||B||||B||||B||||B||||B||||B||||B||||B||||B||||B||||B||||B||",
+      "author": {
+        "id": "1151254584547880960",
+        "name": "coregia",
+        "discriminator": "0000",
+        "nickname": "Coregia",
+        "color": null,
+        "isBot": false,
+        "roles": [],
+        "avatarUrl": "https://cdn.discordapp.com/avatars/1151254584547880960/ff07374c452700dbea7edd652c339732.png?size=512"
+      },
+      "attachments": [],
+      "embeds": [],
+      "stickers": [],
+      "reactions": [],
+      "mentions": [],
+      "inlineEmojis": []
+    },
+    {
+      "id": "1373502222628945940",
+      "type": "Default",
+      "timestamp": "2025-05-18T03:27:28.312+00:00",
+      "timestampEdited": null,
+      "callEndedTimestamp": null,
+      "isPinned": false,
+      "content": "TEP votes FOR. Resolution passes. (6-4-0-0)",
+      "author": {
+        "id": "123916056392761345",
+        "name": "aurorayukihime",
+        "discriminator": "0000",
+        "nickname": "Aurora, Desuwa of Umapyoi",
+        "color": "#5E9CE9",
+        "isBot": false,
+        "roles": [
+          {
+            "id": "993531517806592121",
+            "name": "Technical Dev Team",
+            "color": null,
+            "position": 144
+          },
+          {
+            "id": "1196698562445193267",
+            "name": "FA Councillor",
+            "color": null,
+            "position": 100
+          },
+          {
+            "id": "1196697343504957450",
+            "name": "FA Lower Council",
+            "color": null,
+            "position": 99
+          },
+          {
+            "id": "633363319864033282",
+            "name": "Magister",
+            "color": "#5E9CE9",
+            "position": 84
+          },
+          {
+            "id": "901515827340263444",
+            "name": "Former Delegates",
+            "color": null,
+            "position": 80
+          },
+          {
+            "id": "773652878203945020",
+            "name": "Hussar of The East",
+            "color": "#447643",
+            "position": 63
+          },
+          {
+            "id": "1430367546984370347",
+            "name": "Citizens",
+            "color": "#CD125D",
+            "position": 60
+          },
+          {
+            "id": "633352531690520596",
+            "name": "Residents [WA]",
+            "color": "#DB4453",
+            "position": 59
+          },
+          {
+            "id": "633352654579302451",
+            "name": "Residents",
+            "color": "#ED5564",
+            "position": 58
+          },
+          {
+            "id": "633357236416151572",
+            "name": "Allied Government",
+            "color": "#3BAEDA",
+            "position": 57
+          },
+          {
+            "id": "633688402352406550",
+            "name": "Foreign Dignitaries",
+            "color": "#4FC0E8",
+            "position": 55
+          },
+          {
+            "id": "704038370405384313",
+            "name": "Friends of the East",
+            "color": "#93D8F1",
+            "position": 53
+          },
+          {
+            "id": "727880101995479090",
+            "name": "Notifications",
+            "color": null,
+            "position": 44
+          },
+          {
+            "id": "851124231377780796",
+            "name": "Daily Question",
+            "color": null,
+            "position": 31
+          },
+          {
+            "id": "1127999715389222922",
+            "name": "Game Night",
+            "color": null,
+            "position": 25
+          },
+          {
+            "id": "1145421147261898803",
+            "name": "Hunger Games",
+            "color": null,
+            "position": 22
+          },
+          {
+            "id": "855597652984070244",
+            "name": "she/her",
+            "color": null,
+            "position": 17
+          }
+        ],
+        "avatarUrl": "https://cdn.discordapp.com/guilds/633351482128728064/users/123916056392761345/avatars/a7f001d7f76f580c3c05379a71b0fe67.png?size=512"
+      },
+      "attachments": [],
+      "embeds": [],
+      "stickers": [],
+      "reactions": [],
+      "mentions": [],
+      "inlineEmojis": []
+    },
+    {
+      "id": "1373502269311680512",
+      "type": "ChannelNameChange",
+      "timestamp": "2025-05-18T03:27:39.442+00:00",
+      "timestampEdited": null,
+      "callEndedTimestamp": null,
+      "isPinned": false,
+      "content": "Changed the channel name: [Concluded] GA - Repeal \"Read The Resolution Act\"",
+      "author": {
+        "id": "123916056392761345",
+        "name": "aurorayukihime",
+        "discriminator": "0000",
+        "nickname": "Aurora, Desuwa of Umapyoi",
+        "color": "#5E9CE9",
+        "isBot": false,
+        "roles": [
+          {
+            "id": "993531517806592121",
+            "name": "Technical Dev Team",
+            "color": null,
+            "position": 144
+          },
+          {
+            "id": "1196698562445193267",
+            "name": "FA Councillor",
+            "color": null,
+            "position": 100
+          },
+          {
+            "id": "1196697343504957450",
+            "name": "FA Lower Council",
+            "color": null,
+            "position": 99
+          },
+          {
+            "id": "633363319864033282",
+            "name": "Magister",
+            "color": "#5E9CE9",
+            "position": 84
+          },
+          {
+            "id": "901515827340263444",
+            "name": "Former Delegates",
+            "color": null,
+            "position": 80
+          },
+          {
+            "id": "773652878203945020",
+            "name": "Hussar of The East",
+            "color": "#447643",
+            "position": 63
+          },
+          {
+            "id": "1430367546984370347",
+            "name": "Citizens",
+            "color": "#CD125D",
+            "position": 60
+          },
+          {
+            "id": "633352531690520596",
+            "name": "Residents [WA]",
+            "color": "#DB4453",
+            "position": 59
+          },
+          {
+            "id": "633352654579302451",
+            "name": "Residents",
+            "color": "#ED5564",
+            "position": 58
+          },
+          {
+            "id": "633357236416151572",
+            "name": "Allied Government",
+            "color": "#3BAEDA",
+            "position": 57
+          },
+          {
+            "id": "633688402352406550",
+            "name": "Foreign Dignitaries",
+            "color": "#4FC0E8",
+            "position": 55
+          },
+          {
+            "id": "704038370405384313",
+            "name": "Friends of the East",
+            "color": "#93D8F1",
+            "position": 53
+          },
+          {
+            "id": "727880101995479090",
+            "name": "Notifications",
+            "color": null,
+            "position": 44
+          },
+          {
+            "id": "851124231377780796",
+            "name": "Daily Question",
+            "color": null,
+            "position": 31
+          },
+          {
+            "id": "1127999715389222922",
+            "name": "Game Night",
+            "color": null,
+            "position": 25
+          },
+          {
+            "id": "1145421147261898803",
+            "name": "Hunger Games",
+            "color": null,
+            "position": 22
+          },
+          {
+            "id": "855597652984070244",
+            "name": "she/her",
+            "color": null,
+            "position": 17
+          }
+        ],
+        "avatarUrl": "https://cdn.discordapp.com/guilds/633351482128728064/users/123916056392761345/avatars/a7f001d7f76f580c3c05379a71b0fe67.png?size=512"
+      },
+      "attachments": [],
+      "embeds": [],
+      "stickers": [],
+      "reactions": [],
+      "mentions": [],
+      "inlineEmojis": []
+    }
+  ],
+  "messageCount": 20
+}

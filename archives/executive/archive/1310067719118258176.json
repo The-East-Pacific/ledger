@@ -1,0 +1,717 @@
+{
+  "guild": {
+    "id": "633351482128728064",
+    "name": "The East Pacific",
+    "iconUrl": "https://cdn.discordapp.com/icons/633351482128728064/3b9183b0816dd4a4296cc384f5f6caf7.png?size=512"
+  },
+  "channel": {
+    "id": "1310067719118258176",
+    "type": "GuildPublicThread",
+    "categoryId": "1214417681894084628",
+    "category": "world-assembly-β",
+    "name": "[Concluded] GA - Repeal \"Sustainable Forest Management\"",
+    "topic": null
+  },
+  "dateRange": {
+    "after": null,
+    "before": null
+  },
+  "exportedAt": "2026-10-14T06:49:48.6494796+00:00",
+  "messages": [
+    {
+      "id": "1310067719118258176",
+      "type": "Default",
+      "timestamp": "2024-11-24T02:21:24.119+00:00",
+      "timestampEdited": null,
+      "callEndedTimestamp": null,
+      "isPinned": false,
+      "content": "Author - Kay Pacha (with Haymarket Riot)\nForum Thread - https://forum.nationstates.net/viewtopic.php?f=9&t=556615\nProposal Link - https://www.nationstates.net/page=UN_view_proposal/id=kay_pacha_1732135115",
+      "author": {
+        "id": "123916056392761345",
+        "name": "aurorayukihime",
+        "discriminator": "0000",
+        "nickname": "Aurora, Desuwa of Umapyoi",
+        "color": "#5E9CE9",
+        "isBot": false,
+        "roles": [
+          {
+            "id": "993531517806592121",
+            "name": "Technical Dev Team",
+            "color": null,
+            "position": 144
+          },
+          {
+            "id": "1196698562445193267",
+            "name": "FA Councillor",
+            "color": null,
+            "position": 100
+          },
+          {
+            "id": "1196697343504957450",
+            "name": "FA Lower Council",
+            "color": null,
+            "position": 99
+          },
+          {
+            "id": "633363319864033282",
+            "name": "Magister",
+            "color": "#5E9CE9",
+            "position": 84
+          },
+          {
+            "id": "901515827340263444",
+            "name": "Former Delegates",
+            "color": null,
+            "position": 80
+          },
+          {
+            "id": "773652878203945020",
+            "name": "Hussar of The East",
+            "color": "#447643",
+            "position": 63
+          },
+          {
+            "id": "1430367546984370347",
+            "name": "Citizens",
+            "color": "#CD125D",
+            "position": 60
+          },
+          {
+            "id": "633352531690520596",
+            "name": "Residents [WA]",
+            "color": "#DB4453",
+            "position": 59
+          },
+          {
+            "id": "633352654579302451",
+            "name": "Residents",
+            "color": "#ED5564",
+            "position": 58
+          },
+          {
+            "id": "633357236416151572",
+            "name": "Allied Government",
+            "color": "#3BAEDA",
+            "position": 57
+          },
+          {
+            "id": "633688402352406550",
+            "name": "Foreign Dignitaries",
+            "color": "#4FC0E8",
+            "position": 55
+          },
+          {
+            "id": "704038370405384313",
+            "name": "Friends of the East",
+            "color": "#93D8F1",
+            "position": 53
+          },
+          {
+            "id": "727880101995479090",
+            "name": "Notifications",
+            "color": null,
+            "position": 44
+          },
+          {
+            "id": "851124231377780796",
+            "name": "Daily Question",
+            "color": null,
+            "position": 31
+          },
+          {
+            "id": "1127999715389222922",
+            "name": "Game Night",
+            "color": null,
+            "position": 25
+          },
+          {
+            "id": "1145421147261898803",
+            "name": "Hunger Games",
+            "color": null,
+            "position": 22
+          },
+          {
+            "id": "855597652984070244",
+            "name": "she/her",
+            "color": null,
+            "position": 17
+          }
+        ],
+        "avatarUrl": "https://cdn.discordapp.com/guilds/633351482128728064/users/123916056392761345/avatars/a7f001d7f76f580c3c05379a71b0fe67.png?size=512"
+      },
+      "attachments": [
+        {
+          "id": "1310067719764447272",
+          "url": "https://cdn.discordapp.com/attachments/1310067719118258176/1310067719764447272/image.png?ex=6ad038a4&is=6acee724&hm=f1db9a1dbf96739bd9318097fb8b1ab42ff3eb6ef41c0a5faec6000a46c042bf&",
+          "fileName": "image.png",
+          "fileSizeBytes": 151781
+        },
+        {
+          "id": "1310067720561360946",
+          "url": "https://cdn.discordapp.com/attachments/1310067719118258176/1310067720561360946/image.png?ex=6ad038a4&is=6acee724&hm=1cf7996a5253b5224a0fd3ee6bf96e07ceef703e5d7862677ab82f00d8106838&",
+          "fileName": "image.png",
+          "fileSizeBytes": 63333
+        }
+      ],
+      "embeds": [
+        {
+          "title": "NationStates • View topic - [SUBMITTED] Repeal GA291 “Sustainable F...",
+          "url": "https://forum.nationstates.net/viewtopic.php?f=9&t=556615",
+          "timestamp": null,
+          "description": "",
+          "images": [],
+          "fields": [],
+          "inlineEmojis": []
+        }
+      ],
+      "stickers": [],
+      "reactions": [],
+      "mentions": [],
+      "inlineEmojis": []
+    },
+    {
+      "id": "1310067747836792905",
+      "type": "Default",
+      "timestamp": "2024-11-24T02:21:30.966+00:00",
+      "timestampEdited": null,
+      "callEndedTimestamp": null,
+      "isPinned": false,
+      "content": "Cast your vote by reacting to this message. You can also discuss below. Information here may be used to construct an IFV.\n\n:For: = FOR / AYE\n:Against: = AGAINST / NAY\n:abstain: = TEP ABSTAINS\n⏭️ = NO OPINION / PRESENT",
+      "author": {
+        "id": "123916056392761345",
+        "name": "aurorayukihime",
+        "discriminator": "0000",
+        "nickname": "Aurora, Desuwa of Umapyoi",
+        "color": "#5E9CE9",
+        "isBot": false,
+        "roles": [
+          {
+            "id": "993531517806592121",
+            "name": "Technical Dev Team",
+            "color": null,
+            "position": 144
+          },
+          {
+            "id": "1196698562445193267",
+            "name": "FA Councillor",
+            "color": null,
+            "position": 100
+          },
+          {
+            "id": "1196697343504957450",
+            "name": "FA Lower Council",
+            "color": null,
+            "position": 99
+          },
+          {
+            "id": "633363319864033282",
+            "name": "Magister",
+            "color": "#5E9CE9",
+            "position": 84
+          },
+          {
+            "id": "901515827340263444",
+            "name": "Former Delegates",
+            "color": null,
+            "position": 80
+          },
+          {
+            "id": "773652878203945020",
+            "name": "Hussar of The East",
+            "color": "#447643",
+            "position": 63
+          },
+          {
+            "id": "1430367546984370347",
+            "name": "Citizens",
+            "color": "#CD125D",
+            "position": 60
+          },
+          {
+            "id": "633352531690520596",
+            "name": "Residents [WA]",
+            "color": "#DB4453",
+            "position": 59
+          },
+          {
+            "id": "633352654579302451",
+            "name": "Residents",
+            "color": "#ED5564",
+            "position": 58
+          },
+          {
+            "id": "633357236416151572",
+            "name": "Allied Government",
+            "color": "#3BAEDA",
+            "position": 57
+          },
+          {
+            "id": "633688402352406550",
+            "name": "Foreign Dignitaries",
+            "color": "#4FC0E8",
+            "position": 55
+          },
+          {
+            "id": "704038370405384313",
+            "name": "Friends of the East",
+            "color": "#93D8F1",
+            "position": 53
+          },
+          {
+            "id": "727880101995479090",
+            "name": "Notifications",
+            "color": null,
+            "position": 44
+          },
+          {
+            "id": "851124231377780796",
+            "name": "Daily Question",
+            "color": null,
+            "position": 31
+          },
+          {
+            "id": "1127999715389222922",
+            "name": "Game Night",
+            "color": null,
+            "position": 25
+          },
+          {
+            "id": "1145421147261898803",
+            "name": "Hunger Games",
+            "color": null,
+            "position": 22
+          },
+          {
+            "id": "855597652984070244",
+            "name": "she/her",
+            "color": null,
+            "position": 17
+          }
+        ],
+        "avatarUrl": "https://cdn.discordapp.com/guilds/633351482128728064/users/123916056392761345/avatars/a7f001d7f76f580c3c05379a71b0fe67.png?size=512"
+      },
+      "attachments": [],
+      "embeds": [],
+      "stickers": [],
+      "reactions": [
+        {
+          "emoji": {
+            "id": "1043255318655803392",
+            "name": "For",
+            "code": "For",
+            "isAnimated": false,
+            "imageUrl": "https://cdn.discordapp.com/emojis/1043255318655803392.png"
+          },
+          "count": 3,
+          "users": [
+            {
+              "id": "123916056392761345",
+              "name": "aurorayukihime",
+              "discriminator": "0000",
+              "nickname": "Aurora, Desuwa of Umapyoi",
+              "color": "#5E9CE9",
+              "isBot": false,
+              "avatarUrl": "https://cdn.discordapp.com/guilds/633351482128728064/users/123916056392761345/avatars/a7f001d7f76f580c3c05379a71b0fe67.png?size=512"
+            },
+            {
+              "id": "159399247215722498",
+              "name": "altys",
+              "discriminator": "0000",
+              "nickname": "Altys",
+              "color": null,
+              "isBot": false,
+              "avatarUrl": "https://cdn.discordapp.com/avatars/159399247215722498/3bacbb6f8805e2a5aa025b5132bcc79e.png?size=512"
+            },
+            {
+              "id": "837725791524618241",
+              "name": "arstotskiano",
+              "discriminator": "0000",
+              "nickname": "Arstotskiano#0418",
+              "color": null,
+              "isBot": false,
+              "avatarUrl": "https://cdn.discordapp.com/avatars/837725791524618241/4d27d206b75c974d7097774f3460229a.png?size=512"
+            }
+          ]
+        },
+        {
+          "emoji": {
+            "id": "1043255309621280848",
+            "name": "Against",
+            "code": "Against",
+            "isAnimated": false,
+            "imageUrl": "https://cdn.discordapp.com/emojis/1043255309621280848.png"
+          },
+          "count": 3,
+          "users": [
+            {
+              "id": "123916056392761345",
+              "name": "aurorayukihime",
+              "discriminator": "0000",
+              "nickname": "Aurora, Desuwa of Umapyoi",
+              "color": "#5E9CE9",
+              "isBot": false,
+              "avatarUrl": "https://cdn.discordapp.com/guilds/633351482128728064/users/123916056392761345/avatars/a7f001d7f76f580c3c05379a71b0fe67.png?size=512"
+            },
+            {
+              "id": "332250477901119498",
+              "name": "im.dead.",
+              "discriminator": "0000",
+              "nickname": "I'm Dead",
+              "color": null,
+              "isBot": false,
+              "avatarUrl": "https://cdn.discordapp.com/avatars/332250477901119498/c3fe4a4bdac8e0d2ec1be8e99fc7f286.png?size=512"
+            },
+            {
+              "id": "806889715399524403",
+              "name": "jamaz_",
+              "discriminator": "0000",
+              "nickname": "jamaz",
+              "color": null,
+              "isBot": false,
+              "avatarUrl": "https://cdn.discordapp.com/avatars/806889715399524403/3ec31d8534e9b85254311bdedcf8a3a5.png?size=512"
+            }
+          ]
+        },
+        {
+          "emoji": {
+            "id": "805728977733943330",
+            "name": "abstain",
+            "code": "abstain",
+            "isAnimated": false,
+            "imageUrl": "https://cdn.discordapp.com/emojis/805728977733943330.png"
+          },
+          "count": 1,
+          "users": [
+            {
+              "id": "123916056392761345",
+              "name": "aurorayukihime",
+              "discriminator": "0000",
+              "nickname": "Aurora, Desuwa of Umapyoi",
+              "color": "#5E9CE9",
+              "isBot": false,
+              "avatarUrl": "https://cdn.discordapp.com/guilds/633351482128728064/users/123916056392761345/avatars/a7f001d7f76f580c3c05379a71b0fe67.png?size=512"
+            }
+          ]
+        },
+        {
+          "emoji": {
+            "id": "",
+            "name": "⏭️",
+            "code": "track_next",
+            "isAnimated": false,
+            "imageUrl": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/23ed.svg"
+          },
+          "count": 2,
+          "users": [
+            {
+              "id": "123916056392761345",
+              "name": "aurorayukihime",
+              "discriminator": "0000",
+              "nickname": "Aurora, Desuwa of Umapyoi",
+              "color": "#5E9CE9",
+              "isBot": false,
+              "avatarUrl": "https://cdn.discordapp.com/guilds/633351482128728064/users/123916056392761345/avatars/a7f001d7f76f580c3c05379a71b0fe67.png?size=512"
+            },
+            {
+              "id": "955238279450607726",
+              "name": "that_pers0n",
+              "discriminator": "0000",
+              "nickname": "That_Person",
+              "color": null,
+              "isBot": false,
+              "avatarUrl": "https://cdn.discordapp.com/avatars/955238279450607726/151ef6601b237ffa58b8ccc4fbf22b66.png?size=512"
+            }
+          ]
+        }
+      ],
+      "mentions": [],
+      "inlineEmojis": [
+        {
+          "id": "1043255318655803392",
+          "name": "For",
+          "code": "For",
+          "isAnimated": false,
+          "imageUrl": "https://cdn.discordapp.com/emojis/1043255318655803392.png"
+        },
+        {
+          "id": "1043255309621280848",
+          "name": "Against",
+          "code": "Against",
+          "isAnimated": false,
+          "imageUrl": "https://cdn.discordapp.com/emojis/1043255309621280848.png"
+        },
+        {
+          "id": "805728977733943330",
+          "name": "abstain",
+          "code": "abstain",
+          "isAnimated": false,
+          "imageUrl": "https://cdn.discordapp.com/emojis/805728977733943330.png"
+        },
+        {
+          "id": "",
+          "name": "⏭️",
+          "code": "track_next",
+          "isAnimated": false,
+          "imageUrl": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/23ed.svg"
+        }
+      ]
+    },
+    {
+      "id": "1316467549512138875",
+      "type": "Default",
+      "timestamp": "2024-12-11T18:12:02.588+00:00",
+      "timestampEdited": null,
+      "callEndedTimestamp": null,
+      "isPinned": false,
+      "content": "Delegate Dead votes FOR. Resolution passes. (3-1-0-1 accounting for Dead’s vote switching)",
+      "author": {
+        "id": "123916056392761345",
+        "name": "aurorayukihime",
+        "discriminator": "0000",
+        "nickname": "Aurora, Desuwa of Umapyoi",
+        "color": "#5E9CE9",
+        "isBot": false,
+        "roles": [
+          {
+            "id": "993531517806592121",
+            "name": "Technical Dev Team",
+            "color": null,
+            "position": 144
+          },
+          {
+            "id": "1196698562445193267",
+            "name": "FA Councillor",
+            "color": null,
+            "position": 100
+          },
+          {
+            "id": "1196697343504957450",
+            "name": "FA Lower Council",
+            "color": null,
+            "position": 99
+          },
+          {
+            "id": "633363319864033282",
+            "name": "Magister",
+            "color": "#5E9CE9",
+            "position": 84
+          },
+          {
+            "id": "901515827340263444",
+            "name": "Former Delegates",
+            "color": null,
+            "position": 80
+          },
+          {
+            "id": "773652878203945020",
+            "name": "Hussar of The East",
+            "color": "#447643",
+            "position": 63
+          },
+          {
+            "id": "1430367546984370347",
+            "name": "Citizens",
+            "color": "#CD125D",
+            "position": 60
+          },
+          {
+            "id": "633352531690520596",
+            "name": "Residents [WA]",
+            "color": "#DB4453",
+            "position": 59
+          },
+          {
+            "id": "633352654579302451",
+            "name": "Residents",
+            "color": "#ED5564",
+            "position": 58
+          },
+          {
+            "id": "633357236416151572",
+            "name": "Allied Government",
+            "color": "#3BAEDA",
+            "position": 57
+          },
+          {
+            "id": "633688402352406550",
+            "name": "Foreign Dignitaries",
+            "color": "#4FC0E8",
+            "position": 55
+          },
+          {
+            "id": "704038370405384313",
+            "name": "Friends of the East",
+            "color": "#93D8F1",
+            "position": 53
+          },
+          {
+            "id": "727880101995479090",
+            "name": "Notifications",
+            "color": null,
+            "position": 44
+          },
+          {
+            "id": "851124231377780796",
+            "name": "Daily Question",
+            "color": null,
+            "position": 31
+          },
+          {
+            "id": "1127999715389222922",
+            "name": "Game Night",
+            "color": null,
+            "position": 25
+          },
+          {
+            "id": "1145421147261898803",
+            "name": "Hunger Games",
+            "color": null,
+            "position": 22
+          },
+          {
+            "id": "855597652984070244",
+            "name": "she/her",
+            "color": null,
+            "position": 17
+          }
+        ],
+        "avatarUrl": "https://cdn.discordapp.com/guilds/633351482128728064/users/123916056392761345/avatars/a7f001d7f76f580c3c05379a71b0fe67.png?size=512"
+      },
+      "attachments": [],
+      "embeds": [],
+      "stickers": [],
+      "reactions": [],
+      "mentions": [],
+      "inlineEmojis": []
+    },
+    {
+      "id": "1316467680089215096",
+      "type": "ChannelNameChange",
+      "timestamp": "2024-12-11T18:12:33.72+00:00",
+      "timestampEdited": null,
+      "callEndedTimestamp": null,
+      "isPinned": false,
+      "content": "Changed the channel name: [Concluded] GA - Repeal \"Sustainable Forest Management\"",
+      "author": {
+        "id": "123916056392761345",
+        "name": "aurorayukihime",
+        "discriminator": "0000",
+        "nickname": "Aurora, Desuwa of Umapyoi",
+        "color": "#5E9CE9",
+        "isBot": false,
+        "roles": [
+          {
+            "id": "993531517806592121",
+            "name": "Technical Dev Team",
+            "color": null,
+            "position": 144
+          },
+          {
+            "id": "1196698562445193267",
+            "name": "FA Councillor",
+            "color": null,
+            "position": 100
+          },
+          {
+            "id": "1196697343504957450",
+            "name": "FA Lower Council",
+            "color": null,
+            "position": 99
+          },
+          {
+            "id": "633363319864033282",
+            "name": "Magister",
+            "color": "#5E9CE9",
+            "position": 84
+          },
+          {
+            "id": "901515827340263444",
+            "name": "Former Delegates",
+            "color": null,
+            "position": 80
+          },
+          {
+            "id": "773652878203945020",
+            "name": "Hussar of The East",
+            "color": "#447643",
+            "position": 63
+          },
+          {
+            "id": "1430367546984370347",
+            "name": "Citizens",
+            "color": "#CD125D",
+            "position": 60
+          },
+          {
+            "id": "633352531690520596",
+            "name": "Residents [WA]",
+            "color": "#DB4453",
+            "position": 59
+          },
+          {
+            "id": "633352654579302451",
+            "name": "Residents",
+            "color": "#ED5564",
+            "position": 58
+          },
+          {
+            "id": "633357236416151572",
+            "name": "Allied Government",
+            "color": "#3BAEDA",
+            "position": 57
+          },
+          {
+            "id": "633688402352406550",
+            "name": "Foreign Dignitaries",
+            "color": "#4FC0E8",
+            "position": 55
+          },
+          {
+            "id": "704038370405384313",
+            "name": "Friends of the East",
+            "color": "#93D8F1",
+            "position": 53
+          },
+          {
+            "id": "727880101995479090",
+            "name": "Notifications",
+            "color": null,
+            "position": 44
+          },
+          {
+            "id": "851124231377780796",
+            "name": "Daily Question",
+            "color": null,
+            "position": 31
+          },
+          {
+            "id": "1127999715389222922",
+            "name": "Game Night",
+            "color": null,
+            "position": 25
+          },
+          {
+            "id": "1145421147261898803",
+            "name": "Hunger Games",
+            "color": null,
+            "position": 22
+          },
+          {
+            "id": "855597652984070244",
+            "name": "she/her",
+            "color": null,
+            "position": 17
+          }
+        ],
+        "avatarUrl": "https://cdn.discordapp.com/guilds/633351482128728064/users/123916056392761345/avatars/a7f001d7f76f580c3c05379a71b0fe67.png?size=512"
+      },
+      "attachments": [],
+      "embeds": [],
+      "stickers": [],
+      "reactions": [],
+      "mentions": [],
+      "inlineEmojis": []
+    }
+  ],
+  "messageCount": 4
+}

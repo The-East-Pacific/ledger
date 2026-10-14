@@ -1,0 +1,3207 @@
+{
+  "guild": {
+    "id": "633351482128728064",
+    "name": "The East Pacific",
+    "iconUrl": "https://cdn.discordapp.com/icons/633351482128728064/3b9183b0816dd4a4296cc384f5f6caf7.png?size=512"
+  },
+  "channel": {
+    "id": "1445960956093010040",
+    "type": "GuildPublicThread",
+    "categoryId": "1214417681894084628",
+    "category": "world-assembly-β",
+    "name": "[DEFEATED] SC - Condemn Hawaiian Isle",
+    "topic": null
+  },
+  "dateRange": {
+    "after": null,
+    "before": null
+  },
+  "exportedAt": "2026-10-14T06:19:37.0665362+00:00",
+  "messages": [
+    {
+      "id": "1445960956093010040",
+      "type": "Default",
+      "timestamp": "2025-12-04T02:12:36.588+00:00",
+      "timestampEdited": null,
+      "callEndedTimestamp": null,
+      "isPinned": false,
+      "content": "Author: Karzstov\n\nForum Thread: lol\nProposal: https://www.nationstates.net/page=UN_view_proposal/id=karzstov_1764789205",
+      "author": {
+        "id": "713045407365857341",
+        "name": "cretoxyrhin",
+        "discriminator": "0000",
+        "nickname": "Cretox in Yellow",
+        "color": "#6EA7A1",
+        "isBot": false,
+        "roles": [
+          {
+            "id": "1077071443935887360",
+            "name": "Cabinet",
+            "color": "#6EA7A1",
+            "position": 118
+          },
+          {
+            "id": "1475284166714069064",
+            "name": "WA Commissioner",
+            "color": null,
+            "position": 116
+          },
+          {
+            "id": "1553698902430064650",
+            "name": "WA Council",
+            "color": null,
+            "position": 114
+          },
+          {
+            "id": "1076716058209161216",
+            "name": "Minister",
+            "color": null,
+            "position": 111
+          },
+          {
+            "id": "1429233082921390090",
+            "name": "UTEP Dean",
+            "color": null,
+            "position": 109
+          },
+          {
+            "id": "633394832491937794",
+            "name": "Soldier, EPSA",
+            "color": "#FFCE55",
+            "position": 108
+          },
+          {
+            "id": "1077068118108672114",
+            "name": "Culture",
+            "color": null,
+            "position": 107
+          },
+          {
+            "id": "1077067280556494939",
+            "name": "News",
+            "color": null,
+            "position": 105
+          },
+          {
+            "id": "1252620768789921832",
+            "name": "Recruitment",
+            "color": null,
+            "position": 104
+          },
+          {
+            "id": "1167539145166553109",
+            "name": "University Staff",
+            "color": null,
+            "position": 103
+          },
+          {
+            "id": "1553699408225239090",
+            "name": "WA Fellow",
+            "color": null,
+            "position": 102
+          },
+          {
+            "id": "1196697343504957450",
+            "name": "FA Lower Council",
+            "color": null,
+            "position": 99
+          },
+          {
+            "id": "1201510757553164390",
+            "name": "FA Ambassador",
+            "color": null,
+            "position": 98
+          },
+          {
+            "id": "1072578688631193651",
+            "name": "RA Exe Onboarding",
+            "color": null,
+            "position": 97
+          },
+          {
+            "id": "649271830141599783",
+            "name": "EPPS",
+            "color": "#B49CEF",
+            "position": 92
+          },
+          {
+            "id": "633363319864033282",
+            "name": "Magister",
+            "color": "#5E9CE9",
+            "position": 84
+          },
+          {
+            "id": "651114349347471371",
+            "name": "Regional Officer",
+            "color": null,
+            "position": 79
+          },
+          {
+            "id": "1241992643366617128",
+            "name": "Winged Hussar",
+            "color": "#447643",
+            "position": 64
+          },
+          {
+            "id": "1430367546984370347",
+            "name": "Citizens",
+            "color": "#CD125D",
+            "position": 60
+          },
+          {
+            "id": "633352531690520596",
+            "name": "Residents [WA]",
+            "color": "#DB4453",
+            "position": 59
+          },
+          {
+            "id": "633352654579302451",
+            "name": "Residents",
+            "color": "#ED5564",
+            "position": 58
+          },
+          {
+            "id": "633401426646663191",
+            "name": "Visitor | NS",
+            "color": "#A6EEF4",
+            "position": 52
+          },
+          {
+            "id": "637022380530597892",
+            "name": "Design Specialist",
+            "color": null,
+            "position": 46
+          },
+          {
+            "id": "729123951053373480",
+            "name": "Code & API Specialist",
+            "color": null,
+            "position": 45
+          },
+          {
+            "id": "727880101995479090",
+            "name": "Notifications",
+            "color": null,
+            "position": 44
+          },
+          {
+            "id": "1078031481336766637",
+            "name": "Forum/Bot Status",
+            "color": null,
+            "position": 43
+          },
+          {
+            "id": "739259727942516836",
+            "name": "Writing Specialist",
+            "color": null,
+            "position": 42
+          },
+          {
+            "id": "739246330106478684",
+            "name": "Voice Chat",
+            "color": null,
+            "position": 41
+          },
+          {
+            "id": "815019492748165172",
+            "name": "WA Notification",
+            "color": null,
+            "position": 40
+          },
+          {
+            "id": "754595572853243975",
+            "name": "Upvote",
+            "color": null,
+            "position": 39
+          },
+          {
+            "id": "761550447088500757",
+            "name": "Gamer",
+            "color": null,
+            "position": 38
+          },
+          {
+            "id": "1077673652344061992",
+            "name": "NationStates",
+            "color": null,
+            "position": 33
+          },
+          {
+            "id": "851124231377780796",
+            "name": "Daily Question",
+            "color": null,
+            "position": 31
+          },
+          {
+            "id": "1087945130041942136",
+            "name": "Bookworm",
+            "color": null,
+            "position": 28
+          },
+          {
+            "id": "1078295075508998264",
+            "name": "Nerd",
+            "color": null,
+            "position": 27
+          },
+          {
+            "id": "1091197551799173170",
+            "name": "Radio On-Air",
+            "color": null,
+            "position": 26
+          },
+          {
+            "id": "1180938941885587548",
+            "name": "Debates & Politics",
+            "color": null,
+            "position": 20
+          },
+          {
+            "id": "855597551624257548",
+            "name": "he/him",
+            "color": null,
+            "position": 18
+          }
+        ],
+        "avatarUrl": "https://cdn.discordapp.com/avatars/713045407365857341/80466229e37b8c7cf1c4a09f7e1fbd88.png?size=512"
+      },
+      "attachments": [],
+      "embeds": [],
+      "stickers": [],
+      "reactions": [],
+      "mentions": [],
+      "inlineEmojis": []
+    },
+    {
+      "id": "1445961265490038916",
+      "type": "Default",
+      "timestamp": "2025-12-04T02:13:50.354+00:00",
+      "timestampEdited": null,
+      "callEndedTimestamp": null,
+      "isPinned": false,
+      "content": "Cast your vote by reacting to this message. You can also discuss below. Information here may be used to construct an IFV.\n\n:tep_for: = FOR / AYE\n:tep_against: = AGAINST / NAY\n:tep_abstain: = TEP ABSTAINS\n:tep_present: = NO OPINION / PRESENT\n\uD83D\uDCA9 = WHY IS THIS GOING TO VOTE",
+      "author": {
+        "id": "713045407365857341",
+        "name": "cretoxyrhin",
+        "discriminator": "0000",
+        "nickname": "Cretox in Yellow",
+        "color": "#6EA7A1",
+        "isBot": false,
+        "roles": [
+          {
+            "id": "1077071443935887360",
+            "name": "Cabinet",
+            "color": "#6EA7A1",
+            "position": 118
+          },
+          {
+            "id": "1475284166714069064",
+            "name": "WA Commissioner",
+            "color": null,
+            "position": 116
+          },
+          {
+            "id": "1553698902430064650",
+            "name": "WA Council",
+            "color": null,
+            "position": 114
+          },
+          {
+            "id": "1076716058209161216",
+            "name": "Minister",
+            "color": null,
+            "position": 111
+          },
+          {
+            "id": "1429233082921390090",
+            "name": "UTEP Dean",
+            "color": null,
+            "position": 109
+          },
+          {
+            "id": "633394832491937794",
+            "name": "Soldier, EPSA",
+            "color": "#FFCE55",
+            "position": 108
+          },
+          {
+            "id": "1077068118108672114",
+            "name": "Culture",
+            "color": null,
+            "position": 107
+          },
+          {
+            "id": "1077067280556494939",
+            "name": "News",
+            "color": null,
+            "position": 105
+          },
+          {
+            "id": "1252620768789921832",
+            "name": "Recruitment",
+            "color": null,
+            "position": 104
+          },
+          {
+            "id": "1167539145166553109",
+            "name": "University Staff",
+            "color": null,
+            "position": 103
+          },
+          {
+            "id": "1553699408225239090",
+            "name": "WA Fellow",
+            "color": null,
+            "position": 102
+          },
+          {
+            "id": "1196697343504957450",
+            "name": "FA Lower Council",
+            "color": null,
+            "position": 99
+          },
+          {
+            "id": "1201510757553164390",
+            "name": "FA Ambassador",
+            "color": null,
+            "position": 98
+          },
+          {
+            "id": "1072578688631193651",
+            "name": "RA Exe Onboarding",
+            "color": null,
+            "position": 97
+          },
+          {
+            "id": "649271830141599783",
+            "name": "EPPS",
+            "color": "#B49CEF",
+            "position": 92
+          },
+          {
+            "id": "633363319864033282",
+            "name": "Magister",
+            "color": "#5E9CE9",
+            "position": 84
+          },
+          {
+            "id": "651114349347471371",
+            "name": "Regional Officer",
+            "color": null,
+            "position": 79
+          },
+          {
+            "id": "1241992643366617128",
+            "name": "Winged Hussar",
+            "color": "#447643",
+            "position": 64
+          },
+          {
+            "id": "1430367546984370347",
+            "name": "Citizens",
+            "color": "#CD125D",
+            "position": 60
+          },
+          {
+            "id": "633352531690520596",
+            "name": "Residents [WA]",
+            "color": "#DB4453",
+            "position": 59
+          },
+          {
+            "id": "633352654579302451",
+            "name": "Residents",
+            "color": "#ED5564",
+            "position": 58
+          },
+          {
+            "id": "633401426646663191",
+            "name": "Visitor | NS",
+            "color": "#A6EEF4",
+            "position": 52
+          },
+          {
+            "id": "637022380530597892",
+            "name": "Design Specialist",
+            "color": null,
+            "position": 46
+          },
+          {
+            "id": "729123951053373480",
+            "name": "Code & API Specialist",
+            "color": null,
+            "position": 45
+          },
+          {
+            "id": "727880101995479090",
+            "name": "Notifications",
+            "color": null,
+            "position": 44
+          },
+          {
+            "id": "1078031481336766637",
+            "name": "Forum/Bot Status",
+            "color": null,
+            "position": 43
+          },
+          {
+            "id": "739259727942516836",
+            "name": "Writing Specialist",
+            "color": null,
+            "position": 42
+          },
+          {
+            "id": "739246330106478684",
+            "name": "Voice Chat",
+            "color": null,
+            "position": 41
+          },
+          {
+            "id": "815019492748165172",
+            "name": "WA Notification",
+            "color": null,
+            "position": 40
+          },
+          {
+            "id": "754595572853243975",
+            "name": "Upvote",
+            "color": null,
+            "position": 39
+          },
+          {
+            "id": "761550447088500757",
+            "name": "Gamer",
+            "color": null,
+            "position": 38
+          },
+          {
+            "id": "1077673652344061992",
+            "name": "NationStates",
+            "color": null,
+            "position": 33
+          },
+          {
+            "id": "851124231377780796",
+            "name": "Daily Question",
+            "color": null,
+            "position": 31
+          },
+          {
+            "id": "1087945130041942136",
+            "name": "Bookworm",
+            "color": null,
+            "position": 28
+          },
+          {
+            "id": "1078295075508998264",
+            "name": "Nerd",
+            "color": null,
+            "position": 27
+          },
+          {
+            "id": "1091197551799173170",
+            "name": "Radio On-Air",
+            "color": null,
+            "position": 26
+          },
+          {
+            "id": "1180938941885587548",
+            "name": "Debates & Politics",
+            "color": null,
+            "position": 20
+          },
+          {
+            "id": "855597551624257548",
+            "name": "he/him",
+            "color": null,
+            "position": 18
+          }
+        ],
+        "avatarUrl": "https://cdn.discordapp.com/avatars/713045407365857341/80466229e37b8c7cf1c4a09f7e1fbd88.png?size=512"
+      },
+      "attachments": [],
+      "embeds": [],
+      "stickers": [],
+      "reactions": [
+        {
+          "emoji": {
+            "id": "1385113935073775738",
+            "name": "tep_for",
+            "code": "tep_for",
+            "isAnimated": false,
+            "imageUrl": "https://cdn.discordapp.com/emojis/1385113935073775738.png"
+          },
+          "count": 1,
+          "users": [
+            {
+              "id": "713045407365857341",
+              "name": "cretoxyrhin",
+              "discriminator": "0000",
+              "nickname": "Cretox in Yellow",
+              "color": "#6EA7A1",
+              "isBot": false,
+              "avatarUrl": "https://cdn.discordapp.com/avatars/713045407365857341/80466229e37b8c7cf1c4a09f7e1fbd88.png?size=512"
+            }
+          ]
+        },
+        {
+          "emoji": {
+            "id": "1385113932171051038",
+            "name": "tep_against",
+            "code": "tep_against",
+            "isAnimated": false,
+            "imageUrl": "https://cdn.discordapp.com/emojis/1385113932171051038.png"
+          },
+          "count": 4,
+          "users": [
+            {
+              "id": "395560652330237954",
+              "name": "crittermunch",
+              "discriminator": "0000",
+              "nickname": "AMOM",
+              "color": null,
+              "isBot": false,
+              "avatarUrl": "https://cdn.discordapp.com/avatars/395560652330237954/1f4c6a1898edfd0b39ee6e1647d6e8af.png?size=512"
+            },
+            {
+              "id": "713045407365857341",
+              "name": "cretoxyrhin",
+              "discriminator": "0000",
+              "nickname": "Cretox in Yellow",
+              "color": "#6EA7A1",
+              "isBot": false,
+              "avatarUrl": "https://cdn.discordapp.com/avatars/713045407365857341/80466229e37b8c7cf1c4a09f7e1fbd88.png?size=512"
+            },
+            {
+              "id": "813757881723519026",
+              "name": "bohaska",
+              "discriminator": "0000",
+              "nickname": "Bohaska",
+              "color": null,
+              "isBot": false,
+              "avatarUrl": "https://cdn.discordapp.com/avatars/813757881723519026/2eec2c6485ff2f1e13fe2ff9421bb42a.png?size=512"
+            },
+            {
+              "id": "814058370235105322",
+              "name": "dulle1846",
+              "discriminator": "0000",
+              "nickname": "Ulmer",
+              "color": null,
+              "isBot": false,
+              "avatarUrl": "https://cdn.discordapp.com/avatars/814058370235105322/451c75fcb10c77747d5c85d13085bc32.png?size=512"
+            }
+          ]
+        },
+        {
+          "emoji": {
+            "id": "1385113929843474464",
+            "name": "tep_abstain",
+            "code": "tep_abstain",
+            "isAnimated": false,
+            "imageUrl": "https://cdn.discordapp.com/emojis/1385113929843474464.png"
+          },
+          "count": 1,
+          "users": [
+            {
+              "id": "713045407365857341",
+              "name": "cretoxyrhin",
+              "discriminator": "0000",
+              "nickname": "Cretox in Yellow",
+              "color": "#6EA7A1",
+              "isBot": false,
+              "avatarUrl": "https://cdn.discordapp.com/avatars/713045407365857341/80466229e37b8c7cf1c4a09f7e1fbd88.png?size=512"
+            }
+          ]
+        },
+        {
+          "emoji": {
+            "id": "1385113928119619635",
+            "name": "tep_present",
+            "code": "tep_present",
+            "isAnimated": false,
+            "imageUrl": "https://cdn.discordapp.com/emojis/1385113928119619635.png"
+          },
+          "count": 1,
+          "users": [
+            {
+              "id": "713045407365857341",
+              "name": "cretoxyrhin",
+              "discriminator": "0000",
+              "nickname": "Cretox in Yellow",
+              "color": "#6EA7A1",
+              "isBot": false,
+              "avatarUrl": "https://cdn.discordapp.com/avatars/713045407365857341/80466229e37b8c7cf1c4a09f7e1fbd88.png?size=512"
+            }
+          ]
+        },
+        {
+          "emoji": {
+            "id": "",
+            "name": "\uD83D\uDCA9",
+            "code": "poop",
+            "isAnimated": false,
+            "imageUrl": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f4a9.svg"
+          },
+          "count": 6,
+          "users": [
+            {
+              "id": "123916056392761345",
+              "name": "aurorayukihime",
+              "discriminator": "0000",
+              "nickname": "Aurora Yukihime",
+              "color": null,
+              "isBot": false,
+              "avatarUrl": "https://cdn.discordapp.com/avatars/123916056392761345/a_d2c5a4dffffd3ed4a68f1c371490e1af.gif?size=512"
+            },
+            {
+              "id": "395560652330237954",
+              "name": "crittermunch",
+              "discriminator": "0000",
+              "nickname": "AMOM",
+              "color": null,
+              "isBot": false,
+              "avatarUrl": "https://cdn.discordapp.com/avatars/395560652330237954/1f4c6a1898edfd0b39ee6e1647d6e8af.png?size=512"
+            },
+            {
+              "id": "530446954157572096",
+              "name": "matesdak",
+              "discriminator": "0000",
+              "nickname": "Mates",
+              "color": null,
+              "isBot": false,
+              "avatarUrl": "https://cdn.discordapp.com/avatars/530446954157572096/1ac42e667041e012991fbe82a4de7128.png?size=512"
+            },
+            {
+              "id": "713045407365857341",
+              "name": "cretoxyrhin",
+              "discriminator": "0000",
+              "nickname": "Cretox in Yellow",
+              "color": "#6EA7A1",
+              "isBot": false,
+              "avatarUrl": "https://cdn.discordapp.com/avatars/713045407365857341/80466229e37b8c7cf1c4a09f7e1fbd88.png?size=512"
+            },
+            {
+              "id": "814058370235105322",
+              "name": "dulle1846",
+              "discriminator": "0000",
+              "nickname": "Ulmer",
+              "color": null,
+              "isBot": false,
+              "avatarUrl": "https://cdn.discordapp.com/avatars/814058370235105322/451c75fcb10c77747d5c85d13085bc32.png?size=512"
+            },
+            {
+              "id": "843903528711487501",
+              "name": "deleted_user_bfc6c25b06d0",
+              "discriminator": "0000",
+              "nickname": "deleted_user_bfc6c25b06d0",
+              "color": null,
+              "isBot": false,
+              "avatarUrl": "https://cdn.discordapp.com/embed/avatars/0.png"
+            }
+          ]
+        }
+      ],
+      "mentions": [],
+      "inlineEmojis": [
+        {
+          "id": "1385113935073775738",
+          "name": "tep_for",
+          "code": "tep_for",
+          "isAnimated": false,
+          "imageUrl": "https://cdn.discordapp.com/emojis/1385113935073775738.png"
+        },
+        {
+          "id": "1385113932171051038",
+          "name": "tep_against",
+          "code": "tep_against",
+          "isAnimated": false,
+          "imageUrl": "https://cdn.discordapp.com/emojis/1385113932171051038.png"
+        },
+        {
+          "id": "1385113929843474464",
+          "name": "tep_abstain",
+          "code": "tep_abstain",
+          "isAnimated": false,
+          "imageUrl": "https://cdn.discordapp.com/emojis/1385113929843474464.png"
+        },
+        {
+          "id": "1385113928119619635",
+          "name": "tep_present",
+          "code": "tep_present",
+          "isAnimated": false,
+          "imageUrl": "https://cdn.discordapp.com/emojis/1385113928119619635.png"
+        },
+        {
+          "id": "",
+          "name": "\uD83D\uDCA9",
+          "code": "poop",
+          "isAnimated": false,
+          "imageUrl": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f4a9.svg"
+        }
+      ]
+    },
+    {
+      "id": "1445961471883350170",
+      "type": "Default",
+      "timestamp": "2025-12-04T02:14:39.562+00:00",
+      "timestampEdited": null,
+      "callEndedTimestamp": null,
+      "isPinned": false,
+      "content": "Registering myself as against and WITGTV",
+      "author": {
+        "id": "713045407365857341",
+        "name": "cretoxyrhin",
+        "discriminator": "0000",
+        "nickname": "Cretox in Yellow",
+        "color": "#6EA7A1",
+        "isBot": false,
+        "roles": [
+          {
+            "id": "1077071443935887360",
+            "name": "Cabinet",
+            "color": "#6EA7A1",
+            "position": 118
+          },
+          {
+            "id": "1475284166714069064",
+            "name": "WA Commissioner",
+            "color": null,
+            "position": 116
+          },
+          {
+            "id": "1553698902430064650",
+            "name": "WA Council",
+            "color": null,
+            "position": 114
+          },
+          {
+            "id": "1076716058209161216",
+            "name": "Minister",
+            "color": null,
+            "position": 111
+          },
+          {
+            "id": "1429233082921390090",
+            "name": "UTEP Dean",
+            "color": null,
+            "position": 109
+          },
+          {
+            "id": "633394832491937794",
+            "name": "Soldier, EPSA",
+            "color": "#FFCE55",
+            "position": 108
+          },
+          {
+            "id": "1077068118108672114",
+            "name": "Culture",
+            "color": null,
+            "position": 107
+          },
+          {
+            "id": "1077067280556494939",
+            "name": "News",
+            "color": null,
+            "position": 105
+          },
+          {
+            "id": "1252620768789921832",
+            "name": "Recruitment",
+            "color": null,
+            "position": 104
+          },
+          {
+            "id": "1167539145166553109",
+            "name": "University Staff",
+            "color": null,
+            "position": 103
+          },
+          {
+            "id": "1553699408225239090",
+            "name": "WA Fellow",
+            "color": null,
+            "position": 102
+          },
+          {
+            "id": "1196697343504957450",
+            "name": "FA Lower Council",
+            "color": null,
+            "position": 99
+          },
+          {
+            "id": "1201510757553164390",
+            "name": "FA Ambassador",
+            "color": null,
+            "position": 98
+          },
+          {
+            "id": "1072578688631193651",
+            "name": "RA Exe Onboarding",
+            "color": null,
+            "position": 97
+          },
+          {
+            "id": "649271830141599783",
+            "name": "EPPS",
+            "color": "#B49CEF",
+            "position": 92
+          },
+          {
+            "id": "633363319864033282",
+            "name": "Magister",
+            "color": "#5E9CE9",
+            "position": 84
+          },
+          {
+            "id": "651114349347471371",
+            "name": "Regional Officer",
+            "color": null,
+            "position": 79
+          },
+          {
+            "id": "1241992643366617128",
+            "name": "Winged Hussar",
+            "color": "#447643",
+            "position": 64
+          },
+          {
+            "id": "1430367546984370347",
+            "name": "Citizens",
+            "color": "#CD125D",
+            "position": 60
+          },
+          {
+            "id": "633352531690520596",
+            "name": "Residents [WA]",
+            "color": "#DB4453",
+            "position": 59
+          },
+          {
+            "id": "633352654579302451",
+            "name": "Residents",
+            "color": "#ED5564",
+            "position": 58
+          },
+          {
+            "id": "633401426646663191",
+            "name": "Visitor | NS",
+            "color": "#A6EEF4",
+            "position": 52
+          },
+          {
+            "id": "637022380530597892",
+            "name": "Design Specialist",
+            "color": null,
+            "position": 46
+          },
+          {
+            "id": "729123951053373480",
+            "name": "Code & API Specialist",
+            "color": null,
+            "position": 45
+          },
+          {
+            "id": "727880101995479090",
+            "name": "Notifications",
+            "color": null,
+            "position": 44
+          },
+          {
+            "id": "1078031481336766637",
+            "name": "Forum/Bot Status",
+            "color": null,
+            "position": 43
+          },
+          {
+            "id": "739259727942516836",
+            "name": "Writing Specialist",
+            "color": null,
+            "position": 42
+          },
+          {
+            "id": "739246330106478684",
+            "name": "Voice Chat",
+            "color": null,
+            "position": 41
+          },
+          {
+            "id": "815019492748165172",
+            "name": "WA Notification",
+            "color": null,
+            "position": 40
+          },
+          {
+            "id": "754595572853243975",
+            "name": "Upvote",
+            "color": null,
+            "position": 39
+          },
+          {
+            "id": "761550447088500757",
+            "name": "Gamer",
+            "color": null,
+            "position": 38
+          },
+          {
+            "id": "1077673652344061992",
+            "name": "NationStates",
+            "color": null,
+            "position": 33
+          },
+          {
+            "id": "851124231377780796",
+            "name": "Daily Question",
+            "color": null,
+            "position": 31
+          },
+          {
+            "id": "1087945130041942136",
+            "name": "Bookworm",
+            "color": null,
+            "position": 28
+          },
+          {
+            "id": "1078295075508998264",
+            "name": "Nerd",
+            "color": null,
+            "position": 27
+          },
+          {
+            "id": "1091197551799173170",
+            "name": "Radio On-Air",
+            "color": null,
+            "position": 26
+          },
+          {
+            "id": "1180938941885587548",
+            "name": "Debates & Politics",
+            "color": null,
+            "position": 20
+          },
+          {
+            "id": "855597551624257548",
+            "name": "he/him",
+            "color": null,
+            "position": 18
+          }
+        ],
+        "avatarUrl": "https://cdn.discordapp.com/avatars/713045407365857341/80466229e37b8c7cf1c4a09f7e1fbd88.png?size=512"
+      },
+      "attachments": [],
+      "embeds": [],
+      "stickers": [],
+      "reactions": [],
+      "mentions": [],
+      "inlineEmojis": []
+    },
+    {
+      "id": "1445965296899719199",
+      "type": "Default",
+      "timestamp": "2025-12-04T02:29:51.517+00:00",
+      "timestampEdited": null,
+      "callEndedTimestamp": null,
+      "isPinned": false,
+      "content": ":yoda:",
+      "author": {
+        "id": "123916056392761345",
+        "name": "aurorayukihime",
+        "discriminator": "0000",
+        "nickname": "Aurora, Desuwa of Umapyoi",
+        "color": "#5E9CE9",
+        "isBot": false,
+        "roles": [
+          {
+            "id": "993531517806592121",
+            "name": "Technical Dev Team",
+            "color": null,
+            "position": 144
+          },
+          {
+            "id": "1196698562445193267",
+            "name": "FA Councillor",
+            "color": null,
+            "position": 100
+          },
+          {
+            "id": "1196697343504957450",
+            "name": "FA Lower Council",
+            "color": null,
+            "position": 99
+          },
+          {
+            "id": "633363319864033282",
+            "name": "Magister",
+            "color": "#5E9CE9",
+            "position": 84
+          },
+          {
+            "id": "901515827340263444",
+            "name": "Former Delegates",
+            "color": null,
+            "position": 80
+          },
+          {
+            "id": "773652878203945020",
+            "name": "Hussar of The East",
+            "color": "#447643",
+            "position": 63
+          },
+          {
+            "id": "1430367546984370347",
+            "name": "Citizens",
+            "color": "#CD125D",
+            "position": 60
+          },
+          {
+            "id": "633352531690520596",
+            "name": "Residents [WA]",
+            "color": "#DB4453",
+            "position": 59
+          },
+          {
+            "id": "633352654579302451",
+            "name": "Residents",
+            "color": "#ED5564",
+            "position": 58
+          },
+          {
+            "id": "633357236416151572",
+            "name": "Allied Government",
+            "color": "#3BAEDA",
+            "position": 57
+          },
+          {
+            "id": "633688402352406550",
+            "name": "Foreign Dignitaries",
+            "color": "#4FC0E8",
+            "position": 55
+          },
+          {
+            "id": "704038370405384313",
+            "name": "Friends of the East",
+            "color": "#93D8F1",
+            "position": 53
+          },
+          {
+            "id": "727880101995479090",
+            "name": "Notifications",
+            "color": null,
+            "position": 44
+          },
+          {
+            "id": "851124231377780796",
+            "name": "Daily Question",
+            "color": null,
+            "position": 31
+          },
+          {
+            "id": "1127999715389222922",
+            "name": "Game Night",
+            "color": null,
+            "position": 25
+          },
+          {
+            "id": "1145421147261898803",
+            "name": "Hunger Games",
+            "color": null,
+            "position": 22
+          },
+          {
+            "id": "855597652984070244",
+            "name": "she/her",
+            "color": null,
+            "position": 17
+          }
+        ],
+        "avatarUrl": "https://cdn.discordapp.com/guilds/633351482128728064/users/123916056392761345/avatars/a7f001d7f76f580c3c05379a71b0fe67.png?size=512"
+      },
+      "attachments": [],
+      "embeds": [],
+      "stickers": [],
+      "reactions": [],
+      "mentions": [],
+      "inlineEmojis": [
+        {
+          "id": "762727878373802035",
+          "name": "yoda",
+          "code": "yoda",
+          "isAnimated": false,
+          "imageUrl": "https://cdn.discordapp.com/emojis/762727878373802035.png"
+        }
+      ]
+    },
+    {
+      "id": "1445965450067574804",
+      "type": "Default",
+      "timestamp": "2025-12-04T02:30:28.035+00:00",
+      "timestampEdited": null,
+      "callEndedTimestamp": null,
+      "isPinned": false,
+      "content": "Pending so I'll see how it is tomorrow :catJAM:",
+      "author": {
+        "id": "123916056392761345",
+        "name": "aurorayukihime",
+        "discriminator": "0000",
+        "nickname": "Aurora, Desuwa of Umapyoi",
+        "color": "#5E9CE9",
+        "isBot": false,
+        "roles": [
+          {
+            "id": "993531517806592121",
+            "name": "Technical Dev Team",
+            "color": null,
+            "position": 144
+          },
+          {
+            "id": "1196698562445193267",
+            "name": "FA Councillor",
+            "color": null,
+            "position": 100
+          },
+          {
+            "id": "1196697343504957450",
+            "name": "FA Lower Council",
+            "color": null,
+            "position": 99
+          },
+          {
+            "id": "633363319864033282",
+            "name": "Magister",
+            "color": "#5E9CE9",
+            "position": 84
+          },
+          {
+            "id": "901515827340263444",
+            "name": "Former Delegates",
+            "color": null,
+            "position": 80
+          },
+          {
+            "id": "773652878203945020",
+            "name": "Hussar of The East",
+            "color": "#447643",
+            "position": 63
+          },
+          {
+            "id": "1430367546984370347",
+            "name": "Citizens",
+            "color": "#CD125D",
+            "position": 60
+          },
+          {
+            "id": "633352531690520596",
+            "name": "Residents [WA]",
+            "color": "#DB4453",
+            "position": 59
+          },
+          {
+            "id": "633352654579302451",
+            "name": "Residents",
+            "color": "#ED5564",
+            "position": 58
+          },
+          {
+            "id": "633357236416151572",
+            "name": "Allied Government",
+            "color": "#3BAEDA",
+            "position": 57
+          },
+          {
+            "id": "633688402352406550",
+            "name": "Foreign Dignitaries",
+            "color": "#4FC0E8",
+            "position": 55
+          },
+          {
+            "id": "704038370405384313",
+            "name": "Friends of the East",
+            "color": "#93D8F1",
+            "position": 53
+          },
+          {
+            "id": "727880101995479090",
+            "name": "Notifications",
+            "color": null,
+            "position": 44
+          },
+          {
+            "id": "851124231377780796",
+            "name": "Daily Question",
+            "color": null,
+            "position": 31
+          },
+          {
+            "id": "1127999715389222922",
+            "name": "Game Night",
+            "color": null,
+            "position": 25
+          },
+          {
+            "id": "1145421147261898803",
+            "name": "Hunger Games",
+            "color": null,
+            "position": 22
+          },
+          {
+            "id": "855597652984070244",
+            "name": "she/her",
+            "color": null,
+            "position": 17
+          }
+        ],
+        "avatarUrl": "https://cdn.discordapp.com/guilds/633351482128728064/users/123916056392761345/avatars/a7f001d7f76f580c3c05379a71b0fe67.png?size=512"
+      },
+      "attachments": [],
+      "embeds": [],
+      "stickers": [],
+      "reactions": [],
+      "mentions": [],
+      "inlineEmojis": [
+        {
+          "id": "1091728481844461660",
+          "name": "catJAM",
+          "code": "catJAM",
+          "isAnimated": true,
+          "imageUrl": "https://cdn.discordapp.com/emojis/1091728481844461660.gif"
+        }
+      ]
+    },
+    {
+      "id": "1445976279315644708",
+      "type": "Default",
+      "timestamp": "2025-12-04T03:13:29.929+00:00",
+      "timestampEdited": null,
+      "callEndedTimestamp": null,
+      "isPinned": false,
+      "content": "What a wet fart",
+      "author": {
+        "id": "395560652330237954",
+        "name": "crittermunch",
+        "discriminator": "0000",
+        "nickname": "A mean old man",
+        "color": "#EA1889",
+        "isBot": false,
+        "roles": [
+          {
+            "id": "993531517806592121",
+            "name": "Technical Dev Team",
+            "color": null,
+            "position": 144
+          },
+          {
+            "id": "1150260858748932198",
+            "name": "Trust & Safety Officer",
+            "color": null,
+            "position": 140
+          },
+          {
+            "id": "633353998287503390",
+            "name": "Moderators",
+            "color": "#EA1889",
+            "position": 138
+          },
+          {
+            "id": "1077071443935887360",
+            "name": "Cabinet",
+            "color": "#6EA7A1",
+            "position": 118
+          },
+          {
+            "id": "1077068812777685105",
+            "name": "FA Minister",
+            "color": null,
+            "position": 117
+          },
+          {
+            "id": "1553698902430064650",
+            "name": "WA Council",
+            "color": null,
+            "position": 114
+          },
+          {
+            "id": "1076716058209161216",
+            "name": "Minister",
+            "color": null,
+            "position": 111
+          },
+          {
+            "id": "1252620768789921832",
+            "name": "Recruitment",
+            "color": null,
+            "position": 104
+          },
+          {
+            "id": "1553699408225239090",
+            "name": "WA Fellow",
+            "color": null,
+            "position": 102
+          },
+          {
+            "id": "1196698562445193267",
+            "name": "FA Councillor",
+            "color": null,
+            "position": 100
+          },
+          {
+            "id": "1196697343504957450",
+            "name": "FA Lower Council",
+            "color": null,
+            "position": 99
+          },
+          {
+            "id": "1201510757553164390",
+            "name": "FA Ambassador",
+            "color": null,
+            "position": 98
+          },
+          {
+            "id": "633363669547483136",
+            "name": "Vizier",
+            "color": "#AC92ED",
+            "position": 94
+          },
+          {
+            "id": "649271830141599783",
+            "name": "EPPS",
+            "color": "#B49CEF",
+            "position": 92
+          },
+          {
+            "id": "633730426321633321",
+            "name": "Viceroy",
+            "color": "#FF8700",
+            "position": 90
+          },
+          {
+            "id": "633719143723433996",
+            "name": "Arbiter",
+            "color": "#D17917",
+            "position": 88
+          },
+          {
+            "id": "933820954419806248",
+            "name": "Citizenship Official",
+            "color": null,
+            "position": 81
+          },
+          {
+            "id": "901515827340263444",
+            "name": "Former Delegates",
+            "color": null,
+            "position": 80
+          },
+          {
+            "id": "651114349347471371",
+            "name": "Regional Officer",
+            "color": null,
+            "position": 79
+          },
+          {
+            "id": "1430367546984370347",
+            "name": "Citizens",
+            "color": "#CD125D",
+            "position": 60
+          },
+          {
+            "id": "633352531690520596",
+            "name": "Residents [WA]",
+            "color": "#DB4453",
+            "position": 59
+          }
+        ],
+        "avatarUrl": "https://cdn.discordapp.com/avatars/395560652330237954/1f4c6a1898edfd0b39ee6e1647d6e8af.png?size=512"
+      },
+      "attachments": [],
+      "embeds": [],
+      "stickers": [],
+      "reactions": [],
+      "mentions": [],
+      "inlineEmojis": []
+    },
+    {
+      "id": "1446013908640075818",
+      "type": "Default",
+      "timestamp": "2025-12-04T05:43:01.459+00:00",
+      "timestampEdited": null,
+      "callEndedTimestamp": null,
+      "isPinned": false,
+      "content": "\uD83D\uDCA9",
+      "author": {
+        "id": "814058370235105322",
+        "name": "dulle1846",
+        "discriminator": "0000",
+        "nickname": "Ulmer",
+        "color": "#2ECC71",
+        "isBot": false,
+        "roles": [
+          {
+            "id": "1077068964607307937",
+            "name": "Deputy WA Commissioner",
+            "color": null,
+            "position": 115
+          },
+          {
+            "id": "1434771731679281174",
+            "name": "RMB Council",
+            "color": "#2ECC71",
+            "position": 110
+          },
+          {
+            "id": "633394832491937794",
+            "name": "Soldier, EPSA",
+            "color": "#FFCE55",
+            "position": 108
+          },
+          {
+            "id": "1077068118108672114",
+            "name": "Culture",
+            "color": null,
+            "position": 107
+          },
+          {
+            "id": "1430393084314914876",
+            "name": "Clerical",
+            "color": null,
+            "position": 106
+          },
+          {
+            "id": "1077067280556494939",
+            "name": "News",
+            "color": null,
+            "position": 105
+          },
+          {
+            "id": "1252620768789921832",
+            "name": "Recruitment",
+            "color": null,
+            "position": 104
+          },
+          {
+            "id": "1553699408225239090",
+            "name": "WA Fellow",
+            "color": null,
+            "position": 102
+          },
+          {
+            "id": "1196697343504957450",
+            "name": "FA Lower Council",
+            "color": null,
+            "position": 99
+          },
+          {
+            "id": "1072578688631193651",
+            "name": "RA Exe Onboarding",
+            "color": null,
+            "position": 97
+          },
+          {
+            "id": "633363319864033282",
+            "name": "Magister",
+            "color": "#5E9CE9",
+            "position": 84
+          },
+          {
+            "id": "933820954419806248",
+            "name": "Citizenship Official",
+            "color": null,
+            "position": 81
+          },
+          {
+            "id": "1091178482295386162",
+            "name": "RMB Moderator",
+            "color": null,
+            "position": 77
+          },
+          {
+            "id": "1087782710430416958",
+            "name": "Welcome Helper",
+            "color": null,
+            "position": 75
+          },
+          {
+            "id": "1311771067584479302",
+            "name": "Tepite",
+            "color": null,
+            "position": 70
+          },
+          {
+            "id": "1171933964718575687",
+            "name": "Valsora",
+            "color": null,
+            "position": 67
+          },
+          {
+            "id": "1280278459373060217",
+            "name": "Upvote Igniter",
+            "color": "#FF6816",
+            "position": 62
+          },
+          {
+            "id": "1430367546984370347",
+            "name": "Citizens",
+            "color": "#CD125D",
+            "position": 60
+          },
+          {
+            "id": "633352531690520596",
+            "name": "Residents [WA]",
+            "color": "#DB4453",
+            "position": 59
+          },
+          {
+            "id": "633352654579302451",
+            "name": "Residents",
+            "color": "#ED5564",
+            "position": 58
+          },
+          {
+            "id": "633357915746598913",
+            "name": "Passport",
+            "color": "#6EA7A1",
+            "position": 56
+          },
+          {
+            "id": "633401426646663191",
+            "name": "Visitor | NS",
+            "color": "#A6EEF4",
+            "position": 52
+          },
+          {
+            "id": "637022380530597892",
+            "name": "Design Specialist",
+            "color": null,
+            "position": 46
+          },
+          {
+            "id": "729123951053373480",
+            "name": "Code & API Specialist",
+            "color": null,
+            "position": 45
+          },
+          {
+            "id": "727880101995479090",
+            "name": "Notifications",
+            "color": null,
+            "position": 44
+          },
+          {
+            "id": "1078031481336766637",
+            "name": "Forum/Bot Status",
+            "color": null,
+            "position": 43
+          },
+          {
+            "id": "739259727942516836",
+            "name": "Writing Specialist",
+            "color": null,
+            "position": 42
+          },
+          {
+            "id": "739246330106478684",
+            "name": "Voice Chat",
+            "color": null,
+            "position": 41
+          },
+          {
+            "id": "815019492748165172",
+            "name": "WA Notification",
+            "color": null,
+            "position": 40
+          },
+          {
+            "id": "754595572853243975",
+            "name": "Upvote",
+            "color": null,
+            "position": 39
+          },
+          {
+            "id": "761550447088500757",
+            "name": "Gamer",
+            "color": null,
+            "position": 38
+          },
+          {
+            "id": "649288407801004062",
+            "name": "Urth Forum RP",
+            "color": null,
+            "position": 36
+          },
+          {
+            "id": "634491355443494953",
+            "name": "RMBer",
+            "color": null,
+            "position": 35
+          },
+          {
+            "id": "1077673652344061992",
+            "name": "NationStates",
+            "color": null,
+            "position": 33
+          },
+          {
+            "id": "851124231377780796",
+            "name": "Daily Question",
+            "color": null,
+            "position": 31
+          },
+          {
+            "id": "1087945130041942136",
+            "name": "Bookworm",
+            "color": null,
+            "position": 28
+          },
+          {
+            "id": "1078295075508998264",
+            "name": "Nerd",
+            "color": null,
+            "position": 27
+          },
+          {
+            "id": "1091197551799173170",
+            "name": "Radio On-Air",
+            "color": null,
+            "position": 26
+          },
+          {
+            "id": "1145421147261898803",
+            "name": "Hunger Games",
+            "color": null,
+            "position": 22
+          },
+          {
+            "id": "1011692169716838520",
+            "name": "TEP Plays NS",
+            "color": null,
+            "position": 21
+          },
+          {
+            "id": "1180938941885587548",
+            "name": "Debates & Politics",
+            "color": null,
+            "position": 20
+          },
+          {
+            "id": "855597551624257548",
+            "name": "he/him",
+            "color": null,
+            "position": 18
+          },
+          {
+            "id": "1447392269014532227",
+            "name": "Squadmaster General",
+            "color": "#E91E63",
+            "position": 8
+          },
+          {
+            "id": "1544568258982576158",
+            "name": "Renewal",
+            "color": null,
+            "position": 5
+          }
+        ],
+        "avatarUrl": "https://cdn.discordapp.com/avatars/814058370235105322/451c75fcb10c77747d5c85d13085bc32.png?size=512"
+      },
+      "attachments": [],
+      "embeds": [],
+      "stickers": [],
+      "reactions": [],
+      "mentions": [],
+      "inlineEmojis": [
+        {
+          "id": "",
+          "name": "\uD83D\uDCA9",
+          "code": "poop",
+          "isAnimated": false,
+          "imageUrl": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f4a9.svg"
+        }
+      ]
+    },
+    {
+      "id": "1446036699766460457",
+      "type": "Default",
+      "timestamp": "2025-12-04T07:13:35.287+00:00",
+      "timestampEdited": null,
+      "callEndedTimestamp": null,
+      "isPinned": false,
+      "content": "https://tenor.com/view/absolute-cinema-raccoon-absolute-cinema-gif-17862327649353748812",
+      "author": {
+        "id": "530446954157572096",
+        "name": "matesdak",
+        "discriminator": "0000",
+        "nickname": "Mates",
+        "color": "#6EA7A1",
+        "isBot": false,
+        "roles": [
+          {
+            "id": "1077071443935887360",
+            "name": "Cabinet",
+            "color": "#6EA7A1",
+            "position": 118
+          },
+          {
+            "id": "633750796588154890",
+            "name": "EPSA Admiral",
+            "color": "#2F6FFA",
+            "position": 112
+          },
+          {
+            "id": "1076716058209161216",
+            "name": "Minister",
+            "color": null,
+            "position": 111
+          },
+          {
+            "id": "633394832491937794",
+            "name": "Soldier, EPSA",
+            "color": "#FFCE55",
+            "position": 108
+          },
+          {
+            "id": "1252620768789921832",
+            "name": "Recruitment",
+            "color": null,
+            "position": 104
+          },
+          {
+            "id": "1196698562445193267",
+            "name": "FA Councillor",
+            "color": null,
+            "position": 100
+          },
+          {
+            "id": "1196697343504957450",
+            "name": "FA Lower Council",
+            "color": null,
+            "position": 99
+          },
+          {
+            "id": "1201510757553164390",
+            "name": "FA Ambassador",
+            "color": null,
+            "position": 98
+          },
+          {
+            "id": "1072578688631193651",
+            "name": "RA Exe Onboarding",
+            "color": null,
+            "position": 97
+          },
+          {
+            "id": "633363319864033282",
+            "name": "Magister",
+            "color": "#5E9CE9",
+            "position": 84
+          },
+          {
+            "id": "773652878203945020",
+            "name": "Hussar of The East",
+            "color": "#447643",
+            "position": 63
+          },
+          {
+            "id": "1280278459373060217",
+            "name": "Upvote Igniter",
+            "color": "#FF6816",
+            "position": 62
+          },
+          {
+            "id": "1430367546984370347",
+            "name": "Citizens",
+            "color": "#CD125D",
+            "position": 60
+          },
+          {
+            "id": "633352531690520596",
+            "name": "Residents [WA]",
+            "color": "#DB4453",
+            "position": 59
+          },
+          {
+            "id": "633352654579302451",
+            "name": "Residents",
+            "color": "#ED5564",
+            "position": 58
+          },
+          {
+            "id": "727880101995479090",
+            "name": "Notifications",
+            "color": null,
+            "position": 44
+          },
+          {
+            "id": "739246330106478684",
+            "name": "Voice Chat",
+            "color": null,
+            "position": 41
+          },
+          {
+            "id": "754595572853243975",
+            "name": "Upvote",
+            "color": null,
+            "position": 39
+          },
+          {
+            "id": "761550447088500757",
+            "name": "Gamer",
+            "color": null,
+            "position": 38
+          },
+          {
+            "id": "1077673652344061992",
+            "name": "NationStates",
+            "color": null,
+            "position": 33
+          },
+          {
+            "id": "855597551624257548",
+            "name": "he/him",
+            "color": null,
+            "position": 18
+          }
+        ],
+        "avatarUrl": "https://cdn.discordapp.com/avatars/530446954157572096/1ac42e667041e012991fbe82a4de7128.png?size=512"
+      },
+      "attachments": [],
+      "embeds": [
+        {
+          "title": "",
+          "url": "https://tenor.com/view/absolute-cinema-raccoon-absolute-cinema-gif-17862327649353748812",
+          "timestamp": null,
+          "description": "",
+          "thumbnail": {
+            "url": "https://images-ext-1.discordapp.net/external/JNb43rceQMEDQJmveecBVgZYNCiCh01SierL89dJHKk/https/media.tenor.com/9-O8W8FeUUwAAAAe/absolute-cinema.png",
+            "canonicalUrl": "https://media.tenor.com/9-O8W8FeUUwAAAAe/absolute-cinema.png",
+            "width": 240,
+            "height": 240
+          },
+          "video": {
+            "url": "https://images-ext-1.discordapp.net/external/Niq7Fa53x-PWtGSROPSXhV9hf7m1TffvPAQUwv1NKrY/https/media.tenor.com/9-O8W8FeUUwAAAPo/absolute-cinema.mp4",
+            "canonicalUrl": "https://media.tenor.com/9-O8W8FeUUwAAAPo/absolute-cinema.mp4",
+            "width": 240,
+            "height": 240
+          },
+          "images": [],
+          "fields": [],
+          "inlineEmojis": []
+        }
+      ],
+      "stickers": [],
+      "reactions": [],
+      "mentions": [],
+      "inlineEmojis": []
+    },
+    {
+      "id": "1446150102514270290",
+      "type": "Default",
+      "timestamp": "2025-12-04T14:44:12.609+00:00",
+      "timestampEdited": null,
+      "callEndedTimestamp": null,
+      "isPinned": false,
+      "content": "besides the obvious, it's also AI-written",
+      "author": {
+        "id": "813757881723519026",
+        "name": "bohaska",
+        "discriminator": "0000",
+        "nickname": "Jiangbei",
+        "color": "#FFCE55",
+        "isBot": false,
+        "roles": [
+          {
+            "id": "1077068964607307937",
+            "name": "Deputy WA Commissioner",
+            "color": null,
+            "position": 115
+          },
+          {
+            "id": "633394832491937794",
+            "name": "Soldier, EPSA",
+            "color": "#FFCE55",
+            "position": 108
+          },
+          {
+            "id": "1553699408225239090",
+            "name": "WA Fellow",
+            "color": null,
+            "position": 102
+          },
+          {
+            "id": "773652878203945020",
+            "name": "Hussar of The East",
+            "color": "#447643",
+            "position": 63
+          },
+          {
+            "id": "633352531690520596",
+            "name": "Residents [WA]",
+            "color": "#DB4453",
+            "position": 59
+          },
+          {
+            "id": "633352654579302451",
+            "name": "Residents",
+            "color": "#ED5564",
+            "position": 58
+          },
+          {
+            "id": "1077673652344061992",
+            "name": "NationStates",
+            "color": null,
+            "position": 33
+          }
+        ],
+        "avatarUrl": "https://cdn.discordapp.com/avatars/813757881723519026/2eec2c6485ff2f1e13fe2ff9421bb42a.png?size=512"
+      },
+      "attachments": [],
+      "embeds": [],
+      "stickers": [],
+      "reactions": [],
+      "mentions": [],
+      "inlineEmojis": []
+    },
+    {
+      "id": "1446185245308358676",
+      "type": "Default",
+      "timestamp": "2025-12-04T17:03:51.304+00:00",
+      "timestampEdited": null,
+      "callEndedTimestamp": null,
+      "isPinned": false,
+      "content": "Smashed",
+      "author": {
+        "id": "395560652330237954",
+        "name": "crittermunch",
+        "discriminator": "0000",
+        "nickname": "A mean old man",
+        "color": "#EA1889",
+        "isBot": false,
+        "roles": [
+          {
+            "id": "993531517806592121",
+            "name": "Technical Dev Team",
+            "color": null,
+            "position": 144
+          },
+          {
+            "id": "1150260858748932198",
+            "name": "Trust & Safety Officer",
+            "color": null,
+            "position": 140
+          },
+          {
+            "id": "633353998287503390",
+            "name": "Moderators",
+            "color": "#EA1889",
+            "position": 138
+          },
+          {
+            "id": "1077071443935887360",
+            "name": "Cabinet",
+            "color": "#6EA7A1",
+            "position": 118
+          },
+          {
+            "id": "1077068812777685105",
+            "name": "FA Minister",
+            "color": null,
+            "position": 117
+          },
+          {
+            "id": "1553698902430064650",
+            "name": "WA Council",
+            "color": null,
+            "position": 114
+          },
+          {
+            "id": "1076716058209161216",
+            "name": "Minister",
+            "color": null,
+            "position": 111
+          },
+          {
+            "id": "1252620768789921832",
+            "name": "Recruitment",
+            "color": null,
+            "position": 104
+          },
+          {
+            "id": "1553699408225239090",
+            "name": "WA Fellow",
+            "color": null,
+            "position": 102
+          },
+          {
+            "id": "1196698562445193267",
+            "name": "FA Councillor",
+            "color": null,
+            "position": 100
+          },
+          {
+            "id": "1196697343504957450",
+            "name": "FA Lower Council",
+            "color": null,
+            "position": 99
+          },
+          {
+            "id": "1201510757553164390",
+            "name": "FA Ambassador",
+            "color": null,
+            "position": 98
+          },
+          {
+            "id": "633363669547483136",
+            "name": "Vizier",
+            "color": "#AC92ED",
+            "position": 94
+          },
+          {
+            "id": "649271830141599783",
+            "name": "EPPS",
+            "color": "#B49CEF",
+            "position": 92
+          },
+          {
+            "id": "633730426321633321",
+            "name": "Viceroy",
+            "color": "#FF8700",
+            "position": 90
+          },
+          {
+            "id": "633719143723433996",
+            "name": "Arbiter",
+            "color": "#D17917",
+            "position": 88
+          },
+          {
+            "id": "933820954419806248",
+            "name": "Citizenship Official",
+            "color": null,
+            "position": 81
+          },
+          {
+            "id": "901515827340263444",
+            "name": "Former Delegates",
+            "color": null,
+            "position": 80
+          },
+          {
+            "id": "651114349347471371",
+            "name": "Regional Officer",
+            "color": null,
+            "position": 79
+          },
+          {
+            "id": "1430367546984370347",
+            "name": "Citizens",
+            "color": "#CD125D",
+            "position": 60
+          },
+          {
+            "id": "633352531690520596",
+            "name": "Residents [WA]",
+            "color": "#DB4453",
+            "position": 59
+          }
+        ],
+        "avatarUrl": "https://cdn.discordapp.com/avatars/395560652330237954/1f4c6a1898edfd0b39ee6e1647d6e8af.png?size=512"
+      },
+      "attachments": [],
+      "embeds": [],
+      "stickers": [],
+      "reactions": [],
+      "mentions": [],
+      "inlineEmojis": []
+    },
+    {
+      "id": "1446185258012901437",
+      "type": "Default",
+      "timestamp": "2025-12-04T17:03:54.333+00:00",
+      "timestampEdited": null,
+      "callEndedTimestamp": null,
+      "isPinned": false,
+      "content": "Crushed",
+      "author": {
+        "id": "395560652330237954",
+        "name": "crittermunch",
+        "discriminator": "0000",
+        "nickname": "A mean old man",
+        "color": "#EA1889",
+        "isBot": false,
+        "roles": [
+          {
+            "id": "993531517806592121",
+            "name": "Technical Dev Team",
+            "color": null,
+            "position": 144
+          },
+          {
+            "id": "1150260858748932198",
+            "name": "Trust & Safety Officer",
+            "color": null,
+            "position": 140
+          },
+          {
+            "id": "633353998287503390",
+            "name": "Moderators",
+            "color": "#EA1889",
+            "position": 138
+          },
+          {
+            "id": "1077071443935887360",
+            "name": "Cabinet",
+            "color": "#6EA7A1",
+            "position": 118
+          },
+          {
+            "id": "1077068812777685105",
+            "name": "FA Minister",
+            "color": null,
+            "position": 117
+          },
+          {
+            "id": "1553698902430064650",
+            "name": "WA Council",
+            "color": null,
+            "position": 114
+          },
+          {
+            "id": "1076716058209161216",
+            "name": "Minister",
+            "color": null,
+            "position": 111
+          },
+          {
+            "id": "1252620768789921832",
+            "name": "Recruitment",
+            "color": null,
+            "position": 104
+          },
+          {
+            "id": "1553699408225239090",
+            "name": "WA Fellow",
+            "color": null,
+            "position": 102
+          },
+          {
+            "id": "1196698562445193267",
+            "name": "FA Councillor",
+            "color": null,
+            "position": 100
+          },
+          {
+            "id": "1196697343504957450",
+            "name": "FA Lower Council",
+            "color": null,
+            "position": 99
+          },
+          {
+            "id": "1201510757553164390",
+            "name": "FA Ambassador",
+            "color": null,
+            "position": 98
+          },
+          {
+            "id": "633363669547483136",
+            "name": "Vizier",
+            "color": "#AC92ED",
+            "position": 94
+          },
+          {
+            "id": "649271830141599783",
+            "name": "EPPS",
+            "color": "#B49CEF",
+            "position": 92
+          },
+          {
+            "id": "633730426321633321",
+            "name": "Viceroy",
+            "color": "#FF8700",
+            "position": 90
+          },
+          {
+            "id": "633719143723433996",
+            "name": "Arbiter",
+            "color": "#D17917",
+            "position": 88
+          },
+          {
+            "id": "933820954419806248",
+            "name": "Citizenship Official",
+            "color": null,
+            "position": 81
+          },
+          {
+            "id": "901515827340263444",
+            "name": "Former Delegates",
+            "color": null,
+            "position": 80
+          },
+          {
+            "id": "651114349347471371",
+            "name": "Regional Officer",
+            "color": null,
+            "position": 79
+          },
+          {
+            "id": "1430367546984370347",
+            "name": "Citizens",
+            "color": "#CD125D",
+            "position": 60
+          },
+          {
+            "id": "633352531690520596",
+            "name": "Residents [WA]",
+            "color": "#DB4453",
+            "position": 59
+          }
+        ],
+        "avatarUrl": "https://cdn.discordapp.com/avatars/395560652330237954/1f4c6a1898edfd0b39ee6e1647d6e8af.png?size=512"
+      },
+      "attachments": [],
+      "embeds": [],
+      "stickers": [],
+      "reactions": [],
+      "mentions": [],
+      "inlineEmojis": []
+    },
+    {
+      "id": "1446185268251197633",
+      "type": "Default",
+      "timestamp": "2025-12-04T17:03:56.774+00:00",
+      "timestampEdited": null,
+      "callEndedTimestamp": null,
+      "isPinned": false,
+      "content": "Destroyed",
+      "author": {
+        "id": "395560652330237954",
+        "name": "crittermunch",
+        "discriminator": "0000",
+        "nickname": "A mean old man",
+        "color": "#EA1889",
+        "isBot": false,
+        "roles": [
+          {
+            "id": "993531517806592121",
+            "name": "Technical Dev Team",
+            "color": null,
+            "position": 144
+          },
+          {
+            "id": "1150260858748932198",
+            "name": "Trust & Safety Officer",
+            "color": null,
+            "position": 140
+          },
+          {
+            "id": "633353998287503390",
+            "name": "Moderators",
+            "color": "#EA1889",
+            "position": 138
+          },
+          {
+            "id": "1077071443935887360",
+            "name": "Cabinet",
+            "color": "#6EA7A1",
+            "position": 118
+          },
+          {
+            "id": "1077068812777685105",
+            "name": "FA Minister",
+            "color": null,
+            "position": 117
+          },
+          {
+            "id": "1553698902430064650",
+            "name": "WA Council",
+            "color": null,
+            "position": 114
+          },
+          {
+            "id": "1076716058209161216",
+            "name": "Minister",
+            "color": null,
+            "position": 111
+          },
+          {
+            "id": "1252620768789921832",
+            "name": "Recruitment",
+            "color": null,
+            "position": 104
+          },
+          {
+            "id": "1553699408225239090",
+            "name": "WA Fellow",
+            "color": null,
+            "position": 102
+          },
+          {
+            "id": "1196698562445193267",
+            "name": "FA Councillor",
+            "color": null,
+            "position": 100
+          },
+          {
+            "id": "1196697343504957450",
+            "name": "FA Lower Council",
+            "color": null,
+            "position": 99
+          },
+          {
+            "id": "1201510757553164390",
+            "name": "FA Ambassador",
+            "color": null,
+            "position": 98
+          },
+          {
+            "id": "633363669547483136",
+            "name": "Vizier",
+            "color": "#AC92ED",
+            "position": 94
+          },
+          {
+            "id": "649271830141599783",
+            "name": "EPPS",
+            "color": "#B49CEF",
+            "position": 92
+          },
+          {
+            "id": "633730426321633321",
+            "name": "Viceroy",
+            "color": "#FF8700",
+            "position": 90
+          },
+          {
+            "id": "633719143723433996",
+            "name": "Arbiter",
+            "color": "#D17917",
+            "position": 88
+          },
+          {
+            "id": "933820954419806248",
+            "name": "Citizenship Official",
+            "color": null,
+            "position": 81
+          },
+          {
+            "id": "901515827340263444",
+            "name": "Former Delegates",
+            "color": null,
+            "position": 80
+          },
+          {
+            "id": "651114349347471371",
+            "name": "Regional Officer",
+            "color": null,
+            "position": 79
+          },
+          {
+            "id": "1430367546984370347",
+            "name": "Citizens",
+            "color": "#CD125D",
+            "position": 60
+          },
+          {
+            "id": "633352531690520596",
+            "name": "Residents [WA]",
+            "color": "#DB4453",
+            "position": 59
+          }
+        ],
+        "avatarUrl": "https://cdn.discordapp.com/avatars/395560652330237954/1f4c6a1898edfd0b39ee6e1647d6e8af.png?size=512"
+      },
+      "attachments": [],
+      "embeds": [],
+      "stickers": [],
+      "reactions": [],
+      "mentions": [],
+      "inlineEmojis": []
+    },
+    {
+      "id": "1446185276803256451",
+      "type": "Default",
+      "timestamp": "2025-12-04T17:03:58.813+00:00",
+      "timestampEdited": null,
+      "callEndedTimestamp": null,
+      "isPinned": false,
+      "content": "Defeated",
+      "author": {
+        "id": "395560652330237954",
+        "name": "crittermunch",
+        "discriminator": "0000",
+        "nickname": "A mean old man",
+        "color": "#EA1889",
+        "isBot": false,
+        "roles": [
+          {
+            "id": "993531517806592121",
+            "name": "Technical Dev Team",
+            "color": null,
+            "position": 144
+          },
+          {
+            "id": "1150260858748932198",
+            "name": "Trust & Safety Officer",
+            "color": null,
+            "position": 140
+          },
+          {
+            "id": "633353998287503390",
+            "name": "Moderators",
+            "color": "#EA1889",
+            "position": 138
+          },
+          {
+            "id": "1077071443935887360",
+            "name": "Cabinet",
+            "color": "#6EA7A1",
+            "position": 118
+          },
+          {
+            "id": "1077068812777685105",
+            "name": "FA Minister",
+            "color": null,
+            "position": 117
+          },
+          {
+            "id": "1553698902430064650",
+            "name": "WA Council",
+            "color": null,
+            "position": 114
+          },
+          {
+            "id": "1076716058209161216",
+            "name": "Minister",
+            "color": null,
+            "position": 111
+          },
+          {
+            "id": "1252620768789921832",
+            "name": "Recruitment",
+            "color": null,
+            "position": 104
+          },
+          {
+            "id": "1553699408225239090",
+            "name": "WA Fellow",
+            "color": null,
+            "position": 102
+          },
+          {
+            "id": "1196698562445193267",
+            "name": "FA Councillor",
+            "color": null,
+            "position": 100
+          },
+          {
+            "id": "1196697343504957450",
+            "name": "FA Lower Council",
+            "color": null,
+            "position": 99
+          },
+          {
+            "id": "1201510757553164390",
+            "name": "FA Ambassador",
+            "color": null,
+            "position": 98
+          },
+          {
+            "id": "633363669547483136",
+            "name": "Vizier",
+            "color": "#AC92ED",
+            "position": 94
+          },
+          {
+            "id": "649271830141599783",
+            "name": "EPPS",
+            "color": "#B49CEF",
+            "position": 92
+          },
+          {
+            "id": "633730426321633321",
+            "name": "Viceroy",
+            "color": "#FF8700",
+            "position": 90
+          },
+          {
+            "id": "633719143723433996",
+            "name": "Arbiter",
+            "color": "#D17917",
+            "position": 88
+          },
+          {
+            "id": "933820954419806248",
+            "name": "Citizenship Official",
+            "color": null,
+            "position": 81
+          },
+          {
+            "id": "901515827340263444",
+            "name": "Former Delegates",
+            "color": null,
+            "position": 80
+          },
+          {
+            "id": "651114349347471371",
+            "name": "Regional Officer",
+            "color": null,
+            "position": 79
+          },
+          {
+            "id": "1430367546984370347",
+            "name": "Citizens",
+            "color": "#CD125D",
+            "position": 60
+          },
+          {
+            "id": "633352531690520596",
+            "name": "Residents [WA]",
+            "color": "#DB4453",
+            "position": 59
+          }
+        ],
+        "avatarUrl": "https://cdn.discordapp.com/avatars/395560652330237954/1f4c6a1898edfd0b39ee6e1647d6e8af.png?size=512"
+      },
+      "attachments": [],
+      "embeds": [],
+      "stickers": [],
+      "reactions": [],
+      "mentions": [],
+      "inlineEmojis": []
+    },
+    {
+      "id": "1446193637259083776",
+      "type": "ChannelNameChange",
+      "timestamp": "2025-12-04T17:37:12.101+00:00",
+      "timestampEdited": null,
+      "callEndedTimestamp": null,
+      "isPinned": false,
+      "content": "Changed the channel name: [AT VOTE - AGAINST] SC - Condemn Hawaiian Isle",
+      "author": {
+        "id": "123916056392761345",
+        "name": "aurorayukihime",
+        "discriminator": "0000",
+        "nickname": "Aurora, Desuwa of Umapyoi",
+        "color": "#5E9CE9",
+        "isBot": false,
+        "roles": [
+          {
+            "id": "993531517806592121",
+            "name": "Technical Dev Team",
+            "color": null,
+            "position": 144
+          },
+          {
+            "id": "1196698562445193267",
+            "name": "FA Councillor",
+            "color": null,
+            "position": 100
+          },
+          {
+            "id": "1196697343504957450",
+            "name": "FA Lower Council",
+            "color": null,
+            "position": 99
+          },
+          {
+            "id": "633363319864033282",
+            "name": "Magister",
+            "color": "#5E9CE9",
+            "position": 84
+          },
+          {
+            "id": "901515827340263444",
+            "name": "Former Delegates",
+            "color": null,
+            "position": 80
+          },
+          {
+            "id": "773652878203945020",
+            "name": "Hussar of The East",
+            "color": "#447643",
+            "position": 63
+          },
+          {
+            "id": "1430367546984370347",
+            "name": "Citizens",
+            "color": "#CD125D",
+            "position": 60
+          },
+          {
+            "id": "633352531690520596",
+            "name": "Residents [WA]",
+            "color": "#DB4453",
+            "position": 59
+          },
+          {
+            "id": "633352654579302451",
+            "name": "Residents",
+            "color": "#ED5564",
+            "position": 58
+          },
+          {
+            "id": "633357236416151572",
+            "name": "Allied Government",
+            "color": "#3BAEDA",
+            "position": 57
+          },
+          {
+            "id": "633688402352406550",
+            "name": "Foreign Dignitaries",
+            "color": "#4FC0E8",
+            "position": 55
+          },
+          {
+            "id": "704038370405384313",
+            "name": "Friends of the East",
+            "color": "#93D8F1",
+            "position": 53
+          },
+          {
+            "id": "727880101995479090",
+            "name": "Notifications",
+            "color": null,
+            "position": 44
+          },
+          {
+            "id": "851124231377780796",
+            "name": "Daily Question",
+            "color": null,
+            "position": 31
+          },
+          {
+            "id": "1127999715389222922",
+            "name": "Game Night",
+            "color": null,
+            "position": 25
+          },
+          {
+            "id": "1145421147261898803",
+            "name": "Hunger Games",
+            "color": null,
+            "position": 22
+          },
+          {
+            "id": "855597652984070244",
+            "name": "she/her",
+            "color": null,
+            "position": 17
+          }
+        ],
+        "avatarUrl": "https://cdn.discordapp.com/guilds/633351482128728064/users/123916056392761345/avatars/a7f001d7f76f580c3c05379a71b0fe67.png?size=512"
+      },
+      "attachments": [],
+      "embeds": [],
+      "stickers": [],
+      "reactions": [],
+      "mentions": [],
+      "inlineEmojis": []
+    },
+    {
+      "id": "1447828294253809796",
+      "type": "Default",
+      "timestamp": "2025-12-09T05:52:44.699+00:00",
+      "timestampEdited": null,
+      "callEndedTimestamp": null,
+      "isPinned": false,
+      "content": "\"Condemn Hawaiian Isle\" was defeated 10,657 votes to 1,104 (9.4% support).",
+      "author": {
+        "id": "713045407365857341",
+        "name": "cretoxyrhin",
+        "discriminator": "0000",
+        "nickname": "Cretox in Yellow",
+        "color": "#6EA7A1",
+        "isBot": false,
+        "roles": [
+          {
+            "id": "1077071443935887360",
+            "name": "Cabinet",
+            "color": "#6EA7A1",
+            "position": 118
+          },
+          {
+            "id": "1475284166714069064",
+            "name": "WA Commissioner",
+            "color": null,
+            "position": 116
+          },
+          {
+            "id": "1553698902430064650",
+            "name": "WA Council",
+            "color": null,
+            "position": 114
+          },
+          {
+            "id": "1076716058209161216",
+            "name": "Minister",
+            "color": null,
+            "position": 111
+          },
+          {
+            "id": "1429233082921390090",
+            "name": "UTEP Dean",
+            "color": null,
+            "position": 109
+          },
+          {
+            "id": "633394832491937794",
+            "name": "Soldier, EPSA",
+            "color": "#FFCE55",
+            "position": 108
+          },
+          {
+            "id": "1077068118108672114",
+            "name": "Culture",
+            "color": null,
+            "position": 107
+          },
+          {
+            "id": "1077067280556494939",
+            "name": "News",
+            "color": null,
+            "position": 105
+          },
+          {
+            "id": "1252620768789921832",
+            "name": "Recruitment",
+            "color": null,
+            "position": 104
+          },
+          {
+            "id": "1167539145166553109",
+            "name": "University Staff",
+            "color": null,
+            "position": 103
+          },
+          {
+            "id": "1553699408225239090",
+            "name": "WA Fellow",
+            "color": null,
+            "position": 102
+          },
+          {
+            "id": "1196697343504957450",
+            "name": "FA Lower Council",
+            "color": null,
+            "position": 99
+          },
+          {
+            "id": "1201510757553164390",
+            "name": "FA Ambassador",
+            "color": null,
+            "position": 98
+          },
+          {
+            "id": "1072578688631193651",
+            "name": "RA Exe Onboarding",
+            "color": null,
+            "position": 97
+          },
+          {
+            "id": "649271830141599783",
+            "name": "EPPS",
+            "color": "#B49CEF",
+            "position": 92
+          },
+          {
+            "id": "633363319864033282",
+            "name": "Magister",
+            "color": "#5E9CE9",
+            "position": 84
+          },
+          {
+            "id": "651114349347471371",
+            "name": "Regional Officer",
+            "color": null,
+            "position": 79
+          },
+          {
+            "id": "1241992643366617128",
+            "name": "Winged Hussar",
+            "color": "#447643",
+            "position": 64
+          },
+          {
+            "id": "1430367546984370347",
+            "name": "Citizens",
+            "color": "#CD125D",
+            "position": 60
+          },
+          {
+            "id": "633352531690520596",
+            "name": "Residents [WA]",
+            "color": "#DB4453",
+            "position": 59
+          },
+          {
+            "id": "633352654579302451",
+            "name": "Residents",
+            "color": "#ED5564",
+            "position": 58
+          },
+          {
+            "id": "633401426646663191",
+            "name": "Visitor | NS",
+            "color": "#A6EEF4",
+            "position": 52
+          },
+          {
+            "id": "637022380530597892",
+            "name": "Design Specialist",
+            "color": null,
+            "position": 46
+          },
+          {
+            "id": "729123951053373480",
+            "name": "Code & API Specialist",
+            "color": null,
+            "position": 45
+          },
+          {
+            "id": "727880101995479090",
+            "name": "Notifications",
+            "color": null,
+            "position": 44
+          },
+          {
+            "id": "1078031481336766637",
+            "name": "Forum/Bot Status",
+            "color": null,
+            "position": 43
+          },
+          {
+            "id": "739259727942516836",
+            "name": "Writing Specialist",
+            "color": null,
+            "position": 42
+          },
+          {
+            "id": "739246330106478684",
+            "name": "Voice Chat",
+            "color": null,
+            "position": 41
+          },
+          {
+            "id": "815019492748165172",
+            "name": "WA Notification",
+            "color": null,
+            "position": 40
+          },
+          {
+            "id": "754595572853243975",
+            "name": "Upvote",
+            "color": null,
+            "position": 39
+          },
+          {
+            "id": "761550447088500757",
+            "name": "Gamer",
+            "color": null,
+            "position": 38
+          },
+          {
+            "id": "1077673652344061992",
+            "name": "NationStates",
+            "color": null,
+            "position": 33
+          },
+          {
+            "id": "851124231377780796",
+            "name": "Daily Question",
+            "color": null,
+            "position": 31
+          },
+          {
+            "id": "1087945130041942136",
+            "name": "Bookworm",
+            "color": null,
+            "position": 28
+          },
+          {
+            "id": "1078295075508998264",
+            "name": "Nerd",
+            "color": null,
+            "position": 27
+          },
+          {
+            "id": "1091197551799173170",
+            "name": "Radio On-Air",
+            "color": null,
+            "position": 26
+          },
+          {
+            "id": "1180938941885587548",
+            "name": "Debates & Politics",
+            "color": null,
+            "position": 20
+          },
+          {
+            "id": "855597551624257548",
+            "name": "he/him",
+            "color": null,
+            "position": 18
+          }
+        ],
+        "avatarUrl": "https://cdn.discordapp.com/avatars/713045407365857341/80466229e37b8c7cf1c4a09f7e1fbd88.png?size=512"
+      },
+      "attachments": [],
+      "embeds": [],
+      "stickers": [],
+      "reactions": [],
+      "mentions": [],
+      "inlineEmojis": []
+    },
+    {
+      "id": "1447828348222046330",
+      "type": "ChannelNameChange",
+      "timestamp": "2025-12-09T05:52:57.566+00:00",
+      "timestampEdited": null,
+      "callEndedTimestamp": null,
+      "isPinned": false,
+      "content": "Changed the channel name: [DEFEATED] SC - Condemn Hawaiian Isle",
+      "author": {
+        "id": "713045407365857341",
+        "name": "cretoxyrhin",
+        "discriminator": "0000",
+        "nickname": "Cretox in Yellow",
+        "color": "#6EA7A1",
+        "isBot": false,
+        "roles": [
+          {
+            "id": "1077071443935887360",
+            "name": "Cabinet",
+            "color": "#6EA7A1",
+            "position": 118
+          },
+          {
+            "id": "1475284166714069064",
+            "name": "WA Commissioner",
+            "color": null,
+            "position": 116
+          },
+          {
+            "id": "1553698902430064650",
+            "name": "WA Council",
+            "color": null,
+            "position": 114
+          },
+          {
+            "id": "1076716058209161216",
+            "name": "Minister",
+            "color": null,
+            "position": 111
+          },
+          {
+            "id": "1429233082921390090",
+            "name": "UTEP Dean",
+            "color": null,
+            "position": 109
+          },
+          {
+            "id": "633394832491937794",
+            "name": "Soldier, EPSA",
+            "color": "#FFCE55",
+            "position": 108
+          },
+          {
+            "id": "1077068118108672114",
+            "name": "Culture",
+            "color": null,
+            "position": 107
+          },
+          {
+            "id": "1077067280556494939",
+            "name": "News",
+            "color": null,
+            "position": 105
+          },
+          {
+            "id": "1252620768789921832",
+            "name": "Recruitment",
+            "color": null,
+            "position": 104
+          },
+          {
+            "id": "1167539145166553109",
+            "name": "University Staff",
+            "color": null,
+            "position": 103
+          },
+          {
+            "id": "1553699408225239090",
+            "name": "WA Fellow",
+            "color": null,
+            "position": 102
+          },
+          {
+            "id": "1196697343504957450",
+            "name": "FA Lower Council",
+            "color": null,
+            "position": 99
+          },
+          {
+            "id": "1201510757553164390",
+            "name": "FA Ambassador",
+            "color": null,
+            "position": 98
+          },
+          {
+            "id": "1072578688631193651",
+            "name": "RA Exe Onboarding",
+            "color": null,
+            "position": 97
+          },
+          {
+            "id": "649271830141599783",
+            "name": "EPPS",
+            "color": "#B49CEF",
+            "position": 92
+          },
+          {
+            "id": "633363319864033282",
+            "name": "Magister",
+            "color": "#5E9CE9",
+            "position": 84
+          },
+          {
+            "id": "651114349347471371",
+            "name": "Regional Officer",
+            "color": null,
+            "position": 79
+          },
+          {
+            "id": "1241992643366617128",
+            "name": "Winged Hussar",
+            "color": "#447643",
+            "position": 64
+          },
+          {
+            "id": "1430367546984370347",
+            "name": "Citizens",
+            "color": "#CD125D",
+            "position": 60
+          },
+          {
+            "id": "633352531690520596",
+            "name": "Residents [WA]",
+            "color": "#DB4453",
+            "position": 59
+          },
+          {
+            "id": "633352654579302451",
+            "name": "Residents",
+            "color": "#ED5564",
+            "position": 58
+          },
+          {
+            "id": "633401426646663191",
+            "name": "Visitor | NS",
+            "color": "#A6EEF4",
+            "position": 52
+          },
+          {
+            "id": "637022380530597892",
+            "name": "Design Specialist",
+            "color": null,
+            "position": 46
+          },
+          {
+            "id": "729123951053373480",
+            "name": "Code & API Specialist",
+            "color": null,
+            "position": 45
+          },
+          {
+            "id": "727880101995479090",
+            "name": "Notifications",
+            "color": null,
+            "position": 44
+          },
+          {
+            "id": "1078031481336766637",
+            "name": "Forum/Bot Status",
+            "color": null,
+            "position": 43
+          },
+          {
+            "id": "739259727942516836",
+            "name": "Writing Specialist",
+            "color": null,
+            "position": 42
+          },
+          {
+            "id": "739246330106478684",
+            "name": "Voice Chat",
+            "color": null,
+            "position": 41
+          },
+          {
+            "id": "815019492748165172",
+            "name": "WA Notification",
+            "color": null,
+            "position": 40
+          },
+          {
+            "id": "754595572853243975",
+            "name": "Upvote",
+            "color": null,
+            "position": 39
+          },
+          {
+            "id": "761550447088500757",
+            "name": "Gamer",
+            "color": null,
+            "position": 38
+          },
+          {
+            "id": "1077673652344061992",
+            "name": "NationStates",
+            "color": null,
+            "position": 33
+          },
+          {
+            "id": "851124231377780796",
+            "name": "Daily Question",
+            "color": null,
+            "position": 31
+          },
+          {
+            "id": "1087945130041942136",
+            "name": "Bookworm",
+            "color": null,
+            "position": 28
+          },
+          {
+            "id": "1078295075508998264",
+            "name": "Nerd",
+            "color": null,
+            "position": 27
+          },
+          {
+            "id": "1091197551799173170",
+            "name": "Radio On-Air",
+            "color": null,
+            "position": 26
+          },
+          {
+            "id": "1180938941885587548",
+            "name": "Debates & Politics",
+            "color": null,
+            "position": 20
+          },
+          {
+            "id": "855597551624257548",
+            "name": "he/him",
+            "color": null,
+            "position": 18
+          }
+        ],
+        "avatarUrl": "https://cdn.discordapp.com/avatars/713045407365857341/80466229e37b8c7cf1c4a09f7e1fbd88.png?size=512"
+      },
+      "attachments": [],
+      "embeds": [],
+      "stickers": [],
+      "reactions": [],
+      "mentions": [],
+      "inlineEmojis": []
+    }
+  ],
+  "messageCount": 16
+}

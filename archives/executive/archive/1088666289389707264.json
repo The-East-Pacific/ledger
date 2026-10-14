@@ -1,0 +1,1376 @@
+{
+  "guild": {
+    "id": "633351482128728064",
+    "name": "The East Pacific",
+    "iconUrl": "https://cdn.discordapp.com/icons/633351482128728064/3b9183b0816dd4a4296cc384f5f6caf7.png?size=512"
+  },
+  "channel": {
+    "id": "1088666289389707264",
+    "type": "GuildPublicThread",
+    "categoryId": "1053147931768803398",
+    "category": "the-hall-of-halls",
+    "name": "UTEP Sciences",
+    "topic": null
+  },
+  "dateRange": {
+    "after": null,
+    "before": null
+  },
+  "exportedAt": "2026-10-14T07:07:27.9004981+00:00",
+  "messages": [
+    {
+      "id": "1088666289389707264",
+      "type": "Default",
+      "timestamp": "2023-03-24T03:31:09.832+00:00",
+      "timestampEdited": null,
+      "callEndedTimestamp": null,
+      "isPinned": false,
+      "content": "This is the official UTEP thread for all discussions of science, technology, mathematics, and all related topics.",
+      "author": {
+        "id": "416392534290464768",
+        "name": "styxprincess",
+        "discriminator": "0000",
+        "nickname": "StyxPrincess",
+        "color": null,
+        "isBot": false,
+        "roles": [],
+        "avatarUrl": "https://cdn.discordapp.com/avatars/416392534290464768/21ad1529589aac7d87e06ab93801ad6a.png?size=512"
+      },
+      "attachments": [
+        {
+          "id": "1088666289502949496",
+          "url": "https://cdn.discordapp.com/attachments/1088666289389707264/1088666289502949496/UTEPstamp.png?ex=6ad048fd&is=6acef77d&hm=45476b26c0a0e329543d0585d372765bbc9ec505244d679dd904e670139d0bdc&",
+          "fileName": "UTEPstamp.png",
+          "fileSizeBytes": 35916
+        }
+      ],
+      "embeds": [],
+      "stickers": [],
+      "reactions": [],
+      "mentions": [],
+      "inlineEmojis": []
+    },
+    {
+      "id": "1090717567166976031",
+      "type": "Default",
+      "timestamp": "2023-03-29T19:22:12.565+00:00",
+      "timestampEdited": null,
+      "callEndedTimestamp": null,
+      "isPinned": false,
+      "content": "2 + 2 is 4 - 1 is 3 quick mafs",
+      "author": {
+        "id": "642370661830098945",
+        "name": "jkillerfans",
+        "discriminator": "0000",
+        "nickname": "Jkillerfans",
+        "color": null,
+        "isBot": false,
+        "roles": [],
+        "avatarUrl": "https://cdn.discordapp.com/avatars/642370661830098945/51a61a8eaa234b35651bd5a9c4f89071.png?size=512"
+      },
+      "attachments": [],
+      "embeds": [],
+      "stickers": [],
+      "reactions": [],
+      "mentions": [],
+      "inlineEmojis": []
+    },
+    {
+      "id": "1122254885497348146",
+      "type": "Default",
+      "timestamp": "2023-06-24T20:00:15.19+00:00",
+      "timestampEdited": null,
+      "callEndedTimestamp": null,
+      "isPinned": false,
+      "content": "Which subdivision of science (e.g. chemistry, physics, biology, computer science) is the most important? Why?\n@Frenemy of The East Pacific",
+      "author": {
+        "id": "676251628868993054",
+        "name": "y_n0t_",
+        "discriminator": "0000",
+        "nickname": "y0",
+        "color": "#447643",
+        "isBot": false,
+        "roles": [
+          {
+            "id": "773652878203945020",
+            "name": "Hussar of The East",
+            "color": "#447643",
+            "position": 63
+          },
+          {
+            "id": "633352531690520596",
+            "name": "Residents [WA]",
+            "color": "#DB4453",
+            "position": 59
+          },
+          {
+            "id": "633352654579302451",
+            "name": "Residents",
+            "color": "#ED5564",
+            "position": 58
+          },
+          {
+            "id": "729123951053373480",
+            "name": "Code & API Specialist",
+            "color": null,
+            "position": 45
+          },
+          {
+            "id": "739259727942516836",
+            "name": "Writing Specialist",
+            "color": null,
+            "position": 42
+          },
+          {
+            "id": "754595572853243975",
+            "name": "Upvote",
+            "color": null,
+            "position": 39
+          },
+          {
+            "id": "634491355443494953",
+            "name": "RMBer",
+            "color": null,
+            "position": 35
+          },
+          {
+            "id": "1077673652344061992",
+            "name": "NationStates",
+            "color": null,
+            "position": 33
+          },
+          {
+            "id": "851124231377780796",
+            "name": "Daily Question",
+            "color": null,
+            "position": 31
+          },
+          {
+            "id": "998343650130001950",
+            "name": "Frenemy of The East Pacific",
+            "color": "#F500FF",
+            "position": 29
+          },
+          {
+            "id": "1145421147261898803",
+            "name": "Hunger Games",
+            "color": null,
+            "position": 22
+          },
+          {
+            "id": "1237447542162325526",
+            "name": "Eurovision",
+            "color": null,
+            "position": 15
+          }
+        ],
+        "avatarUrl": "https://cdn.discordapp.com/avatars/676251628868993054/99c0fa12443efe91ad7cb0e09b39aa34.png?size=512"
+      },
+      "attachments": [],
+      "embeds": [],
+      "stickers": [],
+      "reactions": [],
+      "mentions": [],
+      "inlineEmojis": []
+    },
+    {
+      "id": "1122255278210043924",
+      "type": "Default",
+      "timestamp": "2023-06-24T20:01:48.82+00:00",
+      "timestampEdited": null,
+      "callEndedTimestamp": null,
+      "isPinned": false,
+      "content": "Truthfully, all of them are important.  It's not like we should stop putting effort and time in researching and understand all of these aspects.  That being said, I think with the way technology is evolving a mixture of computer science and biology is necessary.  I fully forsee humanity making machine limbs or computer enhanced eyes in the near furture",
+      "author": {
+        "id": "346721742418608169",
+        "name": "shadow110",
+        "discriminator": "0000",
+        "nickname": "Mg. Vizier-Pope Shadow IV, OGO",
+        "color": "#FFCE55",
+        "isBot": false,
+        "roles": [
+          {
+            "id": "1429233082921390090",
+            "name": "UTEP Dean",
+            "color": null,
+            "position": 109
+          },
+          {
+            "id": "633394832491937794",
+            "name": "Soldier, EPSA",
+            "color": "#FFCE55",
+            "position": 108
+          },
+          {
+            "id": "1430393084314914876",
+            "name": "Clerical",
+            "color": null,
+            "position": 106
+          },
+          {
+            "id": "1077067280556494939",
+            "name": "News",
+            "color": null,
+            "position": 105
+          },
+          {
+            "id": "1167539145166553109",
+            "name": "University Staff",
+            "color": null,
+            "position": 103
+          },
+          {
+            "id": "1196698562445193267",
+            "name": "FA Councillor",
+            "color": null,
+            "position": 100
+          },
+          {
+            "id": "1196697343504957450",
+            "name": "FA Lower Council",
+            "color": null,
+            "position": 99
+          },
+          {
+            "id": "1201510757553164390",
+            "name": "FA Ambassador",
+            "color": null,
+            "position": 98
+          },
+          {
+            "id": "1072578688631193651",
+            "name": "RA Exe Onboarding",
+            "color": null,
+            "position": 97
+          },
+          {
+            "id": "633363669547483136",
+            "name": "Vizier",
+            "color": "#AC92ED",
+            "position": 94
+          },
+          {
+            "id": "633719143723433996",
+            "name": "Arbiter",
+            "color": "#D17917",
+            "position": 88
+          },
+          {
+            "id": "933820954419806248",
+            "name": "Citizenship Official",
+            "color": null,
+            "position": 81
+          },
+          {
+            "id": "901515827340263444",
+            "name": "Former Delegates",
+            "color": null,
+            "position": 80
+          },
+          {
+            "id": "1089387264154533928",
+            "name": "Host",
+            "color": null,
+            "position": 74
+          },
+          {
+            "id": "917837294998790214",
+            "name": "Urth",
+            "color": null,
+            "position": 68
+          },
+          {
+            "id": "1430367546984370347",
+            "name": "Citizens",
+            "color": "#CD125D",
+            "position": 60
+          },
+          {
+            "id": "633352531690520596",
+            "name": "Residents [WA]",
+            "color": "#DB4453",
+            "position": 59
+          },
+          {
+            "id": "633352654579302451",
+            "name": "Residents",
+            "color": "#ED5564",
+            "position": 58
+          },
+          {
+            "id": "729123951053373480",
+            "name": "Code & API Specialist",
+            "color": null,
+            "position": 45
+          },
+          {
+            "id": "727880101995479090",
+            "name": "Notifications",
+            "color": null,
+            "position": 44
+          },
+          {
+            "id": "1078031481336766637",
+            "name": "Forum/Bot Status",
+            "color": null,
+            "position": 43
+          },
+          {
+            "id": "739246330106478684",
+            "name": "Voice Chat",
+            "color": null,
+            "position": 41
+          },
+          {
+            "id": "815019492748165172",
+            "name": "WA Notification",
+            "color": null,
+            "position": 40
+          },
+          {
+            "id": "754595572853243975",
+            "name": "Upvote",
+            "color": null,
+            "position": 39
+          },
+          {
+            "id": "761550447088500757",
+            "name": "Gamer",
+            "color": null,
+            "position": 38
+          },
+          {
+            "id": "1285294965748006967",
+            "name": "Gamer - HSR",
+            "color": null,
+            "position": 37
+          },
+          {
+            "id": "649288407801004062",
+            "name": "Urth Forum RP",
+            "color": null,
+            "position": 36
+          },
+          {
+            "id": "1077673652344061992",
+            "name": "NationStates",
+            "color": null,
+            "position": 33
+          },
+          {
+            "id": "851124231377780796",
+            "name": "Daily Question",
+            "color": null,
+            "position": 31
+          },
+          {
+            "id": "998343650130001950",
+            "name": "Frenemy of The East Pacific",
+            "color": "#F500FF",
+            "position": 29
+          },
+          {
+            "id": "1087945130041942136",
+            "name": "Bookworm",
+            "color": null,
+            "position": 28
+          },
+          {
+            "id": "1091197551799173170",
+            "name": "Radio On-Air",
+            "color": null,
+            "position": 26
+          },
+          {
+            "id": "1127999715389222922",
+            "name": "Game Night",
+            "color": null,
+            "position": 25
+          },
+          {
+            "id": "1168277571344011390",
+            "name": "Hunger Games caster",
+            "color": null,
+            "position": 23
+          },
+          {
+            "id": "1145421147261898803",
+            "name": "Hunger Games",
+            "color": null,
+            "position": 22
+          },
+          {
+            "id": "1011692169716838520",
+            "name": "TEP Plays NS",
+            "color": null,
+            "position": 21
+          },
+          {
+            "id": "1180938941885587548",
+            "name": "Debates & Politics",
+            "color": null,
+            "position": 20
+          },
+          {
+            "id": "855597859243032598",
+            "name": "they/them",
+            "color": null,
+            "position": 16
+          }
+        ],
+        "avatarUrl": "https://cdn.discordapp.com/avatars/346721742418608169/50956b052ff90f0baffecce94425ec1a.png?size=512"
+      },
+      "attachments": [],
+      "embeds": [],
+      "stickers": [],
+      "reactions": [],
+      "mentions": [],
+      "inlineEmojis": []
+    },
+    {
+      "id": "1122255312871759964",
+      "type": "Default",
+      "timestamp": "2023-06-24T20:01:57.084+00:00",
+      "timestampEdited": null,
+      "callEndedTimestamp": null,
+      "isPinned": false,
+      "content": "Also, wrong pung y0",
+      "author": {
+        "id": "346721742418608169",
+        "name": "shadow110",
+        "discriminator": "0000",
+        "nickname": "Mg. Vizier-Pope Shadow IV, OGO",
+        "color": "#FFCE55",
+        "isBot": false,
+        "roles": [
+          {
+            "id": "1429233082921390090",
+            "name": "UTEP Dean",
+            "color": null,
+            "position": 109
+          },
+          {
+            "id": "633394832491937794",
+            "name": "Soldier, EPSA",
+            "color": "#FFCE55",
+            "position": 108
+          },
+          {
+            "id": "1430393084314914876",
+            "name": "Clerical",
+            "color": null,
+            "position": 106
+          },
+          {
+            "id": "1077067280556494939",
+            "name": "News",
+            "color": null,
+            "position": 105
+          },
+          {
+            "id": "1167539145166553109",
+            "name": "University Staff",
+            "color": null,
+            "position": 103
+          },
+          {
+            "id": "1196698562445193267",
+            "name": "FA Councillor",
+            "color": null,
+            "position": 100
+          },
+          {
+            "id": "1196697343504957450",
+            "name": "FA Lower Council",
+            "color": null,
+            "position": 99
+          },
+          {
+            "id": "1201510757553164390",
+            "name": "FA Ambassador",
+            "color": null,
+            "position": 98
+          },
+          {
+            "id": "1072578688631193651",
+            "name": "RA Exe Onboarding",
+            "color": null,
+            "position": 97
+          },
+          {
+            "id": "633363669547483136",
+            "name": "Vizier",
+            "color": "#AC92ED",
+            "position": 94
+          },
+          {
+            "id": "633719143723433996",
+            "name": "Arbiter",
+            "color": "#D17917",
+            "position": 88
+          },
+          {
+            "id": "933820954419806248",
+            "name": "Citizenship Official",
+            "color": null,
+            "position": 81
+          },
+          {
+            "id": "901515827340263444",
+            "name": "Former Delegates",
+            "color": null,
+            "position": 80
+          },
+          {
+            "id": "1089387264154533928",
+            "name": "Host",
+            "color": null,
+            "position": 74
+          },
+          {
+            "id": "917837294998790214",
+            "name": "Urth",
+            "color": null,
+            "position": 68
+          },
+          {
+            "id": "1430367546984370347",
+            "name": "Citizens",
+            "color": "#CD125D",
+            "position": 60
+          },
+          {
+            "id": "633352531690520596",
+            "name": "Residents [WA]",
+            "color": "#DB4453",
+            "position": 59
+          },
+          {
+            "id": "633352654579302451",
+            "name": "Residents",
+            "color": "#ED5564",
+            "position": 58
+          },
+          {
+            "id": "729123951053373480",
+            "name": "Code & API Specialist",
+            "color": null,
+            "position": 45
+          },
+          {
+            "id": "727880101995479090",
+            "name": "Notifications",
+            "color": null,
+            "position": 44
+          },
+          {
+            "id": "1078031481336766637",
+            "name": "Forum/Bot Status",
+            "color": null,
+            "position": 43
+          },
+          {
+            "id": "739246330106478684",
+            "name": "Voice Chat",
+            "color": null,
+            "position": 41
+          },
+          {
+            "id": "815019492748165172",
+            "name": "WA Notification",
+            "color": null,
+            "position": 40
+          },
+          {
+            "id": "754595572853243975",
+            "name": "Upvote",
+            "color": null,
+            "position": 39
+          },
+          {
+            "id": "761550447088500757",
+            "name": "Gamer",
+            "color": null,
+            "position": 38
+          },
+          {
+            "id": "1285294965748006967",
+            "name": "Gamer - HSR",
+            "color": null,
+            "position": 37
+          },
+          {
+            "id": "649288407801004062",
+            "name": "Urth Forum RP",
+            "color": null,
+            "position": 36
+          },
+          {
+            "id": "1077673652344061992",
+            "name": "NationStates",
+            "color": null,
+            "position": 33
+          },
+          {
+            "id": "851124231377780796",
+            "name": "Daily Question",
+            "color": null,
+            "position": 31
+          },
+          {
+            "id": "998343650130001950",
+            "name": "Frenemy of The East Pacific",
+            "color": "#F500FF",
+            "position": 29
+          },
+          {
+            "id": "1087945130041942136",
+            "name": "Bookworm",
+            "color": null,
+            "position": 28
+          },
+          {
+            "id": "1091197551799173170",
+            "name": "Radio On-Air",
+            "color": null,
+            "position": 26
+          },
+          {
+            "id": "1127999715389222922",
+            "name": "Game Night",
+            "color": null,
+            "position": 25
+          },
+          {
+            "id": "1168277571344011390",
+            "name": "Hunger Games caster",
+            "color": null,
+            "position": 23
+          },
+          {
+            "id": "1145421147261898803",
+            "name": "Hunger Games",
+            "color": null,
+            "position": 22
+          },
+          {
+            "id": "1011692169716838520",
+            "name": "TEP Plays NS",
+            "color": null,
+            "position": 21
+          },
+          {
+            "id": "1180938941885587548",
+            "name": "Debates & Politics",
+            "color": null,
+            "position": 20
+          },
+          {
+            "id": "855597859243032598",
+            "name": "they/them",
+            "color": null,
+            "position": 16
+          }
+        ],
+        "avatarUrl": "https://cdn.discordapp.com/avatars/346721742418608169/50956b052ff90f0baffecce94425ec1a.png?size=512"
+      },
+      "attachments": [],
+      "embeds": [],
+      "stickers": [],
+      "reactions": [],
+      "mentions": [],
+      "inlineEmojis": []
+    },
+    {
+      "id": "1122257902321803457",
+      "type": "Default",
+      "timestamp": "2023-06-24T20:12:14.457+00:00",
+      "timestampEdited": null,
+      "callEndedTimestamp": null,
+      "isPinned": false,
+      "content": "If math was a choice, math.",
+      "author": {
+        "id": "1022383992680501308",
+        "name": "rufus4111",
+        "discriminator": "0000",
+        "nickname": "God-Emperor",
+        "color": null,
+        "isBot": false,
+        "roles": [],
+        "avatarUrl": "https://cdn.discordapp.com/avatars/1022383992680501308/d4e1b2993e855e2c1d52902abb37326b.png?size=512"
+      },
+      "attachments": [],
+      "embeds": [],
+      "stickers": [],
+      "reactions": [],
+      "mentions": [],
+      "inlineEmojis": []
+    },
+    {
+      "id": "1123728221972725760",
+      "type": "Default",
+      "timestamp": "2023-06-28T21:34:45.979+00:00",
+      "timestampEdited": null,
+      "callEndedTimestamp": null,
+      "isPinned": false,
+      "content": "chemistry is the most important because that's my field",
+      "author": {
+        "id": "254345370102923264",
+        "name": "kyrla_",
+        "discriminator": "0000",
+        "nickname": "Kyrahl",
+        "color": "#EA1889",
+        "isBot": false,
+        "roles": [
+          {
+            "id": "1150260858748932198",
+            "name": "Trust & Safety Officer",
+            "color": null,
+            "position": 140
+          },
+          {
+            "id": "633353998287503390",
+            "name": "Moderators",
+            "color": "#EA1889",
+            "position": 138
+          },
+          {
+            "id": "917837294998790214",
+            "name": "Urth",
+            "color": null,
+            "position": 68
+          },
+          {
+            "id": "633352531690520596",
+            "name": "Residents [WA]",
+            "color": "#DB4453",
+            "position": 59
+          },
+          {
+            "id": "637022380530597892",
+            "name": "Design Specialist",
+            "color": null,
+            "position": 46
+          },
+          {
+            "id": "739246330106478684",
+            "name": "Voice Chat",
+            "color": null,
+            "position": 41
+          },
+          {
+            "id": "649288407801004062",
+            "name": "Urth Forum RP",
+            "color": null,
+            "position": 36
+          },
+          {
+            "id": "1180938941885587548",
+            "name": "Debates & Politics",
+            "color": null,
+            "position": 20
+          },
+          {
+            "id": "855597859243032598",
+            "name": "they/them",
+            "color": null,
+            "position": 16
+          }
+        ],
+        "avatarUrl": "https://cdn.discordapp.com/avatars/254345370102923264/1bc7588c24677ca04e3d2c353d7f9d9d.png?size=512"
+      },
+      "attachments": [],
+      "embeds": [],
+      "stickers": [],
+      "reactions": [],
+      "mentions": [],
+      "inlineEmojis": []
+    },
+    {
+      "id": "1123802910187335783",
+      "type": "Default",
+      "timestamp": "2023-06-29T02:31:33.037+00:00",
+      "timestampEdited": null,
+      "callEndedTimestamp": null,
+      "isPinned": false,
+      "content": "chemistry",
+      "author": {
+        "id": "837725791524618241",
+        "name": "arstotskiano",
+        "discriminator": "0000",
+        "nickname": "Arsto",
+        "color": "#ED5564",
+        "isBot": false,
+        "roles": [
+          {
+            "id": "1072578688631193651",
+            "name": "RA Exe Onboarding",
+            "color": null,
+            "position": 97
+          },
+          {
+            "id": "1182433785627824129",
+            "name": "Urth+Valsora",
+            "color": null,
+            "position": 69
+          },
+          {
+            "id": "917837294998790214",
+            "name": "Urth",
+            "color": null,
+            "position": 68
+          },
+          {
+            "id": "1171933964718575687",
+            "name": "Valsora",
+            "color": null,
+            "position": 67
+          },
+          {
+            "id": "633352654579302451",
+            "name": "Residents",
+            "color": "#ED5564",
+            "position": 58
+          },
+          {
+            "id": "633401426646663191",
+            "name": "Visitor | NS",
+            "color": "#A6EEF4",
+            "position": 52
+          },
+          {
+            "id": "637022380530597892",
+            "name": "Design Specialist",
+            "color": null,
+            "position": 46
+          },
+          {
+            "id": "729123951053373480",
+            "name": "Code & API Specialist",
+            "color": null,
+            "position": 45
+          },
+          {
+            "id": "727880101995479090",
+            "name": "Notifications",
+            "color": null,
+            "position": 44
+          },
+          {
+            "id": "1078031481336766637",
+            "name": "Forum/Bot Status",
+            "color": null,
+            "position": 43
+          },
+          {
+            "id": "739259727942516836",
+            "name": "Writing Specialist",
+            "color": null,
+            "position": 42
+          },
+          {
+            "id": "739246330106478684",
+            "name": "Voice Chat",
+            "color": null,
+            "position": 41
+          },
+          {
+            "id": "815019492748165172",
+            "name": "WA Notification",
+            "color": null,
+            "position": 40
+          },
+          {
+            "id": "754595572853243975",
+            "name": "Upvote",
+            "color": null,
+            "position": 39
+          },
+          {
+            "id": "761550447088500757",
+            "name": "Gamer",
+            "color": null,
+            "position": 38
+          },
+          {
+            "id": "649288407801004062",
+            "name": "Urth Forum RP",
+            "color": null,
+            "position": 36
+          },
+          {
+            "id": "634491355443494953",
+            "name": "RMBer",
+            "color": null,
+            "position": 35
+          },
+          {
+            "id": "1077673652344061992",
+            "name": "NationStates",
+            "color": null,
+            "position": 33
+          },
+          {
+            "id": "851124231377780796",
+            "name": "Daily Question",
+            "color": null,
+            "position": 31
+          },
+          {
+            "id": "998343650130001950",
+            "name": "Frenemy of The East Pacific",
+            "color": "#F500FF",
+            "position": 29
+          },
+          {
+            "id": "1087945130041942136",
+            "name": "Bookworm",
+            "color": null,
+            "position": 28
+          },
+          {
+            "id": "1078295075508998264",
+            "name": "Nerd",
+            "color": null,
+            "position": 27
+          },
+          {
+            "id": "1091197551799173170",
+            "name": "Radio On-Air",
+            "color": null,
+            "position": 26
+          },
+          {
+            "id": "1127999715389222922",
+            "name": "Game Night",
+            "color": null,
+            "position": 25
+          },
+          {
+            "id": "1145421147261898803",
+            "name": "Hunger Games",
+            "color": null,
+            "position": 22
+          },
+          {
+            "id": "1180938941885587548",
+            "name": "Debates & Politics",
+            "color": null,
+            "position": 20
+          },
+          {
+            "id": "855597551624257548",
+            "name": "he/him",
+            "color": null,
+            "position": 18
+          },
+          {
+            "id": "1237447542162325526",
+            "name": "Eurovision",
+            "color": null,
+            "position": 15
+          }
+        ],
+        "avatarUrl": "https://cdn.discordapp.com/avatars/837725791524618241/4d27d206b75c974d7097774f3460229a.png?size=512"
+      },
+      "attachments": [],
+      "embeds": [],
+      "stickers": [],
+      "reactions": [],
+      "mentions": [],
+      "inlineEmojis": []
+    },
+    {
+      "id": "1171875839181332522",
+      "type": "Default",
+      "timestamp": "2023-11-08T18:16:12.461+00:00",
+      "timestampEdited": null,
+      "callEndedTimestamp": null,
+      "isPinned": false,
+      "content": "@Kotoamatsukami brings you all a great article https://www.nature.com/articles/s41586-023-06636-x",
+      "author": {
+        "id": "255123656995241984",
+        "name": "sammyqahwia",
+        "discriminator": "0000",
+        "nickname": "Spammy",
+        "color": "#EA1889",
+        "isBot": false,
+        "roles": [
+          {
+            "id": "633353998287503390",
+            "name": "Moderators",
+            "color": "#EA1889",
+            "position": 138
+          },
+          {
+            "id": "1077071443935887360",
+            "name": "Cabinet",
+            "color": "#6EA7A1",
+            "position": 118
+          },
+          {
+            "id": "1076716172319404033",
+            "name": "UTEP Chancellor",
+            "color": null,
+            "position": 113
+          },
+          {
+            "id": "1076716058209161216",
+            "name": "Minister",
+            "color": null,
+            "position": 111
+          },
+          {
+            "id": "1167539145166553109",
+            "name": "University Staff",
+            "color": null,
+            "position": 103
+          },
+          {
+            "id": "1196698562445193267",
+            "name": "FA Councillor",
+            "color": null,
+            "position": 100
+          },
+          {
+            "id": "1201510757553164390",
+            "name": "FA Ambassador",
+            "color": null,
+            "position": 98
+          },
+          {
+            "id": "674077281823752192",
+            "name": "Delegate",
+            "color": "#967BDC",
+            "position": 95
+          },
+          {
+            "id": "633363669547483136",
+            "name": "Vizier",
+            "color": "#AC92ED",
+            "position": 94
+          },
+          {
+            "id": "633363319864033282",
+            "name": "Magister",
+            "color": "#5E9CE9",
+            "position": 84
+          },
+          {
+            "id": "933820954419806248",
+            "name": "Citizenship Official",
+            "color": null,
+            "position": 81
+          },
+          {
+            "id": "651114349347471371",
+            "name": "Regional Officer",
+            "color": null,
+            "position": 79
+          },
+          {
+            "id": "1430367546984370347",
+            "name": "Citizens",
+            "color": "#CD125D",
+            "position": 60
+          },
+          {
+            "id": "633352531690520596",
+            "name": "Residents [WA]",
+            "color": "#DB4453",
+            "position": 59
+          },
+          {
+            "id": "633352654579302451",
+            "name": "Residents",
+            "color": "#ED5564",
+            "position": 58
+          },
+          {
+            "id": "649288407801004062",
+            "name": "Urth Forum RP",
+            "color": null,
+            "position": 36
+          },
+          {
+            "id": "1077673652344061992",
+            "name": "NationStates",
+            "color": null,
+            "position": 33
+          },
+          {
+            "id": "851124231377780796",
+            "name": "Daily Question",
+            "color": null,
+            "position": 31
+          },
+          {
+            "id": "1180938941885587548",
+            "name": "Debates & Politics",
+            "color": null,
+            "position": 20
+          }
+        ],
+        "avatarUrl": "https://cdn.discordapp.com/guilds/633351482128728064/users/255123656995241984/avatars/7223276c1a0729e9c6dee64efa919eaa.png?size=512"
+      },
+      "attachments": [],
+      "embeds": [
+        {
+          "title": "A Milky Way-like barred spiral galaxy at a redshift of 3",
+          "url": "https://www.nature.com/articles/s41586-023-06636-x",
+          "timestamp": null,
+          "description": "Nature - We report observations of ceers-2112 that show that this galaxy, at a redshift of 3, unexpectedly has a barred spiral structure.",
+          "thumbnail": {
+            "url": "https://images-ext-1.discordapp.net/external/km1le1xrORX3OBT-wBd9ZjvqMhhwGW1P3N1W2pKy_FY/https/media.springernature.com/full/springer-static/image/art%253A10.1038%252Fs41586-023-06636-x/MediaObjects/41586_2023_6636_Fig1_HTML.png",
+            "canonicalUrl": "https://media.springernature.com/full/springer-static/image/art%3A10.1038%2Fs41586-023-06636-x/MediaObjects/41586_2023_6636_Fig1_HTML.png",
+            "width": 2148,
+            "height": 506
+          },
+          "images": [],
+          "fields": [],
+          "inlineEmojis": []
+        }
+      ],
+      "stickers": [],
+      "reactions": [],
+      "mentions": [
+        {
+          "id": "238139507235356673",
+          "name": ".emjay",
+          "discriminator": "0000",
+          "nickname": "Kotoamatsukami",
+          "color": "#FFCE55",
+          "isBot": false,
+          "roles": [
+            {
+              "id": "633351965761339392",
+              "name": "Admin",
+              "color": null,
+              "position": 147
+            },
+            {
+              "id": "1072565337859571792",
+              "name": "Technical Administrator",
+              "color": null,
+              "position": 145
+            },
+            {
+              "id": "993531517806592121",
+              "name": "Technical Dev Team",
+              "color": null,
+              "position": 144
+            },
+            {
+              "id": "1150260858748932198",
+              "name": "Trust & Safety Officer",
+              "color": null,
+              "position": 140
+            },
+            {
+              "id": "633394832491937794",
+              "name": "Soldier, EPSA",
+              "color": "#FFCE55",
+              "position": 108
+            },
+            {
+              "id": "633683841264910357",
+              "name": "Welcomer",
+              "color": null,
+              "position": 76
+            },
+            {
+              "id": "1311771067584479302",
+              "name": "Tepite",
+              "color": null,
+              "position": 70
+            },
+            {
+              "id": "917837294998790214",
+              "name": "Urth",
+              "color": null,
+              "position": 68
+            },
+            {
+              "id": "845235755936645140",
+              "name": "Oldies but Goldies",
+              "color": "#C89E00",
+              "position": 66
+            },
+            {
+              "id": "773652878203945020",
+              "name": "Hussar of The East",
+              "color": "#447643",
+              "position": 63
+            },
+            {
+              "id": "633352531690520596",
+              "name": "Residents [WA]",
+              "color": "#DB4453",
+              "position": 59
+            },
+            {
+              "id": "633352654579302451",
+              "name": "Residents",
+              "color": "#ED5564",
+              "position": 58
+            },
+            {
+              "id": "669625127893336108",
+              "name": "Server Booster",
+              "color": "#F47FFF",
+              "position": 50
+            },
+            {
+              "id": "637022380530597892",
+              "name": "Design Specialist",
+              "color": null,
+              "position": 46
+            },
+            {
+              "id": "727880101995479090",
+              "name": "Notifications",
+              "color": null,
+              "position": 44
+            },
+            {
+              "id": "1078031481336766637",
+              "name": "Forum/Bot Status",
+              "color": null,
+              "position": 43
+            },
+            {
+              "id": "634491355443494953",
+              "name": "RMBer",
+              "color": null,
+              "position": 35
+            },
+            {
+              "id": "1077673652344061992",
+              "name": "NationStates",
+              "color": null,
+              "position": 33
+            },
+            {
+              "id": "1087945130041942136",
+              "name": "Bookworm",
+              "color": null,
+              "position": 28
+            },
+            {
+              "id": "1091197551799173170",
+              "name": "Radio On-Air",
+              "color": null,
+              "position": 26
+            },
+            {
+              "id": "1145421147261898803",
+              "name": "Hunger Games",
+              "color": null,
+              "position": 22
+            },
+            {
+              "id": "855597551624257548",
+              "name": "he/him",
+              "color": null,
+              "position": 18
+            },
+            {
+              "id": "855597859243032598",
+              "name": "they/them",
+              "color": null,
+              "position": 16
+            },
+            {
+              "id": "1498035107410481174",
+              "name": "Supporter",
+              "color": "#00674F",
+              "position": 6
+            },
+            {
+              "id": "1544568258982576158",
+              "name": "Renewal",
+              "color": null,
+              "position": 5
+            }
+          ],
+          "avatarUrl": "https://cdn.discordapp.com/guilds/633351482128728064/users/238139507235356673/avatars/a35b9b28ebaf128469b809106f6f53fc.png?size=512"
+        }
+      ],
+      "inlineEmojis": []
+    },
+    {
+      "id": "1224574377593405552",
+      "type": "Default",
+      "timestamp": "2024-04-02T04:21:23.11+00:00",
+      "timestampEdited": null,
+      "callEndedTimestamp": null,
+      "isPinned": false,
+      "content": "This essay connects two of my passions: Programming and Writing. Here I explore the similarities between the two, and arrive at a thesis on how sometimes, the skills you form can be applicable, even in completely different disciplines.\n\nEnjoy.\n\nhttps://forum.theeastpacific.com/t/writing-as-a-programmer/17927",
+      "author": {
+        "id": "365072216418942976",
+        "name": "halleyscomet08",
+        "discriminator": "0000",
+        "nickname": "Holeyscomet08",
+        "color": "#F500FF",
+        "isBot": false,
+        "roles": [
+          {
+            "id": "1072578688631193651",
+            "name": "RA Exe Onboarding",
+            "color": null,
+            "position": 97
+          },
+          {
+            "id": "727880101995479090",
+            "name": "Notifications",
+            "color": null,
+            "position": 44
+          },
+          {
+            "id": "1077673652344061992",
+            "name": "NationStates",
+            "color": null,
+            "position": 33
+          },
+          {
+            "id": "998343650130001950",
+            "name": "Frenemy of The East Pacific",
+            "color": "#F500FF",
+            "position": 29
+          },
+          {
+            "id": "1180938941885587548",
+            "name": "Debates & Politics",
+            "color": null,
+            "position": 20
+          }
+        ],
+        "avatarUrl": "https://cdn.discordapp.com/avatars/365072216418942976/a3f50d80cca97cef8c9f2a31bbd3178b.png?size=512"
+      },
+      "attachments": [],
+      "embeds": [
+        {
+          "title": "Writing as a Programmer",
+          "url": "https://forum.theeastpacific.com/t/writing-as-a-programmer/17927",
+          "timestamp": null,
+          "description": "So I was watching a “No Boilerplate” video the other day, when I noticed an interesting phrase: “the eyeball’s compiler”. “Hmm”, I thought, “Wouldn’t that be the brain then?” That spiralled into a thinking session that eventually arrived to the main thesis of this essay: Writing code and writing essays are remarkably similar, because they both i...",
+          "color": "#111111",
+          "thumbnail": {
+            "url": "https://images-ext-1.discordapp.net/external/Nysse55kgMiagTAabDmhSlMsFqK3l4r-qS9Agj9FA9E/https/forum.theeastpacific.com/uploads/default/original/2X/6/622332b79331172dcccb807edf91f4cf7a9f372f.png",
+            "canonicalUrl": "https://forum.theeastpacific.com/uploads/default/original/2X/6/622332b79331172dcccb807edf91f4cf7a9f372f.png",
+            "width": 2560,
+            "height": 2560
+          },
+          "images": [],
+          "fields": [],
+          "inlineEmojis": []
+        }
+      ],
+      "stickers": [],
+      "reactions": [],
+      "mentions": [],
+      "inlineEmojis": []
+    }
+  ],
+  "messageCount": 10
+}

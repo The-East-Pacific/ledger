@@ -1,0 +1,238 @@
+{
+  "guild": {
+    "id": "633351482128728064",
+    "name": "The East Pacific",
+    "iconUrl": "https://cdn.discordapp.com/icons/633351482128728064/3b9183b0816dd4a4296cc384f5f6caf7.png?size=512"
+  },
+  "channel": {
+    "id": "1246529443292512486",
+    "type": "GuildPublicThread",
+    "categoryId": "1214417681894084628",
+    "category": "world-assembly-β",
+    "name": "The Queue Ahead",
+    "topic": null
+  },
+  "dateRange": {
+    "after": null,
+    "before": null
+  },
+  "exportedAt": "2026-10-14T06:07:46.7523646+00:00",
+  "messages": [
+    {
+      "id": "1246529443292512486",
+      "type": "Default",
+      "timestamp": "2024-06-01T18:22:58.678+00:00",
+      "timestampEdited": "2026-04-18T18:15:33.613+00:00",
+      "callEndedTimestamp": null,
+      "isPinned": false,
+      "content": "Here's the ordered queue ahead for the GA and SC. The resolution at vote and the proposal on deck have TEP's tentative voting stance.\n\nGA:\n\n#[PASSED] GA - Repeal \"End Collective Punishment\" \n\n#[PASSED] GA - Repeal \"Sustainable Fishing Act\" \n\n3. #[AT VOTE - AGAINST] GA - Repeal \"Freedom of Information Act\" \n\n4. #[NEXT] GA - Protecting Wartime Internees \n\n5. #GA - On Basic Education \n\n6. #GA - Repeal \"A Decriminalization Of Suicide\"\n\n[All repeals from now on are in #Final Ride Repeals ]\n\n7.  Repeal \"Tariffs and Trade Convention\"\n\n8. Repeal “Access to Basic Banking and Lending\"\n\n9. Repeal: “Traditional Medicine”\n\n10. Repeal: “Promoting Natural Sciences in Schools”\n\n11. Repeal: “Responsible Land Management”\n\n12. Repeal: “The Civil Charter of the World Assembly”\n\n13. Repeal: “Access to Life-Saving Drugs”\n\n14. Repeal: “Privacy Protection Act”\n\n15. Repeal: “The Right to a Lawful Divorce”\n\n16. Repeal: “Nuclear Testing Protocol”\n\n17. Repeal: “Combating International Piracy”\n\n18. Repeal: “Religious Freedom Protection”\n\n19. Repeal: “Freedom to Read and Learn”\n\n20. Repeal: “No Penalty Without Law”\n\n21. #GA - Property Rights in Extraterrestrial Space \n\nSC:\n\n:neko_sleep:",
+      "author": {
+        "id": "123916056392761345",
+        "name": "aurorayukihime",
+        "discriminator": "0000",
+        "nickname": "Aurora, Desuwa of Umapyoi",
+        "color": "#5E9CE9",
+        "isBot": false,
+        "roles": [
+          {
+            "id": "993531517806592121",
+            "name": "Technical Dev Team",
+            "color": null,
+            "position": 144
+          },
+          {
+            "id": "1196698562445193267",
+            "name": "FA Councillor",
+            "color": null,
+            "position": 100
+          },
+          {
+            "id": "1196697343504957450",
+            "name": "FA Lower Council",
+            "color": null,
+            "position": 99
+          },
+          {
+            "id": "633363319864033282",
+            "name": "Magister",
+            "color": "#5E9CE9",
+            "position": 84
+          },
+          {
+            "id": "901515827340263444",
+            "name": "Former Delegates",
+            "color": null,
+            "position": 80
+          },
+          {
+            "id": "773652878203945020",
+            "name": "Hussar of The East",
+            "color": "#447643",
+            "position": 63
+          },
+          {
+            "id": "1430367546984370347",
+            "name": "Citizens",
+            "color": "#CD125D",
+            "position": 60
+          },
+          {
+            "id": "633352531690520596",
+            "name": "Residents [WA]",
+            "color": "#DB4453",
+            "position": 59
+          },
+          {
+            "id": "633352654579302451",
+            "name": "Residents",
+            "color": "#ED5564",
+            "position": 58
+          },
+          {
+            "id": "633357236416151572",
+            "name": "Allied Government",
+            "color": "#3BAEDA",
+            "position": 57
+          },
+          {
+            "id": "633688402352406550",
+            "name": "Foreign Dignitaries",
+            "color": "#4FC0E8",
+            "position": 55
+          },
+          {
+            "id": "704038370405384313",
+            "name": "Friends of the East",
+            "color": "#93D8F1",
+            "position": 53
+          },
+          {
+            "id": "727880101995479090",
+            "name": "Notifications",
+            "color": null,
+            "position": 44
+          },
+          {
+            "id": "851124231377780796",
+            "name": "Daily Question",
+            "color": null,
+            "position": 31
+          },
+          {
+            "id": "1127999715389222922",
+            "name": "Game Night",
+            "color": null,
+            "position": 25
+          },
+          {
+            "id": "1145421147261898803",
+            "name": "Hunger Games",
+            "color": null,
+            "position": 22
+          },
+          {
+            "id": "855597652984070244",
+            "name": "she/her",
+            "color": null,
+            "position": 17
+          }
+        ],
+        "avatarUrl": "https://cdn.discordapp.com/guilds/633351482128728064/users/123916056392761345/avatars/a7f001d7f76f580c3c05379a71b0fe67.png?size=512"
+      },
+      "attachments": [],
+      "embeds": [],
+      "stickers": [],
+      "reactions": [
+        {
+          "emoji": {
+            "id": "1077678257769549865",
+            "name": "hussar",
+            "code": "hussar",
+            "isAnimated": false,
+            "imageUrl": "https://cdn.discordapp.com/emojis/1077678257769549865.png"
+          },
+          "count": 5,
+          "users": [
+            {
+              "id": "395560652330237954",
+              "name": "crittermunch",
+              "discriminator": "0000",
+              "nickname": "AMOM",
+              "color": null,
+              "isBot": false,
+              "avatarUrl": "https://cdn.discordapp.com/avatars/395560652330237954/1f4c6a1898edfd0b39ee6e1647d6e8af.png?size=512"
+            },
+            {
+              "id": "618328506467876865",
+              "name": "hezegonvia",
+              "discriminator": "0000",
+              "nickname": "Hertz the Circassian",
+              "color": null,
+              "isBot": false,
+              "avatarUrl": "https://cdn.discordapp.com/avatars/618328506467876865/2fb9af19abd9d3a46280b24a706f88f5.png?size=512"
+            },
+            {
+              "id": "661940553201745930",
+              "name": "visorax",
+              "discriminator": "0000",
+              "nickname": "Visoraxus Holoratus Starkiller",
+              "color": null,
+              "isBot": false,
+              "avatarUrl": "https://cdn.discordapp.com/avatars/661940553201745930/883cb3710a64a3e6ce7805e76b3c0fad.png?size=512"
+            },
+            {
+              "id": "713045407365857341",
+              "name": "cretoxyrhin",
+              "discriminator": "0000",
+              "nickname": "Cretox",
+              "color": null,
+              "isBot": false,
+              "avatarUrl": "https://cdn.discordapp.com/avatars/713045407365857341/80466229e37b8c7cf1c4a09f7e1fbd88.png?size=512"
+            },
+            {
+              "id": "814058370235105322",
+              "name": "dulle1846",
+              "discriminator": "0000",
+              "nickname": "Ulmer",
+              "color": null,
+              "isBot": false,
+              "avatarUrl": "https://cdn.discordapp.com/avatars/814058370235105322/451c75fcb10c77747d5c85d13085bc32.png?size=512"
+            }
+          ]
+        },
+        {
+          "emoji": {
+            "id": "750264970234691584",
+            "name": "pandasad",
+            "code": "pandasad",
+            "isAnimated": false,
+            "imageUrl": "https://cdn.discordapp.com/emojis/750264970234691584.png"
+          },
+          "count": 1,
+          "users": [
+            {
+              "id": "713045407365857341",
+              "name": "cretoxyrhin",
+              "discriminator": "0000",
+              "nickname": "Cretox",
+              "color": null,
+              "isBot": false,
+              "avatarUrl": "https://cdn.discordapp.com/avatars/713045407365857341/80466229e37b8c7cf1c4a09f7e1fbd88.png?size=512"
+            }
+          ]
+        }
+      ],
+      "mentions": [],
+      "inlineEmojis": [
+        {
+          "id": "1222019936705056769",
+          "name": "neko_sleep",
+          "code": "neko_sleep",
+          "isAnimated": true,
+          "imageUrl": "https://cdn.discordapp.com/emojis/1222019936705056769.gif"
+        }
+      ]
+    }
+  ],
+  "messageCount": 1
+}

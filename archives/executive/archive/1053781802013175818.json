@@ -1,0 +1,1083 @@
+{
+  "guild": {
+    "id": "633351482128728064",
+    "name": "The East Pacific",
+    "iconUrl": "https://cdn.discordapp.com/icons/633351482128728064/3b9183b0816dd4a4296cc384f5f6caf7.png?size=512"
+  },
+  "channel": {
+    "id": "1053781802013175818",
+    "type": "GuildPublicThread",
+    "categoryId": "1053147931768803398",
+    "category": "the-hall-of-halls",
+    "name": "Holos UTEP",
+    "topic": null
+  },
+  "dateRange": {
+    "after": null,
+    "before": null
+  },
+  "exportedAt": "2026-10-14T07:07:33.7896766+00:00",
+  "messages": [
+    {
+      "id": "1053781802013175818",
+      "type": "Default",
+      "timestamp": "2022-12-17T21:12:39.919+00:00",
+      "timestampEdited": null,
+      "callEndedTimestamp": null,
+      "isPinned": false,
+      "content": "Best of lucks to my beloved UTEP in this new time on the main server❤️",
+      "author": {
+        "id": "255123656995241984",
+        "name": "sammyqahwia",
+        "discriminator": "0000",
+        "nickname": "Spammy",
+        "color": "#EA1889",
+        "isBot": false,
+        "roles": [
+          {
+            "id": "633353998287503390",
+            "name": "Moderators",
+            "color": "#EA1889",
+            "position": 138
+          },
+          {
+            "id": "1077071443935887360",
+            "name": "Cabinet",
+            "color": "#6EA7A1",
+            "position": 118
+          },
+          {
+            "id": "1076716172319404033",
+            "name": "UTEP Chancellor",
+            "color": null,
+            "position": 113
+          },
+          {
+            "id": "1076716058209161216",
+            "name": "Minister",
+            "color": null,
+            "position": 111
+          },
+          {
+            "id": "1167539145166553109",
+            "name": "University Staff",
+            "color": null,
+            "position": 103
+          },
+          {
+            "id": "1196698562445193267",
+            "name": "FA Councillor",
+            "color": null,
+            "position": 100
+          },
+          {
+            "id": "1201510757553164390",
+            "name": "FA Ambassador",
+            "color": null,
+            "position": 98
+          },
+          {
+            "id": "674077281823752192",
+            "name": "Delegate",
+            "color": "#967BDC",
+            "position": 95
+          },
+          {
+            "id": "633363669547483136",
+            "name": "Vizier",
+            "color": "#AC92ED",
+            "position": 94
+          },
+          {
+            "id": "633363319864033282",
+            "name": "Magister",
+            "color": "#5E9CE9",
+            "position": 84
+          },
+          {
+            "id": "933820954419806248",
+            "name": "Citizenship Official",
+            "color": null,
+            "position": 81
+          },
+          {
+            "id": "651114349347471371",
+            "name": "Regional Officer",
+            "color": null,
+            "position": 79
+          },
+          {
+            "id": "1430367546984370347",
+            "name": "Citizens",
+            "color": "#CD125D",
+            "position": 60
+          },
+          {
+            "id": "633352531690520596",
+            "name": "Residents [WA]",
+            "color": "#DB4453",
+            "position": 59
+          },
+          {
+            "id": "633352654579302451",
+            "name": "Residents",
+            "color": "#ED5564",
+            "position": 58
+          },
+          {
+            "id": "649288407801004062",
+            "name": "Urth Forum RP",
+            "color": null,
+            "position": 36
+          },
+          {
+            "id": "1077673652344061992",
+            "name": "NationStates",
+            "color": null,
+            "position": 33
+          },
+          {
+            "id": "851124231377780796",
+            "name": "Daily Question",
+            "color": null,
+            "position": 31
+          },
+          {
+            "id": "1180938941885587548",
+            "name": "Debates & Politics",
+            "color": null,
+            "position": 20
+          }
+        ],
+        "avatarUrl": "https://cdn.discordapp.com/guilds/633351482128728064/users/255123656995241984/avatars/7223276c1a0729e9c6dee64efa919eaa.png?size=512"
+      },
+      "attachments": [],
+      "embeds": [],
+      "stickers": [],
+      "reactions": [],
+      "mentions": [],
+      "inlineEmojis": [
+        {
+          "id": "",
+          "name": "❤️",
+          "code": "heart",
+          "isAnimated": false,
+          "imageUrl": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/2764.svg"
+        }
+      ]
+    },
+    {
+      "id": "1053814375011602432",
+      "type": "Reply",
+      "timestamp": "2022-12-17T23:22:05.927+00:00",
+      "timestampEdited": null,
+      "callEndedTimestamp": null,
+      "isPinned": false,
+      "content": "Sammmmmy what tags should UTEP use?",
+      "author": {
+        "id": "238139507235356673",
+        "name": ".emjay",
+        "discriminator": "0000",
+        "nickname": "Kotoamatsukami",
+        "color": "#FFCE55",
+        "isBot": false,
+        "roles": [
+          {
+            "id": "633351965761339392",
+            "name": "Admin",
+            "color": null,
+            "position": 147
+          },
+          {
+            "id": "1072565337859571792",
+            "name": "Technical Administrator",
+            "color": null,
+            "position": 145
+          },
+          {
+            "id": "993531517806592121",
+            "name": "Technical Dev Team",
+            "color": null,
+            "position": 144
+          },
+          {
+            "id": "1150260858748932198",
+            "name": "Trust & Safety Officer",
+            "color": null,
+            "position": 140
+          },
+          {
+            "id": "633394832491937794",
+            "name": "Soldier, EPSA",
+            "color": "#FFCE55",
+            "position": 108
+          },
+          {
+            "id": "633683841264910357",
+            "name": "Welcomer",
+            "color": null,
+            "position": 76
+          },
+          {
+            "id": "1311771067584479302",
+            "name": "Tepite",
+            "color": null,
+            "position": 70
+          },
+          {
+            "id": "917837294998790214",
+            "name": "Urth",
+            "color": null,
+            "position": 68
+          },
+          {
+            "id": "845235755936645140",
+            "name": "Oldies but Goldies",
+            "color": "#C89E00",
+            "position": 66
+          },
+          {
+            "id": "773652878203945020",
+            "name": "Hussar of The East",
+            "color": "#447643",
+            "position": 63
+          },
+          {
+            "id": "633352531690520596",
+            "name": "Residents [WA]",
+            "color": "#DB4453",
+            "position": 59
+          },
+          {
+            "id": "633352654579302451",
+            "name": "Residents",
+            "color": "#ED5564",
+            "position": 58
+          },
+          {
+            "id": "669625127893336108",
+            "name": "Server Booster",
+            "color": "#F47FFF",
+            "position": 50
+          },
+          {
+            "id": "637022380530597892",
+            "name": "Design Specialist",
+            "color": null,
+            "position": 46
+          },
+          {
+            "id": "727880101995479090",
+            "name": "Notifications",
+            "color": null,
+            "position": 44
+          },
+          {
+            "id": "1078031481336766637",
+            "name": "Forum/Bot Status",
+            "color": null,
+            "position": 43
+          },
+          {
+            "id": "634491355443494953",
+            "name": "RMBer",
+            "color": null,
+            "position": 35
+          },
+          {
+            "id": "1077673652344061992",
+            "name": "NationStates",
+            "color": null,
+            "position": 33
+          },
+          {
+            "id": "1087945130041942136",
+            "name": "Bookworm",
+            "color": null,
+            "position": 28
+          },
+          {
+            "id": "1091197551799173170",
+            "name": "Radio On-Air",
+            "color": null,
+            "position": 26
+          },
+          {
+            "id": "1145421147261898803",
+            "name": "Hunger Games",
+            "color": null,
+            "position": 22
+          },
+          {
+            "id": "855597551624257548",
+            "name": "he/him",
+            "color": null,
+            "position": 18
+          },
+          {
+            "id": "855597859243032598",
+            "name": "they/them",
+            "color": null,
+            "position": 16
+          },
+          {
+            "id": "1498035107410481174",
+            "name": "Supporter",
+            "color": "#00674F",
+            "position": 6
+          },
+          {
+            "id": "1544568258982576158",
+            "name": "Renewal",
+            "color": null,
+            "position": 5
+          }
+        ],
+        "avatarUrl": "https://cdn.discordapp.com/guilds/633351482128728064/users/238139507235356673/avatars/a35b9b28ebaf128469b809106f6f53fc.png?size=512"
+      },
+      "attachments": [],
+      "embeds": [],
+      "stickers": [],
+      "reactions": [],
+      "mentions": [
+        {
+          "id": "255123656995241984",
+          "name": "sammyqahwia",
+          "discriminator": "0000",
+          "nickname": "Spammy",
+          "color": "#EA1889",
+          "isBot": false,
+          "roles": [
+            {
+              "id": "633353998287503390",
+              "name": "Moderators",
+              "color": "#EA1889",
+              "position": 138
+            },
+            {
+              "id": "1077071443935887360",
+              "name": "Cabinet",
+              "color": "#6EA7A1",
+              "position": 118
+            },
+            {
+              "id": "1076716172319404033",
+              "name": "UTEP Chancellor",
+              "color": null,
+              "position": 113
+            },
+            {
+              "id": "1076716058209161216",
+              "name": "Minister",
+              "color": null,
+              "position": 111
+            },
+            {
+              "id": "1167539145166553109",
+              "name": "University Staff",
+              "color": null,
+              "position": 103
+            },
+            {
+              "id": "1196698562445193267",
+              "name": "FA Councillor",
+              "color": null,
+              "position": 100
+            },
+            {
+              "id": "1201510757553164390",
+              "name": "FA Ambassador",
+              "color": null,
+              "position": 98
+            },
+            {
+              "id": "674077281823752192",
+              "name": "Delegate",
+              "color": "#967BDC",
+              "position": 95
+            },
+            {
+              "id": "633363669547483136",
+              "name": "Vizier",
+              "color": "#AC92ED",
+              "position": 94
+            },
+            {
+              "id": "633363319864033282",
+              "name": "Magister",
+              "color": "#5E9CE9",
+              "position": 84
+            },
+            {
+              "id": "933820954419806248",
+              "name": "Citizenship Official",
+              "color": null,
+              "position": 81
+            },
+            {
+              "id": "651114349347471371",
+              "name": "Regional Officer",
+              "color": null,
+              "position": 79
+            },
+            {
+              "id": "1430367546984370347",
+              "name": "Citizens",
+              "color": "#CD125D",
+              "position": 60
+            },
+            {
+              "id": "633352531690520596",
+              "name": "Residents [WA]",
+              "color": "#DB4453",
+              "position": 59
+            },
+            {
+              "id": "633352654579302451",
+              "name": "Residents",
+              "color": "#ED5564",
+              "position": 58
+            },
+            {
+              "id": "649288407801004062",
+              "name": "Urth Forum RP",
+              "color": null,
+              "position": 36
+            },
+            {
+              "id": "1077673652344061992",
+              "name": "NationStates",
+              "color": null,
+              "position": 33
+            },
+            {
+              "id": "851124231377780796",
+              "name": "Daily Question",
+              "color": null,
+              "position": 31
+            },
+            {
+              "id": "1180938941885587548",
+              "name": "Debates & Politics",
+              "color": null,
+              "position": 20
+            }
+          ],
+          "avatarUrl": "https://cdn.discordapp.com/guilds/633351482128728064/users/255123656995241984/avatars/7223276c1a0729e9c6dee64efa919eaa.png?size=512"
+        }
+      ],
+      "reference": {
+        "type": "Default",
+        "messageId": "1053781802013175818",
+        "channelId": "1053781802013175818",
+        "guildId": "633351482128728064"
+      },
+      "inlineEmojis": []
+    },
+    {
+      "id": "1053814798200090654",
+      "type": "Default",
+      "timestamp": "2022-12-17T23:23:46.823+00:00",
+      "timestampEdited": null,
+      "callEndedTimestamp": null,
+      "isPinned": false,
+      "content": "",
+      "author": {
+        "id": "238139507235356673",
+        "name": ".emjay",
+        "discriminator": "0000",
+        "nickname": "Kotoamatsukami",
+        "color": "#FFCE55",
+        "isBot": false,
+        "roles": [
+          {
+            "id": "633351965761339392",
+            "name": "Admin",
+            "color": null,
+            "position": 147
+          },
+          {
+            "id": "1072565337859571792",
+            "name": "Technical Administrator",
+            "color": null,
+            "position": 145
+          },
+          {
+            "id": "993531517806592121",
+            "name": "Technical Dev Team",
+            "color": null,
+            "position": 144
+          },
+          {
+            "id": "1150260858748932198",
+            "name": "Trust & Safety Officer",
+            "color": null,
+            "position": 140
+          },
+          {
+            "id": "633394832491937794",
+            "name": "Soldier, EPSA",
+            "color": "#FFCE55",
+            "position": 108
+          },
+          {
+            "id": "633683841264910357",
+            "name": "Welcomer",
+            "color": null,
+            "position": 76
+          },
+          {
+            "id": "1311771067584479302",
+            "name": "Tepite",
+            "color": null,
+            "position": 70
+          },
+          {
+            "id": "917837294998790214",
+            "name": "Urth",
+            "color": null,
+            "position": 68
+          },
+          {
+            "id": "845235755936645140",
+            "name": "Oldies but Goldies",
+            "color": "#C89E00",
+            "position": 66
+          },
+          {
+            "id": "773652878203945020",
+            "name": "Hussar of The East",
+            "color": "#447643",
+            "position": 63
+          },
+          {
+            "id": "633352531690520596",
+            "name": "Residents [WA]",
+            "color": "#DB4453",
+            "position": 59
+          },
+          {
+            "id": "633352654579302451",
+            "name": "Residents",
+            "color": "#ED5564",
+            "position": 58
+          },
+          {
+            "id": "669625127893336108",
+            "name": "Server Booster",
+            "color": "#F47FFF",
+            "position": 50
+          },
+          {
+            "id": "637022380530597892",
+            "name": "Design Specialist",
+            "color": null,
+            "position": 46
+          },
+          {
+            "id": "727880101995479090",
+            "name": "Notifications",
+            "color": null,
+            "position": 44
+          },
+          {
+            "id": "1078031481336766637",
+            "name": "Forum/Bot Status",
+            "color": null,
+            "position": 43
+          },
+          {
+            "id": "634491355443494953",
+            "name": "RMBer",
+            "color": null,
+            "position": 35
+          },
+          {
+            "id": "1077673652344061992",
+            "name": "NationStates",
+            "color": null,
+            "position": 33
+          },
+          {
+            "id": "1087945130041942136",
+            "name": "Bookworm",
+            "color": null,
+            "position": 28
+          },
+          {
+            "id": "1091197551799173170",
+            "name": "Radio On-Air",
+            "color": null,
+            "position": 26
+          },
+          {
+            "id": "1145421147261898803",
+            "name": "Hunger Games",
+            "color": null,
+            "position": 22
+          },
+          {
+            "id": "855597551624257548",
+            "name": "he/him",
+            "color": null,
+            "position": 18
+          },
+          {
+            "id": "855597859243032598",
+            "name": "they/them",
+            "color": null,
+            "position": 16
+          },
+          {
+            "id": "1498035107410481174",
+            "name": "Supporter",
+            "color": "#00674F",
+            "position": 6
+          },
+          {
+            "id": "1544568258982576158",
+            "name": "Renewal",
+            "color": null,
+            "position": 5
+          }
+        ],
+        "avatarUrl": "https://cdn.discordapp.com/guilds/633351482128728064/users/238139507235356673/avatars/a35b9b28ebaf128469b809106f6f53fc.png?size=512"
+      },
+      "attachments": [
+        {
+          "id": "1053814797923270697",
+          "url": "https://cdn.discordapp.com/attachments/1053781802013175818/1053814797923270697/image0.jpg?ex=6ad00f02&is=6acebd82&hm=c666db1ef6fe3eb690b3e3f0b6c9ea2502c008ae1293ca61c2d34b887a25c7a2&",
+          "fileName": "image0.jpg",
+          "fileSizeBytes": 55005
+        }
+      ],
+      "embeds": [],
+      "stickers": [],
+      "reactions": [],
+      "mentions": [],
+      "inlineEmojis": []
+    },
+    {
+      "id": "1053824578767560714",
+      "type": "Default",
+      "timestamp": "2022-12-18T00:02:38.692+00:00",
+      "timestampEdited": null,
+      "callEndedTimestamp": null,
+      "isPinned": false,
+      "content": "Those work :Sparkle:",
+      "author": {
+        "id": "255123656995241984",
+        "name": "sammyqahwia",
+        "discriminator": "0000",
+        "nickname": "Spammy",
+        "color": "#EA1889",
+        "isBot": false,
+        "roles": [
+          {
+            "id": "633353998287503390",
+            "name": "Moderators",
+            "color": "#EA1889",
+            "position": 138
+          },
+          {
+            "id": "1077071443935887360",
+            "name": "Cabinet",
+            "color": "#6EA7A1",
+            "position": 118
+          },
+          {
+            "id": "1076716172319404033",
+            "name": "UTEP Chancellor",
+            "color": null,
+            "position": 113
+          },
+          {
+            "id": "1076716058209161216",
+            "name": "Minister",
+            "color": null,
+            "position": 111
+          },
+          {
+            "id": "1167539145166553109",
+            "name": "University Staff",
+            "color": null,
+            "position": 103
+          },
+          {
+            "id": "1196698562445193267",
+            "name": "FA Councillor",
+            "color": null,
+            "position": 100
+          },
+          {
+            "id": "1201510757553164390",
+            "name": "FA Ambassador",
+            "color": null,
+            "position": 98
+          },
+          {
+            "id": "674077281823752192",
+            "name": "Delegate",
+            "color": "#967BDC",
+            "position": 95
+          },
+          {
+            "id": "633363669547483136",
+            "name": "Vizier",
+            "color": "#AC92ED",
+            "position": 94
+          },
+          {
+            "id": "633363319864033282",
+            "name": "Magister",
+            "color": "#5E9CE9",
+            "position": 84
+          },
+          {
+            "id": "933820954419806248",
+            "name": "Citizenship Official",
+            "color": null,
+            "position": 81
+          },
+          {
+            "id": "651114349347471371",
+            "name": "Regional Officer",
+            "color": null,
+            "position": 79
+          },
+          {
+            "id": "1430367546984370347",
+            "name": "Citizens",
+            "color": "#CD125D",
+            "position": 60
+          },
+          {
+            "id": "633352531690520596",
+            "name": "Residents [WA]",
+            "color": "#DB4453",
+            "position": 59
+          },
+          {
+            "id": "633352654579302451",
+            "name": "Residents",
+            "color": "#ED5564",
+            "position": 58
+          },
+          {
+            "id": "649288407801004062",
+            "name": "Urth Forum RP",
+            "color": null,
+            "position": 36
+          },
+          {
+            "id": "1077673652344061992",
+            "name": "NationStates",
+            "color": null,
+            "position": 33
+          },
+          {
+            "id": "851124231377780796",
+            "name": "Daily Question",
+            "color": null,
+            "position": 31
+          },
+          {
+            "id": "1180938941885587548",
+            "name": "Debates & Politics",
+            "color": null,
+            "position": 20
+          }
+        ],
+        "avatarUrl": "https://cdn.discordapp.com/guilds/633351482128728064/users/255123656995241984/avatars/7223276c1a0729e9c6dee64efa919eaa.png?size=512"
+      },
+      "attachments": [],
+      "embeds": [],
+      "stickers": [],
+      "reactions": [],
+      "mentions": [],
+      "inlineEmojis": [
+        {
+          "id": "870290499754426368",
+          "name": "Sparkle",
+          "code": "Sparkle",
+          "isAnimated": true,
+          "imageUrl": "https://cdn.discordapp.com/emojis/870290499754426368.gif"
+        }
+      ]
+    },
+    {
+      "id": "1224573254916640822",
+      "type": "Default",
+      "timestamp": "2024-04-02T04:16:55.443+00:00",
+      "timestampEdited": null,
+      "callEndedTimestamp": null,
+      "isPinned": false,
+      "content": "*blows dust away*",
+      "author": {
+        "id": "365072216418942976",
+        "name": "halleyscomet08",
+        "discriminator": "0000",
+        "nickname": "Holeyscomet08",
+        "color": "#F500FF",
+        "isBot": false,
+        "roles": [
+          {
+            "id": "1072578688631193651",
+            "name": "RA Exe Onboarding",
+            "color": null,
+            "position": 97
+          },
+          {
+            "id": "727880101995479090",
+            "name": "Notifications",
+            "color": null,
+            "position": 44
+          },
+          {
+            "id": "1077673652344061992",
+            "name": "NationStates",
+            "color": null,
+            "position": 33
+          },
+          {
+            "id": "998343650130001950",
+            "name": "Frenemy of The East Pacific",
+            "color": "#F500FF",
+            "position": 29
+          },
+          {
+            "id": "1180938941885587548",
+            "name": "Debates & Politics",
+            "color": null,
+            "position": 20
+          }
+        ],
+        "avatarUrl": "https://cdn.discordapp.com/avatars/365072216418942976/a3f50d80cca97cef8c9f2a31bbd3178b.png?size=512"
+      },
+      "attachments": [],
+      "embeds": [],
+      "stickers": [],
+      "reactions": [],
+      "mentions": [],
+      "inlineEmojis": []
+    },
+    {
+      "id": "1224573285103177773",
+      "type": "Default",
+      "timestamp": "2024-04-02T04:17:02.64+00:00",
+      "timestampEdited": "2024-04-02T04:17:06.873+00:00",
+      "callEndedTimestamp": null,
+      "isPinned": false,
+      "content": "Let's get this party started, shall we?",
+      "author": {
+        "id": "365072216418942976",
+        "name": "halleyscomet08",
+        "discriminator": "0000",
+        "nickname": "Holeyscomet08",
+        "color": "#F500FF",
+        "isBot": false,
+        "roles": [
+          {
+            "id": "1072578688631193651",
+            "name": "RA Exe Onboarding",
+            "color": null,
+            "position": 97
+          },
+          {
+            "id": "727880101995479090",
+            "name": "Notifications",
+            "color": null,
+            "position": 44
+          },
+          {
+            "id": "1077673652344061992",
+            "name": "NationStates",
+            "color": null,
+            "position": 33
+          },
+          {
+            "id": "998343650130001950",
+            "name": "Frenemy of The East Pacific",
+            "color": "#F500FF",
+            "position": 29
+          },
+          {
+            "id": "1180938941885587548",
+            "name": "Debates & Politics",
+            "color": null,
+            "position": 20
+          }
+        ],
+        "avatarUrl": "https://cdn.discordapp.com/avatars/365072216418942976/a3f50d80cca97cef8c9f2a31bbd3178b.png?size=512"
+      },
+      "attachments": [],
+      "embeds": [],
+      "stickers": [],
+      "reactions": [],
+      "mentions": [],
+      "inlineEmojis": []
+    },
+    {
+      "id": "1224573317294456942",
+      "type": "Default",
+      "timestamp": "2024-04-02T04:17:10.315+00:00",
+      "timestampEdited": "2024-04-02T04:26:08.167+00:00",
+      "callEndedTimestamp": null,
+      "isPinned": false,
+      "content": "This is a sort of a Proof of Concept of a Zine-style for UTEP. It takes one concept, \"Agency\", and tries to incorporate that into different ideas/essays. Agency is a very dear concept to my heart, and that concept cannot be simply explored with one lens. As such, I've written 3 different essays on Agency that explore different aspects that I've learned about. The first focuses on Linux and Religion, The second focuses on Programming and Writing, and the third focuses on Concordat and Community. These are deliberately diverse, as the goal above all else is to explore: how does our different disciplines and realities clash and inform one another?\n\nIn the future, I'd like to have some artworks, poems, stories and the like that can explore future concepts as well. We are never bound to one medium for expression, and I'd like to feature as many of them as I can. Well, I'll see public interest first before I go any further.\n\nFor now, I sincerely hope you enjoy the zeroth publication of the zine, \"Explication\".\n\n- Halley\n\n*TABLE OF CONTENTS*\n1. Linux: A Religious Perspective - Halley\nhttps://forum.theeastpacific.com/t/linux-a-religious-perspective/17926/1\n2. Writing as a programmer - Halley\nhttps://forum.theeastpacific.com/t/writing-as-a-programmer/17927/1\n3. Concordat: Crystallization of Community - Halley\nhttps://forum.theeastpacific.com/t/concordat-crystallization-of-community/17928/1",
+      "author": {
+        "id": "365072216418942976",
+        "name": "halleyscomet08",
+        "discriminator": "0000",
+        "nickname": "Holeyscomet08",
+        "color": "#F500FF",
+        "isBot": false,
+        "roles": [
+          {
+            "id": "1072578688631193651",
+            "name": "RA Exe Onboarding",
+            "color": null,
+            "position": 97
+          },
+          {
+            "id": "727880101995479090",
+            "name": "Notifications",
+            "color": null,
+            "position": 44
+          },
+          {
+            "id": "1077673652344061992",
+            "name": "NationStates",
+            "color": null,
+            "position": 33
+          },
+          {
+            "id": "998343650130001950",
+            "name": "Frenemy of The East Pacific",
+            "color": "#F500FF",
+            "position": 29
+          },
+          {
+            "id": "1180938941885587548",
+            "name": "Debates & Politics",
+            "color": null,
+            "position": 20
+          }
+        ],
+        "avatarUrl": "https://cdn.discordapp.com/avatars/365072216418942976/a3f50d80cca97cef8c9f2a31bbd3178b.png?size=512"
+      },
+      "attachments": [],
+      "embeds": [
+        {
+          "title": "Linux: A Religious Perspective",
+          "url": "https://forum.theeastpacific.com/t/linux-a-religious-perspective/17926/1",
+          "timestamp": null,
+          "description": "tw: themes of religious guilt. viewer discretion is advised.  The thesis of this essay is simple: my experiences with my religion and my experiences using linux share common themes that helps inform a key aspect of the human experience: Self-Actualization. I will aim to explore this thesis through the lens of my religious experience, my experien...",
+          "color": "#111111",
+          "thumbnail": {
+            "url": "https://images-ext-1.discordapp.net/external/Nysse55kgMiagTAabDmhSlMsFqK3l4r-qS9Agj9FA9E/https/forum.theeastpacific.com/uploads/default/original/2X/6/622332b79331172dcccb807edf91f4cf7a9f372f.png",
+            "canonicalUrl": "https://forum.theeastpacific.com/uploads/default/original/2X/6/622332b79331172dcccb807edf91f4cf7a9f372f.png",
+            "width": 2560,
+            "height": 2560
+          },
+          "images": [],
+          "fields": [],
+          "inlineEmojis": []
+        },
+        {
+          "title": "Writing as a Programmer",
+          "url": "https://forum.theeastpacific.com/t/writing-as-a-programmer/17927/1",
+          "timestamp": null,
+          "description": "So I was watching a “No Boilerplate” video the other day, when I noticed an interesting phrase: “the eyeball’s compiler”. “Hmm”, I thought, “Wouldn’t that be the brain then?” That spiralled into a thinking session that eventually arrived to the main thesis of this essay: Writing code and writing essays are remarkably similar, because they both i...",
+          "color": "#111111",
+          "thumbnail": {
+            "url": "https://images-ext-1.discordapp.net/external/Nysse55kgMiagTAabDmhSlMsFqK3l4r-qS9Agj9FA9E/https/forum.theeastpacific.com/uploads/default/original/2X/6/622332b79331172dcccb807edf91f4cf7a9f372f.png",
+            "canonicalUrl": "https://forum.theeastpacific.com/uploads/default/original/2X/6/622332b79331172dcccb807edf91f4cf7a9f372f.png",
+            "width": 2560,
+            "height": 2560
+          },
+          "images": [],
+          "fields": [],
+          "inlineEmojis": []
+        },
+        {
+          "title": "Concordat: Crystallization of Community",
+          "url": "https://forum.theeastpacific.com/t/concordat-crystallization-of-community/17928/1",
+          "timestamp": null,
+          "description": "In this essay, I will argue that above all else, we must hold the Concordat supreme. I will argue this by talking about the relationship between Resident and State, our role as a roleplay region, and our bonds as a community. I will also argue that this Concordat must display the roles and responsibilities both parties may have. In the end, I wi...",
+          "color": "#111111",
+          "thumbnail": {
+            "url": "https://images-ext-1.discordapp.net/external/Nysse55kgMiagTAabDmhSlMsFqK3l4r-qS9Agj9FA9E/https/forum.theeastpacific.com/uploads/default/original/2X/6/622332b79331172dcccb807edf91f4cf7a9f372f.png",
+            "canonicalUrl": "https://forum.theeastpacific.com/uploads/default/original/2X/6/622332b79331172dcccb807edf91f4cf7a9f372f.png",
+            "width": 2560,
+            "height": 2560
+          },
+          "images": [],
+          "fields": [],
+          "inlineEmojis": []
+        }
+      ],
+      "stickers": [],
+      "reactions": [],
+      "mentions": [],
+      "inlineEmojis": []
+    },
+    {
+      "id": "1224573403608907777",
+      "type": "Default",
+      "timestamp": "2024-04-02T04:17:30.894+00:00",
+      "timestampEdited": null,
+      "callEndedTimestamp": null,
+      "isPinned": false,
+      "content": "(All essays will also be published under their respective UTEP tags)",
+      "author": {
+        "id": "365072216418942976",
+        "name": "halleyscomet08",
+        "discriminator": "0000",
+        "nickname": "Holeyscomet08",
+        "color": "#F500FF",
+        "isBot": false,
+        "roles": [
+          {
+            "id": "1072578688631193651",
+            "name": "RA Exe Onboarding",
+            "color": null,
+            "position": 97
+          },
+          {
+            "id": "727880101995479090",
+            "name": "Notifications",
+            "color": null,
+            "position": 44
+          },
+          {
+            "id": "1077673652344061992",
+            "name": "NationStates",
+            "color": null,
+            "position": 33
+          },
+          {
+            "id": "998343650130001950",
+            "name": "Frenemy of The East Pacific",
+            "color": "#F500FF",
+            "position": 29
+          },
+          {
+            "id": "1180938941885587548",
+            "name": "Debates & Politics",
+            "color": null,
+            "position": 20
+          }
+        ],
+        "avatarUrl": "https://cdn.discordapp.com/avatars/365072216418942976/a3f50d80cca97cef8c9f2a31bbd3178b.png?size=512"
+      },
+      "attachments": [],
+      "embeds": [],
+      "stickers": [],
+      "reactions": [],
+      "mentions": [],
+      "inlineEmojis": []
+    }
+  ],
+  "messageCount": 8
+}

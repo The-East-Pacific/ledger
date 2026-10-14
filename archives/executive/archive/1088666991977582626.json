@@ -1,0 +1,3615 @@
+{
+  "guild": {
+    "id": "633351482128728064",
+    "name": "The East Pacific",
+    "iconUrl": "https://cdn.discordapp.com/icons/633351482128728064/3b9183b0816dd4a4296cc384f5f6caf7.png?size=512"
+  },
+  "channel": {
+    "id": "1088666991977582626",
+    "type": "GuildPublicThread",
+    "categoryId": "1053147931768803398",
+    "category": "the-hall-of-halls",
+    "name": "UTEP Humanities",
+    "topic": null
+  },
+  "dateRange": {
+    "after": null,
+    "before": null
+  },
+  "exportedAt": "2026-10-14T07:07:20.9598439+00:00",
+  "messages": [
+    {
+      "id": "1088666991977582626",
+      "type": "Default",
+      "timestamp": "2023-03-24T03:33:57.342+00:00",
+      "timestampEdited": null,
+      "callEndedTimestamp": null,
+      "isPinned": false,
+      "content": "This is the official UTEP thread for all discussions of art, music, literature, and all related topics.",
+      "author": {
+        "id": "416392534290464768",
+        "name": "styxprincess",
+        "discriminator": "0000",
+        "nickname": "StyxPrincess",
+        "color": null,
+        "isBot": false,
+        "roles": [],
+        "avatarUrl": "https://cdn.discordapp.com/avatars/416392534290464768/21ad1529589aac7d87e06ab93801ad6a.png?size=512"
+      },
+      "attachments": [
+        {
+          "id": "1088666992183091200",
+          "url": "https://cdn.discordapp.com/attachments/1088666991977582626/1088666992183091200/UTEPstamp.png?ex=6ad049a5&is=6acef825&hm=772099a97ebf6b79ea1d20de1b6b06209ab37048b10c62939324b20fd5800087&",
+          "fileName": "UTEPstamp.png",
+          "fileSizeBytes": 35916
+        }
+      ],
+      "embeds": [],
+      "stickers": [],
+      "reactions": [],
+      "mentions": [],
+      "inlineEmojis": []
+    },
+    {
+      "id": "1088669764383166534",
+      "type": "Default",
+      "timestamp": "2023-03-24T03:44:58.335+00:00",
+      "timestampEdited": null,
+      "callEndedTimestamp": null,
+      "isPinned": false,
+      "content": "For the honorary first UTEP post on the main server, imma share the instrumental opening for Aldaar's national anthem which I've been working on. Enjoy!",
+      "author": {
+        "id": "416392534290464768",
+        "name": "styxprincess",
+        "discriminator": "0000",
+        "nickname": "StyxPrincess",
+        "color": null,
+        "isBot": false,
+        "roles": [],
+        "avatarUrl": "https://cdn.discordapp.com/avatars/416392534290464768/21ad1529589aac7d87e06ab93801ad6a.png?size=512"
+      },
+      "attachments": [
+        {
+          "id": "1088669764009869343",
+          "url": "https://cdn.discordapp.com/attachments/1088666991977582626/1088669764009869343/ADNationalAnthem.mp3?ex=6ad04c3a&is=6acefaba&hm=ce3e3d2fffb40bc678d4f35101a748829235df66c60949523be0f9d57fa82c18&",
+          "fileName": "ADNationalAnthem.mp3",
+          "fileSizeBytes": 499200
+        }
+      ],
+      "embeds": [],
+      "stickers": [],
+      "reactions": [],
+      "mentions": [],
+      "inlineEmojis": []
+    },
+    {
+      "id": "1088848638966497342",
+      "type": "Default",
+      "timestamp": "2023-03-24T15:35:45.359+00:00",
+      "timestampEdited": null,
+      "callEndedTimestamp": null,
+      "isPinned": false,
+      "content": "Finished!",
+      "author": {
+        "id": "416392534290464768",
+        "name": "styxprincess",
+        "discriminator": "0000",
+        "nickname": "StyxPrincess",
+        "color": null,
+        "isBot": false,
+        "roles": [],
+        "avatarUrl": "https://cdn.discordapp.com/avatars/416392534290464768/21ad1529589aac7d87e06ab93801ad6a.png?size=512"
+      },
+      "attachments": [
+        {
+          "id": "1088848638857449543",
+          "url": "https://cdn.discordapp.com/attachments/1088666991977582626/1088848638857449543/Aldaarnu.mp3?ex=6ad04a11&is=6acef891&hm=f279b623fe5f0e76e055eb8f5c1bfe4b41f71f6c0883e1dcffc28a8db128163f&",
+          "fileName": "Aldaarnu.mp3",
+          "fileSizeBytes": 1570560
+        }
+      ],
+      "embeds": [],
+      "stickers": [],
+      "reactions": [],
+      "mentions": [],
+      "inlineEmojis": []
+    },
+    {
+      "id": "1098312563722305746",
+      "type": "Default",
+      "timestamp": "2023-04-19T18:22:00.852+00:00",
+      "timestampEdited": null,
+      "callEndedTimestamp": null,
+      "isPinned": false,
+      "content": "IMO Evanescence is the Foundation and Start of the Wave of Gals in the Alt scene",
+      "author": {
+        "id": "657644203383324713",
+        "name": "anya8900",
+        "discriminator": "0000",
+        "nickname": "Schrodinger's Lesbian (She)",
+        "color": "#ED5564",
+        "isBot": false,
+        "roles": [
+          {
+            "id": "633352654579302451",
+            "name": "Residents",
+            "color": "#ED5564",
+            "position": 58
+          },
+          {
+            "id": "727880101995479090",
+            "name": "Notifications",
+            "color": null,
+            "position": 44
+          },
+          {
+            "id": "739246330106478684",
+            "name": "Voice Chat",
+            "color": null,
+            "position": 41
+          },
+          {
+            "id": "815019492748165172",
+            "name": "WA Notification",
+            "color": null,
+            "position": 40
+          },
+          {
+            "id": "649288407801004062",
+            "name": "Urth Forum RP",
+            "color": null,
+            "position": 36
+          },
+          {
+            "id": "1077673652344061992",
+            "name": "NationStates",
+            "color": null,
+            "position": 33
+          },
+          {
+            "id": "851124231377780796",
+            "name": "Daily Question",
+            "color": null,
+            "position": 31
+          },
+          {
+            "id": "1087945130041942136",
+            "name": "Bookworm",
+            "color": null,
+            "position": 28
+          },
+          {
+            "id": "1078295075508998264",
+            "name": "Nerd",
+            "color": null,
+            "position": 27
+          },
+          {
+            "id": "1091197551799173170",
+            "name": "Radio On-Air",
+            "color": null,
+            "position": 26
+          },
+          {
+            "id": "1145421147261898803",
+            "name": "Hunger Games",
+            "color": null,
+            "position": 22
+          },
+          {
+            "id": "1180938941885587548",
+            "name": "Debates & Politics",
+            "color": null,
+            "position": 20
+          },
+          {
+            "id": "855597652984070244",
+            "name": "she/her",
+            "color": null,
+            "position": 17
+          }
+        ],
+        "avatarUrl": "https://cdn.discordapp.com/avatars/657644203383324713/8cf263a5a63236584308a7e97ceb0a3e.png?size=512"
+      },
+      "attachments": [],
+      "embeds": [],
+      "stickers": [],
+      "reactions": [],
+      "mentions": [],
+      "inlineEmojis": []
+    },
+    {
+      "id": "1099356237679837225",
+      "type": "Default",
+      "timestamp": "2023-04-22T15:29:12.114+00:00",
+      "timestampEdited": "2023-04-22T15:29:39.167+00:00",
+      "callEndedTimestamp": null,
+      "isPinned": false,
+      "content": "Hmmm... I made this poem, I want some criticisms, and some feedback for it\n\nI wonder what I think I missed from there",
+      "author": {
+        "id": "456226577798135808",
+        "name": "Deleted User",
+        "discriminator": "0000",
+        "nickname": "Deleted User",
+        "color": null,
+        "isBot": false,
+        "roles": [],
+        "avatarUrl": "https://cdn.discordapp.com/embed/avatars/3.png"
+      },
+      "attachments": [
+        {
+          "id": "1099356237419794543",
+          "url": "https://cdn.discordapp.com/attachments/1088666991977582626/1099356237419794543/Fields_of_grass_placed_top.docx?ex=6ad04888&is=6acef708&hm=b2f29f42f924e074e9bf7a26059f97e57020d3e056578efdeaec32df865f94a9&",
+          "fileName": "Fields_of_grass_placed_top.docx",
+          "fileSizeBytes": 19659
+        }
+      ],
+      "embeds": [],
+      "stickers": [],
+      "reactions": [],
+      "mentions": [],
+      "inlineEmojis": []
+    },
+    {
+      "id": "1099393759952773222",
+      "type": "Reply",
+      "timestamp": "2023-04-22T17:58:18.121+00:00",
+      "timestampEdited": null,
+      "callEndedTimestamp": null,
+      "isPinned": false,
+      "content": "I would say it's really good, there are some places where I think you could utilize punctuation more, specifically maybe a question mark at line 4 to leave the reader hanging. The lack of commas combined with the syllabic imbalance make me read this very quickly, which works amazingly if that was your goal, but if it wasn't then I'd say add some pauses (commas, hyphens, or semicolons) and either break up your longer lines or merge your shorter ones.\n\nAlso, and this is completely personal preference, but I feel like it could've been much more concise and gotten the point across sooner without risking a loss of interest. The real question to ask is \"was this poem meant to be read, or spoken?\" And that should tell you what to focus on - if you want it to be spoken aloud, and you want it to be done a certain way, there should be more markers for the speaker so they can read it the way you intended. If the way it's read doesn't really matter to you, then I'd say it's pretty good right now as a skilled spoken word poet could take this and elevate it with the tools you've given them. If it's meant to be read, then I feel it could be trimmed a little to keep interest (people in general don't have great attention spans, especially not for poetry) and utilize a few more tools to guide the reader, especially punctuation and line breaks.\n\nThe last thing I'll say is poems are at their best when they break their own rules to deliver a message. There's a few points throughout where you go away from the rhyme scheme, which I think should be utilized more, utilized later on, and given more of a sense of direction.\n\nOverall, though, good poem.",
+      "author": {
+        "id": "416392534290464768",
+        "name": "styxprincess",
+        "discriminator": "0000",
+        "nickname": "StyxPrincess",
+        "color": null,
+        "isBot": false,
+        "roles": [],
+        "avatarUrl": "https://cdn.discordapp.com/avatars/416392534290464768/21ad1529589aac7d87e06ab93801ad6a.png?size=512"
+      },
+      "attachments": [],
+      "embeds": [],
+      "stickers": [],
+      "reactions": [],
+      "mentions": [
+        {
+          "id": "456226577798135808",
+          "name": "Deleted User",
+          "discriminator": "0000",
+          "nickname": "Deleted User",
+          "color": null,
+          "isBot": false,
+          "roles": [],
+          "avatarUrl": "https://cdn.discordapp.com/embed/avatars/3.png"
+        }
+      ],
+      "reference": {
+        "type": "Default",
+        "messageId": "1099356237679837225",
+        "channelId": "1088666991977582626",
+        "guildId": "633351482128728064"
+      },
+      "inlineEmojis": []
+    },
+    {
+      "id": "1099398543019622501",
+      "type": "Default",
+      "timestamp": "2023-04-22T18:17:18.493+00:00",
+      "timestampEdited": null,
+      "callEndedTimestamp": null,
+      "isPinned": false,
+      "content": "Oh, most of my poems don't follow a syllabic rule\n\nBUT\n\nThere is a poem that I used a Decima poetic form\nIt's octosyllabic",
+      "author": {
+        "id": "456226577798135808",
+        "name": "Deleted User",
+        "discriminator": "0000",
+        "nickname": "Deleted User",
+        "color": null,
+        "isBot": false,
+        "roles": [],
+        "avatarUrl": "https://cdn.discordapp.com/embed/avatars/3.png"
+      },
+      "attachments": [],
+      "embeds": [],
+      "stickers": [],
+      "reactions": [],
+      "mentions": [],
+      "inlineEmojis": []
+    },
+    {
+      "id": "1099398775346319402",
+      "type": "Default",
+      "timestamp": "2023-04-22T18:18:13.884+00:00",
+      "timestampEdited": null,
+      "callEndedTimestamp": null,
+      "isPinned": false,
+      "content": "I might try mixing and matching poetic forms to make something interesting",
+      "author": {
+        "id": "456226577798135808",
+        "name": "Deleted User",
+        "discriminator": "0000",
+        "nickname": "Deleted User",
+        "color": null,
+        "isBot": false,
+        "roles": [],
+        "avatarUrl": "https://cdn.discordapp.com/embed/avatars/3.png"
+      },
+      "attachments": [],
+      "embeds": [],
+      "stickers": [],
+      "reactions": [],
+      "mentions": [],
+      "inlineEmojis": []
+    },
+    {
+      "id": "1099423064317509644",
+      "type": "Reply",
+      "timestamp": "2023-04-22T19:54:44.826+00:00",
+      "timestampEdited": null,
+      "callEndedTimestamp": null,
+      "isPinned": false,
+      "content": "they don't need to, but the balance does affect the speed at which people will read it",
+      "author": {
+        "id": "416392534290464768",
+        "name": "styxprincess",
+        "discriminator": "0000",
+        "nickname": "StyxPrincess",
+        "color": null,
+        "isBot": false,
+        "roles": [],
+        "avatarUrl": "https://cdn.discordapp.com/avatars/416392534290464768/21ad1529589aac7d87e06ab93801ad6a.png?size=512"
+      },
+      "attachments": [],
+      "embeds": [],
+      "stickers": [],
+      "reactions": [],
+      "mentions": [
+        {
+          "id": "456226577798135808",
+          "name": "Deleted User",
+          "discriminator": "0000",
+          "nickname": "Deleted User",
+          "color": null,
+          "isBot": false,
+          "roles": [],
+          "avatarUrl": "https://cdn.discordapp.com/embed/avatars/3.png"
+        }
+      ],
+      "reference": {
+        "type": "Default",
+        "messageId": "1099398543019622501",
+        "channelId": "1088666991977582626",
+        "guildId": "633351482128728064"
+      },
+      "inlineEmojis": []
+    },
+    {
+      "id": "1120045179060097158",
+      "type": "Default",
+      "timestamp": "2023-06-18T17:39:40.121+00:00",
+      "timestampEdited": null,
+      "callEndedTimestamp": null,
+      "isPinned": false,
+      "content": "What book or series has influenced your writing the most?",
+      "author": {
+        "id": "676251628868993054",
+        "name": "y_n0t_",
+        "discriminator": "0000",
+        "nickname": "y0",
+        "color": "#447643",
+        "isBot": false,
+        "roles": [
+          {
+            "id": "773652878203945020",
+            "name": "Hussar of The East",
+            "color": "#447643",
+            "position": 63
+          },
+          {
+            "id": "633352531690520596",
+            "name": "Residents [WA]",
+            "color": "#DB4453",
+            "position": 59
+          },
+          {
+            "id": "633352654579302451",
+            "name": "Residents",
+            "color": "#ED5564",
+            "position": 58
+          },
+          {
+            "id": "729123951053373480",
+            "name": "Code & API Specialist",
+            "color": null,
+            "position": 45
+          },
+          {
+            "id": "739259727942516836",
+            "name": "Writing Specialist",
+            "color": null,
+            "position": 42
+          },
+          {
+            "id": "754595572853243975",
+            "name": "Upvote",
+            "color": null,
+            "position": 39
+          },
+          {
+            "id": "634491355443494953",
+            "name": "RMBer",
+            "color": null,
+            "position": 35
+          },
+          {
+            "id": "1077673652344061992",
+            "name": "NationStates",
+            "color": null,
+            "position": 33
+          },
+          {
+            "id": "851124231377780796",
+            "name": "Daily Question",
+            "color": null,
+            "position": 31
+          },
+          {
+            "id": "998343650130001950",
+            "name": "Frenemy of The East Pacific",
+            "color": "#F500FF",
+            "position": 29
+          },
+          {
+            "id": "1145421147261898803",
+            "name": "Hunger Games",
+            "color": null,
+            "position": 22
+          },
+          {
+            "id": "1237447542162325526",
+            "name": "Eurovision",
+            "color": null,
+            "position": 15
+          }
+        ],
+        "avatarUrl": "https://cdn.discordapp.com/avatars/676251628868993054/99c0fa12443efe91ad7cb0e09b39aa34.png?size=512"
+      },
+      "attachments": [],
+      "embeds": [],
+      "stickers": [],
+      "reactions": [],
+      "mentions": [],
+      "inlineEmojis": []
+    },
+    {
+      "id": "1123738127580790905",
+      "type": "Default",
+      "timestamp": "2023-06-28T22:14:07.66+00:00",
+      "timestampEdited": null,
+      "callEndedTimestamp": null,
+      "isPinned": false,
+      "content": "god, that’s a good one. i think good omens has influenced the way i put comedy into my work, a but. for prose itself? it’s hard to tell. my early fantasy series, notably eragon and wire of fire, were VERY formative, as was the warrior cats series and stuff like that. but i’ve noticed that recently i’ve developed a more mature style which at times is brief and direct and at other times more flower, saying the same things with more words. idk where i got that. i mean, piranesi, influences my descriptions of things i think. looking outside books, i think the magnus archives has had an incredible impact on how i write firsthand experiences and present backstory. but tbh i think im a big jigsaw puzzle of everything i’ve ever read or watched.",
+      "author": {
+        "id": "738186404399415336",
+        "name": "theconstantofchange",
+        "discriminator": "0000",
+        "nickname": "Mango",
+        "color": null,
+        "isBot": false,
+        "roles": [],
+        "avatarUrl": "https://cdn.discordapp.com/avatars/738186404399415336/bdd56904d110e67bff6d8988b5d7d327.png?size=512"
+      },
+      "attachments": [],
+      "embeds": [],
+      "stickers": [],
+      "reactions": [],
+      "mentions": [],
+      "inlineEmojis": []
+    },
+    {
+      "id": "1128422014638620712",
+      "type": "Default",
+      "timestamp": "2023-07-11T20:26:13.357+00:00",
+      "timestampEdited": null,
+      "callEndedTimestamp": null,
+      "isPinned": false,
+      "content": "What makes the difference between prose and poetry? What about prose poetry?",
+      "author": {
+        "id": "676251628868993054",
+        "name": "y_n0t_",
+        "discriminator": "0000",
+        "nickname": "y0",
+        "color": "#447643",
+        "isBot": false,
+        "roles": [
+          {
+            "id": "773652878203945020",
+            "name": "Hussar of The East",
+            "color": "#447643",
+            "position": 63
+          },
+          {
+            "id": "633352531690520596",
+            "name": "Residents [WA]",
+            "color": "#DB4453",
+            "position": 59
+          },
+          {
+            "id": "633352654579302451",
+            "name": "Residents",
+            "color": "#ED5564",
+            "position": 58
+          },
+          {
+            "id": "729123951053373480",
+            "name": "Code & API Specialist",
+            "color": null,
+            "position": 45
+          },
+          {
+            "id": "739259727942516836",
+            "name": "Writing Specialist",
+            "color": null,
+            "position": 42
+          },
+          {
+            "id": "754595572853243975",
+            "name": "Upvote",
+            "color": null,
+            "position": 39
+          },
+          {
+            "id": "634491355443494953",
+            "name": "RMBer",
+            "color": null,
+            "position": 35
+          },
+          {
+            "id": "1077673652344061992",
+            "name": "NationStates",
+            "color": null,
+            "position": 33
+          },
+          {
+            "id": "851124231377780796",
+            "name": "Daily Question",
+            "color": null,
+            "position": 31
+          },
+          {
+            "id": "998343650130001950",
+            "name": "Frenemy of The East Pacific",
+            "color": "#F500FF",
+            "position": 29
+          },
+          {
+            "id": "1145421147261898803",
+            "name": "Hunger Games",
+            "color": null,
+            "position": 22
+          },
+          {
+            "id": "1237447542162325526",
+            "name": "Eurovision",
+            "color": null,
+            "position": 15
+          }
+        ],
+        "avatarUrl": "https://cdn.discordapp.com/avatars/676251628868993054/99c0fa12443efe91ad7cb0e09b39aa34.png?size=512"
+      },
+      "attachments": [],
+      "embeds": [],
+      "stickers": [],
+      "reactions": [],
+      "mentions": [],
+      "inlineEmojis": []
+    },
+    {
+      "id": "1128426744030969979",
+      "type": "Default",
+      "timestamp": "2023-07-11T20:45:00.932+00:00",
+      "timestampEdited": null,
+      "callEndedTimestamp": null,
+      "isPinned": false,
+      "content": "I think of poetry as more abstract and disconnected. Like prose has sentences and paragraphs that are continuous. Poetry has single lines in clusters which form stanzas, and they aren't continuous in the same way prose is. However, I mean, \"you know it when you see it\" really.",
+      "author": {
+        "id": "738186404399415336",
+        "name": "theconstantofchange",
+        "discriminator": "0000",
+        "nickname": "Mango",
+        "color": null,
+        "isBot": false,
+        "roles": [],
+        "avatarUrl": "https://cdn.discordapp.com/avatars/738186404399415336/bdd56904d110e67bff6d8988b5d7d327.png?size=512"
+      },
+      "attachments": [],
+      "embeds": [],
+      "stickers": [],
+      "reactions": [],
+      "mentions": [],
+      "inlineEmojis": []
+    },
+    {
+      "id": "1128431303583346800",
+      "type": "Default",
+      "timestamp": "2023-07-11T21:03:08.014+00:00",
+      "timestampEdited": null,
+      "callEndedTimestamp": null,
+      "isPinned": false,
+      "content": "you know art invisibly art knows you",
+      "author": {
+        "id": "676251628868993054",
+        "name": "y_n0t_",
+        "discriminator": "0000",
+        "nickname": "y0",
+        "color": "#447643",
+        "isBot": false,
+        "roles": [
+          {
+            "id": "773652878203945020",
+            "name": "Hussar of The East",
+            "color": "#447643",
+            "position": 63
+          },
+          {
+            "id": "633352531690520596",
+            "name": "Residents [WA]",
+            "color": "#DB4453",
+            "position": 59
+          },
+          {
+            "id": "633352654579302451",
+            "name": "Residents",
+            "color": "#ED5564",
+            "position": 58
+          },
+          {
+            "id": "729123951053373480",
+            "name": "Code & API Specialist",
+            "color": null,
+            "position": 45
+          },
+          {
+            "id": "739259727942516836",
+            "name": "Writing Specialist",
+            "color": null,
+            "position": 42
+          },
+          {
+            "id": "754595572853243975",
+            "name": "Upvote",
+            "color": null,
+            "position": 39
+          },
+          {
+            "id": "634491355443494953",
+            "name": "RMBer",
+            "color": null,
+            "position": 35
+          },
+          {
+            "id": "1077673652344061992",
+            "name": "NationStates",
+            "color": null,
+            "position": 33
+          },
+          {
+            "id": "851124231377780796",
+            "name": "Daily Question",
+            "color": null,
+            "position": 31
+          },
+          {
+            "id": "998343650130001950",
+            "name": "Frenemy of The East Pacific",
+            "color": "#F500FF",
+            "position": 29
+          },
+          {
+            "id": "1145421147261898803",
+            "name": "Hunger Games",
+            "color": null,
+            "position": 22
+          },
+          {
+            "id": "1237447542162325526",
+            "name": "Eurovision",
+            "color": null,
+            "position": 15
+          }
+        ],
+        "avatarUrl": "https://cdn.discordapp.com/avatars/676251628868993054/99c0fa12443efe91ad7cb0e09b39aa34.png?size=512"
+      },
+      "attachments": [],
+      "embeds": [],
+      "stickers": [],
+      "reactions": [],
+      "mentions": [],
+      "inlineEmojis": []
+    },
+    {
+      "id": "1128434043608895498",
+      "type": "Default",
+      "timestamp": "2023-07-11T21:14:01.287+00:00",
+      "timestampEdited": null,
+      "callEndedTimestamp": null,
+      "isPinned": false,
+      "content": "exactly",
+      "author": {
+        "id": "738186404399415336",
+        "name": "theconstantofchange",
+        "discriminator": "0000",
+        "nickname": "Mango",
+        "color": null,
+        "isBot": false,
+        "roles": [],
+        "avatarUrl": "https://cdn.discordapp.com/avatars/738186404399415336/bdd56904d110e67bff6d8988b5d7d327.png?size=512"
+      },
+      "attachments": [],
+      "embeds": [],
+      "stickers": [],
+      "reactions": [],
+      "mentions": [],
+      "inlineEmojis": []
+    },
+    {
+      "id": "1128441890056974476",
+      "type": "Default",
+      "timestamp": "2023-07-11T21:45:12.026+00:00",
+      "timestampEdited": null,
+      "callEndedTimestamp": null,
+      "isPinned": false,
+      "content": "My English teacher once said that if you read poetry out loud you can hear the wind singing",
+      "author": {
+        "id": "278344420464525312",
+        "name": "atlae",
+        "discriminator": "0000",
+        "nickname": "Atlae",
+        "color": "#FFCE55",
+        "isBot": false,
+        "roles": [
+          {
+            "id": "993531517806592121",
+            "name": "Technical Dev Team",
+            "color": null,
+            "position": 144
+          },
+          {
+            "id": "633394832491937794",
+            "name": "Soldier, EPSA",
+            "color": "#FFCE55",
+            "position": 108
+          },
+          {
+            "id": "1072578688631193651",
+            "name": "RA Exe Onboarding",
+            "color": null,
+            "position": 97
+          },
+          {
+            "id": "901515827340263444",
+            "name": "Former Delegates",
+            "color": null,
+            "position": 80
+          },
+          {
+            "id": "1089387513094873179",
+            "name": "Producer",
+            "color": null,
+            "position": 73
+          },
+          {
+            "id": "633688402352406550",
+            "name": "Foreign Dignitaries",
+            "color": "#4FC0E8",
+            "position": 55
+          },
+          {
+            "id": "669625127893336108",
+            "name": "Server Booster",
+            "color": "#F47FFF",
+            "position": 50
+          },
+          {
+            "id": "637022380530597892",
+            "name": "Design Specialist",
+            "color": null,
+            "position": 46
+          },
+          {
+            "id": "729123951053373480",
+            "name": "Code & API Specialist",
+            "color": null,
+            "position": 45
+          },
+          {
+            "id": "727880101995479090",
+            "name": "Notifications",
+            "color": null,
+            "position": 44
+          },
+          {
+            "id": "739259727942516836",
+            "name": "Writing Specialist",
+            "color": null,
+            "position": 42
+          },
+          {
+            "id": "739246330106478684",
+            "name": "Voice Chat",
+            "color": null,
+            "position": 41
+          },
+          {
+            "id": "754595572853243975",
+            "name": "Upvote",
+            "color": null,
+            "position": 39
+          },
+          {
+            "id": "761550447088500757",
+            "name": "Gamer",
+            "color": null,
+            "position": 38
+          },
+          {
+            "id": "649288407801004062",
+            "name": "Urth Forum RP",
+            "color": null,
+            "position": 36
+          },
+          {
+            "id": "634491355443494953",
+            "name": "RMBer",
+            "color": null,
+            "position": 35
+          },
+          {
+            "id": "1077673652344061992",
+            "name": "NationStates",
+            "color": null,
+            "position": 33
+          },
+          {
+            "id": "851124231377780796",
+            "name": "Daily Question",
+            "color": null,
+            "position": 31
+          },
+          {
+            "id": "855597551624257548",
+            "name": "he/him",
+            "color": null,
+            "position": 18
+          }
+        ],
+        "avatarUrl": "https://cdn.discordapp.com/avatars/278344420464525312/5a547a676b613eb7790ad328359963f4.png?size=512"
+      },
+      "attachments": [],
+      "embeds": [],
+      "stickers": [],
+      "reactions": [],
+      "mentions": [],
+      "inlineEmojis": []
+    },
+    {
+      "id": "1128441932427833416",
+      "type": "Default",
+      "timestamp": "2023-07-11T21:45:22.128+00:00",
+      "timestampEdited": null,
+      "callEndedTimestamp": null,
+      "isPinned": false,
+      "content": "I think that was a quote, albeit paraphrased",
+      "author": {
+        "id": "278344420464525312",
+        "name": "atlae",
+        "discriminator": "0000",
+        "nickname": "Atlae",
+        "color": "#FFCE55",
+        "isBot": false,
+        "roles": [
+          {
+            "id": "993531517806592121",
+            "name": "Technical Dev Team",
+            "color": null,
+            "position": 144
+          },
+          {
+            "id": "633394832491937794",
+            "name": "Soldier, EPSA",
+            "color": "#FFCE55",
+            "position": 108
+          },
+          {
+            "id": "1072578688631193651",
+            "name": "RA Exe Onboarding",
+            "color": null,
+            "position": 97
+          },
+          {
+            "id": "901515827340263444",
+            "name": "Former Delegates",
+            "color": null,
+            "position": 80
+          },
+          {
+            "id": "1089387513094873179",
+            "name": "Producer",
+            "color": null,
+            "position": 73
+          },
+          {
+            "id": "633688402352406550",
+            "name": "Foreign Dignitaries",
+            "color": "#4FC0E8",
+            "position": 55
+          },
+          {
+            "id": "669625127893336108",
+            "name": "Server Booster",
+            "color": "#F47FFF",
+            "position": 50
+          },
+          {
+            "id": "637022380530597892",
+            "name": "Design Specialist",
+            "color": null,
+            "position": 46
+          },
+          {
+            "id": "729123951053373480",
+            "name": "Code & API Specialist",
+            "color": null,
+            "position": 45
+          },
+          {
+            "id": "727880101995479090",
+            "name": "Notifications",
+            "color": null,
+            "position": 44
+          },
+          {
+            "id": "739259727942516836",
+            "name": "Writing Specialist",
+            "color": null,
+            "position": 42
+          },
+          {
+            "id": "739246330106478684",
+            "name": "Voice Chat",
+            "color": null,
+            "position": 41
+          },
+          {
+            "id": "754595572853243975",
+            "name": "Upvote",
+            "color": null,
+            "position": 39
+          },
+          {
+            "id": "761550447088500757",
+            "name": "Gamer",
+            "color": null,
+            "position": 38
+          },
+          {
+            "id": "649288407801004062",
+            "name": "Urth Forum RP",
+            "color": null,
+            "position": 36
+          },
+          {
+            "id": "634491355443494953",
+            "name": "RMBer",
+            "color": null,
+            "position": 35
+          },
+          {
+            "id": "1077673652344061992",
+            "name": "NationStates",
+            "color": null,
+            "position": 33
+          },
+          {
+            "id": "851124231377780796",
+            "name": "Daily Question",
+            "color": null,
+            "position": 31
+          },
+          {
+            "id": "855597551624257548",
+            "name": "he/him",
+            "color": null,
+            "position": 18
+          }
+        ],
+        "avatarUrl": "https://cdn.discordapp.com/avatars/278344420464525312/5a547a676b613eb7790ad328359963f4.png?size=512"
+      },
+      "attachments": [],
+      "embeds": [],
+      "stickers": [],
+      "reactions": [],
+      "mentions": [],
+      "inlineEmojis": []
+    },
+    {
+      "id": "1133749296399908874",
+      "type": "Reply",
+      "timestamp": "2023-07-26T13:14:56.305+00:00",
+      "timestampEdited": null,
+      "callEndedTimestamp": null,
+      "isPinned": false,
+      "content": "Edgar Alan Poe was a master at Prose",
+      "author": {
+        "id": "657644203383324713",
+        "name": "anya8900",
+        "discriminator": "0000",
+        "nickname": "Schrodinger's Lesbian (She)",
+        "color": "#ED5564",
+        "isBot": false,
+        "roles": [
+          {
+            "id": "633352654579302451",
+            "name": "Residents",
+            "color": "#ED5564",
+            "position": 58
+          },
+          {
+            "id": "727880101995479090",
+            "name": "Notifications",
+            "color": null,
+            "position": 44
+          },
+          {
+            "id": "739246330106478684",
+            "name": "Voice Chat",
+            "color": null,
+            "position": 41
+          },
+          {
+            "id": "815019492748165172",
+            "name": "WA Notification",
+            "color": null,
+            "position": 40
+          },
+          {
+            "id": "649288407801004062",
+            "name": "Urth Forum RP",
+            "color": null,
+            "position": 36
+          },
+          {
+            "id": "1077673652344061992",
+            "name": "NationStates",
+            "color": null,
+            "position": 33
+          },
+          {
+            "id": "851124231377780796",
+            "name": "Daily Question",
+            "color": null,
+            "position": 31
+          },
+          {
+            "id": "1087945130041942136",
+            "name": "Bookworm",
+            "color": null,
+            "position": 28
+          },
+          {
+            "id": "1078295075508998264",
+            "name": "Nerd",
+            "color": null,
+            "position": 27
+          },
+          {
+            "id": "1091197551799173170",
+            "name": "Radio On-Air",
+            "color": null,
+            "position": 26
+          },
+          {
+            "id": "1145421147261898803",
+            "name": "Hunger Games",
+            "color": null,
+            "position": 22
+          },
+          {
+            "id": "1180938941885587548",
+            "name": "Debates & Politics",
+            "color": null,
+            "position": 20
+          },
+          {
+            "id": "855597652984070244",
+            "name": "she/her",
+            "color": null,
+            "position": 17
+          }
+        ],
+        "avatarUrl": "https://cdn.discordapp.com/avatars/657644203383324713/8cf263a5a63236584308a7e97ceb0a3e.png?size=512"
+      },
+      "attachments": [],
+      "embeds": [],
+      "stickers": [],
+      "reactions": [],
+      "mentions": [
+        {
+          "id": "676251628868993054",
+          "name": "y_n0t_",
+          "discriminator": "0000",
+          "nickname": "y0",
+          "color": "#447643",
+          "isBot": false,
+          "roles": [
+            {
+              "id": "773652878203945020",
+              "name": "Hussar of The East",
+              "color": "#447643",
+              "position": 63
+            },
+            {
+              "id": "633352531690520596",
+              "name": "Residents [WA]",
+              "color": "#DB4453",
+              "position": 59
+            },
+            {
+              "id": "633352654579302451",
+              "name": "Residents",
+              "color": "#ED5564",
+              "position": 58
+            },
+            {
+              "id": "729123951053373480",
+              "name": "Code & API Specialist",
+              "color": null,
+              "position": 45
+            },
+            {
+              "id": "739259727942516836",
+              "name": "Writing Specialist",
+              "color": null,
+              "position": 42
+            },
+            {
+              "id": "754595572853243975",
+              "name": "Upvote",
+              "color": null,
+              "position": 39
+            },
+            {
+              "id": "634491355443494953",
+              "name": "RMBer",
+              "color": null,
+              "position": 35
+            },
+            {
+              "id": "1077673652344061992",
+              "name": "NationStates",
+              "color": null,
+              "position": 33
+            },
+            {
+              "id": "851124231377780796",
+              "name": "Daily Question",
+              "color": null,
+              "position": 31
+            },
+            {
+              "id": "998343650130001950",
+              "name": "Frenemy of The East Pacific",
+              "color": "#F500FF",
+              "position": 29
+            },
+            {
+              "id": "1145421147261898803",
+              "name": "Hunger Games",
+              "color": null,
+              "position": 22
+            },
+            {
+              "id": "1237447542162325526",
+              "name": "Eurovision",
+              "color": null,
+              "position": 15
+            }
+          ],
+          "avatarUrl": "https://cdn.discordapp.com/avatars/676251628868993054/99c0fa12443efe91ad7cb0e09b39aa34.png?size=512"
+        }
+      ],
+      "reference": {
+        "type": "Default",
+        "messageId": "1128422014638620712",
+        "channelId": "1088666991977582626",
+        "guildId": "633351482128728064"
+      },
+      "inlineEmojis": []
+    },
+    {
+      "id": "1133749488662618152",
+      "type": "Default",
+      "timestamp": "2023-07-26T13:15:42.144+00:00",
+      "timestampEdited": null,
+      "callEndedTimestamp": null,
+      "isPinned": false,
+      "content": "Poe would connect words beginning with the same letter and have them make sense",
+      "author": {
+        "id": "657644203383324713",
+        "name": "anya8900",
+        "discriminator": "0000",
+        "nickname": "Schrodinger's Lesbian (She)",
+        "color": "#ED5564",
+        "isBot": false,
+        "roles": [
+          {
+            "id": "633352654579302451",
+            "name": "Residents",
+            "color": "#ED5564",
+            "position": 58
+          },
+          {
+            "id": "727880101995479090",
+            "name": "Notifications",
+            "color": null,
+            "position": 44
+          },
+          {
+            "id": "739246330106478684",
+            "name": "Voice Chat",
+            "color": null,
+            "position": 41
+          },
+          {
+            "id": "815019492748165172",
+            "name": "WA Notification",
+            "color": null,
+            "position": 40
+          },
+          {
+            "id": "649288407801004062",
+            "name": "Urth Forum RP",
+            "color": null,
+            "position": 36
+          },
+          {
+            "id": "1077673652344061992",
+            "name": "NationStates",
+            "color": null,
+            "position": 33
+          },
+          {
+            "id": "851124231377780796",
+            "name": "Daily Question",
+            "color": null,
+            "position": 31
+          },
+          {
+            "id": "1087945130041942136",
+            "name": "Bookworm",
+            "color": null,
+            "position": 28
+          },
+          {
+            "id": "1078295075508998264",
+            "name": "Nerd",
+            "color": null,
+            "position": 27
+          },
+          {
+            "id": "1091197551799173170",
+            "name": "Radio On-Air",
+            "color": null,
+            "position": 26
+          },
+          {
+            "id": "1145421147261898803",
+            "name": "Hunger Games",
+            "color": null,
+            "position": 22
+          },
+          {
+            "id": "1180938941885587548",
+            "name": "Debates & Politics",
+            "color": null,
+            "position": 20
+          },
+          {
+            "id": "855597652984070244",
+            "name": "she/her",
+            "color": null,
+            "position": 17
+          }
+        ],
+        "avatarUrl": "https://cdn.discordapp.com/avatars/657644203383324713/8cf263a5a63236584308a7e97ceb0a3e.png?size=512"
+      },
+      "attachments": [],
+      "embeds": [],
+      "stickers": [],
+      "reactions": [],
+      "mentions": [],
+      "inlineEmojis": []
+    },
+    {
+      "id": "1133749666639515659",
+      "type": "Default",
+      "timestamp": "2023-07-26T13:16:24.577+00:00",
+      "timestampEdited": null,
+      "callEndedTimestamp": null,
+      "isPinned": false,
+      "content": "Am example of something like that would be \"Pros Pown Prose Poser\"",
+      "author": {
+        "id": "657644203383324713",
+        "name": "anya8900",
+        "discriminator": "0000",
+        "nickname": "Schrodinger's Lesbian (She)",
+        "color": "#ED5564",
+        "isBot": false,
+        "roles": [
+          {
+            "id": "633352654579302451",
+            "name": "Residents",
+            "color": "#ED5564",
+            "position": 58
+          },
+          {
+            "id": "727880101995479090",
+            "name": "Notifications",
+            "color": null,
+            "position": 44
+          },
+          {
+            "id": "739246330106478684",
+            "name": "Voice Chat",
+            "color": null,
+            "position": 41
+          },
+          {
+            "id": "815019492748165172",
+            "name": "WA Notification",
+            "color": null,
+            "position": 40
+          },
+          {
+            "id": "649288407801004062",
+            "name": "Urth Forum RP",
+            "color": null,
+            "position": 36
+          },
+          {
+            "id": "1077673652344061992",
+            "name": "NationStates",
+            "color": null,
+            "position": 33
+          },
+          {
+            "id": "851124231377780796",
+            "name": "Daily Question",
+            "color": null,
+            "position": 31
+          },
+          {
+            "id": "1087945130041942136",
+            "name": "Bookworm",
+            "color": null,
+            "position": 28
+          },
+          {
+            "id": "1078295075508998264",
+            "name": "Nerd",
+            "color": null,
+            "position": 27
+          },
+          {
+            "id": "1091197551799173170",
+            "name": "Radio On-Air",
+            "color": null,
+            "position": 26
+          },
+          {
+            "id": "1145421147261898803",
+            "name": "Hunger Games",
+            "color": null,
+            "position": 22
+          },
+          {
+            "id": "1180938941885587548",
+            "name": "Debates & Politics",
+            "color": null,
+            "position": 20
+          },
+          {
+            "id": "855597652984070244",
+            "name": "she/her",
+            "color": null,
+            "position": 17
+          }
+        ],
+        "avatarUrl": "https://cdn.discordapp.com/avatars/657644203383324713/8cf263a5a63236584308a7e97ceb0a3e.png?size=512"
+      },
+      "attachments": [],
+      "embeds": [],
+      "stickers": [],
+      "reactions": [],
+      "mentions": [],
+      "inlineEmojis": []
+    },
+    {
+      "id": "1133749696934985839",
+      "type": "Default",
+      "timestamp": "2023-07-26T13:16:31.8+00:00",
+      "timestampEdited": null,
+      "callEndedTimestamp": null,
+      "isPinned": false,
+      "content": "Something like that",
+      "author": {
+        "id": "657644203383324713",
+        "name": "anya8900",
+        "discriminator": "0000",
+        "nickname": "Schrodinger's Lesbian (She)",
+        "color": "#ED5564",
+        "isBot": false,
+        "roles": [
+          {
+            "id": "633352654579302451",
+            "name": "Residents",
+            "color": "#ED5564",
+            "position": 58
+          },
+          {
+            "id": "727880101995479090",
+            "name": "Notifications",
+            "color": null,
+            "position": 44
+          },
+          {
+            "id": "739246330106478684",
+            "name": "Voice Chat",
+            "color": null,
+            "position": 41
+          },
+          {
+            "id": "815019492748165172",
+            "name": "WA Notification",
+            "color": null,
+            "position": 40
+          },
+          {
+            "id": "649288407801004062",
+            "name": "Urth Forum RP",
+            "color": null,
+            "position": 36
+          },
+          {
+            "id": "1077673652344061992",
+            "name": "NationStates",
+            "color": null,
+            "position": 33
+          },
+          {
+            "id": "851124231377780796",
+            "name": "Daily Question",
+            "color": null,
+            "position": 31
+          },
+          {
+            "id": "1087945130041942136",
+            "name": "Bookworm",
+            "color": null,
+            "position": 28
+          },
+          {
+            "id": "1078295075508998264",
+            "name": "Nerd",
+            "color": null,
+            "position": 27
+          },
+          {
+            "id": "1091197551799173170",
+            "name": "Radio On-Air",
+            "color": null,
+            "position": 26
+          },
+          {
+            "id": "1145421147261898803",
+            "name": "Hunger Games",
+            "color": null,
+            "position": 22
+          },
+          {
+            "id": "1180938941885587548",
+            "name": "Debates & Politics",
+            "color": null,
+            "position": 20
+          },
+          {
+            "id": "855597652984070244",
+            "name": "she/her",
+            "color": null,
+            "position": 17
+          }
+        ],
+        "avatarUrl": "https://cdn.discordapp.com/avatars/657644203383324713/8cf263a5a63236584308a7e97ceb0a3e.png?size=512"
+      },
+      "attachments": [],
+      "embeds": [],
+      "stickers": [],
+      "reactions": [],
+      "mentions": [],
+      "inlineEmojis": []
+    },
+    {
+      "id": "1135974290731323523",
+      "type": "Default",
+      "timestamp": "2023-08-01T16:36:16.292+00:00",
+      "timestampEdited": null,
+      "callEndedTimestamp": null,
+      "isPinned": false,
+      "content": "Coming soon……….",
+      "author": {
+        "id": "738186404399415336",
+        "name": "theconstantofchange",
+        "discriminator": "0000",
+        "nickname": "Mango",
+        "color": null,
+        "isBot": false,
+        "roles": [],
+        "avatarUrl": "https://cdn.discordapp.com/avatars/738186404399415336/bdd56904d110e67bff6d8988b5d7d327.png?size=512"
+      },
+      "attachments": [],
+      "embeds": [],
+      "stickers": [],
+      "reactions": [],
+      "mentions": [],
+      "inlineEmojis": []
+    },
+    {
+      "id": "1135974319462289483",
+      "type": "Default",
+      "timestamp": "2023-08-01T16:36:23.142+00:00",
+      "timestampEdited": null,
+      "callEndedTimestamp": null,
+      "isPinned": false,
+      "content": "https://tenor.com/view/death-spongebob-smile-rainbow-gif-15431174",
+      "author": {
+        "id": "738186404399415336",
+        "name": "theconstantofchange",
+        "discriminator": "0000",
+        "nickname": "Mango",
+        "color": null,
+        "isBot": false,
+        "roles": [],
+        "avatarUrl": "https://cdn.discordapp.com/avatars/738186404399415336/bdd56904d110e67bff6d8988b5d7d327.png?size=512"
+      },
+      "attachments": [],
+      "embeds": [
+        {
+          "title": "",
+          "url": "https://tenor.com/view/death-spongebob-smile-rainbow-gif-15431174",
+          "timestamp": null,
+          "description": "",
+          "thumbnail": {
+            "url": "https://images-ext-1.discordapp.net/external/JCz-Gss0Vqw2Yuy592yXuInKy-2Mea-WP4KTVLY8MC4/https/media.tenor.com/uNygGB5LME8AAAAD/death-spongebob.png",
+            "canonicalUrl": "https://media.tenor.com/uNygGB5LME8AAAAD/death-spongebob.png",
+            "width": 640,
+            "height": 460
+          },
+          "video": {
+            "url": "https://images-ext-1.discordapp.net/external/TyolacLVrJ427SluLs42Twgkij3mTe4GkPTenNAXyuo/https/media.tenor.com/uNygGB5LME8AAAPo/death-spongebob.mp4",
+            "canonicalUrl": "https://media.tenor.com/uNygGB5LME8AAAPo/death-spongebob.mp4",
+            "width": 640,
+            "height": 460
+          },
+          "images": [],
+          "fields": [],
+          "inlineEmojis": []
+        }
+      ],
+      "stickers": [],
+      "reactions": [],
+      "mentions": [],
+      "inlineEmojis": []
+    },
+    {
+      "id": "1135974350474977411",
+      "type": "Default",
+      "timestamp": "2023-08-01T16:36:30.536+00:00",
+      "timestampEdited": null,
+      "callEndedTimestamp": null,
+      "isPinned": false,
+      "content": "https://tenor.com/view/ready-to-fight-death-wolf-puss-in-boots-the-last-wish-prepared-for-battle-lets-fight-gif-25144560",
+      "author": {
+        "id": "738186404399415336",
+        "name": "theconstantofchange",
+        "discriminator": "0000",
+        "nickname": "Mango",
+        "color": null,
+        "isBot": false,
+        "roles": [],
+        "avatarUrl": "https://cdn.discordapp.com/avatars/738186404399415336/bdd56904d110e67bff6d8988b5d7d327.png?size=512"
+      },
+      "attachments": [],
+      "embeds": [
+        {
+          "title": "",
+          "url": "https://tenor.com/view/ready-to-fight-death-wolf-puss-in-boots-the-last-wish-prepared-for-battle-lets-fight-gif-25144560",
+          "timestamp": null,
+          "description": "",
+          "thumbnail": {
+            "url": "https://images-ext-1.discordapp.net/external/QA5O_gNZHVqKc2eIE0I4Uuy-BEfrPQctPmLX7LWQmwY/https/media.tenor.com/dyUygrvpkvYAAAAD/ready-to-fight-death-wolf.png",
+            "canonicalUrl": "https://media.tenor.com/dyUygrvpkvYAAAAD/ready-to-fight-death-wolf.png",
+            "width": 640,
+            "height": 640
+          },
+          "video": {
+            "url": "https://images-ext-1.discordapp.net/external/aYMXxltP2ABAwZDbprBdwPMmwQyFBsfRjIqgeTs9-v0/https/media.tenor.com/dyUygrvpkvYAAAPo/ready-to-fight-death-wolf.mp4",
+            "canonicalUrl": "https://media.tenor.com/dyUygrvpkvYAAAPo/ready-to-fight-death-wolf.mp4",
+            "width": 640,
+            "height": 640
+          },
+          "images": [],
+          "fields": [],
+          "inlineEmojis": []
+        }
+      ],
+      "stickers": [],
+      "reactions": [],
+      "mentions": [],
+      "inlineEmojis": []
+    },
+    {
+      "id": "1135981658391195758",
+      "type": "Default",
+      "timestamp": "2023-08-01T17:05:32.879+00:00",
+      "timestampEdited": null,
+      "callEndedTimestamp": null,
+      "isPinned": false,
+      "content": "https://forum.theeastpacific.com/t/our-obsession-with-personified-death/17159 https://forum.theeastpacific.com/t/our-obsession-with-personified-death/17159",
+      "author": {
+        "id": "738186404399415336",
+        "name": "theconstantofchange",
+        "discriminator": "0000",
+        "nickname": "Mango",
+        "color": null,
+        "isBot": false,
+        "roles": [],
+        "avatarUrl": "https://cdn.discordapp.com/avatars/738186404399415336/bdd56904d110e67bff6d8988b5d7d327.png?size=512"
+      },
+      "attachments": [],
+      "embeds": [
+        {
+          "title": "Our Obsession with Personified Death",
+          "url": "https://forum.theeastpacific.com/t/our-obsession-with-personified-death/17159",
+          "timestamp": null,
+          "description": "I watched Puss in Boots: The Last Wish last February. Immediately afterwards, my YouTube history was filled with various YouTubers discussing how great this movie’s story, art style, structure, themes, cinematography, and literally every other aspect of the movie truly is. However, now that it’s on Netflix, I rewatched it, and there’s one thing ...",
+          "color": "#111111",
+          "thumbnail": {
+            "url": "https://images-ext-1.discordapp.net/external/Nysse55kgMiagTAabDmhSlMsFqK3l4r-qS9Agj9FA9E/https/forum.theeastpacific.com/uploads/default/original/2X/6/622332b79331172dcccb807edf91f4cf7a9f372f.png",
+            "canonicalUrl": "https://forum.theeastpacific.com/uploads/default/original/2X/6/622332b79331172dcccb807edf91f4cf7a9f372f.png",
+            "width": 2560,
+            "height": 2560
+          },
+          "images": [],
+          "fields": [],
+          "inlineEmojis": []
+        }
+      ],
+      "stickers": [],
+      "reactions": [
+        {
+          "emoji": {
+            "id": "757928867871588433",
+            "name": "heart_tep",
+            "code": "heart_tep",
+            "isAnimated": false,
+            "imageUrl": "https://cdn.discordapp.com/emojis/757928867871588433.png"
+          },
+          "count": 1,
+          "users": [
+            {
+              "id": "676251628868993054",
+              "name": "y_n0t_",
+              "discriminator": "0000",
+              "nickname": "y0",
+              "color": "#447643",
+              "isBot": false,
+              "avatarUrl": "https://cdn.discordapp.com/avatars/676251628868993054/99c0fa12443efe91ad7cb0e09b39aa34.png?size=512"
+            }
+          ]
+        }
+      ],
+      "mentions": [],
+      "inlineEmojis": []
+    },
+    {
+      "id": "1135982152123695134",
+      "type": "Default",
+      "timestamp": "2023-08-01T17:07:30.594+00:00",
+      "timestampEdited": null,
+      "callEndedTimestamp": null,
+      "isPinned": false,
+      "content": "@y0 and @Spammy might be especially interested here",
+      "author": {
+        "id": "738186404399415336",
+        "name": "theconstantofchange",
+        "discriminator": "0000",
+        "nickname": "Mango",
+        "color": null,
+        "isBot": false,
+        "roles": [],
+        "avatarUrl": "https://cdn.discordapp.com/avatars/738186404399415336/bdd56904d110e67bff6d8988b5d7d327.png?size=512"
+      },
+      "attachments": [],
+      "embeds": [],
+      "stickers": [],
+      "reactions": [],
+      "mentions": [
+        {
+          "id": "255123656995241984",
+          "name": "sammyqahwia",
+          "discriminator": "0000",
+          "nickname": "Spammy",
+          "color": "#EA1889",
+          "isBot": false,
+          "roles": [
+            {
+              "id": "633353998287503390",
+              "name": "Moderators",
+              "color": "#EA1889",
+              "position": 138
+            },
+            {
+              "id": "1077071443935887360",
+              "name": "Cabinet",
+              "color": "#6EA7A1",
+              "position": 118
+            },
+            {
+              "id": "1076716172319404033",
+              "name": "UTEP Chancellor",
+              "color": null,
+              "position": 113
+            },
+            {
+              "id": "1076716058209161216",
+              "name": "Minister",
+              "color": null,
+              "position": 111
+            },
+            {
+              "id": "1167539145166553109",
+              "name": "University Staff",
+              "color": null,
+              "position": 103
+            },
+            {
+              "id": "1196698562445193267",
+              "name": "FA Councillor",
+              "color": null,
+              "position": 100
+            },
+            {
+              "id": "1201510757553164390",
+              "name": "FA Ambassador",
+              "color": null,
+              "position": 98
+            },
+            {
+              "id": "674077281823752192",
+              "name": "Delegate",
+              "color": "#967BDC",
+              "position": 95
+            },
+            {
+              "id": "633363669547483136",
+              "name": "Vizier",
+              "color": "#AC92ED",
+              "position": 94
+            },
+            {
+              "id": "633363319864033282",
+              "name": "Magister",
+              "color": "#5E9CE9",
+              "position": 84
+            },
+            {
+              "id": "933820954419806248",
+              "name": "Citizenship Official",
+              "color": null,
+              "position": 81
+            },
+            {
+              "id": "651114349347471371",
+              "name": "Regional Officer",
+              "color": null,
+              "position": 79
+            },
+            {
+              "id": "1430367546984370347",
+              "name": "Citizens",
+              "color": "#CD125D",
+              "position": 60
+            },
+            {
+              "id": "633352531690520596",
+              "name": "Residents [WA]",
+              "color": "#DB4453",
+              "position": 59
+            },
+            {
+              "id": "633352654579302451",
+              "name": "Residents",
+              "color": "#ED5564",
+              "position": 58
+            },
+            {
+              "id": "649288407801004062",
+              "name": "Urth Forum RP",
+              "color": null,
+              "position": 36
+            },
+            {
+              "id": "1077673652344061992",
+              "name": "NationStates",
+              "color": null,
+              "position": 33
+            },
+            {
+              "id": "851124231377780796",
+              "name": "Daily Question",
+              "color": null,
+              "position": 31
+            },
+            {
+              "id": "1180938941885587548",
+              "name": "Debates & Politics",
+              "color": null,
+              "position": 20
+            }
+          ],
+          "avatarUrl": "https://cdn.discordapp.com/guilds/633351482128728064/users/255123656995241984/avatars/7223276c1a0729e9c6dee64efa919eaa.png?size=512"
+        },
+        {
+          "id": "676251628868993054",
+          "name": "y_n0t_",
+          "discriminator": "0000",
+          "nickname": "y0",
+          "color": "#447643",
+          "isBot": false,
+          "roles": [
+            {
+              "id": "773652878203945020",
+              "name": "Hussar of The East",
+              "color": "#447643",
+              "position": 63
+            },
+            {
+              "id": "633352531690520596",
+              "name": "Residents [WA]",
+              "color": "#DB4453",
+              "position": 59
+            },
+            {
+              "id": "633352654579302451",
+              "name": "Residents",
+              "color": "#ED5564",
+              "position": 58
+            },
+            {
+              "id": "729123951053373480",
+              "name": "Code & API Specialist",
+              "color": null,
+              "position": 45
+            },
+            {
+              "id": "739259727942516836",
+              "name": "Writing Specialist",
+              "color": null,
+              "position": 42
+            },
+            {
+              "id": "754595572853243975",
+              "name": "Upvote",
+              "color": null,
+              "position": 39
+            },
+            {
+              "id": "634491355443494953",
+              "name": "RMBer",
+              "color": null,
+              "position": 35
+            },
+            {
+              "id": "1077673652344061992",
+              "name": "NationStates",
+              "color": null,
+              "position": 33
+            },
+            {
+              "id": "851124231377780796",
+              "name": "Daily Question",
+              "color": null,
+              "position": 31
+            },
+            {
+              "id": "998343650130001950",
+              "name": "Frenemy of The East Pacific",
+              "color": "#F500FF",
+              "position": 29
+            },
+            {
+              "id": "1145421147261898803",
+              "name": "Hunger Games",
+              "color": null,
+              "position": 22
+            },
+            {
+              "id": "1237447542162325526",
+              "name": "Eurovision",
+              "color": null,
+              "position": 15
+            }
+          ],
+          "avatarUrl": "https://cdn.discordapp.com/avatars/676251628868993054/99c0fa12443efe91ad7cb0e09b39aa34.png?size=512"
+        }
+      ],
+      "inlineEmojis": []
+    },
+    {
+      "id": "1136027408777105490",
+      "type": "Default",
+      "timestamp": "2023-08-01T20:07:20.621+00:00",
+      "timestampEdited": null,
+      "callEndedTimestamp": null,
+      "isPinned": false,
+      "content": "\uD83D\uDC40\uD83D\uDC40\uD83D\uDC40\uD83D\uDC40\uD83D\uDC40",
+      "author": {
+        "id": "255123656995241984",
+        "name": "sammyqahwia",
+        "discriminator": "0000",
+        "nickname": "Spammy",
+        "color": "#EA1889",
+        "isBot": false,
+        "roles": [
+          {
+            "id": "633353998287503390",
+            "name": "Moderators",
+            "color": "#EA1889",
+            "position": 138
+          },
+          {
+            "id": "1077071443935887360",
+            "name": "Cabinet",
+            "color": "#6EA7A1",
+            "position": 118
+          },
+          {
+            "id": "1076716172319404033",
+            "name": "UTEP Chancellor",
+            "color": null,
+            "position": 113
+          },
+          {
+            "id": "1076716058209161216",
+            "name": "Minister",
+            "color": null,
+            "position": 111
+          },
+          {
+            "id": "1167539145166553109",
+            "name": "University Staff",
+            "color": null,
+            "position": 103
+          },
+          {
+            "id": "1196698562445193267",
+            "name": "FA Councillor",
+            "color": null,
+            "position": 100
+          },
+          {
+            "id": "1201510757553164390",
+            "name": "FA Ambassador",
+            "color": null,
+            "position": 98
+          },
+          {
+            "id": "674077281823752192",
+            "name": "Delegate",
+            "color": "#967BDC",
+            "position": 95
+          },
+          {
+            "id": "633363669547483136",
+            "name": "Vizier",
+            "color": "#AC92ED",
+            "position": 94
+          },
+          {
+            "id": "633363319864033282",
+            "name": "Magister",
+            "color": "#5E9CE9",
+            "position": 84
+          },
+          {
+            "id": "933820954419806248",
+            "name": "Citizenship Official",
+            "color": null,
+            "position": 81
+          },
+          {
+            "id": "651114349347471371",
+            "name": "Regional Officer",
+            "color": null,
+            "position": 79
+          },
+          {
+            "id": "1430367546984370347",
+            "name": "Citizens",
+            "color": "#CD125D",
+            "position": 60
+          },
+          {
+            "id": "633352531690520596",
+            "name": "Residents [WA]",
+            "color": "#DB4453",
+            "position": 59
+          },
+          {
+            "id": "633352654579302451",
+            "name": "Residents",
+            "color": "#ED5564",
+            "position": 58
+          },
+          {
+            "id": "649288407801004062",
+            "name": "Urth Forum RP",
+            "color": null,
+            "position": 36
+          },
+          {
+            "id": "1077673652344061992",
+            "name": "NationStates",
+            "color": null,
+            "position": 33
+          },
+          {
+            "id": "851124231377780796",
+            "name": "Daily Question",
+            "color": null,
+            "position": 31
+          },
+          {
+            "id": "1180938941885587548",
+            "name": "Debates & Politics",
+            "color": null,
+            "position": 20
+          }
+        ],
+        "avatarUrl": "https://cdn.discordapp.com/guilds/633351482128728064/users/255123656995241984/avatars/7223276c1a0729e9c6dee64efa919eaa.png?size=512"
+      },
+      "attachments": [],
+      "embeds": [],
+      "stickers": [],
+      "reactions": [],
+      "mentions": [],
+      "inlineEmojis": [
+        {
+          "id": "",
+          "name": "\uD83D\uDC40",
+          "code": "eyes",
+          "isAnimated": false,
+          "imageUrl": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f440.svg"
+        }
+      ]
+    },
+    {
+      "id": "1136799464808517734",
+      "type": "Default",
+      "timestamp": "2023-08-03T23:15:13.123+00:00",
+      "timestampEdited": "2023-08-03T23:17:19.654+00:00",
+      "callEndedTimestamp": null,
+      "isPinned": false,
+      "content": "@Mango answering you here in order to leave your article clean:\n\nI haven't watched Puss in Boots (in a while at least, I watched a version when I was a kid), so it's quite an interesting concept you're treating in those regards. On Death of the Endless, I have watched The Sandman TV show and it's pretty much the same concept as the comics one you write about here. I loved that portrayal of Death as gentle to everyone, just fulfilling her duty. And it made me quite emotional given that death can easily be one of my worst fears.\n\nI can't deny that my two RPs will be infused with topics related to that. I always struggle to write simply because of blocks, but I am also afraid of the fact that these RPs' core will be some sort of a battle against that fear in multiple ways. It made me very happy to know that Tolkien's main inspiration for writing was death too. And well, that's a topic you can find since Gilgamesh himself 4000 years ago",
+      "author": {
+        "id": "255123656995241984",
+        "name": "sammyqahwia",
+        "discriminator": "0000",
+        "nickname": "Spammy",
+        "color": "#EA1889",
+        "isBot": false,
+        "roles": [
+          {
+            "id": "633353998287503390",
+            "name": "Moderators",
+            "color": "#EA1889",
+            "position": 138
+          },
+          {
+            "id": "1077071443935887360",
+            "name": "Cabinet",
+            "color": "#6EA7A1",
+            "position": 118
+          },
+          {
+            "id": "1076716172319404033",
+            "name": "UTEP Chancellor",
+            "color": null,
+            "position": 113
+          },
+          {
+            "id": "1076716058209161216",
+            "name": "Minister",
+            "color": null,
+            "position": 111
+          },
+          {
+            "id": "1167539145166553109",
+            "name": "University Staff",
+            "color": null,
+            "position": 103
+          },
+          {
+            "id": "1196698562445193267",
+            "name": "FA Councillor",
+            "color": null,
+            "position": 100
+          },
+          {
+            "id": "1201510757553164390",
+            "name": "FA Ambassador",
+            "color": null,
+            "position": 98
+          },
+          {
+            "id": "674077281823752192",
+            "name": "Delegate",
+            "color": "#967BDC",
+            "position": 95
+          },
+          {
+            "id": "633363669547483136",
+            "name": "Vizier",
+            "color": "#AC92ED",
+            "position": 94
+          },
+          {
+            "id": "633363319864033282",
+            "name": "Magister",
+            "color": "#5E9CE9",
+            "position": 84
+          },
+          {
+            "id": "933820954419806248",
+            "name": "Citizenship Official",
+            "color": null,
+            "position": 81
+          },
+          {
+            "id": "651114349347471371",
+            "name": "Regional Officer",
+            "color": null,
+            "position": 79
+          },
+          {
+            "id": "1430367546984370347",
+            "name": "Citizens",
+            "color": "#CD125D",
+            "position": 60
+          },
+          {
+            "id": "633352531690520596",
+            "name": "Residents [WA]",
+            "color": "#DB4453",
+            "position": 59
+          },
+          {
+            "id": "633352654579302451",
+            "name": "Residents",
+            "color": "#ED5564",
+            "position": 58
+          },
+          {
+            "id": "649288407801004062",
+            "name": "Urth Forum RP",
+            "color": null,
+            "position": 36
+          },
+          {
+            "id": "1077673652344061992",
+            "name": "NationStates",
+            "color": null,
+            "position": 33
+          },
+          {
+            "id": "851124231377780796",
+            "name": "Daily Question",
+            "color": null,
+            "position": 31
+          },
+          {
+            "id": "1180938941885587548",
+            "name": "Debates & Politics",
+            "color": null,
+            "position": 20
+          }
+        ],
+        "avatarUrl": "https://cdn.discordapp.com/guilds/633351482128728064/users/255123656995241984/avatars/7223276c1a0729e9c6dee64efa919eaa.png?size=512"
+      },
+      "attachments": [],
+      "embeds": [],
+      "stickers": [],
+      "reactions": [],
+      "mentions": [
+        {
+          "id": "738186404399415336",
+          "name": "theconstantofchange",
+          "discriminator": "0000",
+          "nickname": "Mango",
+          "color": null,
+          "isBot": false,
+          "roles": [],
+          "avatarUrl": "https://cdn.discordapp.com/avatars/738186404399415336/bdd56904d110e67bff6d8988b5d7d327.png?size=512"
+        }
+      ],
+      "inlineEmojis": []
+    },
+    {
+      "id": "1136801460454174730",
+      "type": "Default",
+      "timestamp": "2023-08-03T23:23:08.922+00:00",
+      "timestampEdited": null,
+      "callEndedTimestamp": null,
+      "isPinned": false,
+      "content": "My usual guess is that I'm too young and that death seems very far away so the simple thought of death being something that will eventually happen always brings me headaches. I hope FATE and Nárilethál don't take too long (I need to work on it goddammit) but it is true that, if I finish them at another stage of my life, I might approach them from a different perspective of death that is not the scary one anymore",
+      "author": {
+        "id": "255123656995241984",
+        "name": "sammyqahwia",
+        "discriminator": "0000",
+        "nickname": "Spammy",
+        "color": "#EA1889",
+        "isBot": false,
+        "roles": [
+          {
+            "id": "633353998287503390",
+            "name": "Moderators",
+            "color": "#EA1889",
+            "position": 138
+          },
+          {
+            "id": "1077071443935887360",
+            "name": "Cabinet",
+            "color": "#6EA7A1",
+            "position": 118
+          },
+          {
+            "id": "1076716172319404033",
+            "name": "UTEP Chancellor",
+            "color": null,
+            "position": 113
+          },
+          {
+            "id": "1076716058209161216",
+            "name": "Minister",
+            "color": null,
+            "position": 111
+          },
+          {
+            "id": "1167539145166553109",
+            "name": "University Staff",
+            "color": null,
+            "position": 103
+          },
+          {
+            "id": "1196698562445193267",
+            "name": "FA Councillor",
+            "color": null,
+            "position": 100
+          },
+          {
+            "id": "1201510757553164390",
+            "name": "FA Ambassador",
+            "color": null,
+            "position": 98
+          },
+          {
+            "id": "674077281823752192",
+            "name": "Delegate",
+            "color": "#967BDC",
+            "position": 95
+          },
+          {
+            "id": "633363669547483136",
+            "name": "Vizier",
+            "color": "#AC92ED",
+            "position": 94
+          },
+          {
+            "id": "633363319864033282",
+            "name": "Magister",
+            "color": "#5E9CE9",
+            "position": 84
+          },
+          {
+            "id": "933820954419806248",
+            "name": "Citizenship Official",
+            "color": null,
+            "position": 81
+          },
+          {
+            "id": "651114349347471371",
+            "name": "Regional Officer",
+            "color": null,
+            "position": 79
+          },
+          {
+            "id": "1430367546984370347",
+            "name": "Citizens",
+            "color": "#CD125D",
+            "position": 60
+          },
+          {
+            "id": "633352531690520596",
+            "name": "Residents [WA]",
+            "color": "#DB4453",
+            "position": 59
+          },
+          {
+            "id": "633352654579302451",
+            "name": "Residents",
+            "color": "#ED5564",
+            "position": 58
+          },
+          {
+            "id": "649288407801004062",
+            "name": "Urth Forum RP",
+            "color": null,
+            "position": 36
+          },
+          {
+            "id": "1077673652344061992",
+            "name": "NationStates",
+            "color": null,
+            "position": 33
+          },
+          {
+            "id": "851124231377780796",
+            "name": "Daily Question",
+            "color": null,
+            "position": 31
+          },
+          {
+            "id": "1180938941885587548",
+            "name": "Debates & Politics",
+            "color": null,
+            "position": 20
+          }
+        ],
+        "avatarUrl": "https://cdn.discordapp.com/guilds/633351482128728064/users/255123656995241984/avatars/7223276c1a0729e9c6dee64efa919eaa.png?size=512"
+      },
+      "attachments": [],
+      "embeds": [],
+      "stickers": [],
+      "reactions": [],
+      "mentions": [],
+      "inlineEmojis": []
+    },
+    {
+      "id": "1136807039679606885",
+      "type": "Default",
+      "timestamp": "2023-08-03T23:45:19.113+00:00",
+      "timestampEdited": null,
+      "callEndedTimestamp": null,
+      "isPinned": false,
+      "content": "Absolutely, it is the oldest and greatest fear. All fear stems from it, and it’s quite overwhelming. I understand fearing it, even so early in life, and having it be so important in your work.",
+      "author": {
+        "id": "738186404399415336",
+        "name": "theconstantofchange",
+        "discriminator": "0000",
+        "nickname": "Mango",
+        "color": null,
+        "isBot": false,
+        "roles": [],
+        "avatarUrl": "https://cdn.discordapp.com/avatars/738186404399415336/bdd56904d110e67bff6d8988b5d7d327.png?size=512"
+      },
+      "attachments": [],
+      "embeds": [],
+      "stickers": [],
+      "reactions": [],
+      "mentions": [],
+      "inlineEmojis": []
+    },
+    {
+      "id": "1136810961127362580",
+      "type": "Default",
+      "timestamp": "2023-08-04T00:00:54.059+00:00",
+      "timestampEdited": null,
+      "callEndedTimestamp": null,
+      "isPinned": false,
+      "content": "That's true, most fears are related to death in one degree or another. In the moment you include fears on a work, it's likely death will appear around",
+      "author": {
+        "id": "255123656995241984",
+        "name": "sammyqahwia",
+        "discriminator": "0000",
+        "nickname": "Spammy",
+        "color": "#EA1889",
+        "isBot": false,
+        "roles": [
+          {
+            "id": "633353998287503390",
+            "name": "Moderators",
+            "color": "#EA1889",
+            "position": 138
+          },
+          {
+            "id": "1077071443935887360",
+            "name": "Cabinet",
+            "color": "#6EA7A1",
+            "position": 118
+          },
+          {
+            "id": "1076716172319404033",
+            "name": "UTEP Chancellor",
+            "color": null,
+            "position": 113
+          },
+          {
+            "id": "1076716058209161216",
+            "name": "Minister",
+            "color": null,
+            "position": 111
+          },
+          {
+            "id": "1167539145166553109",
+            "name": "University Staff",
+            "color": null,
+            "position": 103
+          },
+          {
+            "id": "1196698562445193267",
+            "name": "FA Councillor",
+            "color": null,
+            "position": 100
+          },
+          {
+            "id": "1201510757553164390",
+            "name": "FA Ambassador",
+            "color": null,
+            "position": 98
+          },
+          {
+            "id": "674077281823752192",
+            "name": "Delegate",
+            "color": "#967BDC",
+            "position": 95
+          },
+          {
+            "id": "633363669547483136",
+            "name": "Vizier",
+            "color": "#AC92ED",
+            "position": 94
+          },
+          {
+            "id": "633363319864033282",
+            "name": "Magister",
+            "color": "#5E9CE9",
+            "position": 84
+          },
+          {
+            "id": "933820954419806248",
+            "name": "Citizenship Official",
+            "color": null,
+            "position": 81
+          },
+          {
+            "id": "651114349347471371",
+            "name": "Regional Officer",
+            "color": null,
+            "position": 79
+          },
+          {
+            "id": "1430367546984370347",
+            "name": "Citizens",
+            "color": "#CD125D",
+            "position": 60
+          },
+          {
+            "id": "633352531690520596",
+            "name": "Residents [WA]",
+            "color": "#DB4453",
+            "position": 59
+          },
+          {
+            "id": "633352654579302451",
+            "name": "Residents",
+            "color": "#ED5564",
+            "position": 58
+          },
+          {
+            "id": "649288407801004062",
+            "name": "Urth Forum RP",
+            "color": null,
+            "position": 36
+          },
+          {
+            "id": "1077673652344061992",
+            "name": "NationStates",
+            "color": null,
+            "position": 33
+          },
+          {
+            "id": "851124231377780796",
+            "name": "Daily Question",
+            "color": null,
+            "position": 31
+          },
+          {
+            "id": "1180938941885587548",
+            "name": "Debates & Politics",
+            "color": null,
+            "position": 20
+          }
+        ],
+        "avatarUrl": "https://cdn.discordapp.com/guilds/633351482128728064/users/255123656995241984/avatars/7223276c1a0729e9c6dee64efa919eaa.png?size=512"
+      },
+      "attachments": [],
+      "embeds": [],
+      "stickers": [],
+      "reactions": [],
+      "mentions": [],
+      "inlineEmojis": []
+    },
+    {
+      "id": "1136828817122525204",
+      "type": "Default",
+      "timestamp": "2023-08-04T01:11:51.26+00:00",
+      "timestampEdited": null,
+      "callEndedTimestamp": null,
+      "isPinned": false,
+      "content": "Yeah absolutely. Like TMA’s last episode talked about the evolution of the fear entities that dominated in the narrative and it started with death",
+      "author": {
+        "id": "738186404399415336",
+        "name": "theconstantofchange",
+        "discriminator": "0000",
+        "nickname": "Mango",
+        "color": null,
+        "isBot": false,
+        "roles": [],
+        "avatarUrl": "https://cdn.discordapp.com/avatars/738186404399415336/bdd56904d110e67bff6d8988b5d7d327.png?size=512"
+      },
+      "attachments": [],
+      "embeds": [],
+      "stickers": [],
+      "reactions": [],
+      "mentions": [],
+      "inlineEmojis": []
+    },
+    {
+      "id": "1138584254247342213",
+      "type": "Default",
+      "timestamp": "2023-08-08T21:27:20.085+00:00",
+      "timestampEdited": null,
+      "callEndedTimestamp": null,
+      "isPinned": false,
+      "content": "https://forum.theeastpacific.com/t/spoilers-are-good-actually/17187\n\nAnother UTEP essay??’!!?!?!",
+      "author": {
+        "id": "738186404399415336",
+        "name": "theconstantofchange",
+        "discriminator": "0000",
+        "nickname": "Mango",
+        "color": null,
+        "isBot": false,
+        "roles": [],
+        "avatarUrl": "https://cdn.discordapp.com/avatars/738186404399415336/bdd56904d110e67bff6d8988b5d7d327.png?size=512"
+      },
+      "attachments": [],
+      "embeds": [
+        {
+          "title": "Spoilers Are Good, Actually",
+          "url": "https://forum.theeastpacific.com/t/spoilers-are-good-actually/17187",
+          "timestamp": null,
+          "description": "I’m going to be playing Devil’s Advocate for this, so don’t take what I say at face value. All opinion pieces and arguments are meant to be taken with a grain of salt, but especially if they are presented solely for argument’s sake. The point of this article is to provoke thought on the subject matter. That is the entire point. Alright, that asi...",
+          "color": "#111111",
+          "thumbnail": {
+            "url": "https://images-ext-1.discordapp.net/external/Nysse55kgMiagTAabDmhSlMsFqK3l4r-qS9Agj9FA9E/https/forum.theeastpacific.com/uploads/default/original/2X/6/622332b79331172dcccb807edf91f4cf7a9f372f.png",
+            "canonicalUrl": "https://forum.theeastpacific.com/uploads/default/original/2X/6/622332b79331172dcccb807edf91f4cf7a9f372f.png",
+            "width": 2560,
+            "height": 2560
+          },
+          "images": [],
+          "fields": [],
+          "inlineEmojis": []
+        }
+      ],
+      "stickers": [],
+      "reactions": [],
+      "mentions": [],
+      "inlineEmojis": []
+    },
+    {
+      "id": "1140719007121547324",
+      "type": "Default",
+      "timestamp": "2023-08-14T18:50:04.832+00:00",
+      "timestampEdited": null,
+      "callEndedTimestamp": null,
+      "isPinned": false,
+      "content": "https://forum.theeastpacific.com/t/animus-magic-a-study-in-power/17204\n\nThird essay - and final one, for now",
+      "author": {
+        "id": "738186404399415336",
+        "name": "theconstantofchange",
+        "discriminator": "0000",
+        "nickname": "Mango",
+        "color": null,
+        "isBot": false,
+        "roles": [],
+        "avatarUrl": "https://cdn.discordapp.com/avatars/738186404399415336/bdd56904d110e67bff6d8988b5d7d327.png?size=512"
+      },
+      "attachments": [],
+      "embeds": [
+        {
+          "title": "Animus Magic: A Study in Power",
+          "url": "https://forum.theeastpacific.com/t/animus-magic-a-study-in-power/17204",
+          "timestamp": null,
+          "description": "“Power tends to corrupt, and absolute power corrupts absolutely.”  — Lord Acton  In the “Wings of Fire” fantasy book series, the world is dominated by dragons rather than humans. The only form of magic in this world is Animus magic. For background, Animus dragons are extremely rare, with only fourteen named characters in the entire history, and ...",
+          "color": "#111111",
+          "thumbnail": {
+            "url": "https://images-ext-1.discordapp.net/external/Nysse55kgMiagTAabDmhSlMsFqK3l4r-qS9Agj9FA9E/https/forum.theeastpacific.com/uploads/default/original/2X/6/622332b79331172dcccb807edf91f4cf7a9f372f.png",
+            "canonicalUrl": "https://forum.theeastpacific.com/uploads/default/original/2X/6/622332b79331172dcccb807edf91f4cf7a9f372f.png",
+            "width": 2560,
+            "height": 2560
+          },
+          "images": [],
+          "fields": [],
+          "inlineEmojis": []
+        }
+      ],
+      "stickers": [],
+      "reactions": [],
+      "mentions": [],
+      "inlineEmojis": []
+    },
+    {
+      "id": "1165045371039387780",
+      "type": "Reply",
+      "timestamp": "2023-10-20T21:54:21.952+00:00",
+      "timestampEdited": null,
+      "callEndedTimestamp": null,
+      "isPinned": false,
+      "content": "https://www.youtube.com/watch?v=Zx4ByQpIMBE",
+      "author": {
+        "id": "676251628868993054",
+        "name": "y_n0t_",
+        "discriminator": "0000",
+        "nickname": "y0",
+        "color": "#447643",
+        "isBot": false,
+        "roles": [
+          {
+            "id": "773652878203945020",
+            "name": "Hussar of The East",
+            "color": "#447643",
+            "position": 63
+          },
+          {
+            "id": "633352531690520596",
+            "name": "Residents [WA]",
+            "color": "#DB4453",
+            "position": 59
+          },
+          {
+            "id": "633352654579302451",
+            "name": "Residents",
+            "color": "#ED5564",
+            "position": 58
+          },
+          {
+            "id": "729123951053373480",
+            "name": "Code & API Specialist",
+            "color": null,
+            "position": 45
+          },
+          {
+            "id": "739259727942516836",
+            "name": "Writing Specialist",
+            "color": null,
+            "position": 42
+          },
+          {
+            "id": "754595572853243975",
+            "name": "Upvote",
+            "color": null,
+            "position": 39
+          },
+          {
+            "id": "634491355443494953",
+            "name": "RMBer",
+            "color": null,
+            "position": 35
+          },
+          {
+            "id": "1077673652344061992",
+            "name": "NationStates",
+            "color": null,
+            "position": 33
+          },
+          {
+            "id": "851124231377780796",
+            "name": "Daily Question",
+            "color": null,
+            "position": 31
+          },
+          {
+            "id": "998343650130001950",
+            "name": "Frenemy of The East Pacific",
+            "color": "#F500FF",
+            "position": 29
+          },
+          {
+            "id": "1145421147261898803",
+            "name": "Hunger Games",
+            "color": null,
+            "position": 22
+          },
+          {
+            "id": "1237447542162325526",
+            "name": "Eurovision",
+            "color": null,
+            "position": 15
+          }
+        ],
+        "avatarUrl": "https://cdn.discordapp.com/avatars/676251628868993054/99c0fa12443efe91ad7cb0e09b39aa34.png?size=512"
+      },
+      "attachments": [],
+      "embeds": [
+        {
+          "title": "Trope Talk: Personifying Death",
+          "url": "https://www.youtube.com/watch?v=Zx4ByQpIMBE",
+          "timestamp": null,
+          "description": "Happy spooky season! In celebration, let's take the day to unpack how crushing grief can spice up YOUR storytelling!\n\nMUSIC: \"Passing Time\" Kevin MacLeod (incompetech.com)\nLicensed under Creative Commons: By Attribution 3.0 License\nhttp://creativecommons.org/licenses/by/3.0/\n\nOur content is intended for teenage audiences and up.\n\nPATREON: https:...",
+          "color": "#FF0000",
+          "author": {
+            "name": "Overly Sarcastic Productions",
+            "url": "https://www.youtube.com/channel/UCodbH5mUeF-m_BsNueRDjcw"
+          },
+          "thumbnail": {
+            "url": "https://images-ext-1.discordapp.net/external/6Rpc9IWT0a9IhVIoFYLHd5ssfUFzIX5lhVkqpPKXDXk/https/i.ytimg.com/vi/Zx4ByQpIMBE/maxresdefault.jpg",
+            "canonicalUrl": "https://i.ytimg.com/vi/Zx4ByQpIMBE/maxresdefault.jpg",
+            "width": 1280,
+            "height": 720
+          },
+          "video": {
+            "url": "https://www.youtube.com/embed/Zx4ByQpIMBE",
+            "canonicalUrl": "https://www.youtube.com/embed/Zx4ByQpIMBE",
+            "width": 1280,
+            "height": 720
+          },
+          "images": [],
+          "fields": [],
+          "inlineEmojis": []
+        }
+      ],
+      "stickers": [],
+      "reactions": [],
+      "mentions": [
+        {
+          "id": "738186404399415336",
+          "name": "theconstantofchange",
+          "discriminator": "0000",
+          "nickname": "Mango",
+          "color": null,
+          "isBot": false,
+          "roles": [],
+          "avatarUrl": "https://cdn.discordapp.com/avatars/738186404399415336/bdd56904d110e67bff6d8988b5d7d327.png?size=512"
+        }
+      ],
+      "reference": {
+        "type": "Default",
+        "messageId": "1135981658391195758",
+        "channelId": "1088666991977582626",
+        "guildId": "633351482128728064"
+      },
+      "inlineEmojis": []
+    },
+    {
+      "id": "1165045489578803230",
+      "type": "Default",
+      "timestamp": "2023-10-20T21:54:50.214+00:00",
+      "timestampEdited": null,
+      "callEndedTimestamp": null,
+      "isPinned": false,
+      "content": "no fucking way",
+      "author": {
+        "id": "738186404399415336",
+        "name": "theconstantofchange",
+        "discriminator": "0000",
+        "nickname": "Mango",
+        "color": null,
+        "isBot": false,
+        "roles": [],
+        "avatarUrl": "https://cdn.discordapp.com/avatars/738186404399415336/bdd56904d110e67bff6d8988b5d7d327.png?size=512"
+      },
+      "attachments": [],
+      "embeds": [],
+      "stickers": [],
+      "reactions": [],
+      "mentions": [],
+      "inlineEmojis": []
+    },
+    {
+      "id": "1165045500576288889",
+      "type": "Default",
+      "timestamp": "2023-10-20T21:54:52.836+00:00",
+      "timestampEdited": null,
+      "callEndedTimestamp": null,
+      "isPinned": false,
+      "content": "holy shit",
+      "author": {
+        "id": "738186404399415336",
+        "name": "theconstantofchange",
+        "discriminator": "0000",
+        "nickname": "Mango",
+        "color": null,
+        "isBot": false,
+        "roles": [],
+        "avatarUrl": "https://cdn.discordapp.com/avatars/738186404399415336/bdd56904d110e67bff6d8988b5d7d327.png?size=512"
+      },
+      "attachments": [],
+      "embeds": [],
+      "stickers": [],
+      "reactions": [],
+      "mentions": [],
+      "inlineEmojis": []
+    },
+    {
+      "id": "1165045601923256350",
+      "type": "Default",
+      "timestamp": "2023-10-20T21:55:16.999+00:00",
+      "timestampEdited": null,
+      "callEndedTimestamp": null,
+      "isPinned": false,
+      "content": "bet she also talks about puss in boots and discworld",
+      "author": {
+        "id": "738186404399415336",
+        "name": "theconstantofchange",
+        "discriminator": "0000",
+        "nickname": "Mango",
+        "color": null,
+        "isBot": false,
+        "roles": [],
+        "avatarUrl": "https://cdn.discordapp.com/avatars/738186404399415336/bdd56904d110e67bff6d8988b5d7d327.png?size=512"
+      },
+      "attachments": [],
+      "embeds": [],
+      "stickers": [],
+      "reactions": [],
+      "mentions": [],
+      "inlineEmojis": []
+    },
+    {
+      "id": "1165045633439256717",
+      "type": "Default",
+      "timestamp": "2023-10-20T21:55:24.513+00:00",
+      "timestampEdited": null,
+      "callEndedTimestamp": null,
+      "isPinned": false,
+      "content": "smh red is such a copycat she wishes she were me",
+      "author": {
+        "id": "738186404399415336",
+        "name": "theconstantofchange",
+        "discriminator": "0000",
+        "nickname": "Mango",
+        "color": null,
+        "isBot": false,
+        "roles": [],
+        "avatarUrl": "https://cdn.discordapp.com/avatars/738186404399415336/bdd56904d110e67bff6d8988b5d7d327.png?size=512"
+      },
+      "attachments": [],
+      "embeds": [],
+      "stickers": [],
+      "reactions": [],
+      "mentions": [],
+      "inlineEmojis": []
+    },
+    {
+      "id": "1165045657598431333",
+      "type": "Default",
+      "timestamp": "2023-10-20T21:55:30.273+00:00",
+      "timestampEdited": null,
+      "callEndedTimestamp": null,
+      "isPinned": false,
+      "content": "no but srsly im fangirling rn",
+      "author": {
+        "id": "738186404399415336",
+        "name": "theconstantofchange",
+        "discriminator": "0000",
+        "nickname": "Mango",
+        "color": null,
+        "isBot": false,
+        "roles": [],
+        "avatarUrl": "https://cdn.discordapp.com/avatars/738186404399415336/bdd56904d110e67bff6d8988b5d7d327.png?size=512"
+      },
+      "attachments": [],
+      "embeds": [],
+      "stickers": [],
+      "reactions": [
+        {
+          "emoji": {
+            "id": "",
+            "name": "\uD83D\uDC46",
+            "code": "point_up_2",
+            "isAnimated": false,
+            "imageUrl": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f446.svg"
+          },
+          "count": 1,
+          "users": [
+            {
+              "id": "676251628868993054",
+              "name": "y_n0t_",
+              "discriminator": "0000",
+              "nickname": "y0",
+              "color": "#447643",
+              "isBot": false,
+              "avatarUrl": "https://cdn.discordapp.com/avatars/676251628868993054/99c0fa12443efe91ad7cb0e09b39aa34.png?size=512"
+            }
+          ]
+        }
+      ],
+      "mentions": [],
+      "inlineEmojis": []
+    },
+    {
+      "id": "1165045682068008980",
+      "type": "Default",
+      "timestamp": "2023-10-20T21:55:36.107+00:00",
+      "timestampEdited": null,
+      "callEndedTimestamp": null,
+      "isPinned": false,
+      "content": "gonna watch that later",
+      "author": {
+        "id": "738186404399415336",
+        "name": "theconstantofchange",
+        "discriminator": "0000",
+        "nickname": "Mango",
+        "color": null,
+        "isBot": false,
+        "roles": [],
+        "avatarUrl": "https://cdn.discordapp.com/avatars/738186404399415336/bdd56904d110e67bff6d8988b5d7d327.png?size=512"
+      },
+      "attachments": [],
+      "embeds": [],
+      "stickers": [],
+      "reactions": [],
+      "mentions": [],
+      "inlineEmojis": []
+    },
+    {
+      "id": "1165047178750865518",
+      "type": "Reply",
+      "timestamp": "2023-10-20T22:01:32.944+00:00",
+      "timestampEdited": "2023-10-20T22:02:34.329+00:00",
+      "callEndedTimestamp": null,
+      "isPinned": false,
+      "content": "puss in boots is 9 minutes in, and discworld starts at 10",
+      "author": {
+        "id": "676251628868993054",
+        "name": "y_n0t_",
+        "discriminator": "0000",
+        "nickname": "y0",
+        "color": "#447643",
+        "isBot": false,
+        "roles": [
+          {
+            "id": "773652878203945020",
+            "name": "Hussar of The East",
+            "color": "#447643",
+            "position": 63
+          },
+          {
+            "id": "633352531690520596",
+            "name": "Residents [WA]",
+            "color": "#DB4453",
+            "position": 59
+          },
+          {
+            "id": "633352654579302451",
+            "name": "Residents",
+            "color": "#ED5564",
+            "position": 58
+          },
+          {
+            "id": "729123951053373480",
+            "name": "Code & API Specialist",
+            "color": null,
+            "position": 45
+          },
+          {
+            "id": "739259727942516836",
+            "name": "Writing Specialist",
+            "color": null,
+            "position": 42
+          },
+          {
+            "id": "754595572853243975",
+            "name": "Upvote",
+            "color": null,
+            "position": 39
+          },
+          {
+            "id": "634491355443494953",
+            "name": "RMBer",
+            "color": null,
+            "position": 35
+          },
+          {
+            "id": "1077673652344061992",
+            "name": "NationStates",
+            "color": null,
+            "position": 33
+          },
+          {
+            "id": "851124231377780796",
+            "name": "Daily Question",
+            "color": null,
+            "position": 31
+          },
+          {
+            "id": "998343650130001950",
+            "name": "Frenemy of The East Pacific",
+            "color": "#F500FF",
+            "position": 29
+          },
+          {
+            "id": "1145421147261898803",
+            "name": "Hunger Games",
+            "color": null,
+            "position": 22
+          },
+          {
+            "id": "1237447542162325526",
+            "name": "Eurovision",
+            "color": null,
+            "position": 15
+          }
+        ],
+        "avatarUrl": "https://cdn.discordapp.com/avatars/676251628868993054/99c0fa12443efe91ad7cb0e09b39aa34.png?size=512"
+      },
+      "attachments": [],
+      "embeds": [],
+      "stickers": [],
+      "reactions": [],
+      "mentions": [],
+      "reference": {
+        "type": "Default",
+        "messageId": "1165045601923256350",
+        "channelId": "1088666991977582626",
+        "guildId": "633351482128728064"
+      },
+      "inlineEmojis": []
+    },
+    {
+      "id": "1165050476488818768",
+      "type": "Default",
+      "timestamp": "2023-10-20T22:14:39.186+00:00",
+      "timestampEdited": null,
+      "callEndedTimestamp": null,
+      "isPinned": false,
+      "content": "wonderous lol",
+      "author": {
+        "id": "738186404399415336",
+        "name": "theconstantofchange",
+        "discriminator": "0000",
+        "nickname": "Mango",
+        "color": null,
+        "isBot": false,
+        "roles": [],
+        "avatarUrl": "https://cdn.discordapp.com/avatars/738186404399415336/bdd56904d110e67bff6d8988b5d7d327.png?size=512"
+      },
+      "attachments": [],
+      "embeds": [],
+      "stickers": [],
+      "reactions": [],
+      "mentions": [],
+      "inlineEmojis": []
+    },
+    {
+      "id": "1165114734115303465",
+      "type": "Default",
+      "timestamp": "2023-10-21T02:29:59.398+00:00",
+      "timestampEdited": null,
+      "callEndedTimestamp": null,
+      "isPinned": false,
+      "content": "She did a much better job of this than me lmao",
+      "author": {
+        "id": "738186404399415336",
+        "name": "theconstantofchange",
+        "discriminator": "0000",
+        "nickname": "Mango",
+        "color": null,
+        "isBot": false,
+        "roles": [],
+        "avatarUrl": "https://cdn.discordapp.com/avatars/738186404399415336/bdd56904d110e67bff6d8988b5d7d327.png?size=512"
+      },
+      "attachments": [],
+      "embeds": [],
+      "stickers": [],
+      "reactions": [],
+      "mentions": [],
+      "inlineEmojis": []
+    },
+    {
+      "id": "1169180897690525726",
+      "type": "Default",
+      "timestamp": "2023-11-01T07:47:28.34+00:00",
+      "timestampEdited": null,
+      "callEndedTimestamp": null,
+      "isPinned": false,
+      "content": "After over a month of editing, I have finally published the extended version of my EPNS article: The Soul of Government. I thank @Mango and @cyberiumshadow  for editing, and providing a few ideas on this. I also thank the wider TEP community, for without them I would not have been inspired to write this.\n\nhttps://forum.theeastpacific.com/t/the-soul-of-government/17469",
+      "author": {
+        "id": "365072216418942976",
+        "name": "halleyscomet08",
+        "discriminator": "0000",
+        "nickname": "Holeyscomet08",
+        "color": "#F500FF",
+        "isBot": false,
+        "roles": [
+          {
+            "id": "1072578688631193651",
+            "name": "RA Exe Onboarding",
+            "color": null,
+            "position": 97
+          },
+          {
+            "id": "727880101995479090",
+            "name": "Notifications",
+            "color": null,
+            "position": 44
+          },
+          {
+            "id": "1077673652344061992",
+            "name": "NationStates",
+            "color": null,
+            "position": 33
+          },
+          {
+            "id": "998343650130001950",
+            "name": "Frenemy of The East Pacific",
+            "color": "#F500FF",
+            "position": 29
+          },
+          {
+            "id": "1180938941885587548",
+            "name": "Debates & Politics",
+            "color": null,
+            "position": 20
+          }
+        ],
+        "avatarUrl": "https://cdn.discordapp.com/avatars/365072216418942976/a3f50d80cca97cef8c9f2a31bbd3178b.png?size=512"
+      },
+      "attachments": [],
+      "embeds": [
+        {
+          "title": "The Soul of Government",
+          "url": "https://forum.theeastpacific.com/t/the-soul-of-government/17469",
+          "timestamp": null,
+          "description": "The Soul of Government  Written by: Halleyscomet08  Edited by: Aivintis and CyberiumShadow  The Soul of Government  Scene: The end of the Philippine Revolution. American forces have occupied Manila, forcing the revolutionary government to designate Malolos as the capital of the Philippines, creating the Malolos Republic. British ships are on sta...",
+          "color": "#111111",
+          "thumbnail": {
+            "url": "https://images-ext-1.discordapp.net/external/Nysse55kgMiagTAabDmhSlMsFqK3l4r-qS9Agj9FA9E/https/forum.theeastpacific.com/uploads/default/original/2X/6/622332b79331172dcccb807edf91f4cf7a9f372f.png",
+            "canonicalUrl": "https://forum.theeastpacific.com/uploads/default/original/2X/6/622332b79331172dcccb807edf91f4cf7a9f372f.png",
+            "width": 2560,
+            "height": 2560
+          },
+          "images": [],
+          "fields": [],
+          "inlineEmojis": []
+        }
+      ],
+      "stickers": [],
+      "reactions": [],
+      "mentions": [
+        {
+          "id": "149451334054051840",
+          "name": "cyberiumshadow",
+          "discriminator": "0000",
+          "nickname": "cyberiumshadow",
+          "color": "#FFCE55",
+          "isBot": false,
+          "roles": [
+            {
+              "id": "1072565337859571792",
+              "name": "Technical Administrator",
+              "color": null,
+              "position": 145
+            },
+            {
+              "id": "993531517806592121",
+              "name": "Technical Dev Team",
+              "color": null,
+              "position": 144
+            },
+            {
+              "id": "633394832491937794",
+              "name": "Soldier, EPSA",
+              "color": "#FFCE55",
+              "position": 108
+            },
+            {
+              "id": "633363319864033282",
+              "name": "Magister",
+              "color": "#5E9CE9",
+              "position": 84
+            },
+            {
+              "id": "1192883250142662738",
+              "name": "Advisor to the Provost",
+              "color": null,
+              "position": 83
+            },
+            {
+              "id": "1430367546984370347",
+              "name": "Citizens",
+              "color": "#CD125D",
+              "position": 60
+            },
+            {
+              "id": "633352531690520596",
+              "name": "Residents [WA]",
+              "color": "#DB4453",
+              "position": 59
+            },
+            {
+              "id": "633352654579302451",
+              "name": "Residents",
+              "color": "#ED5564",
+              "position": 58
+            },
+            {
+              "id": "1095541792956485663",
+              "name": "Civilian Militia",
+              "color": "#76A5AF",
+              "position": 49
+            },
+            {
+              "id": "729123951053373480",
+              "name": "Code & API Specialist",
+              "color": null,
+              "position": 45
+            },
+            {
+              "id": "1078031481336766637",
+              "name": "Forum/Bot Status",
+              "color": null,
+              "position": 43
+            },
+            {
+              "id": "1087945130041942136",
+              "name": "Bookworm",
+              "color": null,
+              "position": 28
+            },
+            {
+              "id": "1078295075508998264",
+              "name": "Nerd",
+              "color": null,
+              "position": 27
+            },
+            {
+              "id": "1145421147261898803",
+              "name": "Hunger Games",
+              "color": null,
+              "position": 22
+            },
+            {
+              "id": "855597551624257548",
+              "name": "he/him",
+              "color": null,
+              "position": 18
+            }
+          ],
+          "avatarUrl": "https://cdn.discordapp.com/avatars/149451334054051840/9d61b1079275b04a6460a3f924bf62cd.png?size=512"
+        },
+        {
+          "id": "738186404399415336",
+          "name": "theconstantofchange",
+          "discriminator": "0000",
+          "nickname": "Mango",
+          "color": null,
+          "isBot": false,
+          "roles": [],
+          "avatarUrl": "https://cdn.discordapp.com/avatars/738186404399415336/bdd56904d110e67bff6d8988b5d7d327.png?size=512"
+        }
+      ],
+      "inlineEmojis": []
+    },
+    {
+      "id": "1169181475791450162",
+      "type": "Default",
+      "timestamp": "2023-11-01T07:49:46.17+00:00",
+      "timestampEdited": null,
+      "callEndedTimestamp": null,
+      "isPinned": false,
+      "content": "Something I would like to explore further would be the mechanisms as to how both the Magisterium and Conclave create law. It would be a more involved piece, as I would like to draw on the Story of The East Pacific to write it. Ideally I would get it finished by the end of this year, but I can't make any promises.",
+      "author": {
+        "id": "365072216418942976",
+        "name": "halleyscomet08",
+        "discriminator": "0000",
+        "nickname": "Holeyscomet08",
+        "color": "#F500FF",
+        "isBot": false,
+        "roles": [
+          {
+            "id": "1072578688631193651",
+            "name": "RA Exe Onboarding",
+            "color": null,
+            "position": 97
+          },
+          {
+            "id": "727880101995479090",
+            "name": "Notifications",
+            "color": null,
+            "position": 44
+          },
+          {
+            "id": "1077673652344061992",
+            "name": "NationStates",
+            "color": null,
+            "position": 33
+          },
+          {
+            "id": "998343650130001950",
+            "name": "Frenemy of The East Pacific",
+            "color": "#F500FF",
+            "position": 29
+          },
+          {
+            "id": "1180938941885587548",
+            "name": "Debates & Politics",
+            "color": null,
+            "position": 20
+          }
+        ],
+        "avatarUrl": "https://cdn.discordapp.com/avatars/365072216418942976/a3f50d80cca97cef8c9f2a31bbd3178b.png?size=512"
+      },
+      "attachments": [],
+      "embeds": [],
+      "stickers": [],
+      "reactions": [],
+      "mentions": [],
+      "inlineEmojis": []
+    },
+    {
+      "id": "1172664174204170361",
+      "type": "Default",
+      "timestamp": "2023-11-10T22:28:46.177+00:00",
+      "timestampEdited": null,
+      "callEndedTimestamp": null,
+      "isPinned": false,
+      "content": "Hello everyone. I see that this is a place to publish UTEP articles so here I leave mine, one about Valsora, the RMB roleplay. I hope you like it. I plan to continue with more.",
+      "author": {
+        "id": "999481805080117308",
+        "name": "atrochanation",
+        "discriminator": "0000",
+        "nickname": "Atrocha",
+        "color": null,
+        "isBot": false,
+        "roles": [],
+        "avatarUrl": "https://cdn.discordapp.com/embed/avatars/1.png"
+      },
+      "attachments": [],
+      "embeds": [],
+      "stickers": [],
+      "reactions": [],
+      "mentions": [],
+      "inlineEmojis": []
+    },
+    {
+      "id": "1172664650677112972",
+      "type": "Default",
+      "timestamp": "2023-11-10T22:30:39.777+00:00",
+      "timestampEdited": null,
+      "callEndedTimestamp": null,
+      "isPinned": false,
+      "content": "https://forum.theeastpacific.com/t/experiences-about-valsora-i/17487",
+      "author": {
+        "id": "999481805080117308",
+        "name": "atrochanation",
+        "discriminator": "0000",
+        "nickname": "Atrocha",
+        "color": null,
+        "isBot": false,
+        "roles": [],
+        "avatarUrl": "https://cdn.discordapp.com/embed/avatars/1.png"
+      },
+      "attachments": [],
+      "embeds": [
+        {
+          "title": "Experiences about Valsora I",
+          "url": "https://forum.theeastpacific.com/t/experiences-about-valsora-i/17487",
+          "timestamp": null,
+          "description": "Treaty I: on the Postures of the Initiated Nations  It is well known that something that identifies the East Pacific regional message board is its role-playing game, and its de facto predominant map, Valsora. The creation and semi-institutionalization of Valsora was not an instant agreement by all RMB regulars, nor was it a divine work, although...",
+          "color": "#111111",
+          "thumbnail": {
+            "url": "https://images-ext-1.discordapp.net/external/Nysse55kgMiagTAabDmhSlMsFqK3l4r-qS9Agj9FA9E/https/forum.theeastpacific.com/uploads/default/original/2X/6/622332b79331172dcccb807edf91f4cf7a9f372f.png",
+            "canonicalUrl": "https://forum.theeastpacific.com/uploads/default/original/2X/6/622332b79331172dcccb807edf91f4cf7a9f372f.png",
+            "width": 2560,
+            "height": 2560
+          },
+          "images": [],
+          "fields": [],
+          "inlineEmojis": []
+        }
+      ],
+      "stickers": [],
+      "reactions": [],
+      "mentions": [],
+      "inlineEmojis": []
+    },
+    {
+      "id": "1220584412908093512",
+      "type": "Default",
+      "timestamp": "2024-03-22T04:06:41.399+00:00",
+      "timestampEdited": null,
+      "callEndedTimestamp": null,
+      "isPinned": false,
+      "content": "Nice",
+      "author": {
+        "id": "904155901861175358",
+        "name": "lzw123",
+        "discriminator": "0000",
+        "nickname": "Lam Zhao Wei / LZW123",
+        "color": "#DB4453",
+        "isBot": false,
+        "roles": [
+          {
+            "id": "1311771067584479302",
+            "name": "Tepite",
+            "color": null,
+            "position": 70
+          },
+          {
+            "id": "633352531690520596",
+            "name": "Residents [WA]",
+            "color": "#DB4453",
+            "position": 59
+          },
+          {
+            "id": "633352654579302451",
+            "name": "Residents",
+            "color": "#ED5564",
+            "position": 58
+          },
+          {
+            "id": "649288407801004062",
+            "name": "Urth Forum RP",
+            "color": null,
+            "position": 36
+          },
+          {
+            "id": "1077673652344061992",
+            "name": "NationStates",
+            "color": null,
+            "position": 33
+          },
+          {
+            "id": "851124231377780796",
+            "name": "Daily Question",
+            "color": null,
+            "position": 31
+          },
+          {
+            "id": "1091197551799173170",
+            "name": "Radio On-Air",
+            "color": null,
+            "position": 26
+          },
+          {
+            "id": "1127999715389222922",
+            "name": "Game Night",
+            "color": null,
+            "position": 25
+          },
+          {
+            "id": "1145421147261898803",
+            "name": "Hunger Games",
+            "color": null,
+            "position": 22
+          },
+          {
+            "id": "1011692169716838520",
+            "name": "TEP Plays NS",
+            "color": null,
+            "position": 21
+          },
+          {
+            "id": "855597551624257548",
+            "name": "he/him",
+            "color": null,
+            "position": 18
+          }
+        ],
+        "avatarUrl": "https://cdn.discordapp.com/avatars/904155901861175358/0565914d7a9c944d523fd0977e93ca9f.png?size=512"
+      },
+      "attachments": [],
+      "embeds": [],
+      "stickers": [],
+      "reactions": [],
+      "mentions": [],
+      "inlineEmojis": []
+    },
+    {
+      "id": "1224573783306932275",
+      "type": "Default",
+      "timestamp": "2024-04-02T04:19:01.421+00:00",
+      "timestampEdited": null,
+      "callEndedTimestamp": null,
+      "isPinned": false,
+      "content": "So, this originally was supposed to be my April Fool's joke for this year. However, I started to see similarities between my experience with Linux and my religion, so I wanted to explore these similarities and arrive at an argument.\n\nThis is that result. \n\nhttps://forum.theeastpacific.com/t/linux-a-religious-perspective/17926",
+      "author": {
+        "id": "365072216418942976",
+        "name": "halleyscomet08",
+        "discriminator": "0000",
+        "nickname": "Holeyscomet08",
+        "color": "#F500FF",
+        "isBot": false,
+        "roles": [
+          {
+            "id": "1072578688631193651",
+            "name": "RA Exe Onboarding",
+            "color": null,
+            "position": 97
+          },
+          {
+            "id": "727880101995479090",
+            "name": "Notifications",
+            "color": null,
+            "position": 44
+          },
+          {
+            "id": "1077673652344061992",
+            "name": "NationStates",
+            "color": null,
+            "position": 33
+          },
+          {
+            "id": "998343650130001950",
+            "name": "Frenemy of The East Pacific",
+            "color": "#F500FF",
+            "position": 29
+          },
+          {
+            "id": "1180938941885587548",
+            "name": "Debates & Politics",
+            "color": null,
+            "position": 20
+          }
+        ],
+        "avatarUrl": "https://cdn.discordapp.com/avatars/365072216418942976/a3f50d80cca97cef8c9f2a31bbd3178b.png?size=512"
+      },
+      "attachments": [],
+      "embeds": [
+        {
+          "title": "Linux: A Religious Perspective",
+          "url": "https://forum.theeastpacific.com/t/linux-a-religious-perspective/17926",
+          "timestamp": null,
+          "description": "tw: themes of religious guilt. viewer discretion is advised.  The thesis of this essay is simple: my experiences with my religion and my experiences using linux share common themes that helps inform a key aspect of the human experience: Self-Actualization. I will aim to explore this thesis through the lens of my religious experience, my experien...",
+          "color": "#111111",
+          "thumbnail": {
+            "url": "https://images-ext-1.discordapp.net/external/Nysse55kgMiagTAabDmhSlMsFqK3l4r-qS9Agj9FA9E/https/forum.theeastpacific.com/uploads/default/original/2X/6/622332b79331172dcccb807edf91f4cf7a9f372f.png",
+            "canonicalUrl": "https://forum.theeastpacific.com/uploads/default/original/2X/6/622332b79331172dcccb807edf91f4cf7a9f372f.png",
+            "width": 2560,
+            "height": 2560
+          },
+          "images": [],
+          "fields": [],
+          "inlineEmojis": []
+        }
+      ],
+      "stickers": [],
+      "reactions": [],
+      "mentions": [],
+      "inlineEmojis": []
+    }
+  ],
+  "messageCount": 50
+}

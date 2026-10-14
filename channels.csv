@@ -1,9 +1,9 @@
-Server,Branch,Subbranch,ChannelID,Label
-The East Pacific,foreign-affairs,main,1196697003883778129,news-from-abroad-old
-The East Pacific,community,main,683451144860860466,weekly-questions
-The East Pacific,executive,main,1214417681894084628,world-assembly-β
-The East Pacific,executive,main,1053147931768803398,the-hall-of-halls
-The East Pacific,community,main,633803829074329613,smack-the-coup-talk
-The East Pacific,community,main,649319777369587719,tep-history-lesson
-The East Pacific,executive,main,912788115742142506,wa-voting
-The East Pacific,community,main,634491026781765653,rmb-campfire
+Server,Branch,Subbranch,ChannelID,Label,Frozen
+The East Pacific,foreign-affairs,main,1196697003883778129,news-from-abroad-old,yes
+The East Pacific,community,main,683451144860860466,weekly-questions,yes
+The East Pacific,executive,main,1214417681894084628,world-assembly-β,yes
+The East Pacific,executive,main,1053147931768803398,the-hall-of-halls,yes
+The East Pacific,community,main,633803829074329613,smack-the-coup-talk,yes
+The East Pacific,community,main,649319777369587719,tep-history-lesson,yes
+The East Pacific,executive,main,912788115742142506,wa-voting,yes
+The East Pacific,community,main,634491026781765653,rmb-campfire,yes
